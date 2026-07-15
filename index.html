@@ -206,7 +206,7 @@
     max-height:0; overflow:hidden; transition:max-height .28s ease;
     border-top:0 solid var(--line);
   }
-  .card.open .details{max-height:260px; border-top:1px solid var(--line)}
+  .card.open .details{max-height:340px; border-top:1px solid var(--line)}
   .leg{
     display:flex; align-items:baseline; gap:10px;
     padding:11px 14px;
@@ -221,6 +221,15 @@
   .leg .times .arrow{color:var(--faint); padding:0 2px}
   .leg .sub{font-size:12px; color:var(--slate); margin-top:2px}
   .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:13px; color:var(--ink)}
+
+  .ticket-link{
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    padding:11px 14px; margin:0; background:var(--ink); color:#fff;
+    text-decoration:none; font-size:13px; font-weight:700;
+    border-top:1px solid var(--line); transition:background .15s ease;
+  }
+  .ticket-link:hover{background:#000}
+  .ticket-link svg{flex:none}
 
   /* ---------- states ---------- */
   .notice{
@@ -346,6 +355,7 @@ var I18N = {
     legOut:"Hin",
     legRet:"Rück",
     priceLabel:"EUR H/R",
+    goToTicket:"Zum Ticket auf bahn.de",
     footer1:"Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.",
     footer2:"Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Sonntag 15:00–20:00.",
     days:["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],
@@ -382,6 +392,7 @@ var I18N = {
     legOut:"Out",
     legRet:"Back",
     priceLabel:"EUR RT",
+    goToTicket:"Go to ticket on bahn.de",
     footer1:"Prices are Sparpreis fares at the time of scanning; they may change on bahn.de at any time.",
     footer2:"Departure windows: Friday 18:00–23:00 / Saturday 06:00–10:00, return: Sunday 15:00–20:00.",
     days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
@@ -418,6 +429,7 @@ var I18N = {
     legOut:"Gidiş",
     legRet:"Dönüş",
     priceLabel:"EUR G/D",
+    goToTicket:"bahn.de'de bilete git",
     footer1:"Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.",
     footer2:"Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Pazar 15:00–20:00.",
     days:["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],
@@ -527,12 +539,38 @@ function setLang(code){
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
     "Nürnberg":"Nürnberg","Münster":"Münster","Hannover":"Hannover"
   };
+  var STATION_NAMES = {
+    "Berlin":"Berlin Hbf","München":"München Hbf","Köln":"Köln Hbf",
+    "Frankfurt":"Frankfurt(Main)Hbf","Stuttgart":"Stuttgart Hbf","Düsseldorf":"Düsseldorf Hbf",
+    "Leipzig":"Leipzig Hbf","Dresden":"Dresden Hbf","Nürnberg":"Nürnberg Hbf",
+    "Münster":"Münster(Westf)Hbf","Hannover":"Hannover Hbf"
+  };
+  var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var content = document.getElementById("content");
 
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
   function eur(v){return v.toFixed(2).replace(".",",")}
   function cityLabel(city){ var t = T(); return (t.cities && t.cities[city]) ? t.cities[city] : city; }
+  function translateVariant(variant){
+    var idx = TR_DAYS.indexOf(variant);
+    if (idx === -1) return variant;
+    return T().days[idx];
+  }
+  function isoLocal(d){
+    return d.getFullYear() + "-" + pad(d.getMonth()+1) + "-" + pad(d.getDate()) +
+      "T" + pad(d.getHours()) + ":" + pad(d.getMinutes()) + ":00";
+  }
+  function bahnLink(dl){
+    var zoStation = STATION_NAMES[dl.city] || (dl.city + " Hbf");
+    var soStation = "Hamburg Hbf";
+    var hd = isoLocal(new Date(dl.out.dep));
+    var rd = isoLocal(new Date(dl.ret.dep));
+    var params = "sts=true&so=" + encodeURIComponent(soStation) + "&zo=" + encodeURIComponent(zoStation) +
+      "&kl=2&r=13:16:KLASSENLOS:1&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D&rd=" + rd +
+      "&rza=D&rz=%5B%5D&rv=00,01,02,03,04,05,06,07,08,09&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false";
+    return "https://www.bahn.de/buchung/fahrplan/suche#" + params;
+  }
 
   function weekendLabel(outDep, retDep){
     var t = T();
@@ -586,13 +624,17 @@ function setLang(code){
           '<div class="card-body">' +
             '<div class="card-info">' +
               '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
-              '<div class="variant"><span class="dot"></span>' + dl.variant + ' ' + t.variantSuffix + '</div>' +
+              '<div class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + ' ' + t.variantSuffix + '</div>' +
             '</div>' +
             '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">' + t.priceLabel + '</div></div>' +
           '</div>' +
           '<div class="details">' +
             legRow(t.legOut, dl.out) +
             legRow(t.legRet, dl.ret) +
+            '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">' +
+              '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
+              t.goToTicket +
+            '</a>' +
           '</div>' +
         '</button>';
       var btn = card.querySelector(".card-btn");
