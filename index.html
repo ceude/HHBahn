@@ -3,284 +3,360 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pageTitle">Wochenende ab Hamburg — Günstige Kurztrip-Tickets</title>
+<title id="pageTitle">Wochenendkurztrip — Wochenende ab Hamburg</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --db-red:#EC0016; --db-red-dark:#C50014;
-    --ink:#282D37; --slate:#646973; --faint:#878C96;
-    --bg:#F0F1F2; --card:#FFFFFF; --line:#D7DCE1;
-    --radius:10px;
-    --shadow-sm:0 1px 3px rgba(40,45,55,.08);
-    --shadow-lg:0 10px 28px rgba(40,45,55,.16);
+    --red:#EC0016; --red-deep:#A9000F; --red-hot:#FF4655;
+    --ink:#1B1E25; --slate:#5F6672; --faint:#8A909B;
+    --bg:#F4F3F5; --card:#FFFFFF;
+    --glass:rgba(255,255,255,.72);
+    --glass-border:rgba(255,255,255,.55);
+    --r-lg:22px; --r-md:16px;
+    --shadow-card:0 8px 28px rgba(27,30,37,.10);
+    --shadow-float:0 18px 48px rgba(27,30,37,.18);
+    --blur:saturate(1.6) blur(16px);
   }
   *{box-sizing:border-box; margin:0; padding:0}
-  html{-webkit-text-size-adjust:100%}
+  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
   body{
-    font-family:'Archivo',system-ui,sans-serif;
+    font-family:'Archivo',system-ui,-apple-system,sans-serif;
     font-variation-settings:'wdth' 100;
-    background:var(--bg); color:var(--ink);
-    min-height:100vh;
+    background:var(--bg); color:var(--ink); min-height:100vh;
   }
   .mono{font-family:'IBM Plex Mono',monospace}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 20px}
 
-  /* ---------- lang switcher ---------- */
-  .lang-switcher{display:flex; align-items:center; gap:6px; margin-left:auto}
-  .lang-btn{
-    all:unset; cursor:pointer; display:flex; align-items:center; gap:6px;
-    padding:5px 9px 5px 7px; border-radius:6px; font-size:12.5px; font-weight:600;
-    color:#C9CED6; transition:background .15s ease, color .15s ease;
-  }
-  .lang-btn .flag img{display:block; width:20px; height:14px; border-radius:2px; object-fit:cover; box-shadow:0 0 0 1px rgba(255,255,255,.15)}
-  .lang-btn:hover{background:rgba(255,255,255,.08); color:#fff}
-  .lang-btn.active{background:#fff; color:var(--ink)}
-  .lang-btn:focus-visible{outline:2px solid var(--db-red); outline-offset:1px}
-
-  /* ---------- ad banner ---------- */
+  /* ================= AD BANNER ================= */
   .ad-banner{
-    display:block; background:var(--card); border-bottom:1px solid var(--line);
-    text-decoration:none; color:var(--ink);
+    display:block; text-decoration:none; color:var(--ink);
+    background:rgba(255,255,255,.86);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-bottom:1px solid rgba(27,30,37,.06);
+    position:relative; z-index:5;
   }
-  .ad-banner-inner{
+  .ad-inner{
     max-width:1080px; margin:0 auto; padding:10px 20px;
     display:flex; align-items:center; gap:12px;
   }
   .ad-logo{
-    flex:none; width:36px; height:36px; border-radius:9px;
-    background:linear-gradient(135deg,var(--db-red),var(--db-red-dark));
+    flex:none; width:38px; height:38px; border-radius:10px;
+    background:linear-gradient(135deg,var(--red-hot),var(--red) 55%,var(--red-deep));
     color:#fff; display:flex; align-items:center; justify-content:center;
-    font-weight:800; font-size:18px; font-variation-settings:'wdth' 112;
-    box-shadow:var(--shadow-sm);
+    font-weight:800; font-size:19px; font-variation-settings:'wdth' 112;
+    box-shadow:0 4px 12px rgba(236,0,22,.35);
   }
   .ad-text{flex:1; min-width:0; line-height:1.25}
   .ad-text .name{font-weight:700; font-size:14px}
   .ad-text .desc{font-size:12px; color:var(--slate); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
   .ad-tag{
     flex:none; font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--faint); border:1px solid var(--line); border-radius:4px; padding:2px 6px;
+    color:var(--faint); border:1px solid rgba(27,30,37,.14); border-radius:99px; padding:3px 8px;
   }
   .ad-cta{
-    flex:none; background:var(--ink); color:#fff; border-radius:6px;
-    padding:7px 13px; font-size:12.5px; font-weight:600;
+    flex:none; background:var(--ink); color:#fff; border-radius:99px;
+    padding:8px 15px; font-size:12.5px; font-weight:600;
     display:flex; align-items:center; gap:7px;
-    transition:background .15s ease, transform .15s ease;
+    transition:transform .15s ease, box-shadow .15s ease;
   }
-  .ad-banner:hover .ad-cta{background:#000; transform:translateY(-1px)}
-  .ad-banner:focus-visible{outline:3px solid var(--db-red); outline-offset:-3px}
-  @media (max-width:560px){
-    .ad-text .desc{display:none}
-    .ad-tag{display:none}
+  .ad-banner:hover .ad-cta{transform:translateY(-1px); box-shadow:0 6px 16px rgba(27,30,37,.3)}
+  .ad-banner:focus-visible{outline:3px solid var(--red); outline-offset:-3px}
+  @media (max-width:560px){ .ad-text .desc,.ad-tag{display:none} }
+
+  /* ================= HERO ================= */
+  .hero{
+    position:relative; overflow:hidden; color:#fff;
+    background:
+      radial-gradient(620px 340px at 12% -10%, rgba(255,90,102,.55), transparent 60%),
+      radial-gradient(700px 420px at 95% 8%, rgba(255,40,60,.42), transparent 65%),
+      radial-gradient(500px 500px at 70% 120%, rgba(120,0,12,.55), transparent 60%),
+      linear-gradient(160deg, #F5202F 0%, var(--red) 45%, #C4000F 100%);
+    padding:0 0 92px;
+  }
+  .hero::before{ /* isik halkasi */
+    content:""; position:absolute; width:560px; height:560px; border-radius:50%;
+    border:1.5px solid rgba(255,255,255,.14);
+    top:-260px; right:-140px; pointer-events:none;
+  }
+  .hero::after{
+    content:""; position:absolute; width:380px; height:380px; border-radius:50%;
+    border:1.5px solid rgba(255,255,255,.10);
+    bottom:-190px; left:-110px; pointer-events:none;
+  }
+  .hero-top{
+    display:flex; align-items:center; justify-content:flex-end;
+    padding-top:18px;
+  }
+  .lang-switcher{
+    display:flex; gap:2px; padding:3px;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.22);
+    border-radius:99px;
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+  }
+  .lang-btn{
+    all:unset; cursor:pointer; display:flex; align-items:center; gap:6px;
+    padding:5px 11px; border-radius:99px; font-size:12px; font-weight:700;
+    color:rgba(255,255,255,.82); transition:background .18s ease, color .18s ease;
+  }
+  .lang-btn img{display:block; width:18px; height:13px; border-radius:2.5px; object-fit:cover}
+  .lang-btn:hover{background:rgba(255,255,255,.12)}
+  .lang-btn.active{background:#fff; color:var(--red); box-shadow:0 2px 8px rgba(0,0,0,.18)}
+  .lang-btn:focus-visible{outline:2px solid #fff; outline-offset:1px}
+
+  .hero-main{padding-top:34px}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:11.5px; letter-spacing:.24em; text-transform:uppercase; font-weight:700;
+    color:rgba(255,255,255,.85); margin-bottom:12px;
+  }
+  .eyebrow::before{content:""; width:26px; height:1.5px; background:rgba(255,255,255,.6)}
+  h1{
+    font-weight:800; font-variation-settings:'wdth' 120;
+    font-size:clamp(34px,6.4vw,60px); line-height:.98; letter-spacing:-.015em;
+    max-width:14ch;
+    text-shadow:0 2px 24px rgba(120,0,10,.3);
+  }
+  .hero-sub{
+    margin-top:14px; font-size:15px; color:rgba(255,255,255,.85); max-width:52ch; line-height:1.55;
+  }
+  .stand-pill{
+    margin-top:22px; display:inline-flex; align-items:center; gap:9px;
+    background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-radius:99px; padding:8px 16px; font-size:13px; font-weight:600;
+    box-shadow:0 4px 18px rgba(120,0,10,.22);
+  }
+  .stand-pill .pulse{
+    width:8px; height:8px; border-radius:50%; background:#7CFFA5; flex:none;
+    box-shadow:0 0 0 0 rgba(124,255,165,.55); animation:pulse 2.4s infinite;
+  }
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(124,255,165,.55)}
+    70%{box-shadow:0 0 0 9px rgba(124,255,165,0)}
+    100%{box-shadow:0 0 0 0 rgba(124,255,165,0)}
   }
 
-  /* ---------- header ---------- */
-  header{
-    background:linear-gradient(175deg, var(--db-red) 0%, #D50014 78%, var(--db-red-dark) 100%);
-    color:#fff; position:relative; overflow:hidden;
+  /* ================= GLASS CHIPS ================= */
+  .chips{
+    display:flex; flex-wrap:wrap; gap:10px;
+    margin-top:-64px; position:relative; z-index:4;
   }
-  header::after{ /* ince "ray" motifi */
-    content:""; position:absolute; left:0; right:0; bottom:0; height:4px;
-    background:repeating-linear-gradient(90deg, rgba(255,255,255,.35) 0 26px, transparent 26px 40px);
-    opacity:.5;
+  .chip{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--glass); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-radius:99px; padding:10px 16px;
+    font-size:13px; color:var(--ink); font-weight:500;
+    box-shadow:0 8px 24px rgba(27,30,37,.10);
   }
-  .header-inner{
-    max-width:1080px; margin:0 auto; padding:30px 20px 26px;
-    display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap;
-    position:relative;
-  }
-  .wordmark .eyebrow{
-    font-size:12px; letter-spacing:.24em; text-transform:uppercase;
-    font-weight:600; opacity:.85; margin-bottom:5px;
-  }
-  .wordmark h1{
-    font-weight:800; font-variation-settings:'wdth' 118;
-    font-size:clamp(28px,4.8vw,42px); line-height:1.0; letter-spacing:-.012em;
-  }
-  .stand{
-    text-align:right; display:flex; flex-direction:column; align-items:flex-end; gap:4px;
-  }
-  .stand .label{font-size:12px; opacity:.85}
-  .stand .t{
-    display:inline-flex; align-items:center; gap:7px;
-    background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.28);
-    border-radius:99px; padding:5px 12px; font-weight:600; font-size:13px;
-    backdrop-filter:blur(2px);
-  }
-  .stand .t svg{display:block; opacity:.9}
+  .chip svg{flex:none; color:var(--red)}
+  .chip strong{font-weight:700}
 
-  /* ---------- meta bar ---------- */
-  .metabar{background:var(--ink); color:#fff}
-  .metabar-inner{
-    max-width:1080px; margin:0 auto; padding:10px 20px;
-    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
-    font-size:13px;
-  }
-  .metabar svg{flex:none; display:block}
-  .meta-item{display:flex; align-items:center; gap:7px; color:#C9CED6}
-  .meta-item strong{color:#fff; font-weight:600}
+  /* ================= GRID / CARDS ================= */
+  main{padding:34px 0 26px}
+  .grid{display:grid; gap:22px; grid-template-columns:repeat(3,1fr)}
+  @media (max-width:880px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:580px){.grid{grid-template-columns:1fr}}
 
-  /* ---------- subscribe box ---------- */
-  .subscribe{
-    border:1.5px solid var(--line); border-radius:var(--radius);
-    background:var(--card); padding:18px 16px 14px;
-    position:relative; margin-bottom:26px; box-shadow:var(--shadow-sm);
-  }
-  .subscribe .frame-label{
-    position:absolute; top:-9px; left:14px;
-    background:var(--card); padding:0 8px;
-    font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--db-red);
-  }
-  .subscribe p{font-size:13px; color:var(--slate); margin-bottom:10px}
-  .subscribe-row{display:flex; gap:8px}
-  .subscribe input{
-    flex:1; min-width:0; border:1px solid var(--line); border-radius:7px;
-    padding:10px 12px; font:inherit; font-size:14px; color:var(--ink);
-    background:#FAFBFC; transition:border-color .15s ease;
-  }
-  .subscribe input:hover{border-color:#B9C0C9}
-  .subscribe input:focus{outline:2px solid var(--db-red); outline-offset:-1px; background:#fff}
-  .subscribe button{
-    flex:none; border:0; border-radius:7px; background:var(--db-red); color:#fff;
-    font:inherit; font-size:13.5px; font-weight:700; padding:10px 20px; cursor:pointer;
-    transition:background .15s ease, transform .12s ease; box-shadow:var(--shadow-sm);
-  }
-  .subscribe button:hover{background:var(--db-red-dark); transform:translateY(-1px)}
-  .subscribe button:active{transform:translateY(0)}
-  .subscribe button:focus-visible{outline:3px solid var(--ink); outline-offset:2px}
-  .subscribe button:disabled{opacity:.6; cursor:default; transform:none}
-  .sub-status{font-size:12.5px; margin-top:8px; min-height:16px}
-  .sub-status.ok{color:#0A7D33}
-  .sub-status.err{color:var(--db-red)}
-  @media (max-width:560px){
-    .subscribe-row{flex-direction:column}
-    .subscribe button{width:100%}
-  }
-
-  /* ---------- grid ---------- */
-  main{max-width:1080px; margin:0 auto; padding:30px 20px 60px}
-  .grid{display:grid; gap:20px; grid-template-columns:repeat(3,1fr)}
-  @media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
-  @media (max-width:560px){.grid{grid-template-columns:1fr}}
-
-  /* ---------- card ---------- */
   .card{
-    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    overflow:hidden; display:flex; flex-direction:column; position:relative;
-    box-shadow:var(--shadow-sm);
-    transition:box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+    background:var(--card); border-radius:var(--r-lg); overflow:hidden;
+    box-shadow:var(--shadow-card); position:relative;
+    transition:transform .25s cubic-bezier(.2,.7,.3,1), box-shadow .25s ease;
   }
-  .card:hover{box-shadow:var(--shadow-lg); transform:translateY(-3px); border-color:#C6CCD4}
+  .card:hover{transform:translateY(-5px); box-shadow:var(--shadow-float)}
   .card-btn{
-    all:unset; cursor:pointer; display:flex; flex-direction:column; width:100%;
+    all:unset; display:block; width:100%; cursor:pointer;
   }
-  .card-btn:focus-visible{outline:3px solid var(--db-red); outline-offset:-3px; border-radius:var(--radius)}
-
-  .best-badge{
-    position:absolute; top:10px; left:10px; z-index:2;
-    background:#fff; color:var(--db-red);
-    font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
-    padding:4px 9px; border-radius:99px; box-shadow:0 2px 8px rgba(0,0,0,.25);
-  }
+  .card-btn:focus-visible{outline:3px solid var(--red); outline-offset:-3px; border-radius:var(--r-lg)}
 
   .photo{
-    position:relative; height:148px; background:linear-gradient(135deg,#3A4150,#282D37);
-    overflow:hidden;
+    position:relative; height:190px; overflow:hidden;
+    background:linear-gradient(150deg,#494F5C,#23262E);
   }
   .photo img{
     width:100%; height:100%; object-fit:cover; display:block;
-    transition:transform .35s ease;
+    transition:transform .5s cubic-bezier(.2,.7,.3,1);
   }
-  .card:hover .photo img{transform:scale(1.06)}
+  .card:hover .photo img{transform:scale(1.07)}
   .photo .shade{
     position:absolute; inset:0;
-    background:linear-gradient(to top, rgba(20,23,30,.74) 0%, rgba(20,23,30,.05) 58%);
+    background:linear-gradient(to top, rgba(12,14,19,.72) 0%, rgba(12,14,19,.12) 46%, rgba(12,14,19,.05) 100%);
   }
   .photo .city{
-    position:absolute; left:14px; bottom:11px; color:#fff;
-    font-weight:800; font-variation-settings:'wdth' 112;
-    font-size:23px; letter-spacing:.01em; text-shadow:0 1px 8px rgba(0,0,0,.4);
+    position:absolute; left:16px; bottom:32px; color:#fff;
+    font-weight:800; font-variation-settings:'wdth' 114;
+    font-size:25px; letter-spacing:-.01em; text-shadow:0 2px 12px rgba(0,0,0,.45);
+    line-height:1;
   }
+  .photo .weekend{
+    position:absolute; left:16px; bottom:13px; color:rgba(255,255,255,.85);
+    font-size:12.5px; font-weight:600; letter-spacing:.02em;
+  }
+  .price-pill{
+    position:absolute; top:12px; right:12px;
+    background:rgba(255,255,255,.82); color:var(--ink);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border:1px solid rgba(255,255,255,.65);
+    border-radius:14px; padding:7px 12px 6px; text-align:right;
+    box-shadow:0 6px 18px rgba(0,0,0,.22);
+  }
+  .price-pill .amount{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:16.5px; line-height:1}
+  .price-pill .label{font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--slate); margin-top:2px}
 
-  .card-body{padding:14px; display:flex; align-items:center; gap:10px}
-  .card-info{flex:1; min-width:0}
-  .weekend{font-weight:700; font-size:15px; margin-bottom:3px}
-  .variant{display:inline-flex; align-items:center; gap:5px; font-size:12px; color:var(--slate)}
-  .variant .dot{width:7px; height:7px; border-radius:50%; background:var(--db-red); flex:none}
+  .best-badge{
+    position:absolute; top:12px; left:12px; z-index:2;
+    display:inline-flex; align-items:center; gap:5px;
+    background:linear-gradient(135deg,var(--red-hot),var(--red));
+    color:#fff; font-size:10px; font-weight:800; letter-spacing:.12em; text-transform:uppercase;
+    padding:6px 11px; border-radius:99px;
+    box-shadow:0 4px 14px rgba(236,0,22,.45);
+  }
+  .best-badge svg{display:block}
 
-  /* ticket-stub price chip */
-  .price{
-    flex:none; background:var(--db-red); color:#fff;
-    padding:9px 14px 8px; border-radius:7px; text-align:center; position:relative;
-    background-image:linear-gradient(135deg, rgba(255,255,255,.09), transparent 55%);
+  .card-body{
+    padding:13px 16px; display:flex; align-items:center; gap:10px;
   }
-  .price::before,.price::after{
-    content:""; position:absolute; top:50%; width:10px; height:10px;
-    background:var(--card); border-radius:50%; transform:translateY(-50%);
+  .variant{
+    flex:1; display:inline-flex; align-items:center; gap:7px;
+    font-size:13px; color:var(--slate); font-weight:500;
   }
-  .price::before{left:-5px}
-  .price::after{right:-5px}
-  .price .amount{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:19px; line-height:1}
-  .price .label{font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; opacity:.85; margin-top:3px}
-
-  .chev{
-    flex:none; color:var(--faint); transition:transform .25s ease;
-  }
+  .variant .dot{width:7px; height:7px; border-radius:50%; background:var(--red); flex:none}
+  .chev{flex:none; color:var(--faint); transition:transform .3s cubic-bezier(.2,.7,.3,1)}
   .card.open .chev{transform:rotate(180deg)}
 
-  /* ---------- details ---------- */
-  .details{
-    max-height:0; overflow:hidden; transition:max-height .3s ease;
-    background:#FAFBFC;
+  /* details */
+  .details{max-height:0; overflow:hidden; transition:max-height .34s cubic-bezier(.2,.7,.3,1)}
+  .card.open .details{max-height:360px}
+  .details-inner{
+    margin:0 12px 12px; background:#F7F6F8; border-radius:var(--r-md); overflow:hidden;
   }
-  .card.open .details{max-height:340px; border-top:1px solid var(--line)}
-  .leg{display:flex; align-items:baseline; gap:10px; padding:11px 14px}
-  .leg + .leg{border-top:1px dashed var(--line)}
+  .leg{display:flex; align-items:baseline; gap:10px; padding:12px 14px}
+  .leg + .leg{border-top:1px dashed rgba(27,30,37,.12)}
   .leg .dir{
-    flex:none; width:48px; font-size:10.5px; font-weight:700;
-    letter-spacing:.12em; text-transform:uppercase; color:var(--db-red);
+    flex:none; width:48px; font-size:10px; font-weight:800;
+    letter-spacing:.13em; text-transform:uppercase; color:var(--red);
   }
   .leg .body{flex:1; min-width:0}
   .leg .times{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:14.5px}
-  .leg .times .arrow{color:var(--faint); padding:0 2px}
+  .leg .times .arrow{color:var(--faint); padding:0 3px}
   .leg .sub{font-size:12px; color:var(--slate); margin-top:2px}
-  .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:13px}
-
+  .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-size:13px}
   .ticket-link{
     display:flex; align-items:center; justify-content:center; gap:8px;
-    padding:11px 14px; background:var(--ink); color:#fff;
-    text-decoration:none; font-size:13px; font-weight:700;
-    transition:background .15s ease;
+    margin:0 12px 12px; padding:12px;
+    background:linear-gradient(135deg,var(--red-hot),var(--red) 60%,var(--red-deep));
+    color:#fff; text-decoration:none; font-size:13.5px; font-weight:700;
+    border-radius:var(--r-md);
+    box-shadow:0 6px 18px rgba(236,0,22,.32);
+    transition:transform .15s ease, box-shadow .15s ease;
   }
-  .ticket-link:hover{background:#000}
+  .ticket-link:hover{transform:translateY(-1px); box-shadow:0 10px 24px rgba(236,0,22,.42)}
   .ticket-link svg{flex:none}
 
-  /* ---------- states ---------- */
+  /* ================= STATES ================= */
   .notice{
-    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    padding:36px 24px; text-align:center; color:var(--slate); font-size:15px;
-    box-shadow:var(--shadow-sm);
+    background:var(--card); border-radius:var(--r-lg);
+    padding:44px 24px; text-align:center; color:var(--slate); font-size:15px;
+    box-shadow:var(--shadow-card);
   }
-  .notice strong{color:var(--ink)}
+  .notice strong{color:var(--ink); display:block; margin-bottom:6px; font-size:16px}
 
-  footer{
-    max-width:1080px; margin:0 auto; padding:0 20px 40px;
-    font-size:12px; color:var(--faint); line-height:1.7;
+  /* ================= SUBSCRIBE (footer trigger + modal) ================= */
+  .footer-zone{padding:8px 0 52px; text-align:center}
+  .sub-trigger{
+    all:unset; cursor:pointer;
+    display:inline-flex; align-items:center; gap:10px;
+    background:var(--glass); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-radius:99px; padding:13px 22px;
+    font-size:14px; font-weight:700; color:var(--ink);
+    box-shadow:0 8px 24px rgba(27,30,37,.10);
+    transition:transform .18s ease, box-shadow .18s ease;
   }
+  .sub-trigger:hover{transform:translateY(-2px); box-shadow:var(--shadow-float)}
+  .sub-trigger:focus-visible{outline:3px solid var(--red); outline-offset:2px}
+  .sub-trigger .bell{
+    width:30px; height:30px; border-radius:50%; flex:none;
+    background:linear-gradient(135deg,var(--red-hot),var(--red-deep));
+    color:#fff; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 3px 10px rgba(236,0,22,.4);
+  }
+  .sub-trigger .arr{color:var(--faint)}
+
+  .foot-notes{
+    margin-top:26px; font-size:12px; color:var(--faint); line-height:1.7;
+  }
+
+  /* modal */
+  .modal-backdrop{
+    position:fixed; inset:0; z-index:50;
+    background:rgba(24,8,10,.42);
+    -webkit-backdrop-filter:blur(7px); backdrop-filter:blur(7px);
+    display:flex; align-items:center; justify-content:center; padding:20px;
+    opacity:0; pointer-events:none; transition:opacity .22s ease;
+  }
+  .modal-backdrop.show{opacity:1; pointer-events:auto}
+  .modal{
+    width:100%; max-width:430px;
+    background:rgba(255,255,255,.94);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border:1px solid rgba(255,255,255,.7);
+    border-radius:24px; padding:26px 24px 22px;
+    box-shadow:0 30px 80px rgba(20,0,4,.4);
+    transform:translateY(14px) scale(.97); transition:transform .24s cubic-bezier(.2,.7,.3,1);
+    position:relative;
+  }
+  .modal-backdrop.show .modal{transform:translateY(0) scale(1)}
+  .modal-close{
+    all:unset; cursor:pointer; position:absolute; top:14px; right:14px;
+    width:30px; height:30px; border-radius:50%;
+    background:rgba(27,30,37,.06); color:var(--slate);
+    display:flex; align-items:center; justify-content:center;
+    transition:background .15s ease;
+  }
+  .modal-close:hover{background:rgba(27,30,37,.12)}
+  .modal-close:focus-visible{outline:2px solid var(--red)}
+  .modal .m-icon{
+    width:46px; height:46px; border-radius:14px; margin-bottom:14px;
+    background:linear-gradient(135deg,var(--red-hot),var(--red-deep));
+    color:#fff; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 8px 20px rgba(236,0,22,.35);
+  }
+  .modal h2{font-size:19px; font-weight:800; font-variation-settings:'wdth' 108; letter-spacing:-.01em}
+  .modal p{font-size:13.5px; color:var(--slate); margin-top:6px; line-height:1.55}
+  .modal .form-row{display:flex; flex-direction:column; gap:10px; margin-top:16px}
+  .modal input{
+    border:1.5px solid rgba(27,30,37,.14); border-radius:14px;
+    padding:12px 14px; font:inherit; font-size:14.5px; color:var(--ink);
+    background:#fff; transition:border-color .15s ease, box-shadow .15s ease;
+  }
+  .modal input:focus{outline:none; border-color:var(--red); box-shadow:0 0 0 3.5px rgba(236,0,22,.15)}
+  .modal button.submit{
+    border:0; cursor:pointer; border-radius:14px; padding:13px;
+    background:linear-gradient(135deg,var(--red-hot),var(--red) 60%,var(--red-deep));
+    color:#fff; font:inherit; font-size:14.5px; font-weight:700;
+    box-shadow:0 8px 20px rgba(236,0,22,.32);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .modal button.submit:hover{transform:translateY(-1px); box-shadow:0 12px 26px rgba(236,0,22,.42)}
+  .modal button.submit:disabled{opacity:.6; transform:none; cursor:default}
+  .sub-status{font-size:12.5px; margin-top:10px; min-height:16px}
+  .sub-status.ok{color:#0A8A3A; font-weight:600}
+  .sub-status.err{color:var(--red); font-weight:600}
 
   @media (prefers-reduced-motion:reduce){
-    .card,.details,.photo img,.chev,.subscribe button,.ad-cta{transition:none}
-    .card:hover{transform:none}
-    .card:hover .photo img{transform:none}
+    *{transition:none !important; animation:none !important}
   }
 </style>
 </head>
 <body>
 
 <a class="ad-banner" href="https://apps.apple.com/de/app/id6755360072" target="_blank" rel="noopener">
-  <div class="ad-banner-inner">
+  <div class="ad-inner">
     <div class="ad-logo">S</div>
     <div class="ad-text">
       <div class="name">SprachSnack</div>
@@ -294,58 +370,76 @@
   </div>
 </a>
 
-<header>
-  <div class="header-inner">
-    <div class="wordmark">
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Sprache / Language / Dil"></div>
+    </div>
+    <div class="hero-main">
       <div class="eyebrow" id="txtEyebrow">Wochenende ab Hamburg</div>
       <h1 id="txtTitle">Wochenendkurztrip</h1>
-    </div>
-    <div class="stand">
-      <div class="label" id="txtStandLabel">Zuletzt aktualisiert</div>
-      <span class="t mono" id="standWrap">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
-        <span id="stand">—</span>
+      <p class="hero-sub" id="txtHeroSub">Direktverbindungen ab Hamburg Hbf — automatisch gescannt, nach Preis sortiert.</p>
+      <span class="stand-pill">
+        <span class="pulse"></span>
+        <span id="txtStandLabel">Zuletzt aktualisiert</span>
+        <span class="mono" id="stand">—</span>
       </span>
     </div>
   </div>
-</header>
+</div>
 
-<div class="metabar">
-  <div class="metabar-inner">
-    <span class="meta-item">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2 L12 22 M12 22 L7 17 M12 22 L17 17" transform="rotate(90 12 12)"/></svg>
-      <span id="txtFrom">Abfahrt:</span> <strong>Hamburg Hbf</strong>
-    </span>
-    <span class="meta-item">
+<div class="wrap">
+  <div class="chips">
+    <span class="chip">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="14" rx="2.5"/><path d="M9 17 L7 21 M15 17 L17 21 M7 12 L17 12"/></svg>
-      <span id="txtDirect">Direktverbindungen, 2. Klasse, Einzelperson</span>
+      <span id="txtFrom">Abfahrt:</span>&nbsp;<strong>Hamburg Hbf</strong>
     </span>
-    <span class="meta-item" id="capLabel">
+    <span class="chip">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12 L19 12 M13 6 L19 12 L13 18"/></svg>
+      <span id="txtDirect">Direktverbindungen, 2. Klasse</span>
+    </span>
+    <span class="chip">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
-      <span id="txtCap">Hin- und Rückfahrt insgesamt</span> <strong id="capValue">&lt; 60 €</strong>
+      <span id="txtCap">Hin- und Rückfahrt</span>&nbsp;<strong id="capValue">&lt; 100 €</strong>
     </span>
-    <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Sprache / Language / Dil"></div>
   </div>
 </div>
 
-<main>
-  <div class="subscribe">
-    <span class="frame-label" id="txtSubLabel">Bei neuen Tickets benachrichtigen</span>
-    <p id="txtSubDesc">Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.</p>
-    <div class="subscribe-row">
-      <input type="email" id="subEmail" placeholder="beispiel@mail.de" autocomplete="email" aria-label="E-Mail-Adresse">
-      <button id="subBtn" type="button">Anmelden</button>
-    </div>
-    <div class="sub-status" id="subStatus" role="status"></div>
-  </div>
-
+<main class="wrap">
   <div id="content"></div>
 </main>
 
-<footer>
-  <div id="txtFooter1">Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.</div>
-  <div id="txtFooter2">Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Samstag 17:00–23:00 oder Sonntag 15:00–20:00.</div>
-</footer>
+<div class="footer-zone wrap">
+  <button class="sub-trigger" id="subOpen" type="button">
+    <span class="bell">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+    </span>
+    <span id="txtSubLabel">Bei neuen Tickets benachrichtigen</span>
+    <svg class="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>
+  </button>
+  <div class="foot-notes">
+    <div id="txtFooter1">Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.</div>
+    <div id="txtFooter2">Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Samstag 17:00–23:00 oder Sonntag 15:00–20:00.</div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="subModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <button class="modal-close" id="subClose" type="button" aria-label="Schließen">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6 L18 18 M18 6 L6 18"/></svg>
+    </button>
+    <div class="m-icon">
+      <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+    </div>
+    <h2 id="modalTitle">Bei neuen Tickets benachrichtigen</h2>
+    <p id="txtSubDesc">Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.</p>
+    <div class="form-row">
+      <input type="email" id="subEmail" placeholder="beispiel@mail.de" autocomplete="email" aria-label="E-Mail-Adresse">
+      <button class="submit" id="subBtn" type="button">Anmelden</button>
+    </div>
+    <div class="sub-status" id="subStatus" role="status"></div>
+  </div>
+</div>
 
 <script src="data.js"></script>
 <script>
@@ -358,15 +452,16 @@ var SUPABASE_ANON_KEY = "sb_publishable_M-QnplymNuUQVcbHQr0_RQ_wLh2YFOp";
 var I18N = {
   de: {
     flag:"https://flagcdn.com/24x18/de.png", flagName:"Deutsch",
-    docTitle:"Wochenende ab Hamburg — Günstige Kurztrip-Tickets",
+    docTitle:"Wochenendkurztrip — Wochenende ab Hamburg",
     adDesc:"Deutsch lernen — von A1 bis B2, ein paar Minuten am Tag",
     adTag:"Anzeige",
     eyebrow:"Wochenende ab Hamburg",
     title:"Wochenendkurztrip",
+    heroSub:"Direktverbindungen ab Hamburg Hbf — automatisch gescannt, nach Preis sortiert.",
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
-    metaDirect:"Direktverbindungen, 2. Klasse, Einzelperson",
-    metaCap:"Hin- und Rückfahrt insgesamt",
+    metaDirect:"Direktverbindungen, 2. Klasse",
+    metaCap:"Hin- und Rückfahrt",
     subLabel:"Bei neuen Tickets benachrichtigen",
     subDesc:"Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.",
     subPlaceholder:"beispiel@mail.de",
@@ -397,15 +492,16 @@ var I18N = {
   },
   en: {
     flag:"https://flagcdn.com/24x18/gb.png", flagName:"English",
-    docTitle:"Weekend from Hamburg — Cheap Short-Trip Tickets",
+    docTitle:"Wochenendkurztrip — Weekend from Hamburg",
     adDesc:"Learn German — from A1 to B2, a few minutes a day",
     adTag:"Ad",
     eyebrow:"Weekend from Hamburg",
     title:"Wochenendkurztrip",
+    heroSub:"Direct connections from Hamburg Hbf — scanned automatically, sorted by price.",
     standLabel:"Last updated",
     metaFrom:"Departure:",
-    metaDirect:"Direct connections, 2nd class, single traveller",
-    metaCap:"Round trip total",
+    metaDirect:"Direct connections, 2nd class",
+    metaCap:"Round trip",
     subLabel:"Get notified about new tickets",
     subDesc:"You'll get an email whenever the price list is updated. Your address won't be used for anything else.",
     subPlaceholder:"example@mail.com",
@@ -436,15 +532,16 @@ var I18N = {
   },
   tr: {
     flag:"https://flagcdn.com/24x18/tr.png", flagName:"Türkçe",
-    docTitle:"Wochenende ab Hamburg — Ucuz Haftasonu Biletleri",
+    docTitle:"Wochenendkurztrip — Hamburg'dan Haftasonu",
     adDesc:"Almanca öğren — A1'den B2'ye, günde birkaç dakika",
     adTag:"Reklam",
-    eyebrow:"Wochenende ab Hamburg",
+    eyebrow:"Hamburg'dan haftasonu",
     title:"Wochenendkurztrip",
+    heroSub:"Hamburg Hbf çıkışlı direkt seferler — otomatik taranır, fiyata göre sıralanır.",
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
-    metaDirect:"Direkt seferler, 2. sınıf, tek kişi",
-    metaCap:"Gidiş-dönüş toplam",
+    metaDirect:"Direkt seferler, 2. sınıf",
+    metaCap:"Gidiş-dönüş",
     subLabel:"Yeni biletlerde haber al",
     subDesc:"Fiyat listesi güncellendiğinde e-posta gönderilir. Adresin başka hiçbir amaçla kullanılmaz.",
     subPlaceholder:"ornek@mail.com",
@@ -494,7 +591,7 @@ function buildLangSwitcher(){
     b.className = "lang-btn" + (code === currentLang ? " active" : "");
     b.type = "button";
     b.setAttribute("aria-pressed", code === currentLang ? "true" : "false");
-    b.innerHTML = '<span class="flag"><img src="' + I18N[code].flag + '" alt="' + I18N[code].flagName + '"></span><span>' + code.toUpperCase() + '</span>';
+    b.innerHTML = '<img src="' + I18N[code].flag + '" alt="' + I18N[code].flagName + '"><span>' + code.toUpperCase() + '</span>';
     b.addEventListener("click", function(){ setLang(code); });
     wrap.appendChild(b);
   });
@@ -508,11 +605,13 @@ function applyStaticText(){
   document.getElementById("adTag").textContent = t.adTag;
   document.getElementById("txtEyebrow").textContent = t.eyebrow;
   document.getElementById("txtTitle").textContent = t.title;
+  document.getElementById("txtHeroSub").textContent = t.heroSub;
   document.getElementById("txtStandLabel").textContent = t.standLabel;
   document.getElementById("txtFrom").textContent = t.metaFrom;
   document.getElementById("txtDirect").textContent = t.metaDirect;
   document.getElementById("txtCap").textContent = t.metaCap;
   document.getElementById("txtSubLabel").textContent = t.subLabel;
+  document.getElementById("modalTitle").textContent = t.subLabel;
   document.getElementById("txtSubDesc").textContent = t.subDesc;
   document.getElementById("subEmail").placeholder = t.subPlaceholder;
   document.getElementById("subEmail").setAttribute("aria-label", t.subInputAria);
@@ -532,10 +631,27 @@ function setLang(code){
   if (window.BAHN_DATA) render(window.BAHN_DATA);
 }
 
+// ================== MODAL + SUBSCRIBE ==================
 (function(){
+  var modal = document.getElementById("subModal");
+  var openBtn = document.getElementById("subOpen");
+  var closeBtn = document.getElementById("subClose");
   var input = document.getElementById("subEmail");
   var btn = document.getElementById("subBtn");
   var status = document.getElementById("subStatus");
+
+  function openModal(){
+    modal.classList.add("show");
+    setTimeout(function(){ input.focus(); }, 200);
+  }
+  function closeModal(){ modal.classList.remove("show"); openBtn.focus(); }
+
+  openBtn.addEventListener("click", openModal);
+  closeBtn.addEventListener("click", closeModal);
+  modal.addEventListener("click", function(e){ if (e.target === modal) closeModal(); });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape" && modal.classList.contains("show")) closeModal();
+  });
 
   function setStatus(msg, cls){ status.textContent = msg; status.className = "sub-status " + (cls || ""); }
 
@@ -655,7 +771,7 @@ function setLang(code){
     document.getElementById("capValue").innerHTML = "&lt; " + Math.round(data.priceCap) + " \u20AC";
 
     if (!data.deals || !data.deals.length){
-      content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong><br>' +
+      content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong>' +
         t.noticeNoDealsSub + '</div>';
       return;
     }
@@ -668,23 +784,23 @@ function setLang(code){
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
-        (i === 0 ? '<span class="best-badge">' + t.best + '</span>' : '') +
         '<div class="card-btn" role="button" tabindex="0" aria-expanded="false">' +
           '<div class="photo" data-city="' + dl.city + '">' +
             '<div class="shade"></div>' +
+            (i === 0 ? '<span class="best-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8-6.1-3.4-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>' + t.best + '</span>' : '') +
+            '<span class="price-pill"><span class="amount">' + eur(dl.total) + ' \u20AC</span><span class="label">' + t.priceLabel + '</span></span>' +
             '<div class="city">' + cityLabel(dl.city) + '</div>' +
+            '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
           '</div>' +
           '<div class="card-body">' +
-            '<div class="card-info">' +
-              '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
-              '<div class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + '</div>' +
-            '</div>' +
-            '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">' + t.priceLabel + '</div></div>' +
-            '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
+            '<span class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + '</span>' +
+            '<svg class="chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
           '</div>' +
           '<div class="details">' +
-            legRow(t.legOut, dl.out) +
-            legRow(t.legRet, dl.ret) +
+            '<div class="details-inner">' +
+              legRow(t.legOut, dl.out) +
+              legRow(t.legRet, dl.ret) +
+            '</div>' +
             '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener">' +
               '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
               '<span>' + t.goToTicket + '</span>' +
@@ -698,7 +814,7 @@ function setLang(code){
         btn.setAttribute("aria-expanded", open ? "true" : "false");
       }
       btn.addEventListener("click", function(e){
-        if (e.target.closest(".ticket-link")) return; // linke tiklaninca kart kapanmasin
+        if (e.target.closest(".ticket-link")) return;
         toggle();
       });
       btn.addEventListener("keydown", function(e){
@@ -742,7 +858,7 @@ function setLang(code){
     render(window.BAHN_DATA);
   } else {
     var t = T();
-    content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDataTitle + '</strong><br>' +
+    content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDataTitle + '</strong>' +
       t.noticeNoDataSub + '</div>';
   }
 })();
