@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wochenende ab Hamburg — Ucuz Haftasonu Biletleri</title>
+<title id="pageTitle">Wochenende ab Hamburg — Günstige Kurztrip-Tickets</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +24,25 @@
     min-height:100vh;
   }
   .mono{font-family:'IBM Plex Mono',monospace}
+
+  /* ---------- lang switcher ---------- */
+  .langbar{
+    background:var(--ink); display:flex; justify-content:flex-end;
+  }
+  .langbar-inner{
+    max-width:1080px; margin:0 auto; width:100%;
+    display:flex; justify-content:flex-end; align-items:center;
+    padding:6px 20px; gap:6px;
+  }
+  .lang-btn{
+    all:unset; cursor:pointer; display:flex; align-items:center; gap:6px;
+    padding:5px 9px 5px 7px; border-radius:6px; font-size:12.5px; font-weight:600;
+    color:#C9CED6; transition:background .15s ease, color .15s ease;
+  }
+  .lang-btn .flag{font-size:15px; line-height:1}
+  .lang-btn:hover{background:rgba(255,255,255,.08); color:#fff}
+  .lang-btn.active{background:#fff; color:var(--ink)}
+  .lang-btn:focus-visible{outline:2px solid var(--db-red); outline-offset:1px}
 
   /* ---------- ad banner ---------- */
   .ad-banner{
@@ -228,14 +247,18 @@
 </head>
 <body>
 
+<div class="langbar">
+  <div class="langbar-inner" id="langSwitcher" role="group" aria-label="Sprache / Language / Dil"></div>
+</div>
+
 <a class="ad-banner" href="https://apps.apple.com/de/app/id6755360072" target="_blank" rel="noopener">
   <div class="ad-banner-inner">
     <div class="ad-logo">S</div>
     <div class="ad-text">
       <div class="name">SprachSnack</div>
-      <div class="desc">Almanca öğren — A1'den B2'ye, günde birkaç dakika</div>
+      <div class="desc" id="adDesc">Deutsch lernen — von A1 bis B2, ein paar Minuten am Tag</div>
     </div>
-    <span class="ad-tag">Anzeige</span>
+    <span class="ad-tag" id="adTag">Anzeige</span>
     <span class="ad-cta">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.54c-.03-2.9 2.37-4.29 2.48-4.36-1.35-1.98-3.45-2.25-4.2-2.28-1.79-.18-3.49 1.05-4.4 1.05-.9 0-2.3-1.02-3.79-.99-1.95.03-3.75 1.13-4.75 2.88-2.03 3.52-.52 8.72 1.46 11.58.97 1.4 2.12 2.97 3.63 2.91 1.46-.06 2.01-.94 3.77-.94 1.76 0 2.26.94 3.8.91 1.57-.03 2.57-1.42 3.53-2.83 1.11-1.62 1.57-3.19 1.6-3.27-.04-.02-3.07-1.18-3.1-4.66zM14.16 4.02c.8-.97 1.34-2.32 1.19-3.67-1.15.05-2.55.77-3.38 1.74-.74.86-1.39 2.23-1.22 3.55 1.29.1 2.6-.65 3.41-1.62z"/></svg>
       App Store
@@ -246,11 +269,11 @@
 <header>
   <div class="header-inner">
     <div class="wordmark">
-      <div class="eyebrow">Wochenende ab Hamburg</div>
-      <h1>Haftasonu Bileti</h1>
+      <div class="eyebrow" id="txtEyebrow">Wochenende ab Hamburg</div>
+      <h1 id="txtTitle">Wochenendticket</h1>
     </div>
     <div class="stand">
-      <div>Son güncelleme</div>
+      <div id="txtStandLabel">Zuletzt aktualisiert</div>
       <div class="t mono" id="stand">—</div>
     </div>
   </div>
@@ -260,26 +283,26 @@
   <div class="metabar-inner">
     <span class="meta-item">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2 L12 22 M12 22 L7 17 M12 22 L17 17" transform="rotate(90 12 12)"/></svg>
-      Kalkış: <strong>Hamburg Hbf</strong>
+      <span id="txtFrom">Abfahrt:</span> <strong>Hamburg Hbf</strong>
     </span>
     <span class="meta-item">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="14" rx="2.5"/><path d="M9 17 L7 21 M15 17 L17 21 M7 12 L17 12"/></svg>
-      Direkt seferler, 2. sınıf, tek kişi
+      <span id="txtDirect">Direktverbindungen, 2. Klasse, Einzelperson</span>
     </span>
     <span class="meta-item" id="capLabel">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
-      Gidiş-dönüş toplam <strong>&lt; 60 €</strong>
+      <span id="txtCap">Hin- und Rückfahrt insgesamt</span> <strong id="capValue">&lt; 60 €</strong>
     </span>
   </div>
 </div>
 
 <main>
   <div class="subscribe">
-    <span class="frame-label">Yeni biletlerde haber al</span>
-    <p>Fiyat listesi güncellendiğinde e-posta gönderilir. Adresin başka hiçbir amaçla kullanılmaz.</p>
+    <span class="frame-label" id="txtSubLabel">Bei neuen Tickets benachrichtigen</span>
+    <p id="txtSubDesc">Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.</p>
     <div class="subscribe-row">
-      <input type="email" id="subEmail" placeholder="ornek@mail.com" autocomplete="email" aria-label="E-posta adresi">
-      <button id="subBtn" type="button">Kaydol</button>
+      <input type="email" id="subEmail" placeholder="beispiel@mail.de" autocomplete="email" aria-label="E-Mail-Adresse">
+      <button id="subBtn" type="button">Anmelden</button>
     </div>
     <div class="sub-status" id="subStatus" role="status"></div>
   </div>
@@ -288,8 +311,8 @@
 </main>
 
 <footer>
-  Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.
-  Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Pazar 15:00–20:00.
+  <div id="txtFooter1">Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.</div>
+  <div id="txtFooter2">Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Sonntag 15:00–20:00.</div>
 </footer>
 
 <script src="data.js"></script>
@@ -299,6 +322,177 @@ var SUPABASE_URL = "https://XXXX.supabase.co";   // Supabase proje URL'in
 var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public key
 // ================================================================
 
+// ================== I18N ==================
+var I18N = {
+  de: {
+    flag:"🇩🇪", flagName:"Deutsch",
+    docTitle:"Wochenende ab Hamburg — Günstige Kurztrip-Tickets",
+    adDesc:"Deutsch lernen — von A1 bis B2, ein paar Minuten am Tag",
+    adTag:"Anzeige",
+    eyebrow:"Wochenende ab Hamburg",
+    title:"Wochenendticket",
+    standLabel:"Zuletzt aktualisiert",
+    metaFrom:"Abfahrt:",
+    metaDirect:"Direktverbindungen, 2. Klasse, Einzelperson",
+    metaCap:"Hin- und Rückfahrt insgesamt",
+    subLabel:"Bei neuen Tickets benachrichtigen",
+    subDesc:"Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.",
+    subPlaceholder:"beispiel@mail.de",
+    subInputAria:"E-Mail-Adresse",
+    subBtn:"Anmelden",
+    subSaving:"Wird gespeichert…",
+    subOk:"Gespeichert. Du erhältst eine E-Mail, sobald neue Tickets verfügbar sind.",
+    subDup:"Diese Adresse ist bereits registriert.",
+    subErr:"Registrierung fehlgeschlagen, bitte später erneut versuchen.",
+    subInvalid:"Bitte eine gültige E-Mail-Adresse eingeben.",
+    subNetErr:"Verbindungsfehler, bitte später erneut versuchen.",
+    noticeNoDealsTitle:"Aktuell keine Kombination unter dem Limit.",
+    noticeNoDealsSub:"Schau beim nächsten Scan wieder vorbei.",
+    noticeNoDataTitle:"Datendatei nicht gefunden.",
+    noticeNoDataSub:"Lade die vom Scan-Skript erzeugte data.js-Datei neben diese Seite hoch.",
+    variantSuffix:"Abfahrt",
+    legOut:"Hin",
+    legRet:"Rück",
+    priceLabel:"EUR H/R",
+    footer1:"Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.",
+    footer2:"Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Sonntag 15:00–20:00.",
+    days:["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],
+    months:["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],
+    cities:{}
+  },
+  en: {
+    flag:"🇬🇧", flagName:"English",
+    docTitle:"Weekend from Hamburg — Cheap Short-Trip Tickets",
+    adDesc:"Learn German — from A1 to B2, a few minutes a day",
+    adTag:"Ad",
+    eyebrow:"Weekend from Hamburg",
+    title:"Weekend Ticket",
+    standLabel:"Last updated",
+    metaFrom:"Departure:",
+    metaDirect:"Direct connections, 2nd class, single traveller",
+    metaCap:"Round trip total",
+    subLabel:"Get notified about new tickets",
+    subDesc:"You'll get an email whenever the price list is updated. Your address won't be used for anything else.",
+    subPlaceholder:"example@mail.com",
+    subInputAria:"Email address",
+    subBtn:"Subscribe",
+    subSaving:"Saving…",
+    subOk:"Saved. You'll get an email as soon as new tickets are available.",
+    subDup:"This address is already registered.",
+    subErr:"Registration failed, please try again later.",
+    subInvalid:"Please enter a valid email address.",
+    subNetErr:"Connection error, please try again later.",
+    noticeNoDealsTitle:"No combination under the limit right now.",
+    noticeNoDealsSub:"Check back after the next scan.",
+    noticeNoDataTitle:"Data file not found.",
+    noticeNoDataSub:"Upload the data.js file generated by the scan script next to this page.",
+    variantSuffix:"departure",
+    legOut:"Out",
+    legRet:"Back",
+    priceLabel:"EUR RT",
+    footer1:"Prices are Sparpreis fares at the time of scanning; they may change on bahn.de at any time.",
+    footer2:"Departure windows: Friday 18:00–23:00 / Saturday 06:00–10:00, return: Sunday 15:00–20:00.",
+    days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    months:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+    cities:{"München":"Munich","Köln":"Cologne","Nürnberg":"Nuremberg"}
+  },
+  tr: {
+    flag:"🇹🇷", flagName:"Türkçe",
+    docTitle:"Wochenende ab Hamburg — Ucuz Haftasonu Biletleri",
+    adDesc:"Almanca öğren — A1'den B2'ye, günde birkaç dakika",
+    adTag:"Reklam",
+    eyebrow:"Wochenende ab Hamburg",
+    title:"Haftasonu Bileti",
+    standLabel:"Son güncelleme",
+    metaFrom:"Kalkış:",
+    metaDirect:"Direkt seferler, 2. sınıf, tek kişi",
+    metaCap:"Gidiş-dönüş toplam",
+    subLabel:"Yeni biletlerde haber al",
+    subDesc:"Fiyat listesi güncellendiğinde e-posta gönderilir. Adresin başka hiçbir amaçla kullanılmaz.",
+    subPlaceholder:"ornek@mail.com",
+    subInputAria:"E-posta adresi",
+    subBtn:"Kaydol",
+    subSaving:"Kaydediliyor…",
+    subOk:"Kaydedildi. Yeni biletler geldiğinde e-posta alacaksın.",
+    subDup:"Bu adres zaten kayıtlı.",
+    subErr:"Kayıt başarısız oldu, daha sonra tekrar dene.",
+    subInvalid:"Geçerli bir e-posta adresi gir.",
+    subNetErr:"Bağlantı hatası, daha sonra tekrar dene.",
+    noticeNoDealsTitle:"Şu an limitin altında kombinasyon yok.",
+    noticeNoDealsSub:"Bir sonraki taramada tekrar bak.",
+    noticeNoDataTitle:"Veri dosyası bulunamadı.",
+    noticeNoDataSub:"Tarama scriptinin ürettiği data.js dosyasını bu sayfanın yanına yükle.",
+    variantSuffix:"çıkışlı",
+    legOut:"Gidiş",
+    legRet:"Dönüş",
+    priceLabel:"EUR G/D",
+    footer1:"Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.",
+    footer2:"Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Pazar 15:00–20:00.",
+    days:["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],
+    months:["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"],
+    cities:{"München":"Münih"}
+  }
+};
+
+var LANG_STORAGE_KEY = "wochenende_hamburg_lang";
+var currentLang = (function(){
+  try {
+    var saved = localStorage.getItem(LANG_STORAGE_KEY);
+    if (saved && I18N[saved]) return saved;
+  } catch(e){}
+  return "de"; // default: German
+})();
+
+function T(){ return I18N[currentLang]; }
+
+function buildLangSwitcher(){
+  var wrap = document.getElementById("langSwitcher");
+  wrap.innerHTML = "";
+  ["de","en","tr"].forEach(function(code){
+    var b = document.createElement("button");
+    b.className = "lang-btn" + (code === currentLang ? " active" : "");
+    b.type = "button";
+    b.setAttribute("aria-pressed", code === currentLang ? "true" : "false");
+    b.innerHTML = '<span class="flag">' + I18N[code].flag + '</span><span>' + code.toUpperCase() + '</span>';
+    b.addEventListener("click", function(){ setLang(code); });
+    wrap.appendChild(b);
+  });
+}
+
+function applyStaticText(){
+  var t = T();
+  document.documentElement.lang = currentLang;
+  document.getElementById("pageTitle").textContent = t.docTitle;
+  document.getElementById("adDesc").textContent = t.adDesc;
+  document.getElementById("adTag").textContent = t.adTag;
+  document.getElementById("txtEyebrow").textContent = t.eyebrow;
+  document.getElementById("txtTitle").textContent = t.title;
+  document.getElementById("txtStandLabel").textContent = t.standLabel;
+  document.getElementById("txtFrom").textContent = t.metaFrom;
+  document.getElementById("txtDirect").textContent = t.metaDirect;
+  document.getElementById("txtCap").textContent = t.metaCap;
+  document.getElementById("txtSubLabel").textContent = t.subLabel;
+  document.getElementById("txtSubDesc").textContent = t.subDesc;
+  document.getElementById("subEmail").placeholder = t.subPlaceholder;
+  document.getElementById("subEmail").setAttribute("aria-label", t.subInputAria);
+  document.getElementById("subBtn").textContent = t.subBtn;
+  document.getElementById("txtFooter1").textContent = t.footer1;
+  document.getElementById("txtFooter2").textContent = t.footer2;
+  document.getElementById("subStatus").textContent = "";
+  document.getElementById("subStatus").className = "sub-status";
+}
+
+function setLang(code){
+  if (!I18N[code] || code === currentLang && document.getElementById("langSwitcher").children.length) {
+    if (code !== currentLang) {} else { currentLang = code; }
+  }
+  currentLang = code;
+  try { localStorage.setItem(LANG_STORAGE_KEY, code); } catch(e){}
+  buildLangSwitcher();
+  applyStaticText();
+  if (window.BAHN_DATA) render(window.BAHN_DATA);
+}
+
 (function(){
   var input = document.getElementById("subEmail");
   var btn = document.getElementById("subBtn");
@@ -307,10 +501,11 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
   function setStatus(msg, cls){ status.textContent = msg; status.className = "sub-status " + (cls || ""); }
 
   btn.addEventListener("click", function(){
+    var t = T();
     var email = (input.value || "").trim().toLowerCase();
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus("Geçerli bir e-posta adresi gir.", "err"); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus(t.subInvalid, "err"); return; }
     btn.disabled = true;
-    setStatus("Kaydediliyor…");
+    setStatus(t.subSaving);
     fetch(SUPABASE_URL + "/rest/v1/bahn_subscribers", {
       method: "POST",
       headers: {
@@ -321,11 +516,12 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
       },
       body: JSON.stringify({ email: email })
     }).then(function(r){
-      if (r.status === 201) { setStatus("Kaydedildi. Yeni biletler geldiğinde e-posta alacaksın.", "ok"); input.value = ""; }
-      else if (r.status === 409) { setStatus("Bu adres zaten kayıtlı.", "ok"); }
-      else { setStatus("Kayıt başarısız oldu, daha sonra tekrar dene.", "err"); }
+      var t2 = T();
+      if (r.status === 201) { setStatus(t2.subOk, "ok"); input.value = ""; }
+      else if (r.status === 409) { setStatus(t2.subDup, "ok"); }
+      else { setStatus(t2.subErr, "err"); }
     }).catch(function(){
-      setStatus("Bağlantı hatası, daha sonra tekrar dene.", "err");
+      setStatus(T().subNetErr, "err");
     }).finally(function(){ btn.disabled = false; });
   });
 
@@ -334,8 +530,6 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
 </script>
 <script>
 (function(){
-  var AYLAR = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
-  var GUNLER = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var WIKI = {
     "Berlin":"Berlin","München":"München","Köln":"Köln","Frankfurt":"Frankfurt am Main",
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
@@ -346,37 +540,41 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
   function eur(v){return v.toFixed(2).replace(".",",")}
+  function cityLabel(city){ var t = T(); return (t.cities && t.cities[city]) ? t.cities[city] : city; }
 
   function weekendLabel(outDep, retDep){
+    var t = T();
     var fri = new Date(outDep);
-    fri.setDate(fri.getDate() - ((fri.getDay() - 5 + 7) % 7)); // o haftanin Cumasi
+    fri.setDate(fri.getDate() - ((fri.getDay() - 5 + 7) % 7)); // that week's Friday
     var sun = new Date(retDep);
     if (fri.getMonth() === sun.getMonth())
-      return fri.getDate() + "\u2013" + sun.getDate() + " " + AYLAR[sun.getMonth()];
-    return fri.getDate() + " " + AYLAR[fri.getMonth()] + " \u2013 " + sun.getDate() + " " + AYLAR[sun.getMonth()];
+      return fri.getDate() + "\u2013" + sun.getDate() + " " + t.months[sun.getMonth()];
+    return fri.getDate() + " " + t.months[fri.getMonth()] + " \u2013 " + sun.getDate() + " " + t.months[sun.getMonth()];
   }
 
   function legRow(dirLabel, leg){
+    var t = T();
     var dep = new Date(leg.dep), arr = new Date(leg.arr);
     return '<div class="leg">' +
       '<span class="dir">' + dirLabel + '</span>' +
       '<span class="body">' +
         '<span class="times">' + hhmm(dep) + '<span class="arrow">\u2192</span>' + hhmm(arr) + '</span>' +
-        '<div class="sub">' + GUNLER[dep.getDay()] + ' ' + pad(dep.getDate()) + '.' + pad(dep.getMonth()+1) +
+        '<div class="sub">' + t.days[dep.getDay()] + ' ' + pad(dep.getDate()) + '.' + pad(dep.getMonth()+1) +
         ' \u00B7 ' + leg.trains + '</div>' +
       '</span>' +
       '<span class="lp">' + eur(leg.price) + ' \u20AC</span>' +
     '</div>';
   }
 
-  function render(data){
+  window.render = function render(data){
+    var t = T();
     document.getElementById("stand").textContent =
       (function(d){ return pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d); })(new Date(data.generatedAt));
-    document.querySelector("#capLabel strong").innerHTML = "&lt; " + Math.round(data.priceCap) + " \u20AC";
+    document.getElementById("capValue").innerHTML = "&lt; " + Math.round(data.priceCap) + " \u20AC";
 
     if (!data.deals || !data.deals.length){
-      content.innerHTML = '<div class="notice"><strong>Şu an limitin altında kombinasyon yok.</strong><br>' +
-        'Bir sonraki taramada tekrar bak.</div>';
+      content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong><br>' +
+        t.noticeNoDealsSub + '</div>';
       return;
     }
 
@@ -391,18 +589,18 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
         '<button class="card-btn" aria-expanded="false">' +
           '<div class="photo" data-city="' + dl.city + '">' +
             '<div class="shade"></div>' +
-            '<div class="city">' + dl.city + '</div>' +
+            '<div class="city">' + cityLabel(dl.city) + '</div>' +
           '</div>' +
           '<div class="card-body">' +
             '<div class="card-info">' +
               '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
-              '<div class="variant"><span class="dot"></span>' + dl.variant + ' çıkışlı</div>' +
+              '<div class="variant"><span class="dot"></span>' + dl.variant + ' ' + t.variantSuffix + '</div>' +
             '</div>' +
-            '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">EUR G/D</div></div>' +
+            '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">' + t.priceLabel + '</div></div>' +
           '</div>' +
           '<div class="details">' +
-            legRow("Gidiş", dl.out) +
-            legRow("Dönüş", dl.ret) +
+            legRow(t.legOut, dl.out) +
+            legRow(t.legRet, dl.ret) +
           '</div>' +
         '</button>';
       var btn = card.querySelector(".card-btn");
@@ -416,7 +614,7 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
     content.innerHTML = "";
     content.appendChild(grid);
     loadPhotos();
-  }
+  };
 
   function loadPhotos(){
     var done = {};
@@ -426,6 +624,8 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
       var key = title;
       var apply = function(url){
         if(!url) return;
+        var existing = ph.querySelector("img");
+        if (existing) return;
         var img = document.createElement("img");
         img.src = url; img.alt = ""; img.loading = "lazy";
         img.onerror = function(){ img.remove(); };
@@ -440,11 +640,15 @@ var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public
     });
   }
 
+  buildLangSwitcher();
+  applyStaticText();
+
   if (window.BAHN_DATA) {
     render(window.BAHN_DATA);
   } else {
-    content.innerHTML = '<div class="notice"><strong>Veri dosyası bulunamadı.</strong><br>' +
-      'Tarama scriptinin ürettiği <span class="mono">data.js</span> dosyasını bu sayfanın yanına yükle.</div>';
+    var t = T();
+    content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDataTitle + '</strong><br>' +
+      t.noticeNoDataSub + '</div>';
   }
 })();
 </script>
