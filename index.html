@@ -26,13 +26,8 @@
   .mono{font-family:'IBM Plex Mono',monospace}
 
   /* ---------- lang switcher ---------- */
-  .langbar{
-    background:var(--ink); display:flex; justify-content:flex-end;
-  }
-  .langbar-inner{
-    max-width:1080px; margin:0 auto; width:100%;
-    display:flex; justify-content:flex-end; align-items:center;
-    padding:6px 20px; gap:6px;
+  .lang-switcher{
+    display:flex; align-items:center; gap:6px; margin-left:auto;
   }
   .lang-btn{
     all:unset; cursor:pointer; display:flex; align-items:center; gap:6px;
@@ -247,10 +242,6 @@
 </head>
 <body>
 
-<div class="langbar">
-  <div class="langbar-inner" id="langSwitcher" role="group" aria-label="Sprache / Language / Dil"></div>
-</div>
-
 <a class="ad-banner" href="https://apps.apple.com/de/app/id6755360072" target="_blank" rel="noopener">
   <div class="ad-banner-inner">
     <div class="ad-logo">S</div>
@@ -293,6 +284,7 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
       <span id="txtCap">Hin- und Rückfahrt insgesamt</span> <strong id="capValue">&lt; 60 €</strong>
     </span>
+    <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Sprache / Language / Dil"></div>
   </div>
 </div>
 
