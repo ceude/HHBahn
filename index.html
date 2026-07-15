@@ -90,6 +90,42 @@
   .meta-item{display:flex; align-items:center; gap:7px; color:#C9CED6}
   .meta-item strong{color:#fff; font-weight:600}
 
+  /* ---------- subscribe box ---------- */
+  .subscribe{
+    border:1.5px solid var(--line); border-radius:var(--radius);
+    background:var(--card); padding:18px 16px 14px;
+    position:relative; margin-bottom:24px;
+  }
+  .subscribe legend, .subscribe .frame-label{
+    position:absolute; top:-9px; left:14px;
+    background:var(--card); padding:0 8px;
+    font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--db-red);
+  }
+  .subscribe p{font-size:13px; color:var(--slate); margin-bottom:10px}
+  .subscribe-row{display:flex; gap:8px}
+  .subscribe input{
+    flex:1; min-width:0; border:1px solid var(--line); border-radius:6px;
+    padding:9px 12px; font:inherit; font-size:14px; color:var(--ink);
+    background:#FAFBFC;
+  }
+  .subscribe input:focus{outline:2px solid var(--db-red); outline-offset:-1px; background:#fff}
+  .subscribe button{
+    flex:none; border:0; border-radius:6px; background:var(--db-red); color:#fff;
+    font:inherit; font-size:13.5px; font-weight:700; padding:9px 18px; cursor:pointer;
+    transition:background .15s ease;
+  }
+  .subscribe button:hover{background:var(--db-red-dark)}
+  .subscribe button:focus-visible{outline:3px solid var(--ink); outline-offset:2px}
+  .subscribe button:disabled{opacity:.6; cursor:default}
+  .sub-status{font-size:12.5px; margin-top:8px; min-height:16px}
+  .sub-status.ok{color:#0A7D33}
+  .sub-status.err{color:var(--db-red)}
+  @media (max-width:560px){
+    .subscribe-row{flex-direction:column}
+    .subscribe button{width:100%}
+  }
+
   /* ---------- grid ---------- */
   main{max-width:1080px; margin:0 auto; padding:28px 20px 60px}
   .grid{
@@ -238,6 +274,16 @@
 </div>
 
 <main>
+  <div class="subscribe">
+    <span class="frame-label">Yeni biletlerde haber al</span>
+    <p>Fiyat listesi güncellendiğinde e-posta gönderilir. Adresin başka hiçbir amaçla kullanılmaz.</p>
+    <div class="subscribe-row">
+      <input type="email" id="subEmail" placeholder="ornek@mail.com" autocomplete="email" aria-label="E-posta adresi">
+      <button id="subBtn" type="button">Kaydol</button>
+    </div>
+    <div class="sub-status" id="subStatus" role="status"></div>
+  </div>
+
   <div id="content"></div>
 </main>
 
@@ -247,6 +293,45 @@
 </footer>
 
 <script src="data.js"></script>
+<script>
+// ================== SUPABASE AYARLARI — DOLDUR ==================
+var SUPABASE_URL = "https://XXXX.supabase.co";   // Supabase proje URL'in
+var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public key
+// ================================================================
+
+(function(){
+  var input = document.getElementById("subEmail");
+  var btn = document.getElementById("subBtn");
+  var status = document.getElementById("subStatus");
+
+  function setStatus(msg, cls){ status.textContent = msg; status.className = "sub-status " + (cls || ""); }
+
+  btn.addEventListener("click", function(){
+    var email = (input.value || "").trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus("Geçerli bir e-posta adresi gir.", "err"); return; }
+    btn.disabled = true;
+    setStatus("Kaydediliyor…");
+    fetch(SUPABASE_URL + "/rest/v1/bahn_subscribers", {
+      method: "POST",
+      headers: {
+        "apikey": SUPABASE_ANON_KEY,
+        "Authorization": "Bearer " + SUPABASE_ANON_KEY,
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal"
+      },
+      body: JSON.stringify({ email: email })
+    }).then(function(r){
+      if (r.status === 201) { setStatus("Kaydedildi. Yeni biletler geldiğinde e-posta alacaksın.", "ok"); input.value = ""; }
+      else if (r.status === 409) { setStatus("Bu adres zaten kayıtlı.", "ok"); }
+      else { setStatus("Kayıt başarısız oldu, daha sonra tekrar dene.", "err"); }
+    }).catch(function(){
+      setStatus("Bağlantı hatası, daha sonra tekrar dene.", "err");
+    }).finally(function(){ btn.disabled = false; });
+  });
+
+  input.addEventListener("keydown", function(e){ if (e.key === "Enter") btn.click(); });
+})();
+</script>
 <script>
 (function(){
   var AYLAR = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
