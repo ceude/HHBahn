@@ -539,11 +539,20 @@ function setLang(code){
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
     "Nürnberg":"Nürnberg","Münster":"Münster","Hannover":"Hannover"
   };
-  var STATION_NAMES = {
-    "Berlin":"Berlin Hbf","München":"München Hbf","Köln":"Köln Hbf",
-    "Frankfurt":"Frankfurt(Main)Hbf","Stuttgart":"Stuttgart Hbf","Düsseldorf":"Düsseldorf Hbf",
-    "Leipzig":"Leipzig Hbf","Dresden":"Dresden Hbf","Nürnberg":"Nürnberg Hbf",
-    "Münster":"Münster(Westf)Hbf","Hannover":"Hannover Hbf"
+  // Resmi DB açık veri seti (D_Bahnhof_2020_alle.csv) üzerinden EVA-Nummer + koordinatlar
+  var STATION_DATA = {
+    "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
+    "Berlin":   { name:"Berlin Hbf",           eva:"8011160", lon:13.36980,  lat:52.52709  },
+    "München":  { name:"München Hbf",          eva:"8000261", lon:11.558335, lat:48.140232 },
+    "Köln":     { name:"Köln Hbf",             eva:"8000207", lon:6.958729,  lat:50.94303  },
+    "Frankfurt":{ name:"Frankfurt(Main)Hbf",   eva:"8000105", lon:8.663789,  lat:50.107145 },
+    "Stuttgart":{ name:"Stuttgart Hbf",        eva:"8000096", lon:9.181635,  lat:48.784084 },
+    "Düsseldorf":{name:"Düsseldorf Hbf",       eva:"8000085", lon:6.794319,  lat:51.219962 },
+    "Leipzig":  { name:"Leipzig Hbf",          eva:"8010205", lon:12.383333, lat:51.345833 },
+    "Dresden":  { name:"Dresden Hbf",          eva:"8010085", lon:13.731818, lat:51.040557 },
+    "Nürnberg": { name:"Nürnberg Hbf",         eva:"8000284", lon:11.082989, lat:49.445616 },
+    "Münster":  { name:"Münster(Westf)Hbf",    eva:"8000263", lon:7.635715,  lat:51.956566 },
+    "Hannover": { name:"Hannover Hbf",         eva:"8000152", lon:9.741021,  lat:52.376761 }
   };
   var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var content = document.getElementById("content");
@@ -561,13 +570,19 @@ function setLang(code){
     return d.getFullYear() + "-" + pad(d.getMonth()+1) + "-" + pad(d.getDate()) +
       "T" + pad(d.getHours()) + ":" + pad(d.getMinutes()) + ":00";
   }
+  function stationId(st){
+    return "A=1@O=" + st.name + "@X=" + Math.round(st.lon*1e6) + "@Y=" + Math.round(st.lat*1e6) + "@U=80@L=" + st.eva + "@";
+  }
   function bahnLink(dl){
-    var zoStation = STATION_NAMES[dl.city] || (dl.city + " Hbf");
-    var soStation = "Hamburg Hbf";
+    var origin = STATION_DATA["Hamburg"];
+    var dest = STATION_DATA[dl.city] || { name: dl.city + " Hbf", lon:null, lat:null, eva:null };
     var hd = isoLocal(new Date(dl.out.dep));
     var rd = isoLocal(new Date(dl.ret.dep));
-    var params = "sts=true&so=" + encodeURIComponent(soStation) + "&zo=" + encodeURIComponent(zoStation) +
-      "&kl=2&r=13:16:KLASSENLOS:1&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D&rd=" + rd +
+    var params = "sts=true&so=" + encodeURIComponent(origin.name) + "&zo=" + encodeURIComponent(dest.name) +
+      "&kl=2&r=13:16:KLASSENLOS:1" +
+      "&soid=" + encodeURIComponent(stationId(origin)) +
+      (dest.eva ? "&zoid=" + encodeURIComponent(stationId(dest)) : "") +
+      "&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D&rd=" + rd +
       "&rza=D&rz=%5B%5D&rv=00,01,02,03,04,05,06,07,08,09&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false";
     return "https://www.bahn.de/buchung/fahrplan/suche#" + params;
   }
