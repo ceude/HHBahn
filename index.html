@@ -13,7 +13,9 @@
     --db-red:#EC0016; --db-red-dark:#C50014;
     --ink:#282D37; --slate:#646973; --faint:#878C96;
     --bg:#F0F1F2; --card:#FFFFFF; --line:#D7DCE1;
-    --radius:8px;
+    --radius:10px;
+    --shadow-sm:0 1px 3px rgba(40,45,55,.08);
+    --shadow-lg:0 10px 28px rgba(40,45,55,.16);
   }
   *{box-sizing:border-box; margin:0; padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -26,15 +28,12 @@
   .mono{font-family:'IBM Plex Mono',monospace}
 
   /* ---------- lang switcher ---------- */
-  .lang-switcher{
-    display:flex; align-items:center; gap:6px; margin-left:auto;
-  }
+  .lang-switcher{display:flex; align-items:center; gap:6px; margin-left:auto}
   .lang-btn{
     all:unset; cursor:pointer; display:flex; align-items:center; gap:6px;
     padding:5px 9px 5px 7px; border-radius:6px; font-size:12.5px; font-weight:600;
     color:#C9CED6; transition:background .15s ease, color .15s ease;
   }
-  .lang-btn .flag{font-size:15px; line-height:1}
   .lang-btn .flag img{display:block; width:20px; height:14px; border-radius:2px; object-fit:cover; box-shadow:0 0 0 1px rgba(255,255,255,.15)}
   .lang-btn:hover{background:rgba(255,255,255,.08); color:#fff}
   .lang-btn.active{background:#fff; color:var(--ink)}
@@ -54,6 +53,7 @@
     background:linear-gradient(135deg,var(--db-red),var(--db-red-dark));
     color:#fff; display:flex; align-items:center; justify-content:center;
     font-weight:800; font-size:18px; font-variation-settings:'wdth' 112;
+    box-shadow:var(--shadow-sm);
   }
   .ad-text{flex:1; min-width:0; line-height:1.25}
   .ad-text .name{font-weight:700; font-size:14px}
@@ -66,9 +66,9 @@
     flex:none; background:var(--ink); color:#fff; border-radius:6px;
     padding:7px 13px; font-size:12.5px; font-weight:600;
     display:flex; align-items:center; gap:7px;
-    transition:background .15s ease;
+    transition:background .15s ease, transform .15s ease;
   }
-  .ad-banner:hover .ad-cta{background:#000}
+  .ad-banner:hover .ad-cta{background:#000; transform:translateY(-1px)}
   .ad-banner:focus-visible{outline:3px solid var(--db-red); outline-offset:-3px}
   @media (max-width:560px){
     .ad-text .desc{display:none}
@@ -76,23 +76,39 @@
   }
 
   /* ---------- header ---------- */
-  header{background:var(--db-red); color:#fff}
+  header{
+    background:linear-gradient(175deg, var(--db-red) 0%, #D50014 78%, var(--db-red-dark) 100%);
+    color:#fff; position:relative; overflow:hidden;
+  }
+  header::after{ /* ince "ray" motifi */
+    content:""; position:absolute; left:0; right:0; bottom:0; height:4px;
+    background:repeating-linear-gradient(90deg, rgba(255,255,255,.35) 0 26px, transparent 26px 40px);
+    opacity:.5;
+  }
   .header-inner{
-    max-width:1080px; margin:0 auto; padding:26px 20px 22px;
+    max-width:1080px; margin:0 auto; padding:30px 20px 26px;
     display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    position:relative;
   }
   .wordmark .eyebrow{
-    font-size:12px; letter-spacing:.22em; text-transform:uppercase;
-    font-weight:600; opacity:.85; margin-bottom:4px;
+    font-size:12px; letter-spacing:.24em; text-transform:uppercase;
+    font-weight:600; opacity:.85; margin-bottom:5px;
   }
   .wordmark h1{
-    font-weight:800; font-variation-settings:'wdth' 116;
-    font-size:clamp(26px,4.5vw,38px); line-height:1.02; letter-spacing:-.01em;
+    font-weight:800; font-variation-settings:'wdth' 118;
+    font-size:clamp(28px,4.8vw,42px); line-height:1.0; letter-spacing:-.012em;
   }
   .stand{
-    text-align:right; font-size:13px; line-height:1.5; opacity:.95;
+    text-align:right; display:flex; flex-direction:column; align-items:flex-end; gap:4px;
   }
-  .stand .t{font-weight:600}
+  .stand .label{font-size:12px; opacity:.85}
+  .stand .t{
+    display:inline-flex; align-items:center; gap:7px;
+    background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.28);
+    border-radius:99px; padding:5px 12px; font-weight:600; font-size:13px;
+    backdrop-filter:blur(2px);
+  }
+  .stand .t svg{display:block; opacity:.9}
 
   /* ---------- meta bar ---------- */
   .metabar{background:var(--ink); color:#fff}
@@ -109,9 +125,9 @@
   .subscribe{
     border:1.5px solid var(--line); border-radius:var(--radius);
     background:var(--card); padding:18px 16px 14px;
-    position:relative; margin-bottom:24px;
+    position:relative; margin-bottom:26px; box-shadow:var(--shadow-sm);
   }
-  .subscribe legend, .subscribe .frame-label{
+  .subscribe .frame-label{
     position:absolute; top:-9px; left:14px;
     background:var(--card); padding:0 8px;
     font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
@@ -120,19 +136,21 @@
   .subscribe p{font-size:13px; color:var(--slate); margin-bottom:10px}
   .subscribe-row{display:flex; gap:8px}
   .subscribe input{
-    flex:1; min-width:0; border:1px solid var(--line); border-radius:6px;
-    padding:9px 12px; font:inherit; font-size:14px; color:var(--ink);
-    background:#FAFBFC;
+    flex:1; min-width:0; border:1px solid var(--line); border-radius:7px;
+    padding:10px 12px; font:inherit; font-size:14px; color:var(--ink);
+    background:#FAFBFC; transition:border-color .15s ease;
   }
+  .subscribe input:hover{border-color:#B9C0C9}
   .subscribe input:focus{outline:2px solid var(--db-red); outline-offset:-1px; background:#fff}
   .subscribe button{
-    flex:none; border:0; border-radius:6px; background:var(--db-red); color:#fff;
-    font:inherit; font-size:13.5px; font-weight:700; padding:9px 18px; cursor:pointer;
-    transition:background .15s ease;
+    flex:none; border:0; border-radius:7px; background:var(--db-red); color:#fff;
+    font:inherit; font-size:13.5px; font-weight:700; padding:10px 20px; cursor:pointer;
+    transition:background .15s ease, transform .12s ease; box-shadow:var(--shadow-sm);
   }
-  .subscribe button:hover{background:var(--db-red-dark)}
+  .subscribe button:hover{background:var(--db-red-dark); transform:translateY(-1px)}
+  .subscribe button:active{transform:translateY(0)}
   .subscribe button:focus-visible{outline:3px solid var(--ink); outline-offset:2px}
-  .subscribe button:disabled{opacity:.6; cursor:default}
+  .subscribe button:disabled{opacity:.6; cursor:default; transform:none}
   .sub-status{font-size:12.5px; margin-top:8px; min-height:16px}
   .sub-status.ok{color:#0A7D33}
   .sub-status.err{color:var(--db-red)}
@@ -142,56 +160,61 @@
   }
 
   /* ---------- grid ---------- */
-  main{max-width:1080px; margin:0 auto; padding:28px 20px 60px}
-  .grid{
-    display:grid; gap:18px;
-    grid-template-columns:repeat(3,1fr);
-  }
+  main{max-width:1080px; margin:0 auto; padding:30px 20px 60px}
+  .grid{display:grid; gap:20px; grid-template-columns:repeat(3,1fr)}
   @media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
   @media (max-width:560px){.grid{grid-template-columns:1fr}}
 
   /* ---------- card ---------- */
   .card{
     background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    overflow:hidden; display:flex; flex-direction:column;
-    transition:box-shadow .18s ease, transform .18s ease;
+    overflow:hidden; display:flex; flex-direction:column; position:relative;
+    box-shadow:var(--shadow-sm);
+    transition:box-shadow .2s ease, transform .2s ease, border-color .2s ease;
   }
-  .card:hover{box-shadow:0 6px 22px rgba(40,45,55,.13); transform:translateY(-2px)}
+  .card:hover{box-shadow:var(--shadow-lg); transform:translateY(-3px); border-color:#C6CCD4}
   .card-btn{
     all:unset; cursor:pointer; display:flex; flex-direction:column; width:100%;
   }
   .card-btn:focus-visible{outline:3px solid var(--db-red); outline-offset:-3px; border-radius:var(--radius)}
 
-  .photo{
-    position:relative; height:132px; background:linear-gradient(135deg,#3A4150,#282D37);
-    overflow:hidden;
-  }
-  .photo img{width:100%; height:100%; object-fit:cover; display:block}
-  .photo .shade{
-    position:absolute; inset:0;
-    background:linear-gradient(to top, rgba(20,23,30,.72) 0%, rgba(20,23,30,.06) 55%);
-  }
-  .photo .city{
-    position:absolute; left:14px; bottom:10px; color:#fff;
-    font-weight:800; font-variation-settings:'wdth' 112;
-    font-size:22px; letter-spacing:.01em; text-shadow:0 1px 6px rgba(0,0,0,.35);
+  .best-badge{
+    position:absolute; top:10px; left:10px; z-index:2;
+    background:#fff; color:var(--db-red);
+    font-size:10px; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
+    padding:4px 9px; border-radius:99px; box-shadow:0 2px 8px rgba(0,0,0,.25);
   }
 
-  .card-body{padding:13px 14px 14px; display:flex; align-items:center; gap:10px}
+  .photo{
+    position:relative; height:148px; background:linear-gradient(135deg,#3A4150,#282D37);
+    overflow:hidden;
+  }
+  .photo img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    transition:transform .35s ease;
+  }
+  .card:hover .photo img{transform:scale(1.06)}
+  .photo .shade{
+    position:absolute; inset:0;
+    background:linear-gradient(to top, rgba(20,23,30,.74) 0%, rgba(20,23,30,.05) 58%);
+  }
+  .photo .city{
+    position:absolute; left:14px; bottom:11px; color:#fff;
+    font-weight:800; font-variation-settings:'wdth' 112;
+    font-size:23px; letter-spacing:.01em; text-shadow:0 1px 8px rgba(0,0,0,.4);
+  }
+
+  .card-body{padding:14px; display:flex; align-items:center; gap:10px}
   .card-info{flex:1; min-width:0}
   .weekend{font-weight:700; font-size:15px; margin-bottom:3px}
-  .variant{
-    display:inline-flex; align-items:center; gap:5px;
-    font-size:12px; color:var(--slate);
-  }
+  .variant{display:inline-flex; align-items:center; gap:5px; font-size:12px; color:var(--slate)}
   .variant .dot{width:7px; height:7px; border-radius:50%; background:var(--db-red); flex:none}
 
   /* ticket-stub price chip */
   .price{
     flex:none; background:var(--db-red); color:#fff;
-    padding:9px 13px 8px; border-radius:6px; text-align:center;
-    position:relative;
-    --notch:radial-gradient(circle 5px at 0 50%, transparent 98%, var(--db-red) 100%);
+    padding:9px 14px 8px; border-radius:7px; text-align:center; position:relative;
+    background-image:linear-gradient(135deg, rgba(255,255,255,.09), transparent 55%);
   }
   .price::before,.price::after{
     content:""; position:absolute; top:50%; width:10px; height:10px;
@@ -202,32 +225,34 @@
   .price .amount{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:19px; line-height:1}
   .price .label{font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; opacity:.85; margin-top:3px}
 
+  .chev{
+    flex:none; color:var(--faint); transition:transform .25s ease;
+  }
+  .card.open .chev{transform:rotate(180deg)}
+
   /* ---------- details ---------- */
   .details{
-    max-height:0; overflow:hidden; transition:max-height .28s ease;
-    border-top:0 solid var(--line);
+    max-height:0; overflow:hidden; transition:max-height .3s ease;
+    background:#FAFBFC;
   }
   .card.open .details{max-height:340px; border-top:1px solid var(--line)}
-  .leg{
-    display:flex; align-items:baseline; gap:10px;
-    padding:11px 14px;
-  }
+  .leg{display:flex; align-items:baseline; gap:10px; padding:11px 14px}
   .leg + .leg{border-top:1px dashed var(--line)}
   .leg .dir{
-    flex:none; width:44px; font-size:10.5px; font-weight:700;
+    flex:none; width:48px; font-size:10.5px; font-weight:700;
     letter-spacing:.12em; text-transform:uppercase; color:var(--db-red);
   }
   .leg .body{flex:1; min-width:0}
   .leg .times{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:14.5px}
   .leg .times .arrow{color:var(--faint); padding:0 2px}
   .leg .sub{font-size:12px; color:var(--slate); margin-top:2px}
-  .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:13px; color:var(--ink)}
+  .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:13px}
 
   .ticket-link{
     display:flex; align-items:center; justify-content:center; gap:8px;
-    padding:11px 14px; margin:0; background:var(--ink); color:#fff;
+    padding:11px 14px; background:var(--ink); color:#fff;
     text-decoration:none; font-size:13px; font-weight:700;
-    border-top:1px solid var(--line); transition:background .15s ease;
+    transition:background .15s ease;
   }
   .ticket-link:hover{background:#000}
   .ticket-link svg{flex:none}
@@ -235,18 +260,20 @@
   /* ---------- states ---------- */
   .notice{
     background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    padding:34px 24px; text-align:center; color:var(--slate); font-size:15px;
+    padding:36px 24px; text-align:center; color:var(--slate); font-size:15px;
+    box-shadow:var(--shadow-sm);
   }
   .notice strong{color:var(--ink)}
 
   footer{
     max-width:1080px; margin:0 auto; padding:0 20px 40px;
-    font-size:12px; color:var(--faint); line-height:1.6;
+    font-size:12px; color:var(--faint); line-height:1.7;
   }
 
   @media (prefers-reduced-motion:reduce){
-    .card, .details{transition:none}
+    .card,.details,.photo img,.chev,.subscribe button,.ad-cta{transition:none}
     .card:hover{transform:none}
+    .card:hover .photo img{transform:none}
   }
 </style>
 </head>
@@ -271,11 +298,14 @@
   <div class="header-inner">
     <div class="wordmark">
       <div class="eyebrow" id="txtEyebrow">Wochenende ab Hamburg</div>
-      <h1 id="txtTitle">Wochenendticket</h1>
+      <h1 id="txtTitle">Wochenendkurztrip</h1>
     </div>
     <div class="stand">
-      <div id="txtStandLabel">Zuletzt aktualisiert</div>
-      <div class="t mono" id="stand">—</div>
+      <div class="label" id="txtStandLabel">Zuletzt aktualisiert</div>
+      <span class="t mono" id="standWrap">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
+        <span id="stand">—</span>
+      </span>
     </div>
   </div>
 </header>
@@ -314,15 +344,15 @@
 
 <footer>
   <div id="txtFooter1">Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.</div>
-  <div id="txtFooter2">Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Sonntag 15:00–20:00.</div>
+  <div id="txtFooter2">Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Samstag 17:00–23:00 oder Sonntag 15:00–20:00.</div>
 </footer>
 
 <script src="data.js"></script>
 <script>
-// ================== SUPABASE AYARLARI — DOLDUR ==================
-var SUPABASE_URL = "https://XXXX.supabase.co";   // Supabase proje URL'in
-var SUPABASE_ANON_KEY = "ANON_KEY_BURAYA";       // Settings > API > anon public key
-// ================================================================
+// ================== SUPABASE ==================
+var SUPABASE_URL = "https://kuuwdpzyeovkfjoradwq.supabase.co";
+var SUPABASE_ANON_KEY = "sb_publishable_M-QnplymNuUQVcbHQr0_RQ_wLh2YFOp";
+// ==============================================
 
 // ================== I18N ==================
 var I18N = {
@@ -332,7 +362,7 @@ var I18N = {
     adDesc:"Deutsch lernen — von A1 bis B2, ein paar Minuten am Tag",
     adTag:"Anzeige",
     eyebrow:"Wochenende ab Hamburg",
-    title:"Wochenendticket",
+    title:"Wochenendkurztrip",
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
     metaDirect:"Direktverbindungen, 2. Klasse, Einzelperson",
@@ -353,12 +383,14 @@ var I18N = {
     noticeNoDataTitle:"Datendatei nicht gefunden.",
     noticeNoDataSub:"Lade die vom Scan-Skript erzeugte data.js-Datei neben diese Seite hoch.",
     variantSuffix:"Abfahrt",
+    dayTrip:"Tagesausflug Samstag",
+    best:"Bestpreis",
     legOut:"Hin",
     legRet:"Rück",
     priceLabel:"EUR H/R",
     goToTicket:"Zum Ticket auf bahn.de",
     footer1:"Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.",
-    footer2:"Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Sonntag 15:00–20:00.",
+    footer2:"Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Samstag 17:00–23:00 oder Sonntag 15:00–20:00.",
     days:["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],
     months:["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],
     cities:{}
@@ -369,7 +401,7 @@ var I18N = {
     adDesc:"Learn German — from A1 to B2, a few minutes a day",
     adTag:"Ad",
     eyebrow:"Weekend from Hamburg",
-    title:"Weekend Ticket",
+    title:"Wochenendkurztrip",
     standLabel:"Last updated",
     metaFrom:"Departure:",
     metaDirect:"Direct connections, 2nd class, single traveller",
@@ -390,12 +422,14 @@ var I18N = {
     noticeNoDataTitle:"Data file not found.",
     noticeNoDataSub:"Upload the data.js file generated by the scan script next to this page.",
     variantSuffix:"departure",
+    dayTrip:"Saturday day trip",
+    best:"Best price",
     legOut:"Out",
     legRet:"Back",
     priceLabel:"EUR RT",
     goToTicket:"Go to ticket on bahn.de",
     footer1:"Prices are Sparpreis fares at the time of scanning; they may change on bahn.de at any time.",
-    footer2:"Departure windows: Friday 18:00–23:00 / Saturday 06:00–10:00, return: Sunday 15:00–20:00.",
+    footer2:"Departure windows: Friday 18:00–23:00 / Saturday 06:00–10:00, return: Saturday 17:00–23:00 or Sunday 15:00–20:00.",
     days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
     months:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     cities:{"München":"Munich","Köln":"Cologne","Nürnberg":"Nuremberg"}
@@ -406,7 +440,7 @@ var I18N = {
     adDesc:"Almanca öğren — A1'den B2'ye, günde birkaç dakika",
     adTag:"Reklam",
     eyebrow:"Wochenende ab Hamburg",
-    title:"Haftasonu Bileti",
+    title:"Wochenendkurztrip",
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
     metaDirect:"Direkt seferler, 2. sınıf, tek kişi",
@@ -427,12 +461,14 @@ var I18N = {
     noticeNoDataTitle:"Veri dosyası bulunamadı.",
     noticeNoDataSub:"Tarama scriptinin ürettiği data.js dosyasını bu sayfanın yanına yükle.",
     variantSuffix:"çıkışlı",
+    dayTrip:"Cumartesi günübirlik",
+    best:"En ucuz",
     legOut:"Gidiş",
     legRet:"Dönüş",
     priceLabel:"EUR G/D",
     goToTicket:"bahn.de'de bilete git",
     footer1:"Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.",
-    footer2:"Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Pazar 15:00–20:00.",
+    footer2:"Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Cumartesi 17:00–23:00 veya Pazar 15:00–20:00.",
     days:["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],
     months:["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"],
     cities:{"München":"Münih"}
@@ -445,7 +481,7 @@ var currentLang = (function(){
     var saved = localStorage.getItem(LANG_STORAGE_KEY);
     if (saved && I18N[saved]) return saved;
   } catch(e){}
-  return "de"; // default: German
+  return "de";
 })();
 
 function T(){ return I18N[currentLang]; }
@@ -488,9 +524,7 @@ function applyStaticText(){
 }
 
 function setLang(code){
-  if (!I18N[code] || code === currentLang && document.getElementById("langSwitcher").children.length) {
-    if (code !== currentLang) {} else { currentLang = code; }
-  }
+  if (!I18N[code]) return;
   currentLang = code;
   try { localStorage.setItem(LANG_STORAGE_KEY, code); } catch(e){}
   buildLangSwitcher();
@@ -540,7 +574,6 @@ function setLang(code){
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
     "Nürnberg":"Nürnberg","Münster":"Münster","Hannover":"Hannover"
   };
-  // Resmi DB açık veri seti (D_Bahnhof_2020_alle.csv) üzerinden EVA-Nummer + koordinatlar
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
     "Berlin":   { name:"Berlin Hbf",           eva:"8011160", lon:13.36980,  lat:52.52709  },
@@ -563,9 +596,11 @@ function setLang(code){
   function eur(v){return v.toFixed(2).replace(".",",")}
   function cityLabel(city){ var t = T(); return (t.cities && t.cities[city]) ? t.cities[city] : city; }
   function translateVariant(variant){
+    var t = T();
+    if (variant === "Gunubirlik" || variant === "Günübirlik") return t.dayTrip;
     var idx = TR_DAYS.indexOf(variant);
     if (idx === -1) return variant;
-    return T().days[idx];
+    return t.days[idx] + " " + t.variantSuffix;
   }
   function isoLocal(d){
     return d.getFullYear() + "-" + pad(d.getMonth()+1) + "-" + pad(d.getDate()) +
@@ -592,6 +627,8 @@ function setLang(code){
     var t = T();
     var start = new Date(outDep);
     var end = new Date(retDep);
+    if (start.toDateString() === end.toDateString())
+      return start.getDate() + " " + t.months[start.getMonth()];
     if (start.getMonth() === end.getMonth())
       return start.getDate() + "\u2013" + end.getDate() + " " + t.months[end.getMonth()];
     return start.getDate() + " " + t.months[start.getMonth()] + " \u2013 " + end.getDate() + " " + t.months[end.getMonth()];
@@ -631,7 +668,8 @@ function setLang(code){
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
-        '<button class="card-btn" aria-expanded="false">' +
+        (i === 0 ? '<span class="best-badge">' + t.best + '</span>' : '') +
+        '<div class="card-btn" role="button" tabindex="0" aria-expanded="false">' +
           '<div class="photo" data-city="' + dl.city + '">' +
             '<div class="shade"></div>' +
             '<div class="city">' + cityLabel(dl.city) + '</div>' +
@@ -639,23 +677,32 @@ function setLang(code){
           '<div class="card-body">' +
             '<div class="card-info">' +
               '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
-              '<div class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + ' ' + t.variantSuffix + '</div>' +
+              '<div class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + '</div>' +
             '</div>' +
             '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">' + t.priceLabel + '</div></div>' +
+            '<svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
           '</div>' +
           '<div class="details">' +
             legRow(t.legOut, dl.out) +
             legRow(t.legRet, dl.ret) +
-            '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">' +
+            '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener">' +
               '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
-              t.goToTicket +
+              '<span>' + t.goToTicket + '</span>' +
             '</a>' +
           '</div>' +
-        '</button>';
+        '</div>';
+
       var btn = card.querySelector(".card-btn");
-      btn.addEventListener("click", function(){
+      function toggle(){
         var open = card.classList.toggle("open");
         btn.setAttribute("aria-expanded", open ? "true" : "false");
+      }
+      btn.addEventListener("click", function(e){
+        if (e.target.closest(".ticket-link")) return; // linke tiklaninca kart kapanmasin
+        toggle();
+      });
+      btn.addEventListener("keydown", function(e){
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
       });
       grid.appendChild(card);
     });
@@ -673,8 +720,7 @@ function setLang(code){
       var key = title;
       var apply = function(url){
         if(!url) return;
-        var existing = ph.querySelector("img");
-        if (existing) return;
+        if (ph.querySelector("img")) return;
         var img = document.createElement("img");
         img.src = url; img.alt = ""; img.loading = "lazy";
         img.onerror = function(){ img.remove(); };
