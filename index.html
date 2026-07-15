@@ -589,12 +589,11 @@ function setLang(code){
 
   function weekendLabel(outDep, retDep){
     var t = T();
-    var fri = new Date(outDep);
-    fri.setDate(fri.getDate() - ((fri.getDay() - 5 + 7) % 7)); // that week's Friday
-    var sun = new Date(retDep);
-    if (fri.getMonth() === sun.getMonth())
-      return fri.getDate() + "\u2013" + sun.getDate() + " " + t.months[sun.getMonth()];
-    return fri.getDate() + " " + t.months[fri.getMonth()] + " \u2013 " + sun.getDate() + " " + t.months[sun.getMonth()];
+    var start = new Date(outDep);
+    var end = new Date(retDep);
+    if (start.getMonth() === end.getMonth())
+      return start.getDate() + "\u2013" + end.getDate() + " " + t.months[end.getMonth()];
+    return start.getDate() + " " + t.months[start.getMonth()] + " \u2013 " + end.getDate() + " " + t.months[end.getMonth()];
   }
 
   function legRow(dirLabel, leg){
