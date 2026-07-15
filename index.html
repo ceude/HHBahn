@@ -74,7 +74,7 @@
       radial-gradient(700px 420px at 95% 8%, rgba(255,40,60,.42), transparent 65%),
       radial-gradient(500px 500px at 70% 120%, rgba(120,0,12,.55), transparent 60%),
       linear-gradient(160deg, #F5202F 0%, var(--red) 45%, #C4000F 100%);
-    padding:0 0 92px;
+    padding:0 0 56px;
   }
   .hero::before{ /* isik halkasi */
     content:""; position:absolute; width:560px; height:560px; border-radius:50%;
@@ -107,24 +107,24 @@
   .lang-btn.active{background:#fff; color:var(--red); box-shadow:0 2px 8px rgba(0,0,0,.18)}
   .lang-btn:focus-visible{outline:2px solid #fff; outline-offset:1px}
 
-  .hero-main{padding-top:34px}
+  .hero-main{padding-top:22px}
   .eyebrow{
     display:inline-flex; align-items:center; gap:8px;
     font-size:11.5px; letter-spacing:.24em; text-transform:uppercase; font-weight:700;
-    color:rgba(255,255,255,.85); margin-bottom:12px;
+    color:rgba(255,255,255,.85); margin-bottom:10px;
   }
   .eyebrow::before{content:""; width:26px; height:1.5px; background:rgba(255,255,255,.6)}
   h1{
     font-weight:800; font-variation-settings:'wdth' 120;
-    font-size:clamp(34px,6.4vw,60px); line-height:.98; letter-spacing:-.015em;
-    max-width:14ch;
+    font-size:clamp(28px,4.6vw,44px); line-height:1.0; letter-spacing:-.015em;
+    max-width:16ch;
     text-shadow:0 2px 24px rgba(120,0,10,.3);
   }
   .hero-sub{
-    margin-top:14px; font-size:15px; color:rgba(255,255,255,.85); max-width:52ch; line-height:1.55;
+    margin-top:10px; font-size:14.5px; color:rgba(255,255,255,.85); max-width:52ch; line-height:1.5;
   }
   .stand-pill{
-    margin-top:22px; display:inline-flex; align-items:center; gap:9px;
+    margin-top:16px; display:inline-flex; align-items:center; gap:9px;
     background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3);
     -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
     border-radius:99px; padding:8px 16px; font-size:13px; font-weight:600;
@@ -143,7 +143,7 @@
   /* ================= GLASS CHIPS ================= */
   .chips{
     display:flex; flex-wrap:wrap; gap:10px;
-    margin-top:-64px; position:relative; z-index:4;
+    margin-top:20px; position:relative; z-index:4;
   }
   .chip{
     display:inline-flex; align-items:center; gap:8px;
@@ -157,7 +157,7 @@
   .chip strong{font-weight:700}
 
   /* ================= GRID / CARDS ================= */
-  main{padding:34px 0 26px}
+  main{padding:24px 0 26px}
   .grid{display:grid; gap:22px; grid-template-columns:repeat(3,1fr)}
   @media (max-width:880px){.grid{grid-template-columns:repeat(2,1fr)}}
   @media (max-width:580px){.grid{grid-template-columns:1fr}}
@@ -686,9 +686,9 @@ function setLang(code){
 <script>
 (function(){
   var WIKI = {
-    "Berlin":"Berlin","München":"München","Köln":"Köln","Frankfurt":"Frankfurt am Main",
+    "Berlin":"Berlin","München":"Munich","Köln":"Cologne","Frankfurt":"Frankfurt",
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
-    "Nürnberg":"Nürnberg","Münster":"Münster","Hannover":"Hannover"
+    "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover"
   };
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
@@ -830,6 +830,18 @@ function setLang(code){
 
   function loadPhotos(){
     var done = {};
+    // Arma/logo gibi gorselleri ele (dosya adinda wappen/coat/logo/flagge gecenler)
+    function badImage(url){ return /wappen|coat|logo|flagge|flag_of|siegel/i.test(url || ""); }
+    function thumbFrom(host, title){
+      return fetch("https://" + host + "/api/rest_v1/page/summary/" + encodeURIComponent(title))
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(j){
+          var u = j && (j.originalimage ? j.originalimage.source : (j.thumbnail ? j.thumbnail.source : null));
+          if (!u || badImage(u)) return null;
+          return u.replace(/\/\d+px-/, "/800px-");
+        })
+        .catch(function(){ return null; });
+    }
     document.querySelectorAll(".photo").forEach(function(ph){
       var city = ph.getAttribute("data-city");
       var title = WIKI[city] || city;
@@ -843,10 +855,10 @@ function setLang(code){
         ph.insertBefore(img, ph.firstChild);
       };
       if (done[key]) { done[key].then(apply); return; }
-      done[key] = fetch("https://de.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title))
-        .then(function(r){ return r.ok ? r.json() : null; })
-        .then(function(j){ return j && j.thumbnail ? j.thumbnail.source.replace(/\/\d+px-/, "/640px-") : null; })
-        .catch(function(){ return null; });
+      // Once Wikivoyage (genis manzara bannerlari), olmazsa Wikipedia (EN, sehir sayfalari foto kullanir)
+      done[key] = thumbFrom("en.wikivoyage.org", title).then(function(u){
+        return u || thumbFrom("en.wikipedia.org", title);
+      });
       done[key].then(apply);
     });
   }
