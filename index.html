@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wochenende ab Hamburg — Ucuz Haftasonu Biletleri</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --db-red:#EC0016; --db-red-dark:#C50014;
+    --ink:#282D37; --slate:#646973; --faint:#878C96;
+    --bg:#F0F1F2; --card:#FFFFFF; --line:#D7DCE1;
+    --radius:8px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Archivo',system-ui,sans-serif;
+    font-variation-settings:'wdth' 100;
+    background:var(--bg); color:var(--ink);
+    min-height:100vh;
+  }
+  .mono{font-family:'IBM Plex Mono',monospace}
+
+  /* ---------- header ---------- */
+  header{background:var(--db-red); color:#fff}
+  .header-inner{
+    max-width:1080px; margin:0 auto; padding:26px 20px 22px;
+    display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  }
+  .wordmark .eyebrow{
+    font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+    font-weight:600; opacity:.85; margin-bottom:4px;
+  }
+  .wordmark h1{
+    font-weight:800; font-variation-settings:'wdth' 116;
+    font-size:clamp(26px,4.5vw,38px); line-height:1.02; letter-spacing:-.01em;
+  }
+  .stand{
+    text-align:right; font-size:13px; line-height:1.5; opacity:.95;
+  }
+  .stand .t{font-weight:600}
+
+  /* ---------- meta bar ---------- */
+  .metabar{background:var(--ink); color:#fff}
+  .metabar-inner{
+    max-width:1080px; margin:0 auto; padding:10px 20px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap;
+    font-size:13px;
+  }
+  .metabar svg{flex:none; display:block}
+  .meta-item{display:flex; align-items:center; gap:7px; color:#C9CED6}
+  .meta-item strong{color:#fff; font-weight:600}
+
+  /* ---------- grid ---------- */
+  main{max-width:1080px; margin:0 auto; padding:28px 20px 60px}
+  .grid{
+    display:grid; gap:18px;
+    grid-template-columns:repeat(3,1fr);
+  }
+  @media (max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:560px){.grid{grid-template-columns:1fr}}
+
+  /* ---------- card ---------- */
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; display:flex; flex-direction:column;
+    transition:box-shadow .18s ease, transform .18s ease;
+  }
+  .card:hover{box-shadow:0 6px 22px rgba(40,45,55,.13); transform:translateY(-2px)}
+  .card-btn{
+    all:unset; cursor:pointer; display:flex; flex-direction:column; width:100%;
+  }
+  .card-btn:focus-visible{outline:3px solid var(--db-red); outline-offset:-3px; border-radius:var(--radius)}
+
+  .photo{
+    position:relative; height:132px; background:linear-gradient(135deg,#3A4150,#282D37);
+    overflow:hidden;
+  }
+  .photo img{width:100%; height:100%; object-fit:cover; display:block}
+  .photo .shade{
+    position:absolute; inset:0;
+    background:linear-gradient(to top, rgba(20,23,30,.72) 0%, rgba(20,23,30,.06) 55%);
+  }
+  .photo .city{
+    position:absolute; left:14px; bottom:10px; color:#fff;
+    font-weight:800; font-variation-settings:'wdth' 112;
+    font-size:22px; letter-spacing:.01em; text-shadow:0 1px 6px rgba(0,0,0,.35);
+  }
+
+  .card-body{padding:13px 14px 14px; display:flex; align-items:center; gap:10px}
+  .card-info{flex:1; min-width:0}
+  .weekend{font-weight:700; font-size:15px; margin-bottom:3px}
+  .variant{
+    display:inline-flex; align-items:center; gap:5px;
+    font-size:12px; color:var(--slate);
+  }
+  .variant .dot{width:7px; height:7px; border-radius:50%; background:var(--db-red); flex:none}
+
+  /* ticket-stub price chip */
+  .price{
+    flex:none; background:var(--db-red); color:#fff;
+    padding:9px 13px 8px; border-radius:6px; text-align:center;
+    position:relative;
+    --notch:radial-gradient(circle 5px at 0 50%, transparent 98%, var(--db-red) 100%);
+  }
+  .price::before,.price::after{
+    content:""; position:absolute; top:50%; width:10px; height:10px;
+    background:var(--card); border-radius:50%; transform:translateY(-50%);
+  }
+  .price::before{left:-5px}
+  .price::after{right:-5px}
+  .price .amount{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:19px; line-height:1}
+  .price .label{font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; opacity:.85; margin-top:3px}
+
+  /* ---------- details ---------- */
+  .details{
+    max-height:0; overflow:hidden; transition:max-height .28s ease;
+    border-top:0 solid var(--line);
+  }
+  .card.open .details{max-height:260px; border-top:1px solid var(--line)}
+  .leg{
+    display:flex; align-items:baseline; gap:10px;
+    padding:11px 14px;
+  }
+  .leg + .leg{border-top:1px dashed var(--line)}
+  .leg .dir{
+    flex:none; width:44px; font-size:10.5px; font-weight:700;
+    letter-spacing:.12em; text-transform:uppercase; color:var(--db-red);
+  }
+  .leg .body{flex:1; min-width:0}
+  .leg .times{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:14.5px}
+  .leg .times .arrow{color:var(--faint); padding:0 2px}
+  .leg .sub{font-size:12px; color:var(--slate); margin-top:2px}
+  .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:13px; color:var(--ink)}
+
+  /* ---------- states ---------- */
+  .notice{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:34px 24px; text-align:center; color:var(--slate); font-size:15px;
+  }
+  .notice strong{color:var(--ink)}
+
+  footer{
+    max-width:1080px; margin:0 auto; padding:0 20px 40px;
+    font-size:12px; color:var(--faint); line-height:1.6;
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .card, .details{transition:none}
+    .card:hover{transform:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="wordmark">
+      <div class="eyebrow">Wochenende ab Hamburg</div>
+      <h1>Haftasonu Bileti</h1>
+    </div>
+    <div class="stand">
+      <div>Son güncelleme</div>
+      <div class="t mono" id="stand">—</div>
+    </div>
+  </div>
+</header>
+
+<div class="metabar">
+  <div class="metabar-inner">
+    <span class="meta-item">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2 L12 22 M12 22 L7 17 M12 22 L17 17" transform="rotate(90 12 12)"/></svg>
+      Kalkış: <strong>Hamburg Hbf</strong>
+    </span>
+    <span class="meta-item">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="14" rx="2.5"/><path d="M9 17 L7 21 M15 17 L17 21 M7 12 L17 12"/></svg>
+      Direkt seferler, 2. sınıf, tek kişi
+    </span>
+    <span class="meta-item" id="capLabel">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
+      Gidiş-dönüş toplam <strong>&lt; 60 €</strong>
+    </span>
+  </div>
+</div>
+
+<main>
+  <div id="content"></div>
+</main>
+
+<footer>
+  Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.
+  Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Pazar 15:00–20:00.
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var AYLAR = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
+  var GUNLER = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
+  var WIKI = {
+    "Berlin":"Berlin","München":"München","Köln":"Köln","Frankfurt":"Frankfurt am Main",
+    "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
+    "Nürnberg":"Nürnberg","Münster":"Münster","Hannover":"Hannover"
+  };
+  var content = document.getElementById("content");
+
+  function pad(n){return String(n).padStart(2,"0")}
+  function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
+  function eur(v){return v.toFixed(2).replace(".",",")}
+
+  function weekendLabel(outDep, retDep){
+    var fri = new Date(outDep);
+    fri.setDate(fri.getDate() - ((fri.getDay() - 5 + 7) % 7)); // o haftanin Cumasi
+    var sun = new Date(retDep);
+    if (fri.getMonth() === sun.getMonth())
+      return fri.getDate() + "\u2013" + sun.getDate() + " " + AYLAR[sun.getMonth()];
+    return fri.getDate() + " " + AYLAR[fri.getMonth()] + " \u2013 " + sun.getDate() + " " + AYLAR[sun.getMonth()];
+  }
+
+  function legRow(dirLabel, leg){
+    var dep = new Date(leg.dep), arr = new Date(leg.arr);
+    return '<div class="leg">' +
+      '<span class="dir">' + dirLabel + '</span>' +
+      '<span class="body">' +
+        '<span class="times">' + hhmm(dep) + '<span class="arrow">\u2192</span>' + hhmm(arr) + '</span>' +
+        '<div class="sub">' + GUNLER[dep.getDay()] + ' ' + pad(dep.getDate()) + '.' + pad(dep.getMonth()+1) +
+        ' \u00B7 ' + leg.trains + '</div>' +
+      '</span>' +
+      '<span class="lp">' + eur(leg.price) + ' \u20AC</span>' +
+    '</div>';
+  }
+
+  function render(data){
+    document.getElementById("stand").textContent =
+      (function(d){ return pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d); })(new Date(data.generatedAt));
+    document.querySelector("#capLabel strong").innerHTML = "&lt; " + Math.round(data.priceCap) + " \u20AC";
+
+    if (!data.deals || !data.deals.length){
+      content.innerHTML = '<div class="notice"><strong>Şu an limitin altında kombinasyon yok.</strong><br>' +
+        'Bir sonraki taramada tekrar bak.</div>';
+      return;
+    }
+
+    var deals = data.deals.slice().sort(function(a,b){return a.total-b.total});
+    var grid = document.createElement("div");
+    grid.className = "grid";
+
+    deals.forEach(function(dl, i){
+      var card = document.createElement("article");
+      card.className = "card";
+      card.innerHTML =
+        '<button class="card-btn" aria-expanded="false">' +
+          '<div class="photo" data-city="' + dl.city + '">' +
+            '<div class="shade"></div>' +
+            '<div class="city">' + dl.city + '</div>' +
+          '</div>' +
+          '<div class="card-body">' +
+            '<div class="card-info">' +
+              '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
+              '<div class="variant"><span class="dot"></span>' + dl.variant + ' çıkışlı</div>' +
+            '</div>' +
+            '<div class="price"><div class="amount">' + eur(dl.total) + '</div><div class="label">EUR G/D</div></div>' +
+          '</div>' +
+          '<div class="details">' +
+            legRow("Gidiş", dl.out) +
+            legRow("Dönüş", dl.ret) +
+          '</div>' +
+        '</button>';
+      var btn = card.querySelector(".card-btn");
+      btn.addEventListener("click", function(){
+        var open = card.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      grid.appendChild(card);
+    });
+
+    content.innerHTML = "";
+    content.appendChild(grid);
+    loadPhotos();
+  }
+
+  function loadPhotos(){
+    var done = {};
+    document.querySelectorAll(".photo").forEach(function(ph){
+      var city = ph.getAttribute("data-city");
+      var title = WIKI[city] || city;
+      var key = title;
+      var apply = function(url){
+        if(!url) return;
+        var img = document.createElement("img");
+        img.src = url; img.alt = ""; img.loading = "lazy";
+        img.onerror = function(){ img.remove(); };
+        ph.insertBefore(img, ph.firstChild);
+      };
+      if (done[key]) { done[key].then(apply); return; }
+      done[key] = fetch("https://de.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title))
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(j){ return j && j.thumbnail ? j.thumbnail.source.replace(/\/\d+px-/, "/640px-") : null; })
+        .catch(function(){ return null; });
+      done[key].then(apply);
+    });
+  }
+
+  if (window.BAHN_DATA) {
+    render(window.BAHN_DATA);
+  } else {
+    content.innerHTML = '<div class="notice"><strong>Veri dosyası bulunamadı.</strong><br>' +
+      'Tarama scriptinin ürettiği <span class="mono">data.js</span> dosyasını bu sayfanın yanına yükle.</div>';
+  }
+})();
+</script>
+</body>
+</html>
