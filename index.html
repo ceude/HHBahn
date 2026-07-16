@@ -916,21 +916,24 @@ function setLang(code){
   }
 
   // ---------- FOTO ----------
+  var DE_TITLES = { "Frankfurt":"Frankfurt am Main" };
   function loadPhotos(){
-    function badImage(url){ return /wappen|coat|logo|flagge|flag_of|siegel/i.test(url || ""); }
+    function badImage(url){ return /wappen|coat|logo|flagge|flag_of|siegel|karte|map|locator|lage/i.test(url || ""); }
     function thumbFrom(host, title){
-      return fetch("https://" + host + "/api/rest_v1/page/summary/" + encodeURIComponent(title))
+      var api = "https://" + host + "/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=900&redirects=1&origin=*&titles=" + encodeURIComponent(title);
+      return fetch(api)
         .then(function(r){ return r.ok ? r.json() : null; })
         .then(function(j){
-          var u = j && (j.originalimage ? j.originalimage.source : (j.thumbnail ? j.thumbnail.source : null));
-          if (!u || badImage(u)) return null;
-          return u.replace(/\/\d+px-/, "/800px-");
+          if (!j || !j.query || !j.query.pages) return null;
+          var pages = j.query.pages;
+          var first = pages[Object.keys(pages)[0]];
+          var u = first && first.thumbnail ? first.thumbnail.source : null;
+          return (!u || badImage(u)) ? null : u;
         })
         .catch(function(){ return null; });
     }
     document.querySelectorAll(".photo").forEach(function(ph){
       var city = ph.getAttribute("data-city");
-      var title = WIKI[city] || city;
       var apply = function(url){
         if(!url) return;
         if (ph.querySelector("img")) return;
@@ -939,11 +942,12 @@ function setLang(code){
         img.onerror = function(){ img.remove(); };
         ph.insertBefore(img, ph.firstChild);
       };
-      if (photoCache[title]) { photoCache[title].then(apply); return; }
-      photoCache[title] = thumbFrom("en.wikivoyage.org", title).then(function(u){
-        return u || thumbFrom("en.wikipedia.org", title);
+      if (photoCache[city]) { photoCache[city].then(apply); return; }
+      // Once EN Wikipedia (sehir sayfalari genelde foto/kolaj), olmazsa DE Wikipedia
+      photoCache[city] = thumbFrom("en.wikipedia.org", WIKI[city] || city).then(function(u){
+        return u || thumbFrom("de.wikipedia.org", DE_TITLES[city] || city);
       });
-      photoCache[title].then(apply);
+      photoCache[city].then(apply);
     });
   }
 
