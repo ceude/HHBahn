@@ -21,7 +21,7 @@
     --blur:saturate(1.6) blur(16px);
   }
   *{box-sizing:border-box; margin:0; padding:0}
-  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
+  html{-webkit-text-size-adjust:100%}
   body{
     font-family:'Archivo',system-ui,-apple-system,sans-serif;
     font-variation-settings:'wdth' 100;
@@ -74,9 +74,9 @@
       radial-gradient(700px 420px at 95% 8%, rgba(255,40,60,.42), transparent 65%),
       radial-gradient(500px 500px at 70% 120%, rgba(120,0,12,.55), transparent 60%),
       linear-gradient(160deg, #F5202F 0%, var(--red) 45%, #C4000F 100%);
-    padding:0 0 56px;
+    padding:0 0 52px;
   }
-  .hero::before{ /* isik halkasi */
+  .hero::before{
     content:""; position:absolute; width:560px; height:560px; border-radius:50%;
     border:1.5px solid rgba(255,255,255,.14);
     top:-260px; right:-140px; pointer-events:none;
@@ -86,10 +86,7 @@
     border:1.5px solid rgba(255,255,255,.10);
     bottom:-190px; left:-110px; pointer-events:none;
   }
-  .hero-top{
-    display:flex; align-items:center; justify-content:flex-end;
-    padding-top:18px;
-  }
+  .hero-top{display:flex; align-items:center; justify-content:flex-end; padding-top:16px}
   .lang-switcher{
     display:flex; gap:2px; padding:3px;
     background:rgba(255,255,255,.14);
@@ -107,7 +104,7 @@
   .lang-btn.active{background:#fff; color:var(--red); box-shadow:0 2px 8px rgba(0,0,0,.18)}
   .lang-btn:focus-visible{outline:2px solid #fff; outline-offset:1px}
 
-  .hero-main{padding-top:22px}
+  .hero-main{padding-top:20px}
   .eyebrow{
     display:inline-flex; align-items:center; gap:8px;
     font-size:11.5px; letter-spacing:.24em; text-transform:uppercase; font-weight:700;
@@ -117,12 +114,9 @@
   h1{
     font-weight:800; font-variation-settings:'wdth' 120;
     font-size:clamp(28px,4.6vw,44px); line-height:1.0; letter-spacing:-.015em;
-    max-width:16ch;
     text-shadow:0 2px 24px rgba(120,0,10,.3);
   }
-  .hero-sub{
-    margin-top:10px; font-size:14.5px; color:rgba(255,255,255,.85); max-width:52ch; line-height:1.5;
-  }
+  .hero-sub{margin-top:10px; font-size:14.5px; color:rgba(255,255,255,.85); max-width:52ch; line-height:1.5}
   .stand-pill{
     margin-top:16px; display:inline-flex; align-items:center; gap:9px;
     background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3);
@@ -140,11 +134,8 @@
     100%{box-shadow:0 0 0 0 rgba(124,255,165,0)}
   }
 
-  /* ================= GLASS CHIPS ================= */
-  .chips{
-    display:flex; flex-wrap:wrap; gap:10px;
-    margin-top:20px; position:relative; z-index:4;
-  }
+  /* ================= CHIPS ================= */
+  .chips{display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; position:relative; z-index:4}
   .chip{
     display:inline-flex; align-items:center; gap:8px;
     background:var(--glass); border:1px solid var(--glass-border);
@@ -156,7 +147,7 @@
   .chip svg{flex:none; color:var(--red)}
   .chip strong{font-weight:700}
 
-  /* ================= GRID / CARDS ================= */
+  /* ================= HOME: CITY GRID ================= */
   main{padding:24px 0 26px}
   .grid{display:grid; gap:22px; grid-template-columns:repeat(3,1fr)}
   @media (max-width:880px){.grid{grid-template-columns:repeat(2,1fr)}}
@@ -168,13 +159,11 @@
     transition:transform .25s cubic-bezier(.2,.7,.3,1), box-shadow .25s ease;
   }
   .card:hover{transform:translateY(-5px); box-shadow:var(--shadow-float)}
-  .card-btn{
-    all:unset; display:block; width:100%; cursor:pointer;
-  }
+  .card-btn{all:unset; display:block; width:100%; cursor:pointer}
   .card-btn:focus-visible{outline:3px solid var(--red); outline-offset:-3px; border-radius:var(--r-lg)}
 
   .photo{
-    position:relative; height:190px; overflow:hidden;
+    position:relative; height:200px; overflow:hidden;
     background:linear-gradient(150deg,#494F5C,#23262E);
   }
   .photo img{
@@ -184,55 +173,96 @@
   .card:hover .photo img{transform:scale(1.07)}
   .photo .shade{
     position:absolute; inset:0;
-    background:linear-gradient(to top, rgba(12,14,19,.72) 0%, rgba(12,14,19,.12) 46%, rgba(12,14,19,.05) 100%);
+    background:linear-gradient(to top, rgba(12,14,19,.74) 0%, rgba(12,14,19,.16) 48%, rgba(12,14,19,.06) 100%);
   }
   .photo .city{
-    position:absolute; left:16px; bottom:32px; color:#fff;
+    position:absolute; left:16px; bottom:14px; color:#fff;
     font-weight:800; font-variation-settings:'wdth' 114;
-    font-size:25px; letter-spacing:-.01em; text-shadow:0 2px 12px rgba(0,0,0,.45);
+    font-size:26px; letter-spacing:-.01em; text-shadow:0 2px 12px rgba(0,0,0,.45);
     line-height:1;
   }
-  .photo .weekend{
-    position:absolute; left:16px; bottom:13px; color:rgba(255,255,255,.85);
-    font-size:12.5px; font-weight:600; letter-spacing:.02em;
-  }
-  .price-pill{
+  .from-pill{
     position:absolute; top:12px; right:12px;
-    background:rgba(255,255,255,.82); color:var(--ink);
+    background:rgba(255,255,255,.85); color:var(--ink);
     -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
     border:1px solid rgba(255,255,255,.65);
-    border-radius:14px; padding:7px 12px 6px; text-align:right;
-    box-shadow:0 6px 18px rgba(0,0,0,.22);
+    border-radius:16px; padding:9px 14px 8px; text-align:right;
+    box-shadow:0 8px 22px rgba(0,0,0,.26);
   }
-  .price-pill .amount{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:16.5px; line-height:1}
-  .price-pill .label{font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--slate); margin-top:2px}
+  .from-pill .amount{
+    font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:21px; line-height:1;
+    color:var(--red);
+  }
+  .from-pill .label{font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--slate); margin-top:3px}
+  .card-foot{
+    padding:12px 16px; display:flex; align-items:center; gap:8px;
+    font-size:13px; color:var(--slate);
+  }
+  .card-foot .count{flex:1; display:inline-flex; align-items:center; gap:7px}
+  .card-foot .dot{width:7px; height:7px; border-radius:50%; background:var(--red); flex:none}
+  .card-foot svg{color:var(--faint)}
 
-  .best-badge{
-    position:absolute; top:12px; left:12px; z-index:2;
-    display:inline-flex; align-items:center; gap:5px;
-    background:linear-gradient(135deg,var(--red-hot),var(--red));
-    color:#fff; font-size:10px; font-weight:800; letter-spacing:.12em; text-transform:uppercase;
-    padding:6px 11px; border-radius:99px;
-    box-shadow:0 4px 14px rgba(236,0,22,.45);
+  /* ================= CITY DETAIL ================= */
+  .back-chip{
+    all:unset; cursor:pointer;
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--glass); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-radius:99px; padding:9px 16px 9px 12px;
+    font-size:13px; font-weight:700; color:var(--ink);
+    box-shadow:0 6px 18px rgba(27,30,37,.10);
+    margin-bottom:16px;
+    transition:transform .15s ease;
   }
-  .best-badge svg{display:block}
+  .back-chip:hover{transform:translateX(-2px)}
+  .back-chip:focus-visible{outline:3px solid var(--red); outline-offset:2px}
+  .back-chip svg{color:var(--red)}
 
-  .card-body{
-    padding:13px 16px; display:flex; align-items:center; gap:10px;
+  .city-hero{
+    position:relative; height:190px; border-radius:var(--r-lg); overflow:hidden;
+    background:linear-gradient(150deg,#494F5C,#23262E);
+    box-shadow:var(--shadow-card); margin-bottom:18px;
   }
-  .variant{
-    flex:1; display:inline-flex; align-items:center; gap:7px;
-    font-size:13px; color:var(--slate); font-weight:500;
+  .city-hero img{width:100%; height:100%; object-fit:cover; display:block}
+  .city-hero .shade{
+    position:absolute; inset:0;
+    background:linear-gradient(to top, rgba(12,14,19,.74) 0%, rgba(12,14,19,.14) 55%);
   }
-  .variant .dot{width:7px; height:7px; border-radius:50%; background:var(--red); flex:none}
-  .chev{flex:none; color:var(--faint); transition:transform .3s cubic-bezier(.2,.7,.3,1)}
-  .card.open .chev{transform:rotate(180deg)}
+  .city-hero .city{
+    position:absolute; left:20px; bottom:16px; color:#fff;
+    font-weight:800; font-variation-settings:'wdth' 116;
+    font-size:32px; letter-spacing:-.012em; text-shadow:0 2px 14px rgba(0,0,0,.45);
+  }
+  .city-hero .from-pill{top:14px; right:14px}
 
-  /* details */
-  .details{max-height:0; overflow:hidden; transition:max-height .34s cubic-bezier(.2,.7,.3,1)}
-  .card.open .details{max-height:360px}
-  .details-inner{
-    margin:0 12px 12px; background:#F7F6F8; border-radius:var(--r-md); overflow:hidden;
+  .rows{
+    background:var(--card); border-radius:var(--r-lg); overflow:hidden;
+    box-shadow:var(--shadow-card);
+  }
+  .row + .row{border-top:1px solid rgba(27,30,37,.07)}
+  .row-btn{
+    all:unset; cursor:pointer; display:flex; align-items:center; gap:12px;
+    width:100%; padding:15px 18px;
+    transition:background .15s ease;
+  }
+  .row-btn:hover{background:#FAF9FB}
+  .row-btn:focus-visible{outline:3px solid var(--red); outline-offset:-3px}
+  .row-info{flex:1; min-width:0}
+  .row-date{font-weight:700; font-size:15px}
+  .row-variant{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:12.5px; color:var(--slate); margin-top:2px;
+  }
+  .row-variant .dot{width:6px; height:6px; border-radius:50%; background:var(--red); flex:none}
+  .row-price{
+    flex:none; font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:16px;
+  }
+  .row .chev{flex:none; color:var(--faint); transition:transform .3s cubic-bezier(.2,.7,.3,1)}
+  .row.open .chev{transform:rotate(180deg)}
+  .row-details{max-height:0; overflow:hidden; transition:max-height .34s cubic-bezier(.2,.7,.3,1)}
+  .row.open .row-details{max-height:360px}
+  .row-details-inner{
+    margin:0 14px 14px; background:#F7F6F8; border-radius:var(--r-md); overflow:hidden;
   }
   .leg{display:flex; align-items:baseline; gap:10px; padding:12px 14px}
   .leg + .leg{border-top:1px dashed rgba(27,30,37,.12)}
@@ -247,7 +277,7 @@
   .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-size:13px}
   .ticket-link{
     display:flex; align-items:center; justify-content:center; gap:8px;
-    margin:0 12px 12px; padding:12px;
+    margin:0 14px 14px; padding:12px;
     background:linear-gradient(135deg,var(--red-hot),var(--red) 60%,var(--red-deep));
     color:#fff; text-decoration:none; font-size:13.5px; font-weight:700;
     border-radius:var(--r-md);
@@ -265,7 +295,7 @@
   }
   .notice strong{color:var(--ink); display:block; margin-bottom:6px; font-size:16px}
 
-  /* ================= SUBSCRIBE (footer trigger + modal) ================= */
+  /* ================= SUBSCRIBE ================= */
   .footer-zone{padding:8px 0 52px; text-align:center}
   .sub-trigger{
     all:unset; cursor:pointer;
@@ -286,12 +316,8 @@
     box-shadow:0 3px 10px rgba(236,0,22,.4);
   }
   .sub-trigger .arr{color:var(--faint)}
+  .foot-notes{margin-top:26px; font-size:12px; color:var(--faint); line-height:1.7}
 
-  .foot-notes{
-    margin-top:26px; font-size:12px; color:var(--faint); line-height:1.7;
-  }
-
-  /* modal */
   .modal-backdrop{
     position:fixed; inset:0; z-index:50;
     background:rgba(24,8,10,.42);
@@ -399,8 +425,8 @@
       <span id="txtDirect">Direktverbindungen, 2. Klasse</span>
     </span>
     <span class="chip">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L15.5 14"/></svg>
-      <span id="txtCap">Hin- und Rückfahrt</span>&nbsp;<strong id="capValue">&lt; 100 €</strong>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <strong id="cityCount">—</strong>&nbsp;<span id="txtCities">Städte</span>
     </span>
   </div>
 </div>
@@ -461,7 +487,10 @@ var I18N = {
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
     metaDirect:"Direktverbindungen, 2. Klasse",
-    metaCap:"Hin- und Rückfahrt",
+    cities:"Städte",
+    fromLabel:"ab — Hin & Rück",
+    offers:"Angebote",
+    backAll:"Alle Städte",
     subLabel:"Bei neuen Tickets benachrichtigen",
     subDesc:"Du erhältst eine E-Mail, sobald die Preisliste aktualisiert wird. Deine Adresse wird für nichts anderes verwendet.",
     subPlaceholder:"beispiel@mail.de",
@@ -473,22 +502,20 @@ var I18N = {
     subErr:"Registrierung fehlgeschlagen, bitte später erneut versuchen.",
     subInvalid:"Bitte eine gültige E-Mail-Adresse eingeben.",
     subNetErr:"Verbindungsfehler, bitte später erneut versuchen.",
-    noticeNoDealsTitle:"Aktuell keine Kombination unter dem Limit.",
+    noticeNoDealsTitle:"Aktuell keine Verbindungen gefunden.",
     noticeNoDealsSub:"Schau beim nächsten Scan wieder vorbei.",
     noticeNoDataTitle:"Datendatei nicht gefunden.",
     noticeNoDataSub:"Lade die vom Scan-Skript erzeugte data.js-Datei neben diese Seite hoch.",
     variantSuffix:"Abfahrt",
     dayTrip:"Tagesausflug Samstag",
-    best:"Bestpreis",
     legOut:"Hin",
     legRet:"Rück",
-    priceLabel:"EUR H/R",
     goToTicket:"Zum Ticket auf bahn.de",
     footer1:"Preise sind Sparpreise zum Zeitpunkt des Scans; sie können sich auf bahn.de jederzeit ändern.",
     footer2:"Abfahrtsfenster: Freitag 18:00–23:00 / Samstag 06:00–10:00, Rückfahrt: Samstag 17:00–23:00 oder Sonntag 15:00–20:00.",
     days:["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],
     months:["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],
-    cities:{}
+    cityNames:{}
   },
   en: {
     flag:"https://flagcdn.com/24x18/gb.png", flagName:"English",
@@ -501,7 +528,10 @@ var I18N = {
     standLabel:"Last updated",
     metaFrom:"Departure:",
     metaDirect:"Direct connections, 2nd class",
-    metaCap:"Round trip",
+    cities:"cities",
+    fromLabel:"from — round trip",
+    offers:"offers",
+    backAll:"All cities",
     subLabel:"Get notified about new tickets",
     subDesc:"You'll get an email whenever the price list is updated. Your address won't be used for anything else.",
     subPlaceholder:"example@mail.com",
@@ -513,22 +543,20 @@ var I18N = {
     subErr:"Registration failed, please try again later.",
     subInvalid:"Please enter a valid email address.",
     subNetErr:"Connection error, please try again later.",
-    noticeNoDealsTitle:"No combination under the limit right now.",
+    noticeNoDealsTitle:"No connections found right now.",
     noticeNoDealsSub:"Check back after the next scan.",
     noticeNoDataTitle:"Data file not found.",
     noticeNoDataSub:"Upload the data.js file generated by the scan script next to this page.",
     variantSuffix:"departure",
     dayTrip:"Saturday day trip",
-    best:"Best price",
     legOut:"Out",
     legRet:"Back",
-    priceLabel:"EUR RT",
     goToTicket:"Go to ticket on bahn.de",
     footer1:"Prices are Sparpreis fares at the time of scanning; they may change on bahn.de at any time.",
     footer2:"Departure windows: Friday 18:00–23:00 / Saturday 06:00–10:00, return: Saturday 17:00–23:00 or Sunday 15:00–20:00.",
     days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
     months:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
-    cities:{"München":"Munich","Köln":"Cologne","Nürnberg":"Nuremberg"}
+    cityNames:{"München":"Munich","Köln":"Cologne","Nürnberg":"Nuremberg"}
   },
   tr: {
     flag:"https://flagcdn.com/24x18/tr.png", flagName:"Türkçe",
@@ -541,7 +569,10 @@ var I18N = {
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
     metaDirect:"Direkt seferler, 2. sınıf",
-    metaCap:"Gidiş-dönüş",
+    cities:"şehir",
+    fromLabel:"başlayan fiyatlarla — G/D",
+    offers:"sefer",
+    backAll:"Tüm şehirler",
     subLabel:"Yeni biletlerde haber al",
     subDesc:"Fiyat listesi güncellendiğinde e-posta gönderilir. Adresin başka hiçbir amaçla kullanılmaz.",
     subPlaceholder:"ornek@mail.com",
@@ -553,22 +584,20 @@ var I18N = {
     subErr:"Kayıt başarısız oldu, daha sonra tekrar dene.",
     subInvalid:"Geçerli bir e-posta adresi gir.",
     subNetErr:"Bağlantı hatası, daha sonra tekrar dene.",
-    noticeNoDealsTitle:"Şu an limitin altında kombinasyon yok.",
+    noticeNoDealsTitle:"Şu an sefer bulunamadı.",
     noticeNoDealsSub:"Bir sonraki taramada tekrar bak.",
     noticeNoDataTitle:"Veri dosyası bulunamadı.",
     noticeNoDataSub:"Tarama scriptinin ürettiği data.js dosyasını bu sayfanın yanına yükle.",
     variantSuffix:"çıkışlı",
     dayTrip:"Cumartesi günübirlik",
-    best:"En ucuz",
     legOut:"Gidiş",
     legRet:"Dönüş",
-    priceLabel:"EUR G/D",
     goToTicket:"bahn.de'de bilete git",
     footer1:"Fiyatlar tarama anındaki Sparpreis fiyatlarıdır; bahn.de'de anlık olarak değişebilir.",
     footer2:"Gidiş pencereleri: Cuma 18:00–23:00 / Cumartesi 06:00–10:00, dönüş: Cumartesi 17:00–23:00 veya Pazar 15:00–20:00.",
     days:["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"],
     months:["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"],
-    cities:{"München":"Münih"}
+    cityNames:{"München":"Münih"}
   }
 };
 
@@ -609,7 +638,7 @@ function applyStaticText(){
   document.getElementById("txtStandLabel").textContent = t.standLabel;
   document.getElementById("txtFrom").textContent = t.metaFrom;
   document.getElementById("txtDirect").textContent = t.metaDirect;
-  document.getElementById("txtCap").textContent = t.metaCap;
+  document.getElementById("txtCities").textContent = t.cities;
   document.getElementById("txtSubLabel").textContent = t.subLabel;
   document.getElementById("modalTitle").textContent = t.subLabel;
   document.getElementById("txtSubDesc").textContent = t.subDesc;
@@ -628,7 +657,7 @@ function setLang(code){
   try { localStorage.setItem(LANG_STORAGE_KEY, code); } catch(e){}
   buildLangSwitcher();
   applyStaticText();
-  if (window.BAHN_DATA) render(window.BAHN_DATA);
+  if (window.rerender) window.rerender();
 }
 
 // ================== MODAL + SUBSCRIBE ==================
@@ -688,7 +717,8 @@ function setLang(code){
   var WIKI = {
     "Berlin":"Berlin","München":"Munich","Köln":"Cologne","Frankfurt":"Frankfurt",
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
-    "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover"
+    "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover",
+    "Bremen":"Bremen","Kiel":"Kiel"
   };
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
@@ -702,15 +732,19 @@ function setLang(code){
     "Dresden":  { name:"Dresden Hbf",          eva:"8010085", lon:13.731818, lat:51.040557 },
     "Nürnberg": { name:"Nürnberg Hbf",         eva:"8000284", lon:11.082989, lat:49.445616 },
     "Münster":  { name:"Münster(Westf)Hbf",    eva:"8000263", lon:7.635715,  lat:51.956566 },
-    "Hannover": { name:"Hannover Hbf",         eva:"8000152", lon:9.741021,  lat:52.376761 }
+    "Hannover": { name:"Hannover Hbf",         eva:"8000152", lon:9.741021,  lat:52.376761 },
+    "Bremen":   { name:"Bremen Hbf",           eva:"8000050", lon:8.813833,  lat:53.083481 },
+    "Kiel":     { name:"Kiel Hbf",             eva:"8000199", lon:10.131976, lat:54.315387 }
   };
   var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var content = document.getElementById("content");
+  var currentCity = null;
+  var photoCache = {};
 
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
   function eur(v){return v.toFixed(2).replace(".",",")}
-  function cityLabel(city){ var t = T(); return (t.cities && t.cities[city]) ? t.cities[city] : city; }
+  function cityLabel(city){ var t = T(); return (t.cityNames && t.cityNames[city]) ? t.cityNames[city] : city; }
   function translateVariant(variant){
     var t = T();
     if (variant === "Gunubirlik" || variant === "Günübirlik") return t.dayTrip;
@@ -764,61 +798,51 @@ function setLang(code){
     '</div>';
   }
 
-  window.render = function render(data){
-    var t = T();
-    document.getElementById("stand").textContent =
-      (function(d){ return pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d); })(new Date(data.generatedAt));
-    document.getElementById("capValue").innerHTML = "&lt; " + Math.round(data.priceCap) + " \u20AC";
+  function groupByCity(deals){
+    var map = {};
+    deals.forEach(function(d){ (map[d.city] = map[d.city] || []).push(d); });
+    Object.keys(map).forEach(function(c){ map[c].sort(function(a,b){ return a.total - b.total; }); });
+    return map;
+  }
 
-    if (!data.deals || !data.deals.length){
-      content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong>' +
-        t.noticeNoDealsSub + '</div>';
+  // ---------- ANASAYFA: sehir kartlari ----------
+  function renderHome(data){
+    currentCity = null;
+    var t = T();
+    var byCity = groupByCity(data.deals || []);
+    var cities = Object.keys(byCity).sort(function(a,b){ return byCity[a][0].total - byCity[b][0].total; });
+    document.getElementById("cityCount").textContent = cities.length;
+
+    if (!cities.length){
+      content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong>' + t.noticeNoDealsSub + '</div>';
       return;
     }
 
-    var deals = data.deals.slice().sort(function(a,b){return a.total-b.total});
     var grid = document.createElement("div");
     grid.className = "grid";
 
-    deals.forEach(function(dl, i){
+    cities.forEach(function(city){
+      var list = byCity[city];
+      var min = list[0].total;
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
-        '<div class="card-btn" role="button" tabindex="0" aria-expanded="false">' +
-          '<div class="photo" data-city="' + dl.city + '">' +
+        '<div class="card-btn" role="button" tabindex="0">' +
+          '<div class="photo" data-city="' + city + '">' +
             '<div class="shade"></div>' +
-            (i === 0 ? '<span class="best-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8-6.1-3.4-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8z"/></svg>' + t.best + '</span>' : '') +
-            '<span class="price-pill"><span class="amount">' + eur(dl.total) + ' \u20AC</span><span class="label">' + t.priceLabel + '</span></span>' +
-            '<div class="city">' + cityLabel(dl.city) + '</div>' +
-            '<div class="weekend">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
+            '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + t.fromLabel + '</span></span>' +
+            '<div class="city">' + cityLabel(city) + '</div>' +
           '</div>' +
-          '<div class="card-body">' +
-            '<span class="variant"><span class="dot"></span>' + translateVariant(dl.variant) + '</span>' +
-            '<svg class="chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
-          '</div>' +
-          '<div class="details">' +
-            '<div class="details-inner">' +
-              legRow(t.legOut, dl.out) +
-              legRow(t.legRet, dl.ret) +
-            '</div>' +
-            '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener">' +
-              '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
-              '<span>' + t.goToTicket + '</span>' +
-            '</a>' +
+          '<div class="card-foot">' +
+            '<span class="count"><span class="dot"></span>' + list.length + ' ' + t.offers + '</span>' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>' +
           '</div>' +
         '</div>';
-
       var btn = card.querySelector(".card-btn");
-      function toggle(){
-        var open = card.classList.toggle("open");
-        btn.setAttribute("aria-expanded", open ? "true" : "false");
-      }
-      btn.addEventListener("click", function(e){
-        if (e.target.closest(".ticket-link")) return;
-        toggle();
-      });
+      function go(){ location.hash = "c/" + encodeURIComponent(city); }
+      btn.addEventListener("click", go);
       btn.addEventListener("keydown", function(e){
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
       });
       grid.appendChild(card);
     });
@@ -826,11 +850,73 @@ function setLang(code){
     content.innerHTML = "";
     content.appendChild(grid);
     loadPhotos();
-  };
+  }
 
+  // ---------- SEHIR DETAY: acilir liste ----------
+  function renderCity(data, city){
+    currentCity = city;
+    var t = T();
+    var byCity = groupByCity(data.deals || []);
+    var list = byCity[city];
+    if (!list){ location.hash = ""; return; }
+    var min = list[0].total;
+
+    var root = document.createElement("div");
+    root.innerHTML =
+      '<button class="back-chip" id="backBtn" type="button">' +
+        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6 L9 12 L15 18"/></svg>' +
+        t.backAll +
+      '</button>' +
+      '<div class="city-hero">' +
+        '<div class="photo" data-city="' + city + '" style="height:100%">' +
+          '<div class="shade"></div>' +
+          '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + t.fromLabel + '</span></span>' +
+          '<div class="city">' + cityLabel(city) + '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="rows"></div>';
+
+    var rows = root.querySelector(".rows");
+    list.forEach(function(dl){
+      var row = document.createElement("div");
+      row.className = "row";
+      row.innerHTML =
+        '<button class="row-btn" type="button" aria-expanded="false">' +
+          '<span class="row-info">' +
+            '<div class="row-date">' + weekendLabel(dl.out.dep, dl.ret.dep) + '</div>' +
+            '<div class="row-variant"><span class="dot"></span>' + translateVariant(dl.variant) + '</div>' +
+          '</span>' +
+          '<span class="row-price">' + eur(dl.total) + ' \u20AC</span>' +
+          '<svg class="chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
+        '</button>' +
+        '<div class="row-details">' +
+          '<div class="row-details-inner">' +
+            legRow(t.legOut, dl.out) +
+            legRow(t.legRet, dl.ret) +
+          '</div>' +
+          '<a class="ticket-link" href="' + bahnLink(dl) + '" target="_blank" rel="noopener">' +
+            '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
+            '<span>' + t.goToTicket + '</span>' +
+          '</a>' +
+        '</div>';
+      var btn = row.querySelector(".row-btn");
+      btn.addEventListener("click", function(){
+        var open = row.classList.toggle("open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+      rows.appendChild(row);
+    });
+
+    root.querySelector("#backBtn").addEventListener("click", function(){ location.hash = ""; });
+
+    content.innerHTML = "";
+    while (root.firstChild) content.appendChild(root.firstChild);
+    loadPhotos();
+    window.scrollTo({ top: 0 });
+  }
+
+  // ---------- FOTO ----------
   function loadPhotos(){
-    var done = {};
-    // Arma/logo gibi gorselleri ele (dosya adinda wappen/coat/logo/flagge gecenler)
     function badImage(url){ return /wappen|coat|logo|flagge|flag_of|siegel/i.test(url || ""); }
     function thumbFrom(host, title){
       return fetch("https://" + host + "/api/rest_v1/page/summary/" + encodeURIComponent(title))
@@ -845,7 +931,6 @@ function setLang(code){
     document.querySelectorAll(".photo").forEach(function(ph){
       var city = ph.getAttribute("data-city");
       var title = WIKI[city] || city;
-      var key = title;
       var apply = function(url){
         if(!url) return;
         if (ph.querySelector("img")) return;
@@ -854,24 +939,35 @@ function setLang(code){
         img.onerror = function(){ img.remove(); };
         ph.insertBefore(img, ph.firstChild);
       };
-      if (done[key]) { done[key].then(apply); return; }
-      // Once Wikivoyage (genis manzara bannerlari), olmazsa Wikipedia (EN, sehir sayfalari foto kullanir)
-      done[key] = thumbFrom("en.wikivoyage.org", title).then(function(u){
+      if (photoCache[title]) { photoCache[title].then(apply); return; }
+      photoCache[title] = thumbFrom("en.wikivoyage.org", title).then(function(u){
         return u || thumbFrom("en.wikipedia.org", title);
       });
-      done[key].then(apply);
+      photoCache[title].then(apply);
     });
   }
+
+  // ---------- ROUTING ----------
+  function route(){
+    if (!window.BAHN_DATA) return;
+    var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    if (h.indexOf("c/") === 0) renderCity(window.BAHN_DATA, h.slice(2));
+    else renderHome(window.BAHN_DATA);
+  }
+  window.addEventListener("hashchange", route);
+  window.rerender = route;
 
   buildLangSwitcher();
   applyStaticText();
 
   if (window.BAHN_DATA) {
-    render(window.BAHN_DATA);
+    var d = new Date(window.BAHN_DATA.generatedAt);
+    document.getElementById("stand").textContent =
+      pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d);
+    route();
   } else {
     var t = T();
-    content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDataTitle + '</strong>' +
-      t.noticeNoDataSub + '</div>';
+    content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDataTitle + '</strong>' + t.noticeNoDataSub + '</div>';
   }
 })();
 </script>
