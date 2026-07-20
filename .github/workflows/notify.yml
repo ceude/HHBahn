@@ -1,0 +1,31 @@
+# .github/workflows/notify.yml
+# data.js her guncellendiginde abonelere mail atar.
+# Repo Settings > Secrets and variables > Actions > New repository secret:
+#   SUPABASE_URL          -> https://XXXX.supabase.co
+#   SUPABASE_SERVICE_KEY  -> Settings > API > service_role key (GIZLI, sadece buraya)
+#   GMAIL_USER            -> gonderen gmail adresi
+#   GMAIL_APP_PASSWORD    -> Google hesabi > Guvenlik > 2 adimli dogrulama > Uygulama sifreleri
+name: Notify subscribers
+
+on:
+  push:
+    paths:
+      - "data.js"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python notify.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SITE_URL: https://ceude.github.io/HHBahn
