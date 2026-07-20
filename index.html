@@ -146,24 +146,39 @@
   }
   .chip svg{flex:none; color:var(--red)}
   .chip strong{font-weight:700}
-  .org-seg{display:inline-flex; gap:2px; background:rgba(27,30,37,.08); border-radius:99px; padding:2.5px}
-  .org-btn{
+  .chip-origin{overflow:visible}
+  .org-dd{position:relative; display:inline-flex}
+  .org-dd-btn{
     all:unset; box-sizing:border-box; cursor:pointer;
-    padding:4px 11px; border-radius:99px; font-size:12.5px; font-weight:700; color:var(--slate);
-    transition:background .18s ease, color .18s ease;
-  }
-  .org-btn:hover{color:var(--ink)}
-  .org-btn.active{
+    display:inline-flex; align-items:center; gap:7px;
+    padding:5px 12px; border-radius:99px;
     background:linear-gradient(135deg,var(--red-hot),var(--red-deep)); color:#fff;
+    font-size:12.5px; font-weight:700;
     box-shadow:0 2px 8px rgba(236,0,22,.35);
+    transition:transform .15s ease;
   }
-  .org-btn:focus-visible{outline:2px solid var(--red); outline-offset:1px}
-  .origin-pick{display:grid; gap:22px; grid-template-columns:repeat(2,1fr); margin-top:6px}
-  @media (max-width:580px){.origin-pick{grid-template-columns:1fr}}
-  .origin-pick .photo{height:230px}
-  .pick-title{
-    text-align:center; font-size:15px; font-weight:700; color:var(--slate); margin:4px 0 18px;
+  .org-dd-btn:hover{transform:translateY(-1px)}
+  .org-dd-btn:focus-visible{outline:2px solid var(--red); outline-offset:2px}
+  .org-dd-btn svg{transition:transform .2s ease}
+  .org-dd.open .org-dd-btn svg{transform:rotate(180deg)}
+  .org-menu{
+    position:absolute; top:calc(100% + 8px); left:0; min-width:160px; z-index:30;
+    display:none; flex-direction:column; padding:6px;
+    background:rgba(255,255,255,.95);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border:1px solid rgba(255,255,255,.7); border-radius:14px;
+    box-shadow:0 16px 40px rgba(27,30,37,.22);
   }
+  .org-dd.open .org-menu{display:flex}
+  .org-item{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    padding:9px 12px; border-radius:9px;
+    font-size:13px; font-weight:600; color:var(--ink);
+    transition:background .15s ease;
+  }
+  .org-item:hover{background:rgba(236,0,22,.08)}
+  .org-item.active{color:var(--red); font-weight:800}
+  .org-item:focus-visible{outline:2px solid var(--red); outline-offset:-2px}
   .chip-toggle{
     all:unset; box-sizing:border-box; cursor:pointer;
     display:inline-flex; align-items:center; gap:8px;
@@ -822,7 +837,7 @@ function setLang(code){
     "Hannover": { name:"Hannover Hbf",         eva:"8000152", lon:9.741021,  lat:52.376761 },
     "Bremen":   { name:"Bremen Hbf",           eva:"8000050", lon:8.813833,  lat:53.083481 },
     "Kiel":     { name:"Kiel Hbf",             eva:"8000199", lon:10.131976, lat:54.315387 },
-    "Kopenhagen":{name:"København H",          eva:"8600626", lon:12.565562, lat:55.672761 },
+    "Kopenhagen":{name:"København H",          eva:"8601309", lon:12.565562, lat:55.672761 },
     "Wien":     { name:"Wien Hbf",             eva:"8103000", lon:16.375865, lat:48.185183 },
     "Salzburg": { name:"Salzburg Hbf",         eva:"8100002", lon:13.045620, lat:47.812871 },
     "Innsbruck":{ name:"Innsbruck Hbf",        eva:"8100108", lon:11.400375, lat:47.263341 },
@@ -838,7 +853,7 @@ function setLang(code){
   var ORIGIN_KEY = "wochenende_origin";
   var origin = (function(){
     try { var v = localStorage.getItem(ORIGIN_KEY); if (v) return v; } catch(e){}
-    return null; // ilk giriste secim ekrani
+    return "Hamburg";
   })();
   function dealOrigin(d){ return d.origin || "Hamburg"; }
   function originsIn(data){
@@ -950,59 +965,47 @@ function setLang(code){
   function buildOriginSeg(data){
     var seg = document.getElementById("orgSeg");
     if (!seg) return;
-    seg.innerHTML = "";
-    originsIn(data).forEach(function(o){
-      var st = STATION_DATA[o];
-      var b = document.createElement("button");
-      b.className = "org-btn" + (o === origin ? " active" : "");
-      b.type = "button";
-      b.textContent = st ? st.name : o;
-      b.addEventListener("click", function(){
+    var opts = originsIn(data);
+    var stName = function(o){ var st = STATION_DATA[o]; return st ? st.name : o; };
+    seg.innerHTML =
+      '<span class="org-dd">' +
+        '<button class="org-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">' +
+          '<span class="org-cur">' + stName(origin) + '</span>' +
+          '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
+        '</button>' +
+        '<span class="org-menu" role="listbox"></span>' +
+      '</span>';
+    var dd = seg.querySelector(".org-dd");
+    var btn = seg.querySelector(".org-dd-btn");
+    var menu = seg.querySelector(".org-menu");
+
+    opts.forEach(function(o){
+      var it = document.createElement("button");
+      it.className = "org-item" + (o === origin ? " active" : "");
+      it.type = "button";
+      it.setAttribute("role", "option");
+      it.textContent = stName(o);
+      it.addEventListener("click", function(e){
+        e.stopPropagation();
+        close();
         if (origin === o) return;
         origin = o;
-        try { localStorage.setItem(ORIGIN_KEY, o); } catch(e){}
+        try { localStorage.setItem(ORIGIN_KEY, o); } catch(ex){}
         location.hash = "";
         buildOriginSeg(data);
         route();
       });
-      seg.appendChild(b);
+      menu.appendChild(it);
     });
-  }
 
-  // ---------- ILK GIRIS: kalkis secimi ----------
-  function renderOriginPick(data){
-    var t = T();
-    var wrap = document.createElement("div");
-    wrap.innerHTML = '<div class="pick-title">' + t.pickOrigin + '</div><div class="origin-pick"></div>';
-    var grid = wrap.querySelector(".origin-pick");
-    originsIn(data).forEach(function(o){
-      var st = STATION_DATA[o];
-      var card = document.createElement("article");
-      card.className = "card";
-      card.innerHTML =
-        '<div class="card-btn" role="button" tabindex="0">' +
-          '<div class="photo" data-city="' + o + '">' +
-            '<div class="shade"></div>' +
-            '<div class="city">' + (st ? st.name : o) + '</div>' +
-          '</div>' +
-        '</div>';
-      var btn = card.querySelector(".card-btn");
-      function pick(){
-        origin = o;
-        try { localStorage.setItem(ORIGIN_KEY, o); } catch(e){}
-        buildOriginSeg(data);
-        route();
-      }
-      btn.addEventListener("click", pick);
-      btn.addEventListener("keydown", function(e){
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); }
-      });
-      grid.appendChild(card);
+    function close(){ dd.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); }
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var open = dd.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    content.innerHTML = "";
-    while (wrap.firstChild) content.appendChild(wrap.firstChild);
-    document.getElementById("cityCount").textContent = "—";
-    loadPhotos();
+    document.addEventListener("click", close);
+    document.addEventListener("keydown", function(e){ if (e.key === "Escape") close(); });
   }
 
   // ---------- ANASAYFA: sehir kartlari ----------
@@ -1186,7 +1189,6 @@ function setLang(code){
   // ---------- ROUTING ----------
   function route(){
     if (!window.BAHN_DATA) return;
-    if (!origin) { renderOriginPick(window.BAHN_DATA); return; }
     var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
     if (h.indexOf("c/") === 0) renderCity(window.BAHN_DATA, h.slice(2));
     else renderHome(window.BAHN_DATA);
@@ -1243,7 +1245,8 @@ function setLang(code){
     var d = new Date(window.BAHN_DATA.generatedAt);
     document.getElementById("stand").textContent =
       pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d);
-    if (origin && originsIn(window.BAHN_DATA).indexOf(origin) === -1) origin = null;
+    var avail = originsIn(window.BAHN_DATA);
+    if (avail.length && avail.indexOf(origin) === -1) origin = avail[0];
     buildOriginSeg(window.BAHN_DATA);
     route();
   } else {
