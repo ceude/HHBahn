@@ -287,6 +287,16 @@
   .ticket-link:hover{transform:translateY(-1px); box-shadow:0 10px 24px rgba(236,0,22,.42)}
   .ticket-link svg{flex:none}
 
+  .unsub-banner{
+    display:flex; align-items:center; gap:10px;
+    background:var(--card); border-radius:var(--r-md);
+    box-shadow:var(--shadow-card); padding:14px 16px;
+    font-size:14px; font-weight:600; margin-bottom:18px;
+  }
+  .unsub-banner.ok{color:#0A8A3A}
+  .unsub-banner.err{color:var(--red)}
+  .unsub-banner svg{flex:none}
+
   /* ================= STATES ================= */
   .notice{
     background:var(--card); border-radius:var(--r-lg);
@@ -502,6 +512,8 @@ var I18N = {
     subErr:"Registrierung fehlgeschlagen, bitte später erneut versuchen.",
     subInvalid:"Bitte eine gültige E-Mail-Adresse eingeben.",
     subNetErr:"Verbindungsfehler, bitte später erneut versuchen.",
+    unsubOk:"Du wurdest erfolgreich abgemeldet.",
+    unsubErr:"Abmeldung fehlgeschlagen — der Link ist ungültig oder abgelaufen.",
     noticeNoDealsTitle:"Aktuell keine Verbindungen gefunden.",
     noticeNoDealsSub:"Schau beim nächsten Scan wieder vorbei.",
     noticeNoDataTitle:"Datendatei nicht gefunden.",
@@ -543,6 +555,8 @@ var I18N = {
     subErr:"Registration failed, please try again later.",
     subInvalid:"Please enter a valid email address.",
     subNetErr:"Connection error, please try again later.",
+    unsubOk:"You have been unsubscribed.",
+    unsubErr:"Unsubscribe failed — the link is invalid or expired.",
     noticeNoDealsTitle:"No connections found right now.",
     noticeNoDealsSub:"Check back after the next scan.",
     noticeNoDataTitle:"Data file not found.",
@@ -584,6 +598,8 @@ var I18N = {
     subErr:"Kayıt başarısız oldu, daha sonra tekrar dene.",
     subInvalid:"Geçerli bir e-posta adresi gir.",
     subNetErr:"Bağlantı hatası, daha sonra tekrar dene.",
+    unsubOk:"Abonelikten çıkıldı.",
+    unsubErr:"Abonelikten çıkış başarısız — link geçersiz veya süresi dolmuş.",
     noticeNoDealsTitle:"Şu an sefer bulunamadı.",
     noticeNoDealsSub:"Bir sonraki taramada tekrar bak.",
     noticeNoDataTitle:"Veri dosyası bulunamadı.",
@@ -961,8 +977,42 @@ function setLang(code){
   window.addEventListener("hashchange", route);
   window.rerender = route;
 
+  // ---------- ABONELIKTEN CIKIS ----------
+  function handleUnsub(){
+    var params = new URLSearchParams(location.search);
+    var email = params.get("unsub"), token = params.get("t");
+    if (!email || !token) return;
+    history.replaceState(null, "", location.pathname + location.hash);
+    var banner = document.createElement("div");
+    banner.className = "unsub-banner";
+    banner.textContent = "…";
+    content.parentNode.insertBefore(banner, content);
+    fetch(SUPABASE_URL + "/rest/v1/rpc/bahn_unsubscribe", {
+      method: "POST",
+      headers: {
+        "apikey": SUPABASE_ANON_KEY,
+        "Authorization": "Bearer " + SUPABASE_ANON_KEY,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ p_email: email, p_token: token })
+    }).then(function(r){ return r.ok ? r.json() : false; })
+      .then(function(ok){
+        var t = T();
+        banner.className = "unsub-banner " + (ok ? "ok" : "err");
+        banner.innerHTML = (ok
+          ? '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 L9 17 L4 12"/></svg>'
+          : '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8 L12 13 M12 16 L12 16.01"/></svg>')
+          + (ok ? t.unsubOk : t.unsubErr);
+      })
+      .catch(function(){
+        banner.className = "unsub-banner err";
+        banner.textContent = T().unsubErr;
+      });
+  }
+
   buildLangSwitcher();
   applyStaticText();
+  handleUnsub();
 
   if (window.BAHN_DATA) {
     var d = new Date(window.BAHN_DATA.generatedAt);
