@@ -157,15 +157,24 @@
     box-shadow:0 8px 24px rgba(27,30,37,.10);
     transition:background .2s ease, color .2s ease, transform .15s ease;
   }
-  .chip-toggle svg{flex:none; color:var(--red); transition:color .2s ease}
   .chip-toggle:hover{transform:translateY(-1px)}
   .chip-toggle:focus-visible{outline:3px solid var(--red); outline-offset:2px}
-  .chip-toggle.active{
-    background:linear-gradient(135deg,var(--red-hot),var(--red) 60%,var(--red-deep));
-    color:#fff; border-color:transparent;
-    box-shadow:0 8px 22px rgba(236,0,22,.35);
+  .chip-toggle .sw{
+    flex:none; width:36px; height:21px; border-radius:99px;
+    background:rgba(27,30,37,.18); position:relative;
+    transition:background .22s ease;
   }
-  .chip-toggle.active svg{color:#fff}
+  .chip-toggle .sw::after{
+    content:""; position:absolute; top:2.5px; left:2.5px;
+    width:16px; height:16px; border-radius:50%; background:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,.3);
+    transition:transform .22s cubic-bezier(.2,.7,.3,1);
+  }
+  .chip-toggle.active .sw{
+    background:linear-gradient(135deg,var(--red-hot),var(--red-deep));
+  }
+  .chip-toggle.active .sw::after{transform:translateX(15px)}
+  .chip-toggle.active{border-color:rgba(236,0,22,.35)}
   @media (max-width:680px){ .chip-toggle{margin-left:0} }
 
   /* ================= HOME: CITY GRID ================= */
@@ -459,9 +468,9 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
       <strong id="cityCount">—</strong>&nbsp;<span id="txtCities">Städte</span>
     </span>
-    <button class="chip-toggle" id="owToggle" type="button" aria-pressed="false">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L20 12 M14 6 L20 12 L14 18"/></svg>
-      <span id="txtOneWay">Einfache Fahrt</span>
+    <button class="chip-toggle" id="owToggle" type="button" role="switch" aria-checked="false">
+      <span class="sw" aria-hidden="true"></span>
+      <span id="txtOneWay">Nur einfache Fahrt anzeigen</span>
     </button>
   </div>
 </div>
@@ -525,7 +534,7 @@ var I18N = {
     cities:"Städte",
     fromLabel:"ab — Hin & Rück",
     fromLabelOw:"ab — einfache Fahrt",
-    oneWay:"Einfache Fahrt",
+    oneWay:"Nur einfache Fahrt anzeigen",
     owOut:"Hinfahrt",
     owRet:"Rückfahrt",
     offers:"Angebote",
@@ -572,7 +581,7 @@ var I18N = {
     cities:"cities",
     fromLabel:"from — round trip",
     fromLabelOw:"from — one-way",
-    oneWay:"One-way",
+    oneWay:"Show one-way only",
     owOut:"Outbound",
     owRet:"Return",
     offers:"offers",
@@ -619,7 +628,7 @@ var I18N = {
     cities:"şehir",
     fromLabel:"başlayan fiyatlarla — G/D",
     fromLabelOw:"başlayan fiyatlarla — tek yön",
-    oneWay:"Tek yön",
+    oneWay:"Sadece Tek Yön Göster",
     owOut:"Gidiş",
     owRet:"Dönüş",
     offers:"sefer",
@@ -1083,7 +1092,7 @@ function setLang(code){
   owBtn.addEventListener("click", function(){
     oneWay = !oneWay;
     owBtn.classList.toggle("active", oneWay);
-    owBtn.setAttribute("aria-pressed", oneWay ? "true" : "false");
+    owBtn.setAttribute("aria-checked", oneWay ? "true" : "false");
     route();
   });
 
