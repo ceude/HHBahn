@@ -146,6 +146,27 @@
   }
   .chip svg{flex:none; color:var(--red)}
   .chip strong{font-weight:700}
+  .chip-toggle{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    display:inline-flex; align-items:center; gap:8px;
+    margin-left:auto;
+    background:var(--glass); border:1px solid var(--glass-border);
+    -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+    border-radius:99px; padding:10px 16px;
+    font-size:13px; color:var(--ink); font-weight:700;
+    box-shadow:0 8px 24px rgba(27,30,37,.10);
+    transition:background .2s ease, color .2s ease, transform .15s ease;
+  }
+  .chip-toggle svg{flex:none; color:var(--red); transition:color .2s ease}
+  .chip-toggle:hover{transform:translateY(-1px)}
+  .chip-toggle:focus-visible{outline:3px solid var(--red); outline-offset:2px}
+  .chip-toggle.active{
+    background:linear-gradient(135deg,var(--red-hot),var(--red) 60%,var(--red-deep));
+    color:#fff; border-color:transparent;
+    box-shadow:0 8px 22px rgba(236,0,22,.35);
+  }
+  .chip-toggle.active svg{color:#fff}
+  @media (max-width:680px){ .chip-toggle{margin-left:0} }
 
   /* ================= HOME: CITY GRID ================= */
   main{padding:24px 0 26px}
@@ -438,6 +459,10 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
       <strong id="cityCount">—</strong>&nbsp;<span id="txtCities">Städte</span>
     </span>
+    <button class="chip-toggle" id="owToggle" type="button" aria-pressed="false">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 L20 12 M14 6 L20 12 L14 18"/></svg>
+      <span id="txtOneWay">Einfache Fahrt</span>
+    </button>
   </div>
 </div>
 
@@ -499,6 +524,10 @@ var I18N = {
     metaDirect:"Direktverbindungen, 2. Klasse",
     cities:"Städte",
     fromLabel:"ab — Hin & Rück",
+    fromLabelOw:"ab — einfache Fahrt",
+    oneWay:"Einfache Fahrt",
+    owOut:"Hinfahrt",
+    owRet:"Rückfahrt",
     offers:"Angebote",
     backAll:"Alle Städte",
     subLabel:"Bei neuen Tickets benachrichtigen",
@@ -542,6 +571,10 @@ var I18N = {
     metaDirect:"Direct connections, 2nd class",
     cities:"cities",
     fromLabel:"from — round trip",
+    fromLabelOw:"from — one-way",
+    oneWay:"One-way",
+    owOut:"Outbound",
+    owRet:"Return",
     offers:"offers",
     backAll:"All cities",
     subLabel:"Get notified about new tickets",
@@ -585,6 +618,10 @@ var I18N = {
     metaDirect:"Direkt seferler, 2. sınıf",
     cities:"şehir",
     fromLabel:"başlayan fiyatlarla — G/D",
+    fromLabelOw:"başlayan fiyatlarla — tek yön",
+    oneWay:"Tek yön",
+    owOut:"Gidiş",
+    owRet:"Dönüş",
     offers:"sefer",
     backAll:"Tüm şehirler",
     subLabel:"Yeni biletlerde haber al",
@@ -655,6 +692,7 @@ function applyStaticText(){
   document.getElementById("txtFrom").textContent = t.metaFrom;
   document.getElementById("txtDirect").textContent = t.metaDirect;
   document.getElementById("txtCities").textContent = t.cities;
+  document.getElementById("txtOneWay").textContent = t.oneWay;
   document.getElementById("txtSubLabel").textContent = t.subLabel;
   document.getElementById("modalTitle").textContent = t.subLabel;
   document.getElementById("txtSubDesc").textContent = t.subDesc;
@@ -756,6 +794,7 @@ function setLang(code){
   var content = document.getElementById("content");
   var currentCity = null;
   var photoCache = {};
+  var oneWay = false;
 
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
@@ -821,12 +860,44 @@ function setLang(code){
     return map;
   }
 
+  // Tek yon: kombolardaki gidis/donus bacaklarini ayristirip tekillestir
+  function oneWayByCity(deals){
+    var map = {}, seen = {};
+    deals.forEach(function(d){
+      [["out", d.out], ["ret", d.ret]].forEach(function(pair){
+        var dir = pair[0], leg = pair[1];
+        var key = d.city + "|" + dir + "|" + leg.dep;
+        if (seen[key]) return;
+        seen[key] = true;
+        (map[d.city] = map[d.city] || []).push({ dir: dir, leg: leg, city: d.city });
+      });
+    });
+    Object.keys(map).forEach(function(c){ map[c].sort(function(a,b){ return a.leg.price - b.leg.price; }); });
+    return map;
+  }
+
+  function bahnLinkOneWay(item){
+    var hh = STATION_DATA["Hamburg"];
+    var st = STATION_DATA[item.city] || { name: item.city + " Hbf", lon:null, lat:null, eva:null };
+    var from = item.dir === "out" ? hh : st;
+    var to = item.dir === "out" ? st : hh;
+    var hd = isoLocal(new Date(item.leg.dep));
+    var params = "sts=true&so=" + encodeURIComponent(from.name) + "&zo=" + encodeURIComponent(to.name) +
+      "&kl=2&r=13:16:KLASSENLOS:1" +
+      (from.eva ? "&soid=" + encodeURIComponent(stationId(from)) : "") +
+      (to.eva ? "&zoid=" + encodeURIComponent(stationId(to)) : "") +
+      "&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D" +
+      "&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false";
+    return "https://www.bahn.de/buchung/fahrplan/suche#" + params;
+  }
+
   // ---------- ANASAYFA: sehir kartlari ----------
   function renderHome(data){
     currentCity = null;
     var t = T();
-    var byCity = groupByCity(data.deals || []);
-    var cities = Object.keys(byCity).sort(function(a,b){ return byCity[a][0].total - byCity[b][0].total; });
+    var byCity = oneWay ? oneWayByCity(data.deals || []) : groupByCity(data.deals || []);
+    var minOf = function(c){ return oneWay ? byCity[c][0].leg.price : byCity[c][0].total; };
+    var cities = Object.keys(byCity).sort(function(a,b){ return minOf(a) - minOf(b); });
     document.getElementById("cityCount").textContent = cities.length;
 
     if (!cities.length){
@@ -839,14 +910,14 @@ function setLang(code){
 
     cities.forEach(function(city){
       var list = byCity[city];
-      var min = list[0].total;
+      var min = minOf(city);
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
         '<div class="card-btn" role="button" tabindex="0">' +
           '<div class="photo" data-city="' + city + '">' +
             '<div class="shade"></div>' +
-            '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + t.fromLabel + '</span></span>' +
+            '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (oneWay ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
             '<div class="city">' + cityLabel(city) + '</div>' +
           '</div>' +
           '<div class="card-foot">' +
@@ -872,10 +943,10 @@ function setLang(code){
   function renderCity(data, city){
     currentCity = city;
     var t = T();
-    var byCity = groupByCity(data.deals || []);
+    var byCity = oneWay ? oneWayByCity(data.deals || []) : groupByCity(data.deals || []);
     var list = byCity[city];
     if (!list){ location.hash = ""; return; }
-    var min = list[0].total;
+    var min = oneWay ? list[0].leg.price : list[0].total;
 
     var root = document.createElement("div");
     root.innerHTML =
@@ -886,14 +957,45 @@ function setLang(code){
       '<div class="city-hero">' +
         '<div class="photo" data-city="' + city + '" style="height:100%">' +
           '<div class="shade"></div>' +
-          '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + t.fromLabel + '</span></span>' +
+          '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (oneWay ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
           '<div class="city">' + cityLabel(city) + '</div>' +
         '</div>' +
       '</div>' +
       '<div class="rows"></div>';
 
     var rows = root.querySelector(".rows");
-    list.forEach(function(dl){
+    if (oneWay){
+      list.forEach(function(item){
+        var dep = new Date(item.leg.dep);
+        var row = document.createElement("div");
+        row.className = "row";
+        row.innerHTML =
+          '<button class="row-btn" type="button" aria-expanded="false">' +
+            '<span class="row-info">' +
+              '<div class="row-date">' + t.days[dep.getDay()] + ' ' + dep.getDate() + ' ' + t.months[dep.getMonth()] + '</div>' +
+              '<div class="row-variant"><span class="dot"></span>' + (item.dir === "out" ? t.owOut : t.owRet) + '</div>' +
+            '</span>' +
+            '<span class="row-price">' + eur(item.leg.price) + ' \u20AC</span>' +
+            '<svg class="chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
+          '</button>' +
+          '<div class="row-details">' +
+            '<div class="row-details-inner">' +
+              legRow(item.dir === "out" ? t.legOut : t.legRet, item.leg) +
+            '</div>' +
+            '<a class="ticket-link" href="' + bahnLinkOneWay(item) + '" target="_blank" rel="noopener">' +
+              '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>' +
+              '<span>' + t.goToTicket + '</span>' +
+            '</a>' +
+          '</div>';
+        var b = row.querySelector(".row-btn");
+        b.addEventListener("click", function(){
+          var open = row.classList.toggle("open");
+          b.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        rows.appendChild(row);
+      });
+    }
+    else list.forEach(function(dl){
       var row = document.createElement("div");
       row.className = "row";
       row.innerHTML =
@@ -976,6 +1078,14 @@ function setLang(code){
   }
   window.addEventListener("hashchange", route);
   window.rerender = route;
+
+  var owBtn = document.getElementById("owToggle");
+  owBtn.addEventListener("click", function(){
+    oneWay = !oneWay;
+    owBtn.classList.toggle("active", oneWay);
+    owBtn.setAttribute("aria-pressed", oneWay ? "true" : "false");
+    route();
+  });
 
   // ---------- ABONELIKTEN CIKIS ----------
   function handleUnsub(){
