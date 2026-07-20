@@ -146,6 +146,24 @@
   }
   .chip svg{flex:none; color:var(--red)}
   .chip strong{font-weight:700}
+  .org-seg{display:inline-flex; gap:2px; background:rgba(27,30,37,.08); border-radius:99px; padding:2.5px}
+  .org-btn{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    padding:4px 11px; border-radius:99px; font-size:12.5px; font-weight:700; color:var(--slate);
+    transition:background .18s ease, color .18s ease;
+  }
+  .org-btn:hover{color:var(--ink)}
+  .org-btn.active{
+    background:linear-gradient(135deg,var(--red-hot),var(--red-deep)); color:#fff;
+    box-shadow:0 2px 8px rgba(236,0,22,.35);
+  }
+  .org-btn:focus-visible{outline:2px solid var(--red); outline-offset:1px}
+  .origin-pick{display:grid; gap:22px; grid-template-columns:repeat(2,1fr); margin-top:6px}
+  @media (max-width:580px){.origin-pick{grid-template-columns:1fr}}
+  .origin-pick .photo{height:230px}
+  .pick-title{
+    text-align:center; font-size:15px; font-weight:700; color:var(--slate); margin:4px 0 18px;
+  }
   .chip-toggle{
     all:unset; box-sizing:border-box; cursor:pointer;
     display:inline-flex; align-items:center; gap:8px;
@@ -456,9 +474,10 @@
 
 <div class="wrap">
   <div class="chips">
-    <span class="chip">
+    <span class="chip chip-origin">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="14" rx="2.5"/><path d="M9 17 L7 21 M15 17 L17 21 M7 12 L17 12"/></svg>
-      <span id="txtFrom">Abfahrt:</span>&nbsp;<strong>Hamburg Hbf</strong>
+      <span id="txtFrom">Abfahrt:</span>
+      <span class="org-seg" id="orgSeg"></span>
     </span>
     <span class="chip">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12 L19 12 M13 6 L19 12 L13 18"/></svg>
@@ -522,15 +541,16 @@ var SUPABASE_ANON_KEY = "sb_publishable_M-QnplymNuUQVcbHQr0_RQ_wLh2YFOp";
 var I18N = {
   de: {
     flag:"https://flagcdn.com/24x18/de.png", flagName:"Deutsch",
-    docTitle:"Wochenendkurztrip — Wochenende ab Hamburg",
+    docTitle:"Wochenendkurztrip — Wochenend-Bahntrips",
     adDesc:"Deutsch lernen — von A1 bis B2, ein paar Minuten am Tag",
     adTag:"Anzeige",
-    eyebrow:"Wochenende ab Hamburg",
+    eyebrow:"Wochenend-Bahntrips",
     title:"Wochenendkurztrip",
-    heroSub:"Direktverbindungen ab Hamburg Hbf — automatisch gescannt, nach Preis sortiert.",
+    heroSub:"Direktverbindungen ab Hamburg & München — automatisch gescannt, nach Preis sortiert.",
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
     metaDirect:"Direktverbindungen, 2. Klasse",
+    pickOrigin:"Wähle deinen Abfahrtsort",
     cities:"Städte",
     fromLabel:"ab — Hin & Rück",
     fromLabelOw:"ab — einfache Fahrt",
@@ -569,15 +589,16 @@ var I18N = {
   },
   en: {
     flag:"https://flagcdn.com/24x18/gb.png", flagName:"English",
-    docTitle:"Wochenendkurztrip — Weekend from Hamburg",
+    docTitle:"Wochenendkurztrip — Weekend rail trips",
     adDesc:"Learn German — from A1 to B2, a few minutes a day",
     adTag:"Ad",
-    eyebrow:"Weekend from Hamburg",
+    eyebrow:"Weekend rail trips",
     title:"Wochenendkurztrip",
-    heroSub:"Direct connections from Hamburg Hbf — scanned automatically, sorted by price.",
+    heroSub:"Direct connections from Hamburg & Munich — scanned automatically, sorted by price.",
     standLabel:"Last updated",
     metaFrom:"Departure:",
     metaDirect:"Direct connections, 2nd class",
+    pickOrigin:"Choose your departure station",
     cities:"cities",
     fromLabel:"from — round trip",
     fromLabelOw:"from — one-way",
@@ -616,15 +637,16 @@ var I18N = {
   },
   tr: {
     flag:"https://flagcdn.com/24x18/tr.png", flagName:"Türkçe",
-    docTitle:"Wochenendkurztrip — Hamburg'dan Haftasonu",
+    docTitle:"Wochenendkurztrip — Haftasonu Tren Kaçamakları",
     adDesc:"Almanca öğren — A1'den B2'ye, günde birkaç dakika",
     adTag:"Reklam",
-    eyebrow:"Hamburg'dan haftasonu",
+    eyebrow:"Haftasonu tren kaçamakları",
     title:"Wochenendkurztrip",
-    heroSub:"Hamburg Hbf çıkışlı direkt seferler — otomatik taranır, fiyata göre sıralanır.",
+    heroSub:"Hamburg ve München çıkışlı direkt seferler — otomatik taranır, fiyata göre sıralanır.",
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
     metaDirect:"Direkt seferler, 2. sınıf",
+    pickOrigin:"Kalkış yerini seç",
     cities:"şehir",
     fromLabel:"başlayan fiyatlarla — G/D",
     fromLabelOw:"başlayan fiyatlarla — tek yön",
@@ -781,7 +803,9 @@ function setLang(code){
     "Berlin":"Berlin","München":"Munich","Köln":"Cologne","Frankfurt":"Frankfurt",
     "Stuttgart":"Stuttgart","Düsseldorf":"Düsseldorf","Leipzig":"Leipzig","Dresden":"Dresden",
     "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover",
-    "Bremen":"Bremen","Kiel":"Kiel"
+    "Bremen":"Bremen","Kiel":"Kiel",
+    "Kopenhagen":"Copenhagen","Wien":"Vienna","Salzburg":"Salzburg","Innsbruck":"Innsbruck",
+    "Zürich":"Zurich","Prag":"Prague","Venedig":"Venice"
   };
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
@@ -797,13 +821,32 @@ function setLang(code){
     "Münster":  { name:"Münster(Westf)Hbf",    eva:"8000263", lon:7.635715,  lat:51.956566 },
     "Hannover": { name:"Hannover Hbf",         eva:"8000152", lon:9.741021,  lat:52.376761 },
     "Bremen":   { name:"Bremen Hbf",           eva:"8000050", lon:8.813833,  lat:53.083481 },
-    "Kiel":     { name:"Kiel Hbf",             eva:"8000199", lon:10.131976, lat:54.315387 }
+    "Kiel":     { name:"Kiel Hbf",             eva:"8000199", lon:10.131976, lat:54.315387 },
+    "Kopenhagen":{name:"København H",          eva:"8600626", lon:12.565562, lat:55.672761 },
+    "Wien":     { name:"Wien Hbf",             eva:"8103000", lon:16.375865, lat:48.185183 },
+    "Salzburg": { name:"Salzburg Hbf",         eva:"8100002", lon:13.045620, lat:47.812871 },
+    "Innsbruck":{ name:"Innsbruck Hbf",        eva:"8100108", lon:11.400375, lat:47.263341 },
+    "Zürich":   { name:"Zürich HB",            eva:"8503000", lon:8.540211,  lat:47.378177 },
+    "Prag":     { name:"Praha hl.n.",          eva:"5400014", lon:14.435458, lat:50.083011 },
+    "Venedig":  { name:"Venezia Santa Lucia",  eva:"8300092", lon:12.320688, lat:45.441569 }
   };
   var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var content = document.getElementById("content");
   var currentCity = null;
   var photoCache = {};
   var oneWay = false;
+  var ORIGIN_KEY = "wochenende_origin";
+  var origin = (function(){
+    try { var v = localStorage.getItem(ORIGIN_KEY); if (v) return v; } catch(e){}
+    return null; // ilk giriste secim ekrani
+  })();
+  function dealOrigin(d){ return d.origin || "Hamburg"; }
+  function originsIn(data){
+    if (data.origins && data.origins.length) return data.origins;
+    var set = {};
+    (data.deals || []).forEach(function(d){ set[dealOrigin(d)] = true; });
+    return Object.keys(set);
+  }
 
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
@@ -824,13 +867,13 @@ function setLang(code){
     return "A=1@O=" + st.name + "@X=" + Math.round(st.lon*1e6) + "@Y=" + Math.round(st.lat*1e6) + "@U=80@L=" + st.eva + "@";
   }
   function bahnLink(dl){
-    var origin = STATION_DATA["Hamburg"];
+    var org = STATION_DATA[dealOrigin(dl)] || STATION_DATA["Hamburg"];
     var dest = STATION_DATA[dl.city] || { name: dl.city + " Hbf", lon:null, lat:null, eva:null };
     var hd = isoLocal(new Date(dl.out.dep));
     var rd = isoLocal(new Date(dl.ret.dep));
-    var params = "sts=true&so=" + encodeURIComponent(origin.name) + "&zo=" + encodeURIComponent(dest.name) +
+    var params = "sts=true&so=" + encodeURIComponent(org.name) + "&zo=" + encodeURIComponent(dest.name) +
       "&kl=2&r=13:16:KLASSENLOS:1" +
-      "&soid=" + encodeURIComponent(stationId(origin)) +
+      "&soid=" + encodeURIComponent(stationId(org)) +
       (dest.eva ? "&zoid=" + encodeURIComponent(stationId(dest)) : "") +
       "&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D&rd=" + rd +
       "&rza=D&rz=%5B%5D&rv=00,01,02,03,04,05,06,07,08,09&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false";
@@ -864,7 +907,10 @@ function setLang(code){
 
   function groupByCity(deals){
     var map = {};
-    deals.forEach(function(d){ (map[d.city] = map[d.city] || []).push(d); });
+    deals.forEach(function(d){
+      if (dealOrigin(d) !== origin) return;
+      (map[d.city] = map[d.city] || []).push(d);
+    });
     Object.keys(map).forEach(function(c){ map[c].sort(function(a,b){ return a.total - b.total; }); });
     return map;
   }
@@ -873,12 +919,13 @@ function setLang(code){
   function oneWayByCity(deals){
     var map = {}, seen = {};
     deals.forEach(function(d){
+      if (dealOrigin(d) !== origin) return;
       [["out", d.out], ["ret", d.ret]].forEach(function(pair){
         var dir = pair[0], leg = pair[1];
         var key = d.city + "|" + dir + "|" + leg.dep;
         if (seen[key]) return;
         seen[key] = true;
-        (map[d.city] = map[d.city] || []).push({ dir: dir, leg: leg, city: d.city });
+        (map[d.city] = map[d.city] || []).push({ dir: dir, leg: leg, city: d.city, origin: dealOrigin(d) });
       });
     });
     Object.keys(map).forEach(function(c){ map[c].sort(function(a,b){ return a.leg.price - b.leg.price; }); });
@@ -886,7 +933,7 @@ function setLang(code){
   }
 
   function bahnLinkOneWay(item){
-    var hh = STATION_DATA["Hamburg"];
+    var hh = STATION_DATA[item.origin || "Hamburg"] || STATION_DATA["Hamburg"];
     var st = STATION_DATA[item.city] || { name: item.city + " Hbf", lon:null, lat:null, eva:null };
     var from = item.dir === "out" ? hh : st;
     var to = item.dir === "out" ? st : hh;
@@ -898,6 +945,64 @@ function setLang(code){
       "&sot=ST&zot=ST&hd=" + hd + "&hza=D&hz=%5B%5D" +
       "&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false";
     return "https://www.bahn.de/buchung/fahrplan/suche#" + params;
+  }
+
+  function buildOriginSeg(data){
+    var seg = document.getElementById("orgSeg");
+    if (!seg) return;
+    seg.innerHTML = "";
+    originsIn(data).forEach(function(o){
+      var st = STATION_DATA[o];
+      var b = document.createElement("button");
+      b.className = "org-btn" + (o === origin ? " active" : "");
+      b.type = "button";
+      b.textContent = st ? st.name : o;
+      b.addEventListener("click", function(){
+        if (origin === o) return;
+        origin = o;
+        try { localStorage.setItem(ORIGIN_KEY, o); } catch(e){}
+        location.hash = "";
+        buildOriginSeg(data);
+        route();
+      });
+      seg.appendChild(b);
+    });
+  }
+
+  // ---------- ILK GIRIS: kalkis secimi ----------
+  function renderOriginPick(data){
+    var t = T();
+    var wrap = document.createElement("div");
+    wrap.innerHTML = '<div class="pick-title">' + t.pickOrigin + '</div><div class="origin-pick"></div>';
+    var grid = wrap.querySelector(".origin-pick");
+    originsIn(data).forEach(function(o){
+      var st = STATION_DATA[o];
+      var card = document.createElement("article");
+      card.className = "card";
+      card.innerHTML =
+        '<div class="card-btn" role="button" tabindex="0">' +
+          '<div class="photo" data-city="' + o + '">' +
+            '<div class="shade"></div>' +
+            '<div class="city">' + (st ? st.name : o) + '</div>' +
+          '</div>' +
+        '</div>';
+      var btn = card.querySelector(".card-btn");
+      function pick(){
+        origin = o;
+        try { localStorage.setItem(ORIGIN_KEY, o); } catch(e){}
+        buildOriginSeg(data);
+        route();
+      }
+      btn.addEventListener("click", pick);
+      btn.addEventListener("keydown", function(e){
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); }
+      });
+      grid.appendChild(card);
+    });
+    content.innerHTML = "";
+    while (wrap.firstChild) content.appendChild(wrap.firstChild);
+    document.getElementById("cityCount").textContent = "—";
+    loadPhotos();
   }
 
   // ---------- ANASAYFA: sehir kartlari ----------
@@ -1081,6 +1186,7 @@ function setLang(code){
   // ---------- ROUTING ----------
   function route(){
     if (!window.BAHN_DATA) return;
+    if (!origin) { renderOriginPick(window.BAHN_DATA); return; }
     var h = decodeURIComponent((location.hash || "").replace(/^#/, ""));
     if (h.indexOf("c/") === 0) renderCity(window.BAHN_DATA, h.slice(2));
     else renderHome(window.BAHN_DATA);
@@ -1137,6 +1243,8 @@ function setLang(code){
     var d = new Date(window.BAHN_DATA.generatedAt);
     document.getElementById("stand").textContent =
       pad(d.getDate())+"."+pad(d.getMonth()+1)+"."+d.getFullYear()+" "+hhmm(d);
+    if (origin && originsIn(window.BAHN_DATA).indexOf(origin) === -1) origin = null;
+    buildOriginSeg(window.BAHN_DATA);
     route();
   } else {
     var t = T();
