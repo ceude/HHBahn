@@ -1,12 +1,19 @@
 # notify.py — GitHub Action tarafindan calistirilir (repo kokune koy).
 # data.js'ten en ucuz komboyu okur, Supabase'den aboneleri ceker,
-# Gmail SMTP (uygulama sifresi) ile bcc mail atar.
+# her aboneye KENDI abonelikten-cikis linkiyle ayri mail atar (Gmail SMTP).
+#
+# Gerekli GitHub secret'lari:
+#   SUPABASE_URL, SUPABASE_SERVICE_KEY, GMAIL_USER, GMAIL_APP_PASSWORD,
+#   UNSUB_SECRET  (unsub_setup.sql icindeki secret ile AYNI deger)
 
+import hashlib
+import hmac
 import json
 import os
 import re
 import smtplib
 import sys
+import urllib.parse
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -16,6 +23,7 @@ SUPABASE_URL = os.environ["SUPABASE_URL"].rstrip("/")
 SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
+UNSUB_SECRET = os.environ["UNSUB_SECRET"]
 SITE_URL = os.environ.get("SITE_URL", "https://ceude.github.io/HHBahn")
 
 # 1) data.js -> en ucuz kombo
@@ -40,12 +48,17 @@ if not emails:
     print("Abone yok, mail atilmiyor.")
     sys.exit(0)
 
-# 3) Mail
-subject = f"Neue Wochenendtickets ab Hamburg — ab {cheapest_str} €"
-html = f"""
+
+def unsub_link(email: str) -> str:
+    token = hmac.new(UNSUB_SECRET.encode(), email.strip().lower().encode(), hashlib.sha256).hexdigest()
+    return f"{SITE_URL}/?unsub={urllib.parse.quote(email)}&t={token}"
+
+
+def build_html(email: str) -> str:
+    return f"""
 <div style="font-family:Helvetica,Arial,sans-serif;max-width:520px;margin:0 auto">
   <div style="background:#EC0016;color:#fff;padding:16px 20px;border-radius:8px 8px 0 0">
-    <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.85">Wochenende ab Hamburg</div>
+    <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.85">Wochenendkurztrip</div>
     <div style="font-size:20px;font-weight:bold;margin-top:2px">Neue Tickets verf&uuml;gbar</div>
   </div>
   <div style="border:1px solid #D7DCE1;border-top:0;border-radius:0 0 8px 8px;padding:20px">
@@ -55,21 +68,31 @@ html = f"""
     </p>
     <a href="{SITE_URL}" style="display:inline-block;background:#EC0016;color:#fff;text-decoration:none;font-weight:bold;font-size:14px;padding:10px 18px;border-radius:6px">Tickets ansehen</a>
     <p style="color:#878C96;font-size:11px;margin:18px 0 0">
-      Preise sind Sparpreise zum Zeitpunkt des Scans und k&ouml;nnen sich jederzeit &auml;ndern.
+      Preise sind Sparpreise zum Zeitpunkt des Scans und k&ouml;nnen sich jederzeit &auml;ndern.<br>
+      <a href="{unsub_link(email)}" style="color:#878C96;text-decoration:underline">Abmelden / Abonelikten &ccedil;&#305;k</a>
     </p>
   </div>
 </div>
 """
 
-msg = MIMEMultipart("alternative")
-msg["Subject"] = subject
-msg["From"] = f"Wochenende ab Hamburg <{GMAIL_USER}>"
-msg["To"] = GMAIL_USER  # alicilar bcc'de, birbirlerini gormezler
-msg.attach(MIMEText(f"Neue Tickets ab {cheapest_str} EUR: {SITE_URL}", "plain", "utf-8"))
-msg.attach(MIMEText(html, "html", "utf-8"))
 
+subject = f"Neue Wochenendtickets ab Hamburg — ab {cheapest_str} €"
+sent = 0
 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
     s.login(GMAIL_USER, GMAIL_PASS)
-    s.sendmail(GMAIL_USER, [GMAIL_USER] + emails, msg.as_string())
+    for email in emails:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"] = f"Wochenendkurztrip <{GMAIL_USER}>"
+        msg["To"] = email
+        msg.attach(MIMEText(
+            f"Neue Tickets ab {cheapest_str} EUR: {SITE_URL}\nAbmelden: {unsub_link(email)}",
+            "plain", "utf-8"))
+        msg.attach(MIMEText(build_html(email), "html", "utf-8"))
+        try:
+            s.sendmail(GMAIL_USER, [email], msg.as_string())
+            sent += 1
+        except smtplib.SMTPException as e:
+            print(f"gonderilemedi ({email}): {e}")
 
-print(f"OK — {len(emails)} aboneye gonderildi, en ucuz {cheapest_str} EUR")
+print(f"OK — {sent}/{len(emails)} aboneye gonderildi, en ucuz {cheapest_str} EUR")
