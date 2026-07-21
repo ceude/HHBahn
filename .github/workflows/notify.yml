@@ -4,6 +4,7 @@
 #   SUPABASE_URL          -> https://XXXX.supabase.co
 #   SUPABASE_SERVICE_KEY  -> Settings > API > service_role key (GIZLI, sadece buraya)
 #   GMAIL_USER            -> gonderen gmail adresi
+#   UNSUB_SECRET          -> unsub_setup.sql icindeki secret ile ayni deger
 #   GMAIL_APP_PASSWORD    -> Google hesabi > Guvenlik > 2 adimli dogrulama > Uygulama sifreleri
 name: Notify subscribers
 
@@ -11,13 +12,15 @@ on:
   push:
     paths:
       - "data.js"
-  workflow_dispatch:
 
 jobs:
   notify:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -30,3 +33,10 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           UNSUB_SECRET: ${{ secrets.UNSUB_SECRET }}
           SITE_URL: https://ceude.github.io/HHBahn
+      - name: Commit dip bayrakli data.js
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          git diff --staged --quiet || git commit -m "chore: dip fiyat bayraklari [skip ci]"
+          git push
