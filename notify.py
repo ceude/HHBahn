@@ -36,6 +36,22 @@ if not deals:
 cheapest = min(d["total"] for d in deals)
 cheapest_str = f"{cheapest:.2f}".replace(".", ",")
 
+# Kalkis bazli en dusuk (mail metni icin)
+by_origin = {}
+for d in deals:
+    o = d.get("origin", "Hamburg")
+    by_origin[o] = min(by_origin.get(o, 1e9), d["total"])
+def eur(v):
+    return f"{v:.2f}".replace(".", ",")
+# Sabit sira: Hamburg, Munchen, sonra kalanlar
+order = [o for o in ["Hamburg", "München"] if o in by_origin] + \
+        [o for o in by_origin if o not in ("Hamburg", "München")]
+origin_lines_html = "".join(
+    f'<li style="margin:2px 0">ab <strong>{o}</strong> — ab {eur(by_origin[o])} &euro;</li>'
+    for o in order
+)
+origin_lines_txt = " | ".join(f"ab {o}: {eur(by_origin[o])} EUR" for o in order)
+
 # ---- DIP FIYAT: gecmisle karsilastir, bayrakla, data.js'i guncelle ----
 def route_key(origin, city, variant, direction):
     return f"{origin}|{city}|{variant}|{direction}"
@@ -135,9 +151,11 @@ def build_html(email: str) -> str:
   </div>
   <div style="border:1px solid #D7DCE1;border-top:0;border-radius:0 0 8px 8px;padding:20px">
     <p style="color:#282D37;font-size:15px;line-height:1.5;margin:0 0 14px">
-      Die Preisliste wurde aktualisiert. Wochenend-Tickets ab Hamburg Hbf (hin und zur&uuml;ck)
-      gibt es <strong>ab {cheapest_str} &euro;</strong>.
+      Die Preisliste wurde aktualisiert. Wochenend-Tickets (hin und zur&uuml;ck) gibt es:
     </p>
+    <ul style="color:#282D37;font-size:15px;line-height:1.6;margin:0 0 14px;padding-left:20px">
+      {origin_lines_html}
+    </ul>
     <a href="{SITE_URL}" style="display:inline-block;background:#EC0016;color:#fff;text-decoration:none;font-weight:bold;font-size:14px;padding:10px 18px;border-radius:6px">Tickets ansehen</a>
     <p style="color:#878C96;font-size:11px;margin:18px 0 0">
       Preise sind Sparpreise zum Zeitpunkt des Scans und k&ouml;nnen sich jederzeit &auml;ndern.<br>
@@ -148,7 +166,7 @@ def build_html(email: str) -> str:
 """
 
 
-subject = f"Neue Wochenendtickets ab Hamburg — ab {cheapest_str} €"
+subject = f"Neue Wochenend-Bahntrips — ab {cheapest_str} €"
 sent = 0
 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
     s.login(GMAIL_USER, GMAIL_PASS)
@@ -158,7 +176,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         msg["From"] = f"Wochenendkurztrip <{GMAIL_USER}>"
         msg["To"] = email
         msg.attach(MIMEText(
-            f"Neue Tickets ab {cheapest_str} EUR: {SITE_URL}\nAbmelden: {unsub_link(email)}",
+            f"Neue Wochenend-Bahntrips ({origin_lines_txt}): {SITE_URL}\nAbmelden: {unsub_link(email)}",
             "plain", "utf-8"))
         msg.attach(MIMEText(build_html(email), "html", "utf-8"))
         try:
