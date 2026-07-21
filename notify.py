@@ -36,6 +36,78 @@ if not deals:
 cheapest = min(d["total"] for d in deals)
 cheapest_str = f"{cheapest:.2f}".replace(".", ",")
 
+# ---- DIP FIYAT: gecmisle karsilastir, bayrakla, data.js'i guncelle ----
+def route_key(origin, city, variant, direction):
+    return f"{origin}|{city}|{variant}|{direction}"
+
+# Bu taramadaki her rota-yon icin gorulen en dusuk fiyati topla
+seen_low = {}  # route_key -> price
+for d in deals:
+    o = d.get("origin", "Hamburg")
+    seen_low_rt = route_key(o, d["city"], d["variant"], "rt")
+    seen_low[seen_low_rt] = min(seen_low.get(seen_low_rt, 1e9), d["total"])
+    for leg_dir in ("out", "ret"):
+        leg = d.get(leg_dir) or {}
+        p = leg.get("price")
+        if p is None:
+            continue
+        k = route_key(o, d["city"], "ow", leg_dir)
+        seen_low[k] = min(seen_low.get(k, 1e9), p)
+
+# Supabase'deki kayitli en dusukleri cek
+hist = {}
+try:
+    hr = requests.get(
+        f"{SUPABASE_URL}/rest/v1/bahn_price_low?select=route_key,low_price",
+        headers={"apikey": SERVICE_KEY, "Authorization": f"Bearer {SERVICE_KEY}"},
+        timeout=20,
+    )
+    if hr.ok:
+        hist = {row["route_key"]: float(row["low_price"]) for row in hr.json()}
+except requests.RequestException as e:
+    print(f"dip gecmisi okunamadi (atlandi): {e}")
+
+# Bu fiyat kayitli en dusuge esit/altindaysa dip kabul et
+def is_low(key, price):
+    prev = hist.get(key)
+    return prev is None or price <= prev + 0.001
+
+for d in deals:
+    o = d.get("origin", "Hamburg")
+    d["lowRt"] = is_low(route_key(o, d["city"], d["variant"], "rt"), d["total"])
+    for leg_dir in ("out", "ret"):
+        leg = d.get(leg_dir) or {}
+        p = leg.get("price")
+        if p is not None:
+            leg["low"] = is_low(route_key(o, d["city"], "ow", leg_dir), p)
+
+# Yeni dip degerlerini Supabase'e yaz (upsert)
+upserts = []
+for k, p in seen_low.items():
+    prev = hist.get(k)
+    if prev is None or p < prev:
+        upserts.append({"route_key": k, "low_price": round(p, 2)})
+if upserts:
+    try:
+        ur = requests.post(
+            f"{SUPABASE_URL}/rest/v1/bahn_price_low",
+            headers={
+                "apikey": SERVICE_KEY, "Authorization": f"Bearer {SERVICE_KEY}",
+                "Content-Type": "application/json",
+                "Prefer": "resolution=merge-duplicates",
+            },
+            json=upserts, timeout=30,
+        )
+        if not ur.ok:
+            print(f"dip yazilamadi: {ur.status_code} {ur.text[:200]}")
+    except requests.RequestException as e:
+        print(f"dip yazilamadi (atlandi): {e}")
+
+# data.js'i low bayraklariyla geri yaz (site bunu okuyup rozet gosterir)
+new_js = "window.BAHN_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
+open("data.js", "w", encoding="utf-8").write(new_js)
+print(f"Dip guncellendi: {len(upserts)} yeni dip.")
+
 # 2) Aboneler
 r = requests.get(
     f"{SUPABASE_URL}/rest/v1/bahn_subscribers?select=email",
