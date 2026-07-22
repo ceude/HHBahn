@@ -1,5 +1,5 @@
 window.BAHN_DATA = {
- "generatedAt": "2026-07-21T11:54:00",
+ "generatedAt": "2026-07-22T08:03:00",
  "priceCap": null,
  "origins": [
   "Hamburg",
@@ -12,11 +12,11 @@ window.BAHN_DATA = {
    "variant": "Gunubirlik",
    "total": 13.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T07:41:00",
+    "dep": "2026-08-01T07:45:00",
+    "arr": "2026-08-01T08:41:00",
     "from": "Hamburg Hbf",
     "to": "Bremen Hbf",
-    "trains": "ICE 105",
+    "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9
    },
@@ -69,11 +69,11 @@ window.BAHN_DATA = {
     "durH": 2.3
    },
    "ret": {
-    "dep": "2026-08-15T17:56:00",
-    "arr": "2026-08-15T20:15:00",
+    "dep": "2026-08-15T19:56:00",
+    "arr": "2026-08-15T22:15:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 516",
     "price": 6.99,
     "durH": 2.3
    }
@@ -95,6 +95,54 @@ window.BAHN_DATA = {
    "ret": {
     "dep": "2026-08-15T17:17:00",
     "arr": "2026-08-15T18:15:00",
+    "from": "Bremen Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 610",
+    "price": 6.99,
+    "durH": 1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-22T06:29:00",
+    "arr": "2026-08-22T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 71",
+    "price": 6.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-08-22T19:08:00",
+    "arr": "2026-08-22T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 6.99,
+    "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Bremen",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-22T06:45:00",
+    "arr": "2026-08-22T07:41:00",
+    "from": "Hamburg Hbf",
+    "to": "Bremen Hbf",
+    "trains": "ICE 105",
+    "price": 6.99,
+    "durH": 0.9
+   },
+   "ret": {
+    "dep": "2026-08-22T17:17:00",
+    "arr": "2026-08-22T18:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 610",
@@ -165,13 +213,13 @@ window.BAHN_DATA = {
     "durH": 2
    },
    "ret": {
-    "dep": "2026-08-15T17:17:00",
-    "arr": "2026-08-15T19:12:00",
+    "dep": "2026-08-15T18:17:00",
+    "arr": "2026-08-15T20:32:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 2589",
+    "trains": "ICE 611",
     "price": 6.99,
-    "durH": 1.9
+    "durH": 2.3
    }
   },
   {
@@ -215,6 +263,78 @@ window.BAHN_DATA = {
    "ret": {
     "dep": "2026-08-15T18:04:00",
     "arr": "2026-08-15T19:56:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1212",
+    "price": 6.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-22T06:42:00",
+    "arr": "2026-08-22T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 6.99,
+    "durH": 2
+   },
+   "ret": {
+    "dep": "2026-08-22T17:17:00",
+    "arr": "2026-08-22T19:12:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 2589",
+    "price": 6.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-22T06:09:00",
+    "arr": "2026-08-22T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 6.99,
+    "durH": 1.3
+   },
+   "ret": {
+    "dep": "2026-08-22T17:01:00",
+    "arr": "2026-08-22T18:12:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 629",
+    "price": 6.99,
+    "durH": 1.2
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-22T06:04:00",
+    "arr": "2026-08-22T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 6.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-08-22T18:04:00",
+    "arr": "2026-08-22T19:56:00",
     "from": "Salzburg Hbf",
     "to": "München Hbf",
     "trains": "ICE 1212",
@@ -276,20 +396,20 @@ window.BAHN_DATA = {
    "variant": "Cumartesi",
    "total": 24.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T07:41:00",
+    "dep": "2026-08-01T07:45:00",
+    "arr": "2026-08-01T08:41:00",
     "from": "Hamburg Hbf",
     "to": "Bremen Hbf",
-    "trains": "ICE 105",
+    "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9
    },
    "ret": {
-    "dep": "2026-08-02T19:17:00",
-    "arr": "2026-08-02T20:15:00",
+    "dep": "2026-08-02T18:17:00",
+    "arr": "2026-08-02T19:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 108",
     "price": 17.99,
     "durH": 1
    }
@@ -367,27 +487,99 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Stuttgart",
+   "origin": "Hamburg",
+   "city": "Münster",
    "variant": "Gunubirlik",
    "total": 24.98,
    "out": {
-    "dep": "2026-08-01T06:42:00",
-    "arr": "2026-08-01T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
+    "dep": "2026-08-22T06:45:00",
+    "arr": "2026-08-22T09:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 105",
     "price": 17.99,
-    "durH": 2
+    "durH": 2.3
    },
    "ret": {
-    "dep": "2026-08-01T22:17:00",
-    "arr": "2026-08-02T00:29:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 615",
+    "dep": "2026-08-22T19:56:00",
+    "arr": "2026-08-22T22:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
     "price": 6.99,
-    "durH": 2.2
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Bremen",
+   "variant": "Cuma",
+   "total": 24.98,
+   "out": {
+    "dep": "2026-08-21T22:11:00",
+    "arr": "2026-08-21T23:07:00",
+    "from": "Hamburg Hbf",
+    "to": "Bremen Hbf",
+    "trains": "IC 60471",
+    "price": 6.99,
+    "durH": 0.9
+   },
+   "ret": {
+    "dep": "2026-08-23T15:17:00",
+    "arr": "2026-08-23T16:15:00",
+    "from": "Bremen Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 612",
+    "price": 17.99,
+    "durH": 1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Bremen",
+   "variant": "Cumartesi",
+   "total": 24.98,
+   "out": {
+    "dep": "2026-08-22T06:45:00",
+    "arr": "2026-08-22T07:41:00",
+    "from": "Hamburg Hbf",
+    "to": "Bremen Hbf",
+    "trains": "ICE 105",
+    "price": 6.99,
+    "durH": 0.9
+   },
+   "ret": {
+    "dep": "2026-08-23T15:17:00",
+    "arr": "2026-08-23T16:15:00",
+    "from": "Bremen Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 612",
+    "price": 17.99,
+    "durH": 1
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 24.98,
+   "out": {
+    "dep": "2026-08-14T22:01:00",
+    "arr": "2026-08-15T00:07:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1080",
+    "price": 6.99,
+    "durH": 2.1
+   },
+   "ret": {
+    "dep": "2026-08-16T15:01:00",
+    "arr": "2026-08-16T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 17.99,
+    "durH": 1.2
    }
   },
   {
@@ -439,6 +631,54 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Cumartesi",
+   "total": 26.98,
+   "out": {
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T09:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 2505",
+    "price": 6.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-08-16T19:56:00",
+    "arr": "2026-08-16T22:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
+    "price": 19.99,
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 26.98,
+   "out": {
+    "dep": "2026-08-01T06:42:00",
+    "arr": "2026-08-01T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 19.99,
+    "durH": 2
+   },
+   "ret": {
+    "dep": "2026-08-01T22:17:00",
+    "arr": "2026-08-02T00:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 6.99,
+    "durH": 2.2
+   }
+  },
+  {
    "origin": "München",
    "city": "Stuttgart",
    "variant": "Gunubirlik",
@@ -463,6 +703,54 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 26.98,
+   "out": {
+    "dep": "2026-08-21T22:01:00",
+    "arr": "2026-08-22T00:07:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1080",
+    "price": 6.99,
+    "durH": 2.1
+   },
+   "ret": {
+    "dep": "2026-08-23T16:01:00",
+    "arr": "2026-08-23T17:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 627",
+    "price": 19.99,
+    "durH": 1.2
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cumartesi",
+   "total": 26.98,
+   "out": {
+    "dep": "2026-08-22T06:09:00",
+    "arr": "2026-08-22T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 6.99,
+    "durH": 1.3
+   },
+   "ret": {
+    "dep": "2026-08-23T16:01:00",
+    "arr": "2026-08-23T17:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 627",
+    "price": 19.99,
+    "durH": 1.2
+   }
+  },
+  {
    "origin": "Hamburg",
    "city": "Bremen",
    "variant": "Cuma",
@@ -477,11 +765,11 @@ window.BAHN_DATA = {
     "durH": 0.9
    },
    "ret": {
-    "dep": "2026-08-02T19:17:00",
-    "arr": "2026-08-02T20:15:00",
+    "dep": "2026-08-02T18:17:00",
+    "arr": "2026-08-02T19:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 108",
     "price": 17.99,
     "durH": 1
    }
@@ -511,42 +799,18 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Gunubirlik",
-   "total": 28.98,
-   "out": {
-    "dep": "2026-08-01T06:29:00",
-    "arr": "2026-08-01T07:51:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 71",
-    "price": 6.99,
-    "durH": 1.4
-   },
-   "ret": {
-    "dep": "2026-08-01T22:08:00",
-    "arr": "2026-08-01T23:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 21.99,
-    "durH": 1.4
-   }
-  },
-  {
    "origin": "München",
    "city": "Salzburg",
    "variant": "Cuma",
    "total": 28.98,
    "out": {
-    "dep": "2026-08-14T19:12:00",
-    "arr": "2026-08-14T21:01:00",
+    "dep": "2026-08-14T22:51:00",
+    "arr": "2026-08-15T00:49:00",
     "from": "München Hbf",
     "to": "Salzburg Hbf",
-    "trains": "RJ 1293",
+    "trains": "RJ 1297",
     "price": 6.99,
-    "durH": 1.8
+    "durH": 2
    },
    "ret": {
     "dep": "2026-08-16T18:04:00",
@@ -583,27 +847,99 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Bremen",
+   "origin": "München",
+   "city": "Salzburg",
    "variant": "Cuma",
-   "total": 29.98,
+   "total": 28.98,
    "out": {
-    "dep": "2026-07-24T19:45:00",
-    "arr": "2026-07-24T20:41:00",
-    "from": "Hamburg Hbf",
-    "to": "Bremen Hbf",
-    "trains": "ICE 619",
-    "price": 9.99,
-    "durH": 0.9
+    "dep": "2026-08-21T19:12:00",
+    "arr": "2026-08-21T21:01:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJ 1293",
+    "price": 6.99,
+    "durH": 1.8
    },
    "ret": {
-    "dep": "2026-07-26T19:17:00",
-    "arr": "2026-07-26T20:15:00",
-    "from": "Bremen Hbf",
+    "dep": "2026-08-23T18:00:00",
+    "arr": "2026-08-23T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 21.99,
+    "durH": 1.8
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cumartesi",
+   "total": 28.98,
+   "out": {
+    "dep": "2026-08-22T06:04:00",
+    "arr": "2026-08-22T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 6.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-08-23T18:00:00",
+    "arr": "2026-08-23T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 21.99,
+    "durH": 1.8
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Gunubirlik",
+   "total": 30.98,
+   "out": {
+    "dep": "2026-08-01T06:29:00",
+    "arr": "2026-08-01T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 71",
+    "price": 6.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-08-01T22:08:00",
+    "arr": "2026-08-01T23:29:00",
+    "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
-    "price": 19.99,
-    "durH": 1
+    "trains": "ICE 70",
+    "price": 23.99,
+    "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cumartesi",
+   "total": 30.98,
+   "out": {
+    "dep": "2026-08-22T06:29:00",
+    "arr": "2026-08-22T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 71",
+    "price": 6.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-08-23T19:08:00",
+    "arr": "2026-08-23T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 23.99,
+    "durH": 1.4
    }
   },
   {
@@ -612,13 +948,13 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 30.98,
    "out": {
-    "dep": "2026-08-07T22:51:00",
-    "arr": "2026-08-08T00:49:00",
+    "dep": "2026-08-07T19:12:00",
+    "arr": "2026-08-07T21:01:00",
     "from": "München Hbf",
     "to": "Salzburg Hbf",
-    "trains": "RJ 1297",
+    "trains": "RJ 1293",
     "price": 6.99,
-    "durH": 2
+    "durH": 1.8
    },
    "ret": {
     "dep": "2026-08-09T18:00:00",
@@ -656,26 +992,26 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Münster",
-   "variant": "Cumartesi",
+   "city": "Bremen",
+   "variant": "Cuma",
    "total": 31.98,
    "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T09:00:00",
+    "dep": "2026-07-24T19:45:00",
+    "arr": "2026-07-24T20:41:00",
     "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 2505",
-    "price": 6.99,
-    "durH": 2.3
+    "to": "Bremen Hbf",
+    "trains": "ICE 619",
+    "price": 9.99,
+    "durH": 0.9
    },
    "ret": {
-    "dep": "2026-08-16T18:57:00",
-    "arr": "2026-08-16T21:15:00",
-    "from": "Münster (Westf) Hbf",
+    "dep": "2026-07-26T18:17:00",
+    "arr": "2026-07-26T19:15:00",
+    "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 24.99,
-    "durH": 2.3
+    "trains": "ICE 108",
+    "price": 21.99,
+    "durH": 1
    }
   },
   {
@@ -752,33 +1088,57 @@ window.BAHN_DATA = {
   },
   {
    "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cumartesi",
-   "total": 32.98,
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 31.98,
    "out": {
-    "dep": "2026-07-25T06:49:00",
-    "arr": "2026-07-25T08:02:00",
+    "dep": "2026-08-21T22:41:00",
+    "arr": "2026-08-22T00:43:00",
     "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 602",
-    "price": 14.99,
-    "durH": 1.2
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 698",
+    "price": 6.99,
+    "durH": 2
    },
    "ret": {
-    "dep": "2026-07-26T15:01:00",
-    "arr": "2026-07-26T16:13:00",
-    "from": "Nürnberg Hbf",
+    "dep": "2026-08-23T18:17:00",
+    "arr": "2026-08-23T20:32:00",
+    "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 17.99,
-    "durH": 1.2
+    "trains": "ICE 611",
+    "price": 24.99,
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-08-22T06:42:00",
+    "arr": "2026-08-22T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 6.99,
+    "durH": 2
+   },
+   "ret": {
+    "dep": "2026-08-23T18:17:00",
+    "arr": "2026-08-23T20:32:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 24.99,
+    "durH": 2.3
    }
   },
   {
    "origin": "München",
    "city": "Nürnberg",
    "variant": "Cumartesi",
-   "total": 32.98,
+   "total": 33.98,
    "out": {
     "dep": "2026-08-01T06:44:00",
     "arr": "2026-08-01T07:56:00",
@@ -794,31 +1154,7 @@ window.BAHN_DATA = {
     "from": "Nürnberg Hbf",
     "to": "München Hbf",
     "trains": "ICE 625",
-    "price": 25.99,
-    "durH": 1.2
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Gunubirlik",
-   "total": 33.98,
-   "out": {
-    "dep": "2026-07-25T06:49:00",
-    "arr": "2026-07-25T08:02:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 602",
-    "price": 14.99,
-    "durH": 1.2
-   },
-   "ret": {
-    "dep": "2026-07-25T18:01:00",
-    "arr": "2026-07-25T19:12:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 721",
-    "price": 18.99,
+    "price": 26.99,
     "durH": 1.2
    }
   },
@@ -861,11 +1197,11 @@ window.BAHN_DATA = {
     "durH": 0.9
    },
    "ret": {
-    "dep": "2026-07-25T19:17:00",
-    "arr": "2026-07-25T20:15:00",
+    "dep": "2026-07-25T21:17:00",
+    "arr": "2026-07-25T22:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 516",
     "price": 17.99,
     "durH": 1
    }
@@ -885,11 +1221,11 @@ window.BAHN_DATA = {
     "durH": 1.4
    },
    "ret": {
-    "dep": "2026-08-02T17:08:00",
-    "arr": "2026-08-02T18:29:00",
+    "dep": "2026-08-02T19:08:00",
+    "arr": "2026-08-02T20:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 578",
+    "trains": "ICE 576",
     "price": 28.99,
     "durH": 1.4
    }
@@ -924,8 +1260,8 @@ window.BAHN_DATA = {
    "variant": "Gunubirlik",
    "total": 35.98,
    "out": {
-    "dep": "2026-08-15T07:13:00",
-    "arr": "2026-08-15T09:23:00",
+    "dep": "2026-08-22T07:13:00",
+    "arr": "2026-08-22T09:23:00",
     "from": "Hamburg Hbf",
     "to": "Berlin Hbf",
     "trains": "ICE 2587",
@@ -933,8 +1269,8 @@ window.BAHN_DATA = {
     "durH": 2.2
    },
    "ret": {
-    "dep": "2026-08-15T18:33:00",
-    "arr": "2026-08-15T20:44:00",
+    "dep": "2026-08-22T18:33:00",
+    "arr": "2026-08-22T20:44:00",
     "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
@@ -1016,26 +1352,26 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Bremen",
-   "variant": "Cumartesi",
+   "city": "Münster",
+   "variant": "Cuma",
    "total": 37.98,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T07:41:00",
+    "dep": "2026-08-14T19:45:00",
+    "arr": "2026-08-14T22:00:00",
     "from": "Hamburg Hbf",
-    "to": "Bremen Hbf",
-    "trains": "ICE 105",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 619",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 2.3
    },
    "ret": {
-    "dep": "2026-07-26T19:17:00",
-    "arr": "2026-07-26T20:15:00",
-    "from": "Bremen Hbf",
+    "dep": "2026-08-16T19:56:00",
+    "arr": "2026-08-16T22:15:00",
+    "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 516",
     "price": 19.99,
-    "durH": 1
+    "durH": 2.3
    }
   },
   {
@@ -1063,30 +1399,6 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cuma",
-   "total": 37.98,
-   "out": {
-    "dep": "2026-08-14T18:44:00",
-    "arr": "2026-08-14T19:57:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 524",
-    "price": 19.99,
-    "durH": 1.2
-   },
-   "ret": {
-    "dep": "2026-08-16T15:01:00",
-    "arr": "2026-08-16T16:13:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 17.99,
-    "durH": 1.2
-   }
-  },
-  {
    "origin": "Hamburg",
    "city": "Hannover",
    "variant": "Cumartesi",
@@ -1101,13 +1413,109 @@ window.BAHN_DATA = {
     "durH": 1.4
    },
    "ret": {
-    "dep": "2026-08-09T16:19:00",
-    "arr": "2026-08-09T17:37:00",
+    "dep": "2026-08-09T17:08:00",
+    "arr": "2026-08-09T18:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 1072",
+    "trains": "ICE 578",
     "price": 31.99,
-    "durH": 1.3
+    "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cuma",
+   "total": 38.98,
+   "out": {
+    "dep": "2026-08-21T21:28:00",
+    "arr": "2026-08-21T23:05:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 1687",
+    "price": 14.99,
+    "durH": 1.6
+   },
+   "ret": {
+    "dep": "2026-08-23T19:08:00",
+    "arr": "2026-08-23T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 23.99,
+    "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Bremen",
+   "variant": "Cumartesi",
+   "total": 39.98,
+   "out": {
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T07:41:00",
+    "from": "Hamburg Hbf",
+    "to": "Bremen Hbf",
+    "trains": "ICE 105",
+    "price": 17.99,
+    "durH": 0.9
+   },
+   "ret": {
+    "dep": "2026-07-26T18:17:00",
+    "arr": "2026-07-26T19:15:00",
+    "from": "Bremen Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 108",
+    "price": 21.99,
+    "durH": 1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 39.98,
+   "out": {
+    "dep": "2026-08-15T07:13:00",
+    "arr": "2026-08-15T09:23:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 2587",
+    "price": 21.99,
+    "durH": 2.2
+   },
+   "ret": {
+    "dep": "2026-08-15T18:33:00",
+    "arr": "2026-08-15T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 17.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cuma",
+   "total": 39.98,
+   "out": {
+    "dep": "2026-07-31T19:12:00",
+    "arr": "2026-07-31T21:01:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJ 1293",
+    "price": 14.99,
+    "durH": 1.8
+   },
+   "ret": {
+    "dep": "2026-08-02T18:00:00",
+    "arr": "2026-08-02T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 24.99,
+    "durH": 1.8
    }
   },
   {
@@ -1136,26 +1544,26 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cuma",
+   "city": "Berlin",
+   "variant": "Cumartesi",
    "total": 40.98,
    "out": {
-    "dep": "2026-08-14T20:45:00",
-    "arr": "2026-08-15T00:30:00",
+    "dep": "2026-08-22T07:13:00",
+    "arr": "2026-08-22T09:23:00",
     "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 209",
+    "to": "Berlin Hbf",
+    "trains": "ICE 2587",
     "price": 17.99,
-    "durH": 3.8
+    "durH": 2.2
    },
    "ret": {
-    "dep": "2026-08-16T19:34:00",
-    "arr": "2026-08-16T23:16:00",
-    "from": "Düsseldorf Hbf",
+    "dep": "2026-08-23T16:33:00",
+    "arr": "2026-08-23T18:44:00",
+    "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2504",
+    "trains": "ICE 2590",
     "price": 22.99,
-    "durH": 3.7
+    "durH": 2.2
    }
   },
   {
@@ -1208,30 +1616,6 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Münster",
-   "variant": "Cuma",
-   "total": 42.98,
-   "out": {
-    "dep": "2026-08-14T19:45:00",
-    "arr": "2026-08-14T22:00:00",
-    "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 619",
-    "price": 17.99,
-    "durH": 2.3
-   },
-   "ret": {
-    "dep": "2026-08-16T18:57:00",
-    "arr": "2026-08-16T21:15:00",
-    "from": "Münster (Westf) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 24.99,
-    "durH": 2.3
-   }
-  },
-  {
-   "origin": "Hamburg",
    "city": "Hannover",
    "variant": "Cumartesi",
    "total": 42.98,
@@ -1252,6 +1636,78 @@ window.BAHN_DATA = {
     "trains": "ICE 576",
     "price": 27.99,
     "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
+   "total": 42.98,
+   "out": {
+    "dep": "2026-08-22T09:13:00",
+    "arr": "2026-08-22T12:42:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 2589",
+    "price": 35.99,
+    "durH": 3.5
+   },
+   "ret": {
+    "dep": "2026-08-22T21:16:00",
+    "arr": "2026-08-23T00:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2584",
+    "price": 6.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Cuma",
+   "total": 42.98,
+   "out": {
+    "dep": "2026-08-21T20:45:00",
+    "arr": "2026-08-21T23:01:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 209",
+    "price": 17.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-08-23T19:56:00",
+    "arr": "2026-08-23T22:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
+    "price": 24.99,
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Cumartesi",
+   "total": 42.98,
+   "out": {
+    "dep": "2026-08-22T06:45:00",
+    "arr": "2026-08-22T09:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 105",
+    "price": 17.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-08-23T19:56:00",
+    "arr": "2026-08-23T22:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
+    "price": 24.99,
+    "durH": 2.3
    }
   },
   {
@@ -1280,9 +1736,33 @@ window.BAHN_DATA = {
   },
   {
    "origin": "München",
+   "city": "Salzburg",
+   "variant": "Gunubirlik",
+   "total": 43.98,
+   "out": {
+    "dep": "2026-07-25T06:04:00",
+    "arr": "2026-07-25T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 21.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-07-25T21:00:00",
+    "arr": "2026-07-25T22:51:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJX 68",
+    "price": 21.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "München",
    "city": "Nürnberg",
    "variant": "Cuma",
-   "total": 43.98,
+   "total": 44.98,
    "out": {
     "dep": "2026-07-31T19:13:00",
     "arr": "2026-07-31T20:27:00",
@@ -1298,32 +1778,8 @@ window.BAHN_DATA = {
     "from": "Nürnberg Hbf",
     "to": "München Hbf",
     "trains": "ICE 625",
-    "price": 25.99,
+    "price": 26.99,
     "durH": 1.2
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cuma",
-   "total": 43.98,
-   "out": {
-    "dep": "2026-07-31T19:12:00",
-    "arr": "2026-07-31T21:01:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJ 1293",
-    "price": 18.99,
-    "durH": 1.8
-   },
-   "ret": {
-    "dep": "2026-08-02T18:00:00",
-    "arr": "2026-08-02T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 24.99,
-    "durH": 1.8
    }
   },
   {
@@ -1377,78 +1833,6 @@ window.BAHN_DATA = {
   {
    "origin": "Hamburg",
    "city": "Hannover",
-   "variant": "Gunubirlik",
-   "total": 45.98,
-   "out": {
-    "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T07:51:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 575",
-    "price": 22.99,
-    "durH": 1.4
-   },
-   "ret": {
-    "dep": "2026-07-25T22:08:00",
-    "arr": "2026-07-25T23:32:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 574",
-    "price": 22.99,
-    "durH": 1.4
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Gunubirlik",
-   "total": 45.98,
-   "out": {
-    "dep": "2026-07-25T06:04:00",
-    "arr": "2026-07-25T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 23.99,
-    "durH": 1.9
-   },
-   "ret": {
-    "dep": "2026-07-25T21:00:00",
-    "arr": "2026-07-25T22:51:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJX 68",
-    "price": 21.99,
-    "durH": 1.9
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 45.98,
-   "out": {
-    "dep": "2026-08-01T06:42:00",
-    "arr": "2026-08-01T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 17.99,
-    "durH": 2
-   },
-   "ret": {
-    "dep": "2026-08-02T18:17:00",
-    "arr": "2026-08-02T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 27.99,
-    "durH": 2.3
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
    "variant": "Cuma",
    "total": 46.98,
    "out": {
@@ -1461,11 +1845,11 @@ window.BAHN_DATA = {
     "durH": 1.4
    },
    "ret": {
-    "dep": "2026-08-02T17:08:00",
-    "arr": "2026-08-02T18:29:00",
+    "dep": "2026-08-02T19:08:00",
+    "arr": "2026-08-02T20:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 578",
+    "trains": "ICE 576",
     "price": 28.99,
     "durH": 1.4
    }
@@ -1476,13 +1860,13 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 46.99,
    "out": {
-    "dep": "2026-07-24T22:51:00",
-    "arr": "2026-07-25T00:49:00",
+    "dep": "2026-07-24T19:12:00",
+    "arr": "2026-07-24T21:01:00",
     "from": "München Hbf",
     "to": "Salzburg Hbf",
-    "trains": "RJ 1297",
+    "trains": "RJ 1293",
     "price": 14.99,
-    "durH": 2
+    "durH": 1.8
    },
    "ret": {
     "dep": "2026-07-26T18:07:00",
@@ -1496,98 +1880,50 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 47.98,
-   "out": {
-    "dep": "2026-08-15T07:13:00",
-    "arr": "2026-08-15T09:23:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 2587",
-    "price": 17.99,
-    "durH": 2.2
-   },
-   "ret": {
-    "dep": "2026-08-16T16:33:00",
-    "arr": "2026-08-16T18:44:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2590",
-    "price": 29.99,
-    "durH": 2.2
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Köln",
+   "city": "Frankfurt",
    "variant": "Cuma",
    "total": 47.98,
    "out": {
-    "dep": "2026-08-14T20:45:00",
-    "arr": "2026-08-15T01:15:00",
+    "dep": "2026-08-21T19:52:00",
+    "arr": "2026-08-22T01:04:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 209",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 79",
     "price": 17.99,
-    "durH": 4.5
+    "durH": 5.2
    },
    "ret": {
-    "dep": "2026-08-16T19:11:00",
-    "arr": "2026-08-16T23:16:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-23T19:46:00",
+    "arr": "2026-08-23T23:29:00",
+    "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2504",
+    "trains": "ICE 70",
     "price": 29.99,
-    "durH": 4.1
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Gunubirlik",
-   "total": 47.98,
-   "out": {
-    "dep": "2026-08-15T09:13:00",
-    "arr": "2026-08-15T12:42:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 2589",
-    "price": 29.99,
-    "durH": 3.5
-   },
-   "ret": {
-    "dep": "2026-08-15T21:16:00",
-    "arr": "2026-08-16T00:44:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2584",
-    "price": 17.99,
-    "durH": 3.5
+    "durH": 3.7
    }
   },
   {
    "origin": "München",
    "city": "Stuttgart",
-   "variant": "Gunubirlik",
+   "variant": "Cumartesi",
    "total": 47.98,
    "out": {
-    "dep": "2026-07-25T07:28:00",
-    "arr": "2026-07-25T09:43:00",
+    "dep": "2026-08-01T06:42:00",
+    "arr": "2026-08-01T08:43:00",
     "from": "München Hbf",
     "to": "Stuttgart Hbf",
-    "trains": "ICE 612",
-    "price": 29.99,
-    "durH": 2.3
+    "trains": "ICE 2592",
+    "price": 19.99,
+    "durH": 2
    },
    "ret": {
-    "dep": "2026-07-25T22:17:00",
-    "arr": "2026-07-26T00:29:00",
+    "dep": "2026-08-02T18:17:00",
+    "arr": "2026-08-02T20:32:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 17.99,
-    "durH": 2.2
+    "trains": "ICE 611",
+    "price": 27.99,
+    "durH": 2.3
    }
   },
   {
@@ -1612,6 +1948,54 @@ window.BAHN_DATA = {
     "trains": "ICE 1097",
     "price": 29.99,
     "durH": 4
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Gunubirlik",
+   "total": 47.98,
+   "out": {
+    "dep": "2026-08-22T06:04:00",
+    "arr": "2026-08-22T10:32:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "RJX 265",
+    "price": 19.99,
+    "durH": 4.5
+   },
+   "ret": {
+    "dep": "2026-08-22T17:13:00",
+    "arr": "2026-08-22T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 27.99,
+    "durH": 4.8
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Gunubirlik",
+   "total": 49.98,
+   "out": {
+    "dep": "2026-07-25T06:29:00",
+    "arr": "2026-07-25T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 575",
+    "price": 24.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-07-25T22:08:00",
+    "arr": "2026-07-25T23:32:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 574",
+    "price": 24.99,
+    "durH": 1.4
    }
   },
   {
@@ -1653,13 +2037,13 @@ window.BAHN_DATA = {
     "durH": 1.4
    },
    "ret": {
-    "dep": "2026-08-09T16:19:00",
-    "arr": "2026-08-09T17:37:00",
+    "dep": "2026-08-09T17:08:00",
+    "arr": "2026-08-09T18:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 1072",
+    "trains": "ICE 578",
     "price": 31.99,
-    "durH": 1.3
+    "durH": 1.4
    }
   },
   {
@@ -1677,13 +2061,61 @@ window.BAHN_DATA = {
     "durH": 2.3
    },
    "ret": {
-    "dep": "2026-08-02T19:56:00",
-    "arr": "2026-08-02T22:15:00",
+    "dep": "2026-08-02T18:56:00",
+    "arr": "2026-08-02T21:15:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 106",
     "price": 31.99,
     "durH": 2.3
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 51.98,
+   "out": {
+    "dep": "2026-08-15T07:13:00",
+    "arr": "2026-08-15T09:23:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 2587",
+    "price": 21.99,
+    "durH": 2.2
+   },
+   "ret": {
+    "dep": "2026-08-16T16:33:00",
+    "arr": "2026-08-16T18:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 29.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cuma",
+   "total": 52.98,
+   "out": {
+    "dep": "2026-07-24T21:28:00",
+    "arr": "2026-07-24T22:53:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 1687",
+    "price": 19.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-07-26T19:08:00",
+    "arr": "2026-07-26T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 72",
+    "price": 32.99,
+    "durH": 1.4
    }
   },
   {
@@ -1701,61 +2133,85 @@ window.BAHN_DATA = {
     "durH": 2.3
    },
    "ret": {
-    "dep": "2026-08-01T18:56:00",
-    "arr": "2026-08-01T21:15:00",
+    "dep": "2026-08-01T20:56:00",
+    "arr": "2026-08-01T23:16:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 106",
+    "trains": "ICE 104",
     "price": 27.99,
     "durH": 2.3
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Gunubirlik",
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cumartesi",
    "total": 52.98,
    "out": {
-    "dep": "2026-08-15T07:45:00",
-    "arr": "2026-08-15T11:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 517",
-    "price": 29.99,
-    "durH": 4
+    "dep": "2026-07-25T06:09:00",
+    "arr": "2026-07-25T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 34.99,
+    "durH": 1.3
    },
    "ret": {
-    "dep": "2026-08-15T17:11:00",
-    "arr": "2026-08-15T21:15:00",
-    "from": "Köln Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 22.99,
-    "durH": 4.1
+    "dep": "2026-07-26T15:01:00",
+    "arr": "2026-07-26T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 17.99,
+    "durH": 1.2
    }
   },
   {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Gunubirlik",
-   "total": 52.98,
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cuma",
+   "total": 53.98,
    "out": {
-    "dep": "2026-08-01T09:23:00",
-    "arr": "2026-08-01T11:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1183",
-    "price": 27.99,
-    "durH": 1.9
+    "dep": "2026-08-14T20:45:00",
+    "arr": "2026-08-15T00:30:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 209",
+    "price": 17.99,
+    "durH": 3.8
    },
    "ret": {
-    "dep": "2026-08-01T18:42:00",
-    "arr": "2026-08-01T20:37:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 82",
-    "price": 24.99,
-    "durH": 1.9
+    "dep": "2026-08-16T19:34:00",
+    "arr": "2026-08-16T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2504",
+    "price": 35.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
+   "total": 53.98,
+   "out": {
+    "dep": "2026-08-15T09:13:00",
+    "arr": "2026-08-15T12:42:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 2589",
+    "price": 35.99,
+    "durH": 3.5
+   },
+   "ret": {
+    "dep": "2026-08-15T21:16:00",
+    "arr": "2026-08-16T00:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2584",
+    "price": 17.99,
+    "durH": 3.5
    }
   },
   {
@@ -1773,13 +2229,37 @@ window.BAHN_DATA = {
     "durH": 2
    },
    "ret": {
-    "dep": "2026-07-26T16:17:00",
-    "arr": "2026-07-26T18:29:00",
+    "dep": "2026-07-26T18:17:00",
+    "arr": "2026-07-26T20:32:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 519",
+    "trains": "ICE 611",
     "price": 35.99,
-    "durH": 2.2
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Gunubirlik",
+   "total": 53.98,
+   "out": {
+    "dep": "2026-07-25T06:09:00",
+    "arr": "2026-07-25T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 34.99,
+    "durH": 1.3
+   },
+   "ret": {
+    "dep": "2026-07-25T18:01:00",
+    "arr": "2026-07-25T19:12:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 721",
+    "price": 18.99,
+    "durH": 1.2
    }
   },
   {
@@ -1807,27 +2287,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Münster",
-   "variant": "Gunubirlik",
-   "total": 54.98,
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cumartesi",
+   "total": 53.99,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T09:00:00",
-    "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 105",
-    "price": 34.99,
-    "durH": 2.3
+    "dep": "2026-07-25T06:04:00",
+    "arr": "2026-07-25T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 21.99,
+    "durH": 1.9
    },
    "ret": {
-    "dep": "2026-07-25T21:56:00",
-    "arr": "2026-07-26T00:15:00",
-    "from": "Münster (Westf) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 514",
-    "price": 19.99,
-    "durH": 2.3
+    "dep": "2026-07-26T18:07:00",
+    "arr": "2026-07-26T20:20:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "79040",
+    "price": 32,
+    "durH": 2.2
    }
   },
   {
@@ -1855,99 +2335,51 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Innsbruck",
+   "origin": "Hamburg",
+   "city": "Köln",
    "variant": "Cuma",
    "total": 54.98,
    "out": {
-    "dep": "2026-07-24T19:24:00",
-    "arr": "2026-07-24T21:29:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "ICE 1205",
-    "price": 29.99,
-    "durH": 2.1
+    "dep": "2026-08-14T20:45:00",
+    "arr": "2026-08-15T01:15:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 209",
+    "price": 17.99,
+    "durH": 4.5
    },
    "ret": {
-    "dep": "2026-07-26T18:42:00",
-    "arr": "2026-07-26T20:37:00",
+    "dep": "2026-08-16T19:11:00",
+    "arr": "2026-08-16T23:16:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2504",
+    "price": 36.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Gunubirlik",
+   "total": 54.98,
+   "out": {
+    "dep": "2026-08-01T09:23:00",
+    "arr": "2026-08-01T11:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1183",
+    "price": 29.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-08-01T18:42:00",
+    "arr": "2026-08-01T20:37:00",
     "from": "Innsbruck Hbf",
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 24.99,
     "durH": 1.9
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cumartesi",
-   "total": 55.98,
-   "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 2505",
-    "price": 32.99,
-    "durH": 3.7
-   },
-   "ret": {
-    "dep": "2026-08-16T19:34:00",
-    "arr": "2026-08-16T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2504",
-    "price": 22.99,
-    "durH": 3.7
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Gunubirlik",
-   "total": 55.98,
-   "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 2505",
-    "price": 32.99,
-    "durH": 3.7
-   },
-   "ret": {
-    "dep": "2026-08-15T17:34:00",
-    "arr": "2026-08-15T21:15:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 22.99,
-    "durH": 3.7
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cumartesi",
-   "total": 55.99,
-   "out": {
-    "dep": "2026-07-25T06:04:00",
-    "arr": "2026-07-25T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 23.99,
-    "durH": 1.9
-   },
-   "ret": {
-    "dep": "2026-07-26T18:07:00",
-    "arr": "2026-07-26T20:20:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "79040",
-    "price": 32,
-    "durH": 2.2
    }
   },
   {
@@ -1965,13 +2397,157 @@ window.BAHN_DATA = {
     "durH": 2.3
    },
    "ret": {
-    "dep": "2026-08-02T19:56:00",
-    "arr": "2026-08-02T22:15:00",
+    "dep": "2026-08-02T18:56:00",
+    "arr": "2026-08-02T21:15:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 106",
     "price": 31.99,
     "durH": 2.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 56.98,
+   "out": {
+    "dep": "2026-07-25T07:28:00",
+    "arr": "2026-07-25T09:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 612",
+    "price": 31.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-07-25T20:17:00",
+    "arr": "2026-07-25T22:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 24.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cumartesi",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-07-25T06:29:00",
+    "arr": "2026-07-25T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 575",
+    "price": 24.99,
+    "durH": 1.4
+   },
+   "ret": {
+    "dep": "2026-07-26T19:08:00",
+    "arr": "2026-07-26T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 72",
+    "price": 32.99,
+    "durH": 1.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-08-21T20:34:00",
+    "arr": "2026-08-21T22:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 609",
+    "price": 34.99,
+    "durH": 1.8
+   },
+   "ret": {
+    "dep": "2026-08-23T16:33:00",
+    "arr": "2026-08-23T18:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 22.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-08-22T07:45:00",
+    "arr": "2026-08-22T11:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 517",
+    "price": 34.99,
+    "durH": 4
+   },
+   "ret": {
+    "dep": "2026-08-22T20:11:00",
+    "arr": "2026-08-23T00:15:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 514",
+    "price": 22.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cuma",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-07-24T19:24:00",
+    "arr": "2026-07-24T21:29:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "ICE 1205",
+    "price": 29.99,
+    "durH": 2.1
+   },
+   "ret": {
+    "dep": "2026-07-26T18:42:00",
+    "arr": "2026-07-26T20:37:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 82",
+    "price": 27.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-08-07T20:45:00",
+    "arr": "2026-08-08T00:09:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 990",
+    "price": 17.99,
+    "durH": 3.4
+   },
+   "ret": {
+    "dep": "2026-08-09T15:57:00",
+    "arr": "2026-08-09T19:12:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 721",
+    "price": 39.99,
+    "durH": 3.3
    }
   },
   {
@@ -1999,6 +2575,30 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-08-21T20:45:00",
+    "arr": "2026-08-22T00:12:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 990",
+    "price": 17.99,
+    "durH": 3.5
+   },
+   "ret": {
+    "dep": "2026-08-23T18:11:00",
+    "arr": "2026-08-23T22:13:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1097",
+    "price": 39.99,
+    "durH": 4
+   }
+  },
+  {
    "origin": "Hamburg",
    "city": "Leipzig",
    "variant": "Gunubirlik",
@@ -2023,99 +2623,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Cumartesi",
-   "total": 58.98,
-   "out": {
-    "dep": "2026-07-25T09:23:00",
-    "arr": "2026-07-25T11:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1183",
-    "price": 33.99,
-    "durH": 1.9
-   },
-   "ret": {
-    "dep": "2026-07-26T18:42:00",
-    "arr": "2026-07-26T20:37:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 82",
-    "price": 24.99,
-    "durH": 1.9
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Gunubirlik",
-   "total": 58.98,
-   "out": {
-    "dep": "2026-07-25T09:23:00",
-    "arr": "2026-07-25T11:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1183",
-    "price": 33.99,
-    "durH": 1.9
-   },
-   "ret": {
-    "dep": "2026-07-25T18:42:00",
-    "arr": "2026-07-25T20:37:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 82",
-    "price": 24.99,
-    "durH": 1.9
-   }
-  },
-  {
    "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Cumartesi",
+   "city": "Stuttgart",
+   "variant": "Cuma",
    "total": 59.98,
    "out": {
-    "dep": "2026-08-15T07:45:00",
-    "arr": "2026-08-15T11:46:00",
+    "dep": "2026-08-21T19:29:00",
+    "arr": "2026-08-22T00:57:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 517",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 777",
     "price": 29.99,
-    "durH": 4
+    "durH": 5.5
    },
    "ret": {
-    "dep": "2026-08-16T19:11:00",
-    "arr": "2026-08-16T23:16:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-23T19:23:00",
+    "arr": "2026-08-24T00:30:00",
+    "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2504",
+    "trains": "ICE 572",
     "price": 29.99,
-    "durH": 4.1
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
-   "total": 59.98,
-   "out": {
-    "dep": "2026-08-15T09:13:00",
-    "arr": "2026-08-15T12:42:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 2589",
-    "price": 29.99,
-    "durH": 3.5
-   },
-   "ret": {
-    "dep": "2026-08-16T15:16:00",
-    "arr": "2026-08-16T18:44:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2590",
-    "price": 29.99,
-    "durH": 3.5
+    "durH": 5.1
    }
   },
   {
@@ -2167,51 +2695,75 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cumartesi",
-   "total": 60.98,
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cuma",
+   "total": 59.98,
    "out": {
-    "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T07:51:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 575",
-    "price": 22.99,
-    "durH": 1.4
+    "dep": "2026-08-21T18:21:00",
+    "arr": "2026-08-21T22:47:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "EC 1219",
+    "price": 19.99,
+    "durH": 4.4
    },
    "ret": {
-    "dep": "2026-07-26T17:08:00",
-    "arr": "2026-07-26T18:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 6",
-    "price": 37.99,
-    "durH": 1.4
+    "dep": "2026-08-23T17:13:00",
+    "arr": "2026-08-23T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 39.99,
+    "durH": 4.8
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cuma",
-   "total": 61.98,
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cumartesi",
+   "total": 59.98,
    "out": {
-    "dep": "2026-07-24T21:28:00",
-    "arr": "2026-07-24T22:53:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 1687",
-    "price": 23.99,
-    "durH": 1.4
+    "dep": "2026-08-22T06:04:00",
+    "arr": "2026-08-22T10:32:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "RJX 265",
+    "price": 19.99,
+    "durH": 4.5
    },
    "ret": {
-    "dep": "2026-07-26T17:08:00",
-    "arr": "2026-07-26T18:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 6",
-    "price": 37.99,
-    "durH": 1.4
+    "dep": "2026-08-23T17:13:00",
+    "arr": "2026-08-23T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 39.99,
+    "durH": 4.8
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Gunubirlik",
+   "total": 60.98,
+   "out": {
+    "dep": "2026-07-25T09:23:00",
+    "arr": "2026-07-25T11:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1183",
+    "price": 35.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-07-25T18:42:00",
+    "arr": "2026-07-25T20:37:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 82",
+    "price": 24.99,
+    "durH": 1.9
    }
   },
   {
@@ -2264,6 +2816,78 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Gunubirlik",
+   "total": 62.98,
+   "out": {
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T09:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 105",
+    "price": 34.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-07-25T21:56:00",
+    "arr": "2026-07-26T00:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 514",
+    "price": 27.99,
+    "durH": 2.3
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Gunubirlik",
+   "total": 62.98,
+   "out": {
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:25:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 2505",
+    "price": 32.99,
+    "durH": 3.7
+   },
+   "ret": {
+    "dep": "2026-08-15T17:34:00",
+    "arr": "2026-08-15T21:15:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2506",
+    "price": 29.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cumartesi",
+   "total": 63.98,
+   "out": {
+    "dep": "2026-07-25T09:23:00",
+    "arr": "2026-07-25T11:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1183",
+    "price": 35.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-07-26T18:42:00",
+    "arr": "2026-07-26T20:37:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 82",
+    "price": 27.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "Hamburg",
    "city": "Köln",
    "variant": "Gunubirlik",
    "total": 64.98,
@@ -2312,6 +2936,30 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 64.98,
+   "out": {
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:48:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 2505",
+    "price": 34.99,
+    "durH": 4.1
+   },
+   "ret": {
+    "dep": "2026-08-15T17:11:00",
+    "arr": "2026-08-15T21:15:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2506",
+    "price": 29.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "Hamburg",
    "city": "Münster",
    "variant": "Cuma",
    "total": 65.98,
@@ -2349,61 +2997,13 @@ window.BAHN_DATA = {
     "durH": 3.7
    },
    "ret": {
-    "dep": "2026-08-08T17:34:00",
-    "arr": "2026-08-08T21:15:00",
+    "dep": "2026-08-08T19:34:00",
+    "arr": "2026-08-08T23:16:00",
     "from": "Düsseldorf Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
+    "trains": "ICE 2504",
     "price": 32.99,
     "durH": 3.7
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 65.98,
-   "out": {
-    "dep": "2026-07-25T07:28:00",
-    "arr": "2026-07-25T09:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 612",
-    "price": 29.99,
-    "durH": 2.3
-   },
-   "ret": {
-    "dep": "2026-07-26T16:17:00",
-    "arr": "2026-07-26T18:29:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 519",
-    "price": 35.99,
-    "durH": 2.2
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 65.98,
-   "out": {
-    "dep": "2026-08-07T20:45:00",
-    "arr": "2026-08-08T00:09:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 990",
-    "price": 17.99,
-    "durH": 3.4
-   },
-   "ret": {
-    "dep": "2026-08-09T16:57:00",
-    "arr": "2026-08-09T20:13:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 723",
-    "price": 47.99,
-    "durH": 3.3
    }
   },
   {
@@ -2431,27 +3031,75 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cuma",
-   "total": 66.98,
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 65.98,
    "out": {
-    "dep": "2026-07-31T20:43:00",
-    "arr": "2026-08-01T00:30:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 209",
-    "price": 22.99,
-    "durH": 3.8
+    "dep": "2026-08-22T07:47:00",
+    "arr": "2026-08-22T11:44:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2090",
+    "price": 35.99,
+    "durH": 4
    },
    "ret": {
-    "dep": "2026-08-02T19:34:00",
-    "arr": "2026-08-02T23:16:00",
-    "from": "Düsseldorf Hbf",
+    "dep": "2026-08-22T17:50:00",
+    "arr": "2026-08-22T21:15:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 2591",
+    "price": 29.99,
+    "durH": 3.4
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cuma",
+   "total": 67.98,
+   "out": {
+    "dep": "2026-08-21T20:45:00",
+    "arr": "2026-08-22T01:07:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 209",
+    "price": 17.99,
+    "durH": 4.4
+   },
+   "ret": {
+    "dep": "2026-08-23T16:11:00",
+    "arr": "2026-08-23T20:15:00",
+    "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 43.99,
-    "durH": 3.7
+    "trains": "ICE 518",
+    "price": 49.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 67.98,
+   "out": {
+    "dep": "2026-07-25T07:28:00",
+    "arr": "2026-07-25T09:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 612",
+    "price": 31.99,
+    "durH": 2.3
+   },
+   "ret": {
+    "dep": "2026-07-26T18:17:00",
+    "arr": "2026-07-26T20:32:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 35.99,
+    "durH": 2.3
    }
   },
   {
@@ -2480,50 +3128,122 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cuma",
-   "total": 69.98,
+   "city": "Düsseldorf",
+   "variant": "Cumartesi",
+   "total": 68.98,
    "out": {
-    "dep": "2026-08-14T20:34:00",
-    "arr": "2026-08-14T23:47:00",
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:25:00",
     "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 609",
-    "price": 39.99,
-    "durH": 3.2
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 2505",
+    "price": 32.99,
+    "durH": 3.7
    },
    "ret": {
-    "dep": "2026-08-16T15:16:00",
-    "arr": "2026-08-16T18:44:00",
-    "from": "Leipzig Hbf",
+    "dep": "2026-08-16T19:34:00",
+    "arr": "2026-08-16T23:16:00",
+    "from": "Düsseldorf Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2590",
-    "price": 29.99,
-    "durH": 3.5
+    "trains": "ICE 2504",
+    "price": 35.99,
+    "durH": 3.7
    }
   },
   {
    "origin": "Hamburg",
-   "city": "Berlin",
+   "city": "Frankfurt",
    "variant": "Cumartesi",
-   "total": 71.98,
+   "total": 69.98,
    "out": {
-    "dep": "2026-08-08T06:34:00",
-    "arr": "2026-08-08T08:22:00",
+    "dep": "2026-08-22T06:23:00",
+    "arr": "2026-08-22T09:56:00",
     "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 27.99,
-    "durH": 1.8
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 39.99,
+    "durH": 3.6
    },
    "ret": {
-    "dep": "2026-08-09T19:37:00",
-    "arr": "2026-08-09T21:24:00",
-    "from": "Berlin Hbf",
+    "dep": "2026-08-23T19:46:00",
+    "arr": "2026-08-23T23:29:00",
+    "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 504",
-    "price": 43.99,
-    "durH": 1.8
+    "trains": "ICE 70",
+    "price": 29.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 69.98,
+   "out": {
+    "dep": "2026-08-22T06:23:00",
+    "arr": "2026-08-22T09:56:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 39.99,
+    "durH": 3.6
+   },
+   "ret": {
+    "dep": "2026-08-22T17:46:00",
+    "arr": "2026-08-22T21:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ECE 4",
+    "price": 29.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 69.98,
+   "out": {
+    "dep": "2026-08-22T07:29:00",
+    "arr": "2026-08-22T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 39.99,
+    "durH": 5.2
+   },
+   "ret": {
+    "dep": "2026-08-23T19:23:00",
+    "arr": "2026-08-24T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 29.99,
+    "durH": 5.1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 69.98,
+   "out": {
+    "dep": "2026-08-22T07:29:00",
+    "arr": "2026-08-22T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 39.99,
+    "durH": 5.2
+   },
+   "ret": {
+    "dep": "2026-08-22T17:23:00",
+    "arr": "2026-08-22T22:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 574",
+    "price": 29.99,
+    "durH": 5.1
    }
   },
   {
@@ -2546,6 +3266,30 @@ window.BAHN_DATA = {
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
+    "price": 36.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 71.98,
+   "out": {
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:48:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 2505",
+    "price": 34.99,
+    "durH": 4.1
+   },
+   "ret": {
+    "dep": "2026-08-16T19:11:00",
+    "arr": "2026-08-16T23:16:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2504",
     "price": 36.99,
     "durH": 4.1
    }
@@ -2623,6 +3367,78 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cuma",
+   "total": 71.98,
+   "out": {
+    "dep": "2026-08-21T19:24:00",
+    "arr": "2026-08-21T21:29:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "ICE 1205",
+    "price": 19.99,
+    "durH": 2.1
+   },
+   "ret": {
+    "dep": "2026-08-23T18:42:00",
+    "arr": "2026-08-23T20:37:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 82",
+    "price": 51.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Gunubirlik",
+   "total": 71.98,
+   "out": {
+    "dep": "2026-08-22T07:23:00",
+    "arr": "2026-08-22T09:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1281",
+    "price": 49.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-08-22T20:42:00",
+    "arr": "2026-08-22T22:36:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 80",
+    "price": 21.99,
+    "durH": 1.9
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cuma",
+   "total": 72.98,
+   "out": {
+    "dep": "2026-07-31T20:43:00",
+    "arr": "2026-08-01T00:30:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 209",
+    "price": 22.99,
+    "durH": 3.8
+   },
+   "ret": {
+    "dep": "2026-08-02T19:34:00",
+    "arr": "2026-08-02T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 49.99,
+    "durH": 3.7
+   }
+  },
+  {
    "origin": "Hamburg",
    "city": "Köln",
    "variant": "Cuma",
@@ -2637,37 +3453,13 @@ window.BAHN_DATA = {
     "durH": 4.3
    },
    "ret": {
-    "dep": "2026-08-02T19:11:00",
-    "arr": "2026-08-02T23:16:00",
+    "dep": "2026-08-02T18:11:00",
+    "arr": "2026-08-02T22:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 104",
+    "trains": "ICE 516",
     "price": 49.99,
     "durH": 4.1
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 73.98,
-   "out": {
-    "dep": "2026-08-14T20:29:00",
-    "arr": "2026-08-15T01:05:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 79",
-    "price": 23.99,
-    "durH": 4.6
-   },
-   "ret": {
-    "dep": "2026-08-16T18:46:00",
-    "arr": "2026-08-16T22:35:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 574",
-    "price": 49.99,
-    "durH": 3.8
    }
   },
   {
@@ -2696,6 +3488,78 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cumartesi",
+   "total": 75.98,
+   "out": {
+    "dep": "2026-08-15T09:13:00",
+    "arr": "2026-08-15T12:42:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 2589",
+    "price": 35.99,
+    "durH": 3.5
+   },
+   "ret": {
+    "dep": "2026-08-16T15:16:00",
+    "arr": "2026-08-16T18:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 39.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cumartesi",
+   "total": 75.98,
+   "out": {
+    "dep": "2026-08-22T09:13:00",
+    "arr": "2026-08-22T12:42:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 2589",
+    "price": 35.99,
+    "durH": 3.5
+   },
+   "ret": {
+    "dep": "2026-08-23T15:16:00",
+    "arr": "2026-08-23T18:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 39.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 75.98,
+   "out": {
+    "dep": "2026-08-22T07:47:00",
+    "arr": "2026-08-22T11:44:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2090",
+    "price": 35.99,
+    "durH": 4
+   },
+   "ret": {
+    "dep": "2026-08-23T18:11:00",
+    "arr": "2026-08-23T22:13:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1097",
+    "price": 39.99,
+    "durH": 4
+   }
+  },
+  {
+   "origin": "Hamburg",
    "city": "Düsseldorf",
    "variant": "Cumartesi",
    "total": 76.98,
@@ -2716,6 +3580,30 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 43.99,
     "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 77.98,
+   "out": {
+    "dep": "2026-08-08T06:34:00",
+    "arr": "2026-08-08T08:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
+    "price": 27.99,
+    "durH": 1.8
+   },
+   "ret": {
+    "dep": "2026-08-09T18:34:00",
+    "arr": "2026-08-09T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 49.99,
+    "durH": 2.2
    }
   },
   {
@@ -2764,30 +3652,6 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 49.99,
     "durH": 4.8
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 78.98,
-   "out": {
-    "dep": "2026-08-07T20:34:00",
-    "arr": "2026-08-07T22:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 609",
-    "price": 34.99,
-    "durH": 1.8
-   },
-   "ret": {
-    "dep": "2026-08-09T19:37:00",
-    "arr": "2026-08-09T21:24:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 504",
-    "price": 43.99,
-    "durH": 1.8
    }
   },
   {
@@ -2887,6 +3751,78 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cuma",
+   "total": 79.98,
+   "out": {
+    "dep": "2026-08-14T20:34:00",
+    "arr": "2026-08-14T23:47:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 609",
+    "price": 39.99,
+    "durH": 3.2
+   },
+   "ret": {
+    "dep": "2026-08-16T15:16:00",
+    "arr": "2026-08-16T18:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 39.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cuma",
+   "total": 79.98,
+   "out": {
+    "dep": "2026-08-21T20:34:00",
+    "arr": "2026-08-22T00:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 609",
+    "price": 39.99,
+    "durH": 3.4
+   },
+   "ret": {
+    "dep": "2026-08-23T15:16:00",
+    "arr": "2026-08-23T18:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 39.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 79.98,
+   "out": {
+    "dep": "2026-07-31T20:45:00",
+    "arr": "2026-08-01T00:11:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 990",
+    "price": 23.99,
+    "durH": 3.4
+   },
+   "ret": {
+    "dep": "2026-08-02T16:10:00",
+    "arr": "2026-08-02T20:10:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1291",
+    "price": 55.99,
+    "durH": 4
+   }
+  },
+  {
    "origin": "München",
    "city": "Frankfurt",
    "variant": "Gunubirlik",
@@ -2960,26 +3896,50 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Düsseldorf",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 80.98,
+   "out": {
+    "dep": "2026-08-14T20:29:00",
+    "arr": "2026-08-15T01:05:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 79",
+    "price": 23.99,
+    "durH": 4.6
+   },
+   "ret": {
+    "dep": "2026-08-16T17:46:00",
+    "arr": "2026-08-16T21:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 4",
+    "price": 56.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
    "variant": "Cumartesi",
    "total": 81.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
-    "price": 37.99,
-    "durH": 3.7
+    "dep": "2026-08-08T06:44:00",
+    "arr": "2026-08-08T10:02:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 728",
+    "price": 41.99,
+    "durH": 3.3
    },
    "ret": {
-    "dep": "2026-08-02T19:34:00",
-    "arr": "2026-08-02T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 43.99,
-    "durH": 3.7
+    "dep": "2026-08-09T15:57:00",
+    "arr": "2026-08-09T19:12:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 721",
+    "price": 39.99,
+    "durH": 3.3
    }
   },
   {
@@ -2997,37 +3957,13 @@ window.BAHN_DATA = {
     "durH": 1.8
    },
    "ret": {
-    "dep": "2026-08-02T17:37:00",
-    "arr": "2026-08-02T20:00:00",
+    "dep": "2026-08-02T18:34:00",
+    "arr": "2026-08-02T20:44:00",
     "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 2588",
     "price": 55.99,
-    "durH": 2.4
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Gunubirlik",
-   "total": 83.98,
-   "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T10:48:00",
-    "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 105",
-    "price": 39.99,
-    "durH": 4.1
-   },
-   "ret": {
-    "dep": "2026-08-01T19:11:00",
-    "arr": "2026-08-01T23:16:00",
-    "from": "Köln Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 43.99,
-    "durH": 4.1
+    "durH": 2.2
    }
   },
   {
@@ -3057,25 +3993,97 @@ window.BAHN_DATA = {
   {
    "origin": "Hamburg",
    "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 87.98,
+   "variant": "Cuma",
+   "total": 84.98,
    "out": {
-    "dep": "2026-07-25T06:34:00",
-    "arr": "2026-07-25T08:22:00",
+    "dep": "2026-08-07T20:34:00",
+    "arr": "2026-08-07T22:22:00",
     "from": "Hamburg Hbf",
     "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 45.99,
+    "trains": "ICE 609",
+    "price": 34.99,
     "durH": 1.8
    },
    "ret": {
-    "dep": "2026-07-25T18:34:00",
-    "arr": "2026-07-25T20:36:00",
+    "dep": "2026-08-09T18:34:00",
+    "arr": "2026-08-09T20:44:00",
     "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2552",
-    "price": 41.99,
+    "trains": "ICE 2588",
+    "price": 49.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 84.98,
+   "out": {
+    "dep": "2026-08-22T07:45:00",
+    "arr": "2026-08-22T11:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 517",
+    "price": 34.99,
+    "durH": 4
+   },
+   "ret": {
+    "dep": "2026-08-23T16:11:00",
+    "arr": "2026-08-23T20:15:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 518",
+    "price": 49.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 85.98,
+   "out": {
+    "dep": "2026-07-31T19:52:00",
+    "arr": "2026-07-31T21:50:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 873",
+    "price": 29.99,
     "durH": 2
+   },
+   "ret": {
+    "dep": "2026-08-02T18:34:00",
+    "arr": "2026-08-02T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 55.99,
+    "durH": 2.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cumartesi",
+   "total": 87.98,
+   "out": {
+    "dep": "2026-08-01T06:45:00",
+    "arr": "2026-08-01T10:25:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 105",
+    "price": 37.99,
+    "durH": 3.7
+   },
+   "ret": {
+    "dep": "2026-08-02T19:34:00",
+    "arr": "2026-08-02T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 49.99,
+    "durH": 3.7
    }
   },
   {
@@ -3093,61 +4101,13 @@ window.BAHN_DATA = {
     "durH": 4.6
    },
    "ret": {
-    "dep": "2026-07-26T18:11:00",
-    "arr": "2026-07-26T22:13:00",
+    "dep": "2026-07-26T18:57:00",
+    "arr": "2026-07-26T22:16:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1097",
+    "trains": "ICE 727",
     "price": 63.99,
-    "durH": 4
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 87.98,
-   "out": {
-    "dep": "2026-07-31T20:45:00",
-    "arr": "2026-08-01T00:11:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 990",
-    "price": 23.99,
-    "durH": 3.4
-   },
-   "ret": {
-    "dep": "2026-08-02T16:10:00",
-    "arr": "2026-08-02T20:10:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1291",
-    "price": 63.99,
-    "durH": 4
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Cumartesi",
-   "total": 88.59,
-   "out": {
-    "dep": "2026-08-01T09:23:00",
-    "arr": "2026-08-01T11:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1183",
-    "price": 27.99,
-    "durH": 1.9
-   },
-   "ret": {
-    "dep": "2026-08-02T16:42:00",
-    "arr": "2026-08-02T18:38:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 84",
-    "price": 60.6,
-    "durH": 1.9
+    "durH": 3.3
    }
   },
   {
@@ -3165,61 +4125,37 @@ window.BAHN_DATA = {
     "durH": 4.1
    },
    "ret": {
-    "dep": "2026-08-02T19:11:00",
-    "arr": "2026-08-02T23:16:00",
+    "dep": "2026-08-02T18:11:00",
+    "arr": "2026-08-02T22:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 104",
+    "trains": "ICE 516",
     "price": 49.99,
     "durH": 4.1
    }
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cuma",
-   "total": 89.98,
-   "out": {
-    "dep": "2026-08-07T19:45:00",
-    "arr": "2026-08-08T03:34:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 619",
-    "price": 29.99,
-    "durH": 7.8
-   },
-   "ret": {
-    "dep": "2026-08-09T19:23:00",
-    "arr": "2026-08-10T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 59.99,
-    "durH": 5.1
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
+   "city": "Leipzig",
    "variant": "Cumartesi",
    "total": 89.98,
    "out": {
-    "dep": "2026-08-15T06:23:00",
-    "arr": "2026-08-15T09:56:00",
+    "dep": "2026-08-08T06:34:00",
+    "arr": "2026-08-08T09:46:00",
     "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 1071",
-    "price": 39.99,
-    "durH": 3.6
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 35.99,
+    "durH": 3.2
    },
    "ret": {
-    "dep": "2026-08-16T18:46:00",
-    "arr": "2026-08-16T22:35:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-09T18:51:00",
+    "arr": "2026-08-09T22:10:00",
+    "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 574",
-    "price": 49.99,
-    "durH": 3.8
+    "trains": "ICE 90",
+    "price": 53.99,
+    "durH": 3.3
    }
   },
   {
@@ -3248,122 +4184,98 @@ window.BAHN_DATA = {
   },
   {
    "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
+   "city": "Köln",
+   "variant": "Cuma",
    "total": 89.98,
    "out": {
-    "dep": "2026-08-08T06:44:00",
-    "arr": "2026-08-08T10:02:00",
+    "dep": "2026-08-21T19:28:00",
+    "arr": "2026-08-22T00:10:00",
     "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 41.99,
-    "durH": 3.3
+    "to": "Köln Hbf",
+    "trains": "ICE 510",
+    "price": 39.99,
+    "durH": 4.7
    },
    "ret": {
-    "dep": "2026-08-09T16:57:00",
-    "arr": "2026-08-09T20:13:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-23T15:35:00",
+    "arr": "2026-08-23T20:13:00",
+    "from": "Köln Hbf",
     "to": "München Hbf",
     "trains": "ICE 723",
-    "price": 47.99,
-    "durH": 3.3
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cuma",
-   "total": 90.98,
-   "out": {
-    "dep": "2026-07-24T22:45:00",
-    "arr": "2026-07-25T02:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 921",
-    "price": 36.99,
-    "durH": 3.9
-   },
-   "ret": {
-    "dep": "2026-07-26T19:34:00",
-    "arr": "2026-07-26T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 53.99,
-    "durH": 3.7
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 91.98,
-   "out": {
-    "dep": "2026-07-31T21:51:00",
-    "arr": "2026-07-31T23:51:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 809",
-    "price": 35.99,
-    "durH": 2
-   },
-   "ret": {
-    "dep": "2026-08-02T17:37:00",
-    "arr": "2026-08-02T20:00:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 506",
-    "price": 55.99,
-    "durH": 2.4
+    "price": 49.99,
+    "durH": 4.6
    }
   },
   {
    "origin": "München",
-   "city": "Wien",
-   "variant": "Cuma",
-   "total": 93.98,
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 89.98,
    "out": {
-    "dep": "2026-07-31T18:21:00",
-    "arr": "2026-07-31T22:47:00",
+    "dep": "2026-08-22T06:44:00",
+    "arr": "2026-08-22T11:20:00",
     "from": "München Hbf",
-    "to": "Wien Hbf",
-    "trains": "EC 1219",
-    "price": 43.99,
-    "durH": 4.4
+    "to": "Köln Hbf",
+    "trains": "ICE 728",
+    "price": 49.99,
+    "durH": 4.6
    },
    "ret": {
-    "dep": "2026-08-02T17:13:00",
-    "arr": "2026-08-02T21:59:00",
-    "from": "Wien Hbf",
+    "dep": "2026-08-22T18:35:00",
+    "arr": "2026-08-23T00:01:00",
+    "from": "Köln Hbf",
     "to": "München Hbf",
-    "trains": "EC 1210",
-    "price": 49.99,
-    "durH": 4.8
+    "trains": "ICE 729",
+    "price": 39.99,
+    "durH": 5.4
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cumartesi",
+   "total": 90.59,
+   "out": {
+    "dep": "2026-08-01T09:23:00",
+    "arr": "2026-08-01T11:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1183",
+    "price": 29.99,
+    "durH": 1.9
+   },
+   "ret": {
+    "dep": "2026-08-02T16:42:00",
+    "arr": "2026-08-02T18:38:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 84",
+    "price": 60.6,
+    "durH": 1.9
    }
   },
   {
    "origin": "Hamburg",
-   "city": "Köln",
+   "city": "Leipzig",
    "variant": "Cuma",
-   "total": 94.98,
+   "total": 93.98,
    "out": {
-    "dep": "2026-07-24T22:45:00",
-    "arr": "2026-07-25T03:02:00",
+    "dep": "2026-08-07T20:34:00",
+    "arr": "2026-08-07T23:47:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 921",
-    "price": 37.99,
-    "durH": 4.3
+    "to": "Leipzig Hbf",
+    "trains": "ICE 609",
+    "price": 39.99,
+    "durH": 3.2
    },
    "ret": {
-    "dep": "2026-07-26T19:11:00",
-    "arr": "2026-07-26T23:16:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-09T18:51:00",
+    "arr": "2026-08-09T22:10:00",
+    "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 56.99,
-    "durH": 4.1
+    "trains": "ICE 90",
+    "price": 53.99,
+    "durH": 3.3
    }
   },
   {
@@ -3372,21 +4284,21 @@ window.BAHN_DATA = {
    "variant": "Gunubirlik",
    "total": 94.98,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T10:48:00",
+    "dep": "2026-08-01T06:45:00",
+    "arr": "2026-08-01T10:48:00",
     "from": "Hamburg Hbf",
     "to": "Köln Hbf",
     "trains": "ICE 105",
-    "price": 49.99,
+    "price": 39.99,
     "durH": 4.1
    },
    "ret": {
-    "dep": "2026-07-25T20:11:00",
-    "arr": "2026-07-26T00:15:00",
+    "dep": "2026-08-01T19:11:00",
+    "arr": "2026-08-01T23:16:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 514",
-    "price": 44.99,
+    "trains": "ICE 104",
+    "price": 54.99,
     "durH": 4.1
    }
   },
@@ -3511,6 +4423,78 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Gunubirlik",
+   "total": 95.98,
+   "out": {
+    "dep": "2026-08-22T06:49:00",
+    "arr": "2026-08-22T13:24:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 602",
+    "price": 65.99,
+    "durH": 6.6
+   },
+   "ret": {
+    "dep": "2026-08-22T22:28:00",
+    "arr": "2026-08-23T06:17:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 29.99,
+    "durH": 7.8
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 96.98,
+   "out": {
+    "dep": "2026-08-15T06:23:00",
+    "arr": "2026-08-15T09:56:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 39.99,
+    "durH": 3.6
+   },
+   "ret": {
+    "dep": "2026-08-16T17:46:00",
+    "arr": "2026-08-16T21:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 4",
+    "price": 56.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cuma",
+   "total": 97.98,
+   "out": {
+    "dep": "2026-07-24T22:45:00",
+    "arr": "2026-07-25T02:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 921",
+    "price": 43.99,
+    "durH": 3.9
+   },
+   "ret": {
+    "dep": "2026-07-26T19:34:00",
+    "arr": "2026-07-26T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 53.99,
+    "durH": 3.7
+   }
+  },
+  {
    "origin": "Hamburg",
    "city": "Frankfurt",
    "variant": "Cumartesi",
@@ -3532,30 +4516,6 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 49.99,
     "durH": 3.7
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
-   "total": 97.98,
-   "out": {
-    "dep": "2026-08-08T06:34:00",
-    "arr": "2026-08-08T09:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 505",
-    "price": 35.99,
-    "durH": 3.2
-   },
-   "ret": {
-    "dep": "2026-08-09T18:12:00",
-    "arr": "2026-08-09T21:24:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 504",
-    "price": 61.99,
-    "durH": 3.2
    }
   },
   {
@@ -3584,26 +4544,26 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Düsseldorf",
+   "city": "Berlin",
    "variant": "Gunubirlik",
    "total": 99.98,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T10:25:00",
+    "dep": "2026-07-25T06:34:00",
+    "arr": "2026-07-25T08:22:00",
     "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
     "price": 49.99,
-    "durH": 3.7
+    "durH": 1.8
    },
    "ret": {
-    "dep": "2026-07-25T17:34:00",
-    "arr": "2026-07-25T21:15:00",
-    "from": "Düsseldorf Hbf",
+    "dep": "2026-07-25T20:09:00",
+    "arr": "2026-07-25T22:10:00",
+    "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 106",
+    "trains": "ICE 90",
     "price": 49.99,
-    "durH": 3.7
+    "durH": 2
    }
   },
   {
@@ -3632,6 +4592,30 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 99.98,
+   "out": {
+    "dep": "2026-07-31T19:29:00",
+    "arr": "2026-08-01T01:05:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 777",
+    "price": 39.99,
+    "durH": 5.6
+   },
+   "ret": {
+    "dep": "2026-08-02T19:23:00",
+    "arr": "2026-08-03T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 59.99,
+    "durH": 5.1
+   }
+  },
+  {
+   "origin": "Hamburg",
    "city": "Leipzig",
    "variant": "Gunubirlik",
    "total": 99.98,
@@ -3652,6 +4636,30 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 49.99,
     "durH": 3.2
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 99.98,
+   "out": {
+    "dep": "2026-08-07T19:45:00",
+    "arr": "2026-08-08T03:34:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 619",
+    "price": 39.99,
+    "durH": 7.8
+   },
+   "ret": {
+    "dep": "2026-08-09T19:23:00",
+    "arr": "2026-08-10T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 59.99,
+    "durH": 5.1
    }
   },
   {
@@ -3703,27 +4711,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Wien",
-   "variant": "Cumartesi",
+   "origin": "Hamburg",
+   "city": "Nürnberg",
+   "variant": "Cuma",
    "total": 99.98,
    "out": {
-    "dep": "2026-08-01T06:04:00",
-    "arr": "2026-08-01T10:32:00",
-    "from": "München Hbf",
-    "to": "Wien Hbf",
-    "trains": "RJX 265",
-    "price": 49.99,
-    "durH": 4.5
+    "dep": "2026-08-21T22:28:00",
+    "arr": "2026-08-22T04:48:00",
+    "from": "Hamburg Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1081",
+    "price": 29.99,
+    "durH": 6.3
    },
    "ret": {
-    "dep": "2026-08-02T17:13:00",
-    "arr": "2026-08-02T21:59:00",
-    "from": "Wien Hbf",
-    "to": "München Hbf",
-    "trains": "EC 1210",
-    "price": 49.99,
-    "durH": 4.8
+    "dep": "2026-08-23T16:05:00",
+    "arr": "2026-08-23T21:24:00",
+    "from": "Nürnberg Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 504",
+    "price": 69.99,
+    "durH": 5.3
    }
   },
   {
@@ -3751,27 +4759,75 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 99.98,
+   "out": {
+    "dep": "2026-08-22T06:44:00",
+    "arr": "2026-08-22T11:20:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 728",
+    "price": 49.99,
+    "durH": 4.6
+   },
+   "ret": {
+    "dep": "2026-08-23T15:35:00",
+    "arr": "2026-08-23T20:13:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 723",
+    "price": 49.99,
+    "durH": 4.6
+   }
+  },
+  {
    "origin": "Hamburg",
-   "city": "Leipzig",
+   "city": "Köln",
    "variant": "Cuma",
    "total": 101.98,
    "out": {
-    "dep": "2026-08-07T20:34:00",
-    "arr": "2026-08-07T23:47:00",
+    "dep": "2026-07-24T22:45:00",
+    "arr": "2026-07-25T03:02:00",
     "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 609",
-    "price": 39.99,
-    "durH": 3.2
+    "to": "Köln Hbf",
+    "trains": "ICE 921",
+    "price": 44.99,
+    "durH": 4.3
    },
    "ret": {
-    "dep": "2026-08-09T18:12:00",
-    "arr": "2026-08-09T21:24:00",
-    "from": "Leipzig Hbf",
+    "dep": "2026-07-26T19:11:00",
+    "arr": "2026-07-26T23:16:00",
+    "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 504",
-    "price": 61.99,
-    "durH": 3.2
+    "trains": "ICE 104",
+    "price": 56.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Gunubirlik",
+   "total": 101.98,
+   "out": {
+    "dep": "2026-07-25T06:04:00",
+    "arr": "2026-07-25T10:32:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "RJX 265",
+    "price": 51.99,
+    "durH": 4.5
+   },
+   "ret": {
+    "dep": "2026-07-25T17:13:00",
+    "arr": "2026-07-25T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 49.99,
+    "durH": 4.8
    }
   },
   {
@@ -3799,41 +4855,41 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
+   "origin": "München",
+   "city": "Innsbruck",
    "variant": "Cumartesi",
-   "total": 103.98,
+   "total": 101.98,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
+    "dep": "2026-08-22T07:23:00",
+    "arr": "2026-08-22T09:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1281",
     "price": 49.99,
-    "durH": 3.7
+    "durH": 1.9
    },
    "ret": {
-    "dep": "2026-07-26T19:34:00",
-    "arr": "2026-07-26T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 53.99,
-    "durH": 3.7
+    "dep": "2026-08-23T18:42:00",
+    "arr": "2026-08-23T20:37:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 82",
+    "price": 51.99,
+    "durH": 1.9
    }
   },
   {
    "origin": "München",
    "city": "Berlin",
    "variant": "Gunubirlik",
-   "total": 104.98,
+   "total": 103.98,
    "out": {
-    "dep": "2026-08-01T06:19:00",
-    "arr": "2026-08-01T10:23:00",
+    "dep": "2026-08-01T07:17:00",
+    "arr": "2026-08-01T11:23:00",
     "from": "München Hbf",
     "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 74.99,
+    "trains": "ICE 1102",
+    "price": 73.99,
     "durH": 4.1
    },
    "ret": {
@@ -3844,6 +4900,54 @@ window.BAHN_DATA = {
     "trains": "ICE 905",
     "price": 29.99,
     "durH": 8.5
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cuma",
+   "total": 104.98,
+   "out": {
+    "dep": "2026-07-31T18:21:00",
+    "arr": "2026-07-31T22:47:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "EC 1219",
+    "price": 49.99,
+    "durH": 4.4
+   },
+   "ret": {
+    "dep": "2026-08-02T17:13:00",
+    "arr": "2026-08-02T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 54.99,
+    "durH": 4.8
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cumartesi",
+   "total": 104.98,
+   "out": {
+    "dep": "2026-08-01T06:04:00",
+    "arr": "2026-08-01T10:32:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "RJX 265",
+    "price": 49.99,
+    "durH": 4.5
+   },
+   "ret": {
+    "dep": "2026-08-02T17:13:00",
+    "arr": "2026-08-02T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 54.99,
+    "durH": 4.8
    }
   },
   {
@@ -3871,27 +4975,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Köln",
+   "origin": "München",
+   "city": "Frankfurt",
    "variant": "Cumartesi",
-   "total": 106.98,
+   "total": 105.98,
    "out": {
-    "dep": "2026-07-25T06:45:00",
-    "arr": "2026-07-25T10:48:00",
-    "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 105",
+    "dep": "2026-08-01T07:47:00",
+    "arr": "2026-08-01T11:44:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2090",
     "price": 49.99,
-    "durH": 4.1
+    "durH": 4
    },
    "ret": {
-    "dep": "2026-07-26T19:11:00",
-    "arr": "2026-07-26T23:16:00",
-    "from": "Köln Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 56.99,
-    "durH": 4.1
+    "dep": "2026-08-02T16:10:00",
+    "arr": "2026-08-02T20:10:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1291",
+    "price": 55.99,
+    "durH": 4
    }
   },
   {
@@ -3920,26 +5024,74 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cuma",
-   "total": 109.98,
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 107.98,
    "out": {
-    "dep": "2026-07-31T19:29:00",
-    "arr": "2026-08-01T01:05:00",
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T10:48:00",
     "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 777",
-    "price": 39.99,
-    "durH": 5.6
+    "to": "Köln Hbf",
+    "trains": "ICE 105",
+    "price": 62.99,
+    "durH": 4.1
    },
    "ret": {
-    "dep": "2026-08-02T19:23:00",
-    "arr": "2026-08-03T00:30:00",
-    "from": "Stuttgart Hbf",
+    "dep": "2026-07-25T20:11:00",
+    "arr": "2026-07-26T00:15:00",
+    "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 69.99,
-    "durH": 5.1
+    "trains": "ICE 514",
+    "price": 44.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cumartesi",
+   "total": 108.98,
+   "out": {
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T10:25:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 105",
+    "price": 54.99,
+    "durH": 3.7
+   },
+   "ret": {
+    "dep": "2026-07-26T19:34:00",
+    "arr": "2026-07-26T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 53.99,
+    "durH": 3.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Gunubirlik",
+   "total": 109.98,
+   "out": {
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T10:25:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 105",
+    "price": 54.99,
+    "durH": 3.7
+   },
+   "ret": {
+    "dep": "2026-07-25T19:34:00",
+    "arr": "2026-07-25T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 54.99,
+    "durH": 3.7
    }
   },
   {
@@ -3967,27 +5119,51 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Wien",
-   "variant": "Gunubirlik",
+   "origin": "Hamburg",
+   "city": "München",
+   "variant": "Cuma",
    "total": 109.98,
    "out": {
-    "dep": "2026-07-25T06:04:00",
-    "arr": "2026-07-25T10:32:00",
-    "from": "München Hbf",
-    "to": "Wien Hbf",
-    "trains": "RJX 265",
-    "price": 59.99,
-    "durH": 4.5
+    "dep": "2026-08-21T22:28:00",
+    "arr": "2026-08-22T06:09:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 29.99,
+    "durH": 7.7
    },
    "ret": {
-    "dep": "2026-07-25T17:13:00",
-    "arr": "2026-07-25T21:59:00",
-    "from": "Wien Hbf",
-    "to": "München Hbf",
-    "trains": "EC 1210",
+    "dep": "2026-08-23T15:28:00",
+    "arr": "2026-08-24T00:15:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 514",
+    "price": 79.99,
+    "durH": 8.8
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cuma",
+   "total": 109.98,
+   "out": {
+    "dep": "2026-08-07T19:45:00",
+    "arr": "2026-08-08T00:31:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 522",
     "price": 49.99,
     "durH": 4.8
+   },
+   "ret": {
+    "dep": "2026-08-09T15:54:00",
+    "arr": "2026-08-09T20:32:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 59.99,
+    "durH": 4.6
    }
   },
   {
@@ -4040,74 +5216,98 @@ window.BAHN_DATA = {
   },
   {
    "origin": "München",
-   "city": "Frankfurt",
+   "city": "Prag",
+   "variant": "Cumartesi",
+   "total": 110,
+   "out": {
+    "dep": "2026-08-22T06:44:00",
+    "arr": "2026-08-22T12:21:00",
+    "from": "München Hbf",
+    "to": "Praha hl.n.",
+    "trains": "353",
+    "price": 55,
+    "durH": 5.6
+   },
+   "ret": {
+    "dep": "2026-08-23T15:35:00",
+    "arr": "2026-08-23T21:18:00",
+    "from": "Praha hl.n.",
+    "to": "München Hbf",
+    "trains": "EX 352",
+    "price": 55,
+    "durH": 5.7
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Prag",
    "variant": "Gunubirlik",
-   "total": 111.98,
+   "total": 110,
    "out": {
-    "dep": "2026-07-25T06:44:00",
-    "arr": "2026-07-25T10:02:00",
+    "dep": "2026-08-22T06:44:00",
+    "arr": "2026-08-22T12:21:00",
     "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 59.99,
-    "durH": 3.3
+    "to": "Praha hl.n.",
+    "trains": "353",
+    "price": 55,
+    "durH": 5.6
    },
    "ret": {
-    "dep": "2026-07-25T17:50:00",
-    "arr": "2026-07-25T21:15:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-22T17:35:00",
+    "arr": "2026-08-22T23:18:00",
+    "from": "Praha hl.n.",
     "to": "München Hbf",
-    "trains": "ICE 691",
-    "price": 51.99,
-    "durH": 3.4
+    "trains": "EX 350",
+    "price": 55,
+    "durH": 5.7
    }
   },
   {
    "origin": "München",
-   "city": "Zürich",
-   "variant": "Cuma",
-   "total": 111.98,
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 110.98,
    "out": {
-    "dep": "2026-07-31T18:48:00",
-    "arr": "2026-07-31T22:28:00",
+    "dep": "2026-08-22T06:19:00",
+    "arr": "2026-08-22T10:23:00",
     "from": "München Hbf",
-    "to": "Zürich HB",
-    "trains": "ECE 96",
-    "price": 49.99,
-    "durH": 3.7
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 53.99,
+    "durH": 4.1
    },
    "ret": {
-    "dep": "2026-08-02T19:32:00",
-    "arr": "2026-08-02T23:04:00",
-    "from": "Zürich HB",
+    "dep": "2026-08-22T19:37:00",
+    "arr": "2026-08-23T00:12:00",
+    "from": "Berlin Hbf",
     "to": "München Hbf",
-    "trains": "EC 199",
-    "price": 61.99,
-    "durH": 3.5
+    "trains": "ICE 1605",
+    "price": 56.99,
+    "durH": 4.6
    }
   },
   {
    "origin": "München",
-   "city": "Frankfurt",
+   "city": "Berlin",
    "variant": "Cumartesi",
    "total": 113.98,
    "out": {
-    "dep": "2026-08-01T07:47:00",
-    "arr": "2026-08-01T11:44:00",
+    "dep": "2026-08-22T06:19:00",
+    "arr": "2026-08-22T10:23:00",
     "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 2090",
-    "price": 49.99,
-    "durH": 4
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 53.99,
+    "durH": 4.1
    },
    "ret": {
-    "dep": "2026-08-02T16:10:00",
-    "arr": "2026-08-02T20:10:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-23T18:37:00",
+    "arr": "2026-08-23T23:36:00",
+    "from": "Berlin Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1291",
-    "price": 63.99,
-    "durH": 4
+    "trains": "ICE 1105",
+    "price": 59.99,
+    "durH": 5
    }
   },
   {
@@ -4159,6 +5359,54 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 116.98,
+   "out": {
+    "dep": "2026-08-01T07:29:00",
+    "arr": "2026-08-01T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 56.99,
+    "durH": 5.2
+   },
+   "ret": {
+    "dep": "2026-08-02T19:23:00",
+    "arr": "2026-08-03T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 59.99,
+    "durH": 5.1
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 117.98,
+   "out": {
+    "dep": "2026-07-25T06:34:00",
+    "arr": "2026-07-25T08:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
+    "price": 49.99,
+    "durH": 1.8
+   },
+   "ret": {
+    "dep": "2026-07-26T16:34:00",
+    "arr": "2026-07-26T18:46:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 5324",
+    "price": 67.99,
+    "durH": 2.2
+   }
+  },
+  {
    "origin": "München",
    "city": "Zürich",
    "variant": "Cumartesi",
@@ -4184,6 +5432,30 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 119.98,
+   "out": {
+    "dep": "2026-07-25T06:45:00",
+    "arr": "2026-07-25T10:48:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 105",
+    "price": 62.99,
+    "durH": 4.1
+   },
+   "ret": {
+    "dep": "2026-07-26T19:11:00",
+    "arr": "2026-07-26T23:16:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 56.99,
+    "durH": 4.1
+   }
+  },
+  {
+   "origin": "Hamburg",
    "city": "Leipzig",
    "variant": "Cuma",
    "total": 119.98,
@@ -4197,13 +5469,13 @@ window.BAHN_DATA = {
     "durH": 3.2
    },
    "ret": {
-    "dep": "2026-08-02T16:12:00",
-    "arr": "2026-08-02T20:00:00",
+    "dep": "2026-08-02T18:12:00",
+    "arr": "2026-08-02T21:24:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 504",
     "price": 69.99,
-    "durH": 3.8
+    "durH": 3.2
    }
   },
   {
@@ -4221,37 +5493,61 @@ window.BAHN_DATA = {
     "durH": 3.2
    },
    "ret": {
-    "dep": "2026-08-02T16:12:00",
-    "arr": "2026-08-02T20:00:00",
+    "dep": "2026-08-02T18:12:00",
+    "arr": "2026-08-02T21:24:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 504",
     "price": 69.99,
-    "durH": 3.8
+    "durH": 3.2
    }
   },
   {
    "origin": "München",
-   "city": "Köln",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 119.98,
+   "out": {
+    "dep": "2026-07-25T07:47:00",
+    "arr": "2026-07-25T11:44:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2090",
+    "price": 59.99,
+    "durH": 4
+   },
+   "ret": {
+    "dep": "2026-07-25T17:57:00",
+    "arr": "2026-07-25T21:16:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 725",
+    "price": 59.99,
+    "durH": 3.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
    "variant": "Cuma",
    "total": 119.98,
    "out": {
-    "dep": "2026-07-31T19:28:00",
-    "arr": "2026-08-01T00:10:00",
+    "dep": "2026-08-21T22:01:00",
+    "arr": "2026-08-22T06:42:00",
     "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 510",
-    "price": 49.99,
-    "durH": 4.7
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1080",
+    "price": 39.99,
+    "durH": 8.7
    },
    "ret": {
-    "dep": "2026-08-02T19:54:00",
-    "arr": "2026-08-03T00:37:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-23T15:45:00",
+    "arr": "2026-08-24T00:29:00",
+    "from": "Hamburg Hbf",
     "to": "München Hbf",
     "trains": "ICE 615",
-    "price": 69.99,
-    "durH": 4.7
+    "price": 79.99,
+    "durH": 8.7
    }
   },
   {
@@ -4279,75 +5575,51 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 121.98,
-   "out": {
-    "dep": "2026-07-31T19:18:00",
-    "arr": "2026-07-31T23:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1000",
-    "price": 71.99,
-    "durH": 4.1
-   },
-   "ret": {
-    "dep": "2026-08-02T19:37:00",
-    "arr": "2026-08-03T02:36:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 49.99,
-    "durH": 7
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Wien",
+   "origin": "Hamburg",
+   "city": "Frankfurt",
    "variant": "Cuma",
    "total": 122.98,
    "out": {
-    "dep": "2026-07-24T18:21:00",
-    "arr": "2026-07-24T22:47:00",
-    "from": "München Hbf",
-    "to": "Wien Hbf",
-    "trains": "EC 1219",
-    "price": 54.99,
-    "durH": 4.4
+    "dep": "2026-07-24T19:29:00",
+    "arr": "2026-07-25T01:03:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 79",
+    "price": 56.99,
+    "durH": 5.6
    },
    "ret": {
-    "dep": "2026-07-26T17:13:00",
-    "arr": "2026-07-26T21:59:00",
-    "from": "Wien Hbf",
-    "to": "München Hbf",
-    "trains": "EC 1210",
-    "price": 67.99,
-    "durH": 4.8
+    "dep": "2026-07-26T19:47:00",
+    "arr": "2026-07-27T00:57:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 70",
+    "price": 65.99,
+    "durH": 5.2
    }
   },
   {
    "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Gunubirlik",
+   "city": "Berlin",
+   "variant": "Cuma",
    "total": 123.98,
    "out": {
-    "dep": "2026-07-25T07:25:00",
-    "arr": "2026-07-25T10:42:00",
+    "dep": "2026-07-24T19:51:00",
+    "arr": "2026-07-24T21:50:00",
     "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 2553",
-    "price": 71.99,
-    "durH": 3.3
+    "to": "Berlin Hbf",
+    "trains": "ICE 873",
+    "price": 55.99,
+    "durH": 2
    },
    "ret": {
-    "dep": "2026-07-25T21:16:00",
-    "arr": "2026-07-26T00:46:00",
-    "from": "Leipzig Hbf",
+    "dep": "2026-07-26T16:34:00",
+    "arr": "2026-07-26T18:46:00",
+    "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2558",
-    "price": 51.99,
-    "durH": 3.5
+    "trains": "ICE 5324",
+    "price": 67.99,
+    "durH": 2.2
    }
   },
   {
@@ -4356,22 +5628,46 @@ window.BAHN_DATA = {
    "variant": "Cumartesi",
    "total": 123.98,
    "out": {
-    "dep": "2026-07-25T06:44:00",
-    "arr": "2026-07-25T10:02:00",
+    "dep": "2026-07-25T07:47:00",
+    "arr": "2026-07-25T11:44:00",
     "from": "München Hbf",
     "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
+    "trains": "ICE 2090",
     "price": 59.99,
-    "durH": 3.3
+    "durH": 4
    },
    "ret": {
-    "dep": "2026-07-26T18:11:00",
-    "arr": "2026-07-26T22:13:00",
+    "dep": "2026-07-26T18:57:00",
+    "arr": "2026-07-26T22:16:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1097",
+    "trains": "ICE 727",
     "price": 63.99,
-    "durH": 4
+    "durH": 3.3
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Zürich",
+   "variant": "Cuma",
+   "total": 123.98,
+   "out": {
+    "dep": "2026-07-31T18:48:00",
+    "arr": "2026-07-31T22:28:00",
+    "from": "München Hbf",
+    "to": "Zürich HB",
+    "trains": "ECE 96",
+    "price": 61.99,
+    "durH": 3.7
+   },
+   "ret": {
+    "dep": "2026-08-02T19:32:00",
+    "arr": "2026-08-02T23:04:00",
+    "from": "Zürich HB",
+    "to": "München Hbf",
+    "trains": "EC 199",
+    "price": 61.99,
+    "durH": 3.5
    }
   },
   {
@@ -4404,12 +5700,12 @@ window.BAHN_DATA = {
    "variant": "Cumartesi",
    "total": 124.98,
    "out": {
-    "dep": "2026-08-01T06:19:00",
-    "arr": "2026-08-01T10:23:00",
+    "dep": "2026-08-01T07:17:00",
+    "arr": "2026-08-01T11:23:00",
     "from": "München Hbf",
     "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 74.99,
+    "trains": "ICE 1102",
+    "price": 73.99,
     "durH": 4.1
    },
    "ret": {
@@ -4418,128 +5714,32 @@ window.BAHN_DATA = {
     "from": "Berlin Hbf",
     "to": "München Hbf",
     "trains": "ICE 1605",
-    "price": 49.99,
+    "price": 50.99,
     "durH": 7
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 125.98,
-   "out": {
-    "dep": "2026-07-25T06:34:00",
-    "arr": "2026-07-25T08:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 45.99,
-    "durH": 1.8
-   },
-   "ret": {
-    "dep": "2026-07-26T16:34:00",
-    "arr": "2026-07-26T18:46:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 5324",
-    "price": 79.99,
-    "durH": 2.2
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 125.98,
-   "out": {
-    "dep": "2026-07-24T22:41:00",
-    "arr": "2026-07-25T06:30:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 904",
-    "price": 49.99,
-    "durH": 7.8
-   },
-   "ret": {
-    "dep": "2026-07-26T18:37:00",
-    "arr": "2026-07-26T22:45:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1105",
-    "price": 75.99,
-    "durH": 4.1
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 126.98,
-   "out": {
-    "dep": "2026-08-01T07:29:00",
-    "arr": "2026-08-01T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 56.99,
-    "durH": 5.2
-   },
-   "ret": {
-    "dep": "2026-08-02T19:23:00",
-    "arr": "2026-08-03T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 69.99,
-    "durH": 5.1
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 126.98,
-   "out": {
-    "dep": "2026-07-25T06:19:00",
-    "arr": "2026-07-25T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 80.99,
-    "durH": 4.1
-   },
-   "ret": {
-    "dep": "2026-07-25T19:37:00",
-    "arr": "2026-07-25T23:43:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 45.99,
-    "durH": 4.1
    }
   },
   {
    "origin": "München",
    "city": "Wien",
    "variant": "Cumartesi",
-   "total": 127.98,
+   "total": 126.98,
    "out": {
     "dep": "2026-07-25T06:04:00",
     "arr": "2026-07-25T10:32:00",
     "from": "München Hbf",
     "to": "Wien Hbf",
     "trains": "RJX 265",
-    "price": 59.99,
+    "price": 51.99,
     "durH": 4.5
    },
    "ret": {
-    "dep": "2026-07-26T17:13:00",
-    "arr": "2026-07-26T21:59:00",
+    "dep": "2026-07-26T18:28:00",
+    "arr": "2026-07-26T22:51:00",
     "from": "Wien Hbf",
     "to": "München Hbf",
-    "trains": "EC 1210",
-    "price": 67.99,
-    "durH": 4.8
+    "trains": "RJX 68",
+    "price": 74.99,
+    "durH": 4.4
    }
   },
   {
@@ -4567,27 +5767,51 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Gunubirlik",
-   "total": 129.98,
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 128.98,
    "out": {
-    "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T11:13:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 575",
-    "price": 79.99,
-    "durH": 4.7
+    "dep": "2026-08-21T19:18:00",
+    "arr": "2026-08-21T23:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1000",
+    "price": 68.99,
+    "durH": 4.1
    },
    "ret": {
-    "dep": "2026-07-25T19:47:00",
-    "arr": "2026-07-26T00:31:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 49.99,
-    "durH": 4.7
+    "dep": "2026-08-23T18:37:00",
+    "arr": "2026-08-23T23:36:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1105",
+    "price": 59.99,
+    "durH": 5
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cuma",
+   "total": 129.98,
+   "out": {
+    "dep": "2026-07-24T18:21:00",
+    "arr": "2026-07-24T22:47:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "EC 1219",
+    "price": 54.99,
+    "durH": 4.4
+   },
+   "ret": {
+    "dep": "2026-07-26T18:28:00",
+    "arr": "2026-07-26T22:51:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "RJX 68",
+    "price": 74.99,
+    "durH": 4.4
    }
   },
   {
@@ -4596,46 +5820,22 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 129.98,
    "out": {
-    "dep": "2026-08-07T19:45:00",
-    "arr": "2026-08-08T00:31:00",
+    "dep": "2026-07-31T18:19:00",
+    "arr": "2026-07-31T22:30:00",
     "from": "München Hbf",
     "to": "Köln Hbf",
-    "trains": "ICE 522",
-    "price": 49.99,
-    "durH": 4.8
+    "trains": "ICE 910",
+    "price": 59.99,
+    "durH": 4.2
    },
    "ret": {
-    "dep": "2026-08-09T15:54:00",
-    "arr": "2026-08-09T20:32:00",
+    "dep": "2026-08-02T19:54:00",
+    "arr": "2026-08-03T00:37:00",
     "from": "Köln Hbf",
     "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 79.99,
-    "durH": 4.6
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 130.98,
-   "out": {
-    "dep": "2026-08-08T06:39:00",
-    "arr": "2026-08-08T12:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1602",
-    "price": 50.99,
-    "durH": 5.7
-   },
-   "ret": {
-    "dep": "2026-08-09T15:37:00",
-    "arr": "2026-08-09T21:58:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1601",
-    "price": 79.99,
-    "durH": 6.4
+    "trains": "ICE 615",
+    "price": 69.99,
+    "durH": 4.7
    }
   },
   {
@@ -4687,30 +5887,6 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 131.98,
-   "out": {
-    "dep": "2026-07-24T19:29:00",
-    "arr": "2026-07-25T01:03:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 79",
-    "price": 65.99,
-    "durH": 5.6
-   },
-   "ret": {
-    "dep": "2026-07-26T19:47:00",
-    "arr": "2026-07-27T00:57:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 65.99,
-    "durH": 5.2
-   }
-  },
-  {
    "origin": "München",
    "city": "Zürich",
    "variant": "Cumartesi",
@@ -4735,27 +5911,51 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
+   "origin": "München",
    "city": "Berlin",
-   "variant": "Cuma",
-   "total": 135.98,
+   "variant": "Cumartesi",
+   "total": 132.98,
    "out": {
-    "dep": "2026-07-24T20:34:00",
-    "arr": "2026-07-24T22:22:00",
-    "from": "Hamburg Hbf",
+    "dep": "2026-08-08T06:39:00",
+    "arr": "2026-08-08T12:23:00",
+    "from": "München Hbf",
     "to": "Berlin Hbf",
-    "trains": "ICE 609",
-    "price": 55.99,
-    "durH": 1.8
+    "trains": "ICE 1602",
+    "price": 50.99,
+    "durH": 5.7
    },
    "ret": {
-    "dep": "2026-07-26T16:34:00",
-    "arr": "2026-07-26T18:46:00",
+    "dep": "2026-08-09T15:37:00",
+    "arr": "2026-08-09T21:58:00",
     "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 5324",
-    "price": 79.99,
-    "durH": 2.2
+    "to": "München Hbf",
+    "trains": "ICE 1601",
+    "price": 81.99,
+    "durH": 6.4
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 133.98,
+   "out": {
+    "dep": "2026-07-31T19:18:00",
+    "arr": "2026-07-31T23:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1000",
+    "price": 82.99,
+    "durH": 4.1
+   },
+   "ret": {
+    "dep": "2026-08-02T19:37:00",
+    "arr": "2026-08-03T02:36:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 50.99,
+    "durH": 7
    }
   },
   {
@@ -4786,14 +5986,14 @@ window.BAHN_DATA = {
    "origin": "München",
    "city": "Berlin",
    "variant": "Cuma",
-   "total": 135.98,
+   "total": 136.98,
    "out": {
     "dep": "2026-08-14T19:18:00",
     "arr": "2026-08-14T23:23:00",
     "from": "München Hbf",
     "to": "Berlin Hbf",
     "trains": "ICE 1000",
-    "price": 75.99,
+    "price": 76.99,
     "durH": 4.1
    },
    "ret": {
@@ -4807,51 +6007,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
+   "origin": "München",
+   "city": "Berlin",
    "variant": "Gunubirlik",
-   "total": 139.98,
+   "total": 144.98,
    "out": {
-    "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 89.99,
-    "durH": 6.2
+    "dep": "2026-07-25T06:19:00",
+    "arr": "2026-07-25T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 80.99,
+    "durH": 4.1
    },
    "ret": {
-    "dep": "2026-07-25T19:23:00",
-    "arr": "2026-07-26T01:37:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 49.99,
-    "durH": 6.2
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 145.98,
-   "out": {
-    "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T11:13:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 575",
-    "price": 79.99,
-    "durH": 4.7
-   },
-   "ret": {
-    "dep": "2026-07-26T19:47:00",
-    "arr": "2026-07-27T00:57:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 65.99,
-    "durH": 5.2
+    "dep": "2026-07-25T19:37:00",
+    "arr": "2026-07-25T23:43:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 63.99,
+    "durH": 4.1
    }
   },
   {
@@ -4879,6 +6055,54 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Cumartesi",
+   "total": 145.98,
+   "out": {
+    "dep": "2026-08-22T06:49:00",
+    "arr": "2026-08-22T13:24:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 602",
+    "price": 65.99,
+    "durH": 6.6
+   },
+   "ret": {
+    "dep": "2026-08-23T15:45:00",
+    "arr": "2026-08-24T00:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 79.99,
+    "durH": 8.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 149.98,
+   "out": {
+    "dep": "2026-07-25T06:29:00",
+    "arr": "2026-07-25T11:13:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 575",
+    "price": 93.99,
+    "durH": 4.7
+   },
+   "ret": {
+    "dep": "2026-07-25T20:46:00",
+    "arr": "2026-07-26T01:37:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 55.99,
+    "durH": 4.9
+   }
+  },
+  {
    "origin": "Hamburg",
    "city": "Stuttgart",
    "variant": "Cuma",
@@ -4903,27 +6127,51 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
+   "total": 149.98,
+   "out": {
+    "dep": "2026-07-25T06:34:00",
+    "arr": "2026-07-25T09:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 89.99,
+    "durH": 3.2
+   },
+   "ret": {
+    "dep": "2026-07-25T21:16:00",
+    "arr": "2026-07-26T00:46:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2558",
+    "price": 59.99,
+    "durH": 3.5
+   }
+  },
+  {
    "origin": "München",
-   "city": "Hamburg",
+   "city": "Berlin",
    "variant": "Cuma",
    "total": 149.98,
    "out": {
-    "dep": "2026-08-07T22:01:00",
-    "arr": "2026-08-08T06:42:00",
+    "dep": "2026-07-24T22:41:00",
+    "arr": "2026-07-25T06:30:00",
     "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1080",
+    "to": "Berlin Hbf",
+    "trains": "ICE 904",
     "price": 69.99,
-    "durH": 8.7
+    "durH": 7.8
    },
    "ret": {
-    "dep": "2026-08-09T15:45:00",
-    "arr": "2026-08-10T00:29:00",
-    "from": "Hamburg Hbf",
+    "dep": "2026-07-26T18:37:00",
+    "arr": "2026-07-26T22:45:00",
+    "from": "Berlin Hbf",
     "to": "München Hbf",
-    "trains": "ICE 615",
+    "trains": "ICE 1105",
     "price": 79.99,
-    "durH": 8.7
+    "durH": 4.1
    }
   },
   {
@@ -4948,6 +6196,30 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 79.99,
     "durH": 8.7
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cuma",
+   "total": 153.98,
+   "out": {
+    "dep": "2026-07-24T20:34:00",
+    "arr": "2026-07-25T00:07:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 609",
+    "price": 69.99,
+    "durH": 3.6
+   },
+   "ret": {
+    "dep": "2026-07-26T15:16:00",
+    "arr": "2026-07-26T18:46:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 5324",
+    "price": 83.99,
+    "durH": 3.5
    }
   },
   {
@@ -4999,34 +6271,34 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cumartesi",
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
    "total": 156.98,
    "out": {
-    "dep": "2026-07-25T06:19:00",
-    "arr": "2026-07-25T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 80.99,
-    "durH": 4.1
+    "dep": "2026-07-25T06:29:00",
+    "arr": "2026-07-25T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 99.99,
+    "durH": 6.2
    },
    "ret": {
-    "dep": "2026-07-26T18:37:00",
-    "arr": "2026-07-26T22:45:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1105",
-    "price": 75.99,
-    "durH": 4.1
+    "dep": "2026-07-25T19:23:00",
+    "arr": "2026-07-26T01:37:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 56.99,
+    "durH": 6.2
    }
   },
   {
    "origin": "München",
    "city": "Berlin",
    "variant": "Cuma",
-   "total": 156.98,
+   "total": 158.98,
    "out": {
     "dep": "2026-08-07T18:21:00",
     "arr": "2026-08-07T22:22:00",
@@ -5042,56 +6314,80 @@ window.BAHN_DATA = {
     "from": "Berlin Hbf",
     "to": "München Hbf",
     "trains": "ICE 1601",
-    "price": 79.99,
+    "price": 81.99,
     "durH": 6.4
    }
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
+   "city": "Frankfurt",
    "variant": "Cumartesi",
    "total": 159.98,
    "out": {
     "dep": "2026-07-25T06:29:00",
-    "arr": "2026-07-25T12:38:00",
+    "arr": "2026-07-25T11:13:00",
     "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
+    "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 575",
-    "price": 89.99,
-    "durH": 6.2
+    "price": 93.99,
+    "durH": 4.7
    },
    "ret": {
-    "dep": "2026-07-26T19:23:00",
-    "arr": "2026-07-27T01:46:00",
-    "from": "Stuttgart Hbf",
+    "dep": "2026-07-26T19:47:00",
+    "arr": "2026-07-27T00:57:00",
+    "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 69.99,
-    "durH": 6.4
+    "trains": "ICE 70",
+    "price": 65.99,
+    "durH": 5.2
    }
   },
   {
    "origin": "München",
    "city": "Hamburg",
-   "variant": "Gunubirlik",
+   "variant": "Cuma",
    "total": 159.98,
    "out": {
-    "dep": "2026-08-08T07:28:00",
-    "arr": "2026-08-08T16:15:00",
+    "dep": "2026-08-07T22:01:00",
+    "arr": "2026-08-08T06:42:00",
     "from": "München Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 612",
-    "price": 119.99,
-    "durH": 8.8
+    "trains": "ICE 1080",
+    "price": 79.99,
+    "durH": 8.7
    },
    "ret": {
-    "dep": "2026-08-08T22:28:00",
-    "arr": "2026-08-09T06:18:00",
+    "dep": "2026-08-09T15:45:00",
+    "arr": "2026-08-10T00:29:00",
     "from": "Hamburg Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1081",
-    "price": 39.99,
-    "durH": 7.8
+    "trains": "ICE 615",
+    "price": 79.99,
+    "durH": 8.7
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 160.98,
+   "out": {
+    "dep": "2026-07-25T06:19:00",
+    "arr": "2026-07-25T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 80.99,
+    "durH": 4.1
+   },
+   "ret": {
+    "dep": "2026-07-26T18:37:00",
+    "arr": "2026-07-26T22:45:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1105",
+    "price": 79.99,
+    "durH": 4.1
    }
   },
   {
@@ -5120,26 +6416,26 @@ window.BAHN_DATA = {
   },
   {
    "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cuma",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
    "total": 169.98,
    "out": {
-    "dep": "2026-07-24T20:34:00",
-    "arr": "2026-07-25T00:07:00",
+    "dep": "2026-07-25T06:29:00",
+    "arr": "2026-07-25T12:38:00",
     "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 609",
-    "price": 69.99,
-    "durH": 3.6
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 99.99,
+    "durH": 6.2
    },
    "ret": {
-    "dep": "2026-07-26T15:16:00",
-    "arr": "2026-07-26T18:46:00",
-    "from": "Leipzig Hbf",
+    "dep": "2026-07-26T19:23:00",
+    "arr": "2026-07-27T01:46:00",
+    "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 5324",
-    "price": 99.99,
-    "durH": 3.5
+    "trains": "ICE 572",
+    "price": 69.99,
+    "durH": 6.4
    }
   },
   {
@@ -5167,27 +6463,27 @@ window.BAHN_DATA = {
    }
   },
   {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
-   "total": 171.98,
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Gunubirlik",
+   "total": 169.98,
    "out": {
-    "dep": "2026-07-25T07:25:00",
-    "arr": "2026-07-25T10:42:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 2553",
-    "price": 71.99,
-    "durH": 3.3
+    "dep": "2026-08-08T07:28:00",
+    "arr": "2026-08-08T16:15:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 612",
+    "price": 119.99,
+    "durH": 8.8
    },
    "ret": {
-    "dep": "2026-07-26T15:16:00",
-    "arr": "2026-07-26T18:46:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 5324",
-    "price": 99.99,
-    "durH": 3.5
+    "dep": "2026-08-08T22:28:00",
+    "arr": "2026-08-09T06:18:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 49.99,
+    "durH": 7.8
    }
   },
   {
@@ -5235,6 +6531,54 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 56.99,
+    "durH": 4.6
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cumartesi",
+   "total": 173.98,
+   "out": {
+    "dep": "2026-07-25T06:34:00",
+    "arr": "2026-07-25T09:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 89.99,
+    "durH": 3.2
+   },
+   "ret": {
+    "dep": "2026-07-26T15:16:00",
+    "arr": "2026-07-26T18:46:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 5324",
+    "price": 83.99,
+    "durH": 3.5
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 175.98,
+   "out": {
+    "dep": "2026-08-08T07:28:00",
+    "arr": "2026-08-08T12:05:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 612",
+    "price": 115.99,
+    "durH": 4.6
+   },
+   "ret": {
+    "dep": "2026-08-09T15:54:00",
+    "arr": "2026-08-09T20:32:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 59.99,
     "durH": 4.6
    }
   },
@@ -5290,54 +6634,6 @@ window.BAHN_DATA = {
    "origin": "München",
    "city": "Köln",
    "variant": "Gunubirlik",
-   "total": 181.98,
-   "out": {
-    "dep": "2026-07-25T07:28:00",
-    "arr": "2026-07-25T12:05:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 612",
-    "price": 115.99,
-    "durH": 4.6
-   },
-   "ret": {
-    "dep": "2026-07-25T17:54:00",
-    "arr": "2026-07-25T22:29:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 613",
-    "price": 65.99,
-    "durH": 4.6
-   }
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Nürnberg",
-   "variant": "Cuma",
-   "total": 189.98,
-   "out": {
-    "dep": "2026-07-24T22:28:00",
-    "arr": "2026-07-25T04:48:00",
-    "from": "Hamburg Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 1081",
-    "price": 69.99,
-    "durH": 6.3
-   },
-   "ret": {
-    "dep": "2026-07-26T16:26:00",
-    "arr": "2026-07-26T22:10:00",
-    "from": "Nürnberg Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 90",
-    "price": 119.99,
-    "durH": 5.7
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Köln",
-   "variant": "Gunubirlik",
    "total": 190.98,
    "out": {
     "dep": "2026-08-01T07:28:00",
@@ -5355,30 +6651,6 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 56.99,
-    "durH": 4.6
-   }
-  },
-  {
-   "origin": "München",
-   "city": "Köln",
-   "variant": "Cumartesi",
-   "total": 195.98,
-   "out": {
-    "dep": "2026-08-08T07:28:00",
-    "arr": "2026-08-08T12:05:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 612",
-    "price": 115.99,
-    "durH": 4.6
-   },
-   "ret": {
-    "dep": "2026-08-09T15:54:00",
-    "arr": "2026-08-09T20:32:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 79.99,
     "durH": 4.6
    }
   },
@@ -5479,6 +6751,30 @@ window.BAHN_DATA = {
    }
   },
   {
+   "origin": "Hamburg",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 205.98,
+   "out": {
+    "dep": "2026-07-24T22:28:00",
+    "arr": "2026-07-25T04:48:00",
+    "from": "Hamburg Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1081",
+    "price": 69.99,
+    "durH": 6.3
+   },
+   "ret": {
+    "dep": "2026-07-26T16:26:00",
+    "arr": "2026-07-26T22:10:00",
+    "from": "Nürnberg Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 90",
+    "price": 135.99,
+    "durH": 5.7
+   }
+  },
+  {
    "origin": "München",
    "city": "Köln",
    "variant": "Cuma",
@@ -5500,6 +6796,54 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 135.99,
     "durH": 4.6
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 209.98,
+   "out": {
+    "dep": "2026-07-25T07:28:00",
+    "arr": "2026-07-25T12:05:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 612",
+    "price": 133.99,
+    "durH": 4.6
+   },
+   "ret": {
+    "dep": "2026-07-25T17:54:00",
+    "arr": "2026-07-25T22:29:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 75.99,
+    "durH": 4.6
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Venedig",
+   "variant": "Cumartesi",
+   "total": 211.98,
+   "out": {
+    "dep": "2026-08-22T07:23:00",
+    "arr": "2026-08-22T14:25:00",
+    "from": "München Hbf",
+    "to": "Venezia Santa Lucia",
+    "trains": "RJ 1281",
+    "price": 115.99,
+    "durH": 7
+   },
+   "ret": {
+    "dep": "2026-08-23T15:35:00",
+    "arr": "2026-08-23T22:36:00",
+    "from": "Venezia Santa Lucia",
+    "to": "München Hbf",
+    "trains": "RJ 80",
+    "price": 95.99,
+    "durH": 7
    }
   },
   {
@@ -5552,30 +6896,6 @@ window.BAHN_DATA = {
   },
   {
    "origin": "München",
-   "city": "Köln",
-   "variant": "Cumartesi",
-   "total": 251.98,
-   "out": {
-    "dep": "2026-07-25T07:28:00",
-    "arr": "2026-07-25T12:05:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 612",
-    "price": 115.99,
-    "durH": 4.6
-   },
-   "ret": {
-    "dep": "2026-07-26T15:54:00",
-    "arr": "2026-07-26T20:32:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 135.99,
-    "durH": 4.6
-   }
-  },
-  {
-   "origin": "München",
    "city": "Hamburg",
    "variant": "Gunubirlik",
    "total": 255.98,
@@ -5596,6 +6916,30 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 119.99,
     "durH": 7.7
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 269.98,
+   "out": {
+    "dep": "2026-07-25T07:28:00",
+    "arr": "2026-07-25T12:05:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 612",
+    "price": 133.99,
+    "durH": 4.6
+   },
+   "ret": {
+    "dep": "2026-07-26T15:54:00",
+    "arr": "2026-07-26T20:32:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 135.99,
+    "durH": 4.6
    }
   },
   {
