@@ -13,6 +13,9 @@ on:
     paths:
       - "data.js"
 
+permissions:
+  contents: write
+
 jobs:
   notify:
     runs-on: ubuntu-latest
