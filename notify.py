@@ -120,7 +120,7 @@ if upserts:
         print(f"dip yazilamadi (atlandi): {e}")
 
 # data.js'i low bayraklariyla geri yaz (site bunu okuyup rozet gosterir)
-new_js = "window.BAHN_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
+new_js = "window.BAHN_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
 open("data.js", "w", encoding="utf-8").write(new_js)
 print(f"Dip guncellendi: {len(upserts)} yeni dip.")
 
