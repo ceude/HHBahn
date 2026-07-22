@@ -25,6 +25,7 @@ GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_APP_PASSWORD"]
 UNSUB_SECRET = os.environ["UNSUB_SECRET"]
 SITE_URL = os.environ.get("SITE_URL", "https://ceude.github.io/HHBahn")
+SEND_MAIL = os.environ.get("SEND_MAIL", "true").strip().lower() != "false"
 
 # 1) data.js -> en ucuz kombo
 raw = open("data.js", encoding="utf-8").read()
@@ -165,6 +166,10 @@ def build_html(email: str) -> str:
 </div>
 """
 
+
+if not SEND_MAIL:
+    print("SEND_MAIL=false — mail atlandi, dip bayraklari islendi.")
+    raise SystemExit(0)
 
 subject = f"Neue Wochenend-Bahntrips — ab {cheapest_str} €"
 sent = 0
