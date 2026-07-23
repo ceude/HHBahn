@@ -37,21 +37,75 @@ if not deals:
 cheapest = min(d["total"] for d in deals)
 cheapest_str = f"{cheapest:.2f}".replace(".", ",")
 
-# Kalkis bazli en dusuk (mail metni icin)
-by_origin = {}
-for d in deals:
-    o = d.get("origin", "Hamburg")
-    by_origin[o] = min(by_origin.get(o, 1e9), d["total"])
 def eur(v):
     return f"{v:.2f}".replace(".", ",")
-# Sabit sira: Hamburg, Munchen, sonra kalanlar
-order = [o for o in ["Hamburg", "München"] if o in by_origin] + \
-        [o for o in by_origin if o not in ("Hamburg", "München")]
-origin_lines_html = "".join(
-    f'<li style="margin:2px 0">ab <strong>{o}</strong> — ab {eur(by_origin[o])} &euro;</li>'
+
+MONTHS_DE = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun",
+             "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
+DAYS_DE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+
+def de_date(iso_str):
+    from datetime import datetime
+    dt = datetime.fromisoformat(iso_str)
+    return f"{DAYS_DE[dt.weekday()]} {dt.day}. {MONTHS_DE[dt.month - 1]}"
+
+# Kalkis -> sehir -> en ucuz TEK YON bacak
+ow_best = {}
+for d in deals:
+    o = d.get("origin", "Hamburg")
+    for leg_dir in ("out", "ret"):
+        leg = d.get(leg_dir) or {}
+        p = leg.get("price")
+        if p is None:
+            continue
+        cur = ow_best.setdefault(o, {}).get(d["city"])
+        if cur is None or p < cur["price"]:
+            ow_best[o][d["city"]] = {
+                "price": p, "dep": leg.get("dep"), "low": bool(leg.get("low")),
+            }
+
+order = [o for o in ["Hamburg", "München"] if o in ow_best] + \
+        [o for o in ow_best if o not in ("Hamburg", "München")]
+
+cheapest_ow = min(
+    (i["price"] for c in ow_best.values() for i in c.values()), default=cheapest
+)
+cheapest_ow_str = eur(cheapest_ow)
+
+def top5(o):
+    items = [(city, i) for city, i in ow_best.get(o, {}).items()]
+    items.sort(key=lambda x: x[1]["price"])
+    return items[:5]
+
+def origin_block_html(o):
+    rows = ""
+    for city, i in top5(o):
+        badge = ('<span style="background:#E7F7ED;color:#0A8A3A;font-size:10px;font-weight:bold;'
+                 'padding:2px 6px;border-radius:99px;margin-left:6px">Bestpreis</span>') if i["low"] else ""
+        rows += (
+            '<tr>'
+            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;color:#282D37;font-size:14px">'
+            f'<strong>{city}</strong>{badge}<br>'
+            f'<span style="color:#878C96;font-size:12px">{de_date(i["dep"])}</span></td>'
+            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;text-align:right;'
+            f'color:#EC0016;font-size:15px;font-weight:bold;white-space:nowrap">{eur(i["price"])} &euro;</td>'
+            '</tr>'
+        )
+    return (
+        f'<div style="margin:0 0 18px">'
+        f'<div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;'
+        f'color:#878C96;font-weight:bold;margin-bottom:6px">ab {o}</div>'
+        f'<table style="width:100%;border-collapse:collapse">{rows}</table></div>'
+    )
+
+total_routes = sum(len(v) for v in ow_best.values())
+more_routes = max(0, total_routes - sum(len(top5(o)) for o in order))
+
+origin_lines_html = "".join(origin_block_html(o) for o in order)
+origin_lines_txt = " | ".join(
+    f"ab {o}: " + ", ".join(f"{c} {eur(i['price'])} EUR" for c, i in top5(o))
     for o in order
 )
-origin_lines_txt = " | ".join(f"ab {o}: {eur(by_origin[o])} EUR" for o in order)
 
 # ---- DIP FIYAT: gecmisle karsilastir, bayrakla, data.js'i guncelle ----
 def route_key(origin, city, variant, direction):
@@ -148,19 +202,23 @@ def build_html(email: str) -> str:
 <div style="font-family:Helvetica,Arial,sans-serif;max-width:520px;margin:0 auto">
   <div style="background:#EC0016;color:#fff;padding:16px 20px;border-radius:8px 8px 0 0">
     <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.85">Wochenendkurztrip</div>
-    <div style="font-size:20px;font-weight:bold;margin-top:2px">Neue Tickets verf&uuml;gbar</div>
+    <div style="font-size:20px;font-weight:bold;margin-top:2px">Neue Wochenendtickets</div>
   </div>
   <div style="border:1px solid #D7DCE1;border-top:0;border-radius:0 0 8px 8px;padding:20px">
     <p style="color:#282D37;font-size:15px;line-height:1.5;margin:0 0 14px">
-      Die Preisliste wurde aktualisiert. Wochenend-Tickets (hin und zur&uuml;ck) gibt es:
+      Die Preisliste wurde aktualisiert. Die g&uuml;nstigsten Direktverbindungen
+      f&uuml;r eine <strong>einfache Fahrt</strong> am Wochenende:
     </p>
-    <ul style="color:#282D37;font-size:15px;line-height:1.6;margin:0 0 14px;padding-left:20px">
-      {origin_lines_html}
-    </ul>
-    <a href="{SITE_URL}" style="display:inline-block;background:#EC0016;color:#fff;text-decoration:none;font-weight:bold;font-size:14px;padding:10px 18px;border-radius:6px">Tickets ansehen</a>
+    {origin_lines_html}
+    <p style="color:#282D37;font-size:14px;line-height:1.5;margin:0 0 12px">
+      {"Und noch <strong>" + str(more_routes) + " weitere Verbindungen</strong> — Hin- und R&uuml;ckfahrt, alle Wochenenden und Tagesausfl&uuml;ge:" if more_routes else "Alle Verbindungen, Hin- und R&uuml;ckfahrt und Tagesausfl&uuml;ge:"}
+    </p>
+    <a href="{SITE_URL}" style="display:inline-block;background:#EC0016;color:#fff;text-decoration:none;font-weight:bold;font-size:14px;padding:10px 18px;border-radius:6px">Alle St&auml;dte &amp; Preise ansehen &rarr;</a>
     <p style="color:#878C96;font-size:11px;margin:18px 0 0">
       Preise sind Sparpreise zum Zeitpunkt des Scans und k&ouml;nnen sich jederzeit &auml;ndern.<br>
-      <a href="{unsub_link(email)}" style="color:#878C96;text-decoration:underline">Abmelden / Abonelikten &ccedil;&#305;k</a>
+      <a href="{unsub_link(email)}" style="color:#878C96;text-decoration:underline">Abmelden</a> &middot;
+      <a href="{unsub_link(email)}" style="color:#878C96;text-decoration:underline">Unsubscribe</a> &middot;
+      <a href="{unsub_link(email)}" style="color:#878C96;text-decoration:underline">Abonelikten &ccedil;&#305;k</a>
     </p>
   </div>
 </div>
@@ -171,7 +229,7 @@ if not SEND_MAIL:
     print("SEND_MAIL=false — mail atlandi, dip bayraklari islendi.")
     raise SystemExit(0)
 
-subject = f"Neue Wochenend-Bahntrips — ab {cheapest_str} €"
+subject = f"Wochenend-Bahntrips — einfache Fahrt ab {cheapest_ow_str} €"
 sent = 0
 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
     s.login(GMAIL_USER, GMAIL_PASS)
@@ -181,7 +239,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         msg["From"] = f"Wochenendkurztrip <{GMAIL_USER}>"
         msg["To"] = email
         msg.attach(MIMEText(
-            f"Neue Wochenend-Bahntrips ({origin_lines_txt}): {SITE_URL}\nAbmelden: {unsub_link(email)}",
+            f"Einfache Fahrt ab {cheapest_ow_str} EUR — {origin_lines_txt}\n{SITE_URL}\nAbmelden / Unsubscribe / Abonelikten cik: {unsub_link(email)}",
             "plain", "utf-8"))
         msg.attach(MIMEText(build_html(email), "html", "utf-8"))
         try:
