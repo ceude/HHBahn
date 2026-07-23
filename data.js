@@ -18,7 +18,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 517",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-01T22:20:00",
@@ -27,8 +28,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 6.99,
-    "durH": 0.9
-   }
+    "durH": 0.9,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -42,7 +45,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 517",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-08T18:17:00",
@@ -51,8 +55,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2508",
     "price": 6.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -66,7 +72,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 2505",
     "price": 6.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T19:56:00",
@@ -75,8 +82,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 6.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -90,7 +99,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 2505",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T18:17:00",
@@ -99,8 +109,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2508",
     "price": 6.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -114,7 +126,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 6.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-22T19:08:00",
@@ -123,8 +136,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 6.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -138,7 +153,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-08T21:17:00",
@@ -147,8 +163,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 2593",
     "price": 6.99,
-    "durH": 2
-   }
+    "durH": 2,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -162,7 +180,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-08T17:01:00",
@@ -171,8 +190,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 629",
     "price": 6.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -186,7 +207,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T18:17:00",
@@ -195,8 +217,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 6.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -210,7 +234,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T17:01:00",
@@ -219,8 +244,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 629",
     "price": 6.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -234,7 +261,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 6.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T18:04:00",
@@ -243,8 +271,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 6.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -258,7 +288,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-22T17:17:00",
@@ -267,8 +298,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 2589",
     "price": 6.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -282,7 +315,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-22T17:01:00",
@@ -291,8 +325,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 629",
     "price": 6.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -306,7 +342,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 12.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T18:04:00",
@@ -315,8 +352,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 6.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -330,7 +369,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 6.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-08T20:19:00",
@@ -339,8 +379,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1070",
     "price": 14.99,
-    "durH": 1.3
-   }
+    "durH": 1.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -354,7 +396,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1071",
     "price": 14.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T21:08:00",
@@ -363,8 +406,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 574",
     "price": 6.99,
-    "durH": 1.5
-   }
+    "durH": 1.5,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -378,7 +423,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 517",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-02T19:17:00",
@@ -387,8 +433,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -402,7 +450,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 517",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T15:17:00",
@@ -411,8 +460,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -426,7 +477,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 921",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T15:17:00",
@@ -435,8 +487,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -450,7 +504,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 2505",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T15:17:00",
@@ -459,8 +514,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -474,7 +531,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T19:56:00",
@@ -483,8 +541,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 6.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -498,7 +558,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 207",
     "price": 6.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:17:00",
@@ -507,8 +568,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 200",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -522,7 +585,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T17:17:00",
@@ -531,8 +595,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 610",
     "price": 6.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -546,7 +612,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 17.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T22:17:00",
@@ -555,8 +622,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 6.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -570,7 +639,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -579,8 +649,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 625",
     "price": 17.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -594,7 +666,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T15:01:00",
@@ -603,8 +676,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 625",
     "price": 18.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -618,7 +693,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJ 1293",
     "price": 6.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T18:04:00",
@@ -627,8 +703,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 18.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -642,7 +720,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 2505",
     "price": 6.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T19:56:00",
@@ -651,8 +730,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 19.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -666,7 +747,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 728",
     "price": 6.99,
-    "durH": 1.2
+    "durH": 1.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -675,8 +757,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1509",
     "price": 19.99,
-    "durH": 1.1
-   }
+    "durH": 1.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -690,7 +774,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 1080",
     "price": 6.99,
-    "durH": 2.1
+    "durH": 2.1,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:01:00",
@@ -699,8 +784,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 627",
     "price": 19.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -714,7 +801,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 6.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:01:00",
@@ -723,8 +811,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 627",
     "price": 19.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -738,7 +828,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 619",
     "price": 9.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:17:00",
@@ -747,8 +838,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -762,7 +855,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 619",
     "price": 9.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:17:00",
@@ -771,8 +865,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -786,7 +882,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 728",
     "price": 6.99,
-    "durH": 1.2
+    "durH": 1.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-01T21:23:00",
@@ -795,8 +892,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1103",
     "price": 20.99,
-    "durH": 1.6
-   }
+    "durH": 1.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -810,7 +909,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJ 1297",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T16:00:00",
@@ -819,8 +919,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 114",
     "price": 22.99,
-    "durH": 1.7
-   }
+    "durH": 1.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -834,7 +936,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 6.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T16:00:00",
@@ -843,8 +946,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 114",
     "price": 22.99,
-    "durH": 1.7
-   }
+    "durH": 1.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -858,7 +963,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 6.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T19:08:00",
@@ -867,8 +973,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 23.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -882,7 +990,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJ 1293",
     "price": 6.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:00:00",
@@ -891,8 +1000,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 23.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -906,7 +1017,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 12.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T18:00:00",
@@ -915,8 +1027,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 17.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -930,7 +1044,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 698",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -939,8 +1054,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -954,7 +1071,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -963,8 +1081,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -978,7 +1098,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 698",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T18:17:00",
@@ -987,8 +1108,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1002,7 +1125,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T18:17:00",
@@ -1011,8 +1135,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1026,7 +1152,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 1060",
     "price": 6.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T18:17:00",
@@ -1035,8 +1162,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1050,7 +1179,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 6.99,
-    "durH": 2
+    "durH": 2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T18:17:00",
@@ -1059,8 +1189,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 24.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1074,7 +1206,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 12.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T18:04:00",
@@ -1083,8 +1216,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 18.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1098,7 +1233,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1687",
     "price": 6.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T19:08:00",
@@ -1107,8 +1243,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 27.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -1122,7 +1260,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T21:17:00",
@@ -1131,8 +1270,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1146,7 +1287,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 2505",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T20:57:00",
@@ -1155,8 +1297,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 17.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1170,7 +1314,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 207",
     "price": 6.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T18:56:00",
@@ -1179,8 +1324,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 106",
     "price": 28.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -1194,7 +1341,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T16:17:00",
@@ -1203,8 +1351,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 200",
     "price": 17.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1218,7 +1368,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 582",
     "price": 17.99,
-    "durH": 1.2
+    "durH": 1.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:01:00",
@@ -1227,8 +1378,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 625",
     "price": 18.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1242,7 +1395,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 12.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:00:00",
@@ -1251,8 +1405,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 23.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1266,7 +1422,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 619",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:56:00",
@@ -1275,8 +1432,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 19.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1290,7 +1449,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 582",
     "price": 17.99,
-    "durH": 1.2
+    "durH": 1.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -1299,8 +1459,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1509",
     "price": 19.99,
-    "durH": 1.1
-   }
+    "durH": 1.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1314,7 +1476,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T18:04:00",
@@ -1323,8 +1486,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 17.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1338,7 +1503,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 524",
     "price": 19.99,
-    "durH": 1.2
+    "durH": 1.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -1347,8 +1513,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 625",
     "price": 17.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1362,7 +1530,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 14.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T20:19:00",
@@ -1371,8 +1540,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1070",
     "price": 23.99,
-    "durH": 1.3
-   }
+    "durH": 1.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1386,7 +1557,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 6.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:08:00",
@@ -1395,8 +1567,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ECE 72",
     "price": 31.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1410,7 +1584,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 575",
     "price": 19.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T19:08:00",
@@ -1419,8 +1594,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 72",
     "price": 19.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1434,7 +1611,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 2587",
     "price": 21.99,
-    "durH": 2.2
+    "durH": 2.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T18:33:00",
@@ -1443,8 +1621,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 17.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1458,7 +1638,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJ 1293",
     "price": 14.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:00:00",
@@ -1467,8 +1648,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 24.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1482,7 +1665,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-15T17:13:00",
@@ -1491,8 +1675,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 19.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -1506,7 +1692,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 619",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:17:00",
@@ -1515,8 +1702,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 23.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1530,7 +1719,8 @@ window.BAHN_DATA = {
     "to": "Bremen Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 0.9
+    "durH": 0.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:17:00",
@@ -1539,8 +1729,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 23.99,
-    "durH": 1
-   }
+    "durH": 1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1554,7 +1746,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 79",
     "price": 17.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T19:08:00",
@@ -1563,8 +1756,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 23.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1578,7 +1773,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1071",
     "price": 14.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:08:00",
@@ -1587,8 +1783,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 27.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1602,7 +1800,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 698",
     "price": 14.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -1611,8 +1810,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 27.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1626,7 +1827,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 71",
     "price": 14.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:08:00",
@@ -1635,8 +1837,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 28.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1650,7 +1854,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 2587",
     "price": 21.99,
-    "durH": 2.2
+    "durH": 2.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -1659,8 +1864,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 22.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1674,7 +1881,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:00:00",
@@ -1683,8 +1891,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 24.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1698,7 +1908,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 21.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T18:00:00",
@@ -1707,8 +1918,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 112",
     "price": 23.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1722,7 +1935,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 2592",
     "price": 17.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -1731,8 +1945,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 27.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1746,7 +1962,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1687",
     "price": 17.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:08:00",
@@ -1755,8 +1972,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 576",
     "price": 28.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1770,7 +1989,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 619",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:57:00",
@@ -1779,8 +1999,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2506",
     "price": 28.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1794,7 +2016,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 2505",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:57:00",
@@ -1803,8 +2026,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2506",
     "price": 28.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1818,7 +2043,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 17.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T18:56:00",
@@ -1827,8 +2053,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 106",
     "price": 28.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1842,7 +2070,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 79",
     "price": 17.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T19:46:00",
@@ -1851,8 +2080,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 29.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1866,7 +2097,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 520",
     "price": 17.99,
-    "durH": 3.9
+    "durH": 3.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T18:11:00",
@@ -1875,8 +2107,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 29.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -1890,7 +2124,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-22T17:13:00",
@@ -1899,8 +2134,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 27.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1914,7 +2151,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T22:53:00",
@@ -1923,8 +2161,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2584",
     "price": 21.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1938,7 +2178,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1687",
     "price": 17.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:08:00",
@@ -1947,8 +2188,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ECE 72",
     "price": 31.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -1962,7 +2205,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T18:33:00",
@@ -1971,8 +2215,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 21.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -1986,7 +2232,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "EC 1219",
     "price": 19.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:13:00",
@@ -1995,8 +2242,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 29.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -2010,7 +2259,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:13:00",
@@ -2019,8 +2269,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1212",
     "price": 29.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -2034,7 +2286,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 43.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T21:16:00",
@@ -2043,8 +2296,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2584",
     "price": 6.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2058,7 +2313,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1183",
     "price": 25.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T18:42:00",
@@ -2067,8 +2323,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 24.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -2082,7 +2340,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 209",
     "price": 19.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:56:00",
@@ -2091,8 +2350,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 106",
     "price": 31.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2106,7 +2367,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 612",
     "price": 31.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T22:17:00",
@@ -2115,8 +2377,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 19.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2130,7 +2394,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJ 1297",
     "price": 19.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:07:00",
@@ -2139,8 +2404,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "79040",
     "price": 32,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2154,7 +2421,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 24.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T18:56:00",
@@ -2163,8 +2431,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 106",
     "price": 27.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2178,7 +2448,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 209",
     "price": 17.99,
-    "durH": 3.8
+    "durH": 3.8,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T19:34:00",
@@ -2187,8 +2458,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 35.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2202,7 +2475,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 698",
     "price": 17.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:17:00",
@@ -2211,8 +2485,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 35.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2226,7 +2502,8 @@ window.BAHN_DATA = {
     "to": "Salzburg Hbf",
     "trains": "RJX 265",
     "price": 21.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:07:00",
@@ -2235,8 +2512,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "79040",
     "price": 32,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2250,7 +2529,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 209",
     "price": 17.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T19:11:00",
@@ -2259,8 +2539,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 36.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2274,7 +2556,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "4044",
     "price": 31,
-    "durH": 1.6
+    "durH": 1.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:01:00",
@@ -2283,8 +2566,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 721",
     "price": 23.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2298,7 +2583,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 36.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T18:01:00",
@@ -2307,8 +2593,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 721",
     "price": 18.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2322,7 +2610,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 24.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:56:00",
@@ -2331,8 +2620,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 106",
     "price": 31.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2346,7 +2637,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T16:33:00",
@@ -2355,8 +2647,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 29.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2370,7 +2664,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 609",
     "price": 34.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -2379,8 +2674,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 22.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -2394,7 +2691,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 517",
     "price": 34.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T20:11:00",
@@ -2403,8 +2701,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 22.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2418,7 +2718,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 29.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T17:13:00",
@@ -2427,8 +2728,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 27.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2442,7 +2745,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 990",
     "price": 17.99,
-    "durH": 3.5
+    "durH": 3.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:10:00",
@@ -2451,8 +2755,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1291",
     "price": 39.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2466,7 +2772,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 35.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T21:35:00",
@@ -2475,8 +2782,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2584",
     "price": 22.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2490,7 +2799,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1183",
     "price": 33.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T18:42:00",
@@ -2499,8 +2809,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 24.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2514,7 +2826,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 619",
     "price": 29.99,
-    "durH": 8.1
+    "durH": 8.1,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T19:23:00",
@@ -2523,8 +2836,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 29.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -2538,7 +2853,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 19.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T17:13:00",
@@ -2547,8 +2863,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 39.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -2562,7 +2880,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 886",
     "price": 36.99,
-    "durH": 1.3
+    "durH": 1.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:01:00",
@@ -2571,8 +2890,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 721",
     "price": 23.99,
-    "durH": 1.2
-   }
+    "durH": 1.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2586,7 +2907,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 209",
     "price": 17.99,
-    "durH": 5.4
+    "durH": 5.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T19:11:00",
@@ -2595,8 +2917,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 43.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2610,7 +2934,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 209",
     "price": 17.99,
-    "durH": 4.2
+    "durH": 4.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T19:34:00",
@@ -2619,8 +2944,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 43.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2634,7 +2961,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1183",
     "price": 33.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:42:00",
@@ -2643,8 +2971,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 27.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2658,7 +2988,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 2505",
     "price": 32.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T17:34:00",
@@ -2667,8 +2998,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2506",
     "price": 29.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2682,7 +3015,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 34.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T21:56:00",
@@ -2691,8 +3025,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 29.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2706,7 +3042,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 2505",
     "price": 34.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T20:11:00",
@@ -2715,8 +3052,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 29.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2730,7 +3069,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 609",
     "price": 34.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T16:33:00",
@@ -2739,8 +3079,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 29.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2754,7 +3096,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 2505",
     "price": 34.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T17:11:00",
@@ -2763,8 +3106,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2506",
     "price": 29.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2778,7 +3123,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 41.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T21:16:00",
@@ -2787,8 +3133,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2584",
     "price": 22.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2802,7 +3150,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 1687",
     "price": 19.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:08:00",
@@ -2811,8 +3160,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 72",
     "price": 45.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2826,7 +3177,8 @@ window.BAHN_DATA = {
     "to": "Hannover Hbf",
     "trains": "ICE 575",
     "price": 19.99,
-    "durH": 1.4
+    "durH": 1.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:08:00",
@@ -2835,8 +3187,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 72",
     "price": 45.99,
-    "durH": 1.4
-   }
+    "durH": 1.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2850,7 +3204,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T17:37:00",
@@ -2859,8 +3214,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 506",
     "price": 37.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2874,7 +3231,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 2505",
     "price": 32.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:34:00",
@@ -2883,8 +3241,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 32.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2898,7 +3258,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 990",
     "price": 17.99,
-    "durH": 3.4
+    "durH": 3.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:11:00",
@@ -2907,8 +3268,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 47.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2922,7 +3285,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 35.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T18:11:00",
@@ -2931,8 +3295,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 29.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -2946,7 +3312,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 2090",
     "price": 35.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T17:50:00",
@@ -2955,8 +3322,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 2591",
     "price": 29.99,
-    "durH": 3.4
-   }
+    "durH": 3.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -2970,7 +3339,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 209",
     "price": 17.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:11:00",
@@ -2979,8 +3349,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 49.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -2994,7 +3366,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 612",
     "price": 31.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:17:00",
@@ -3003,8 +3376,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 35.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3018,7 +3393,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "ICE 1205",
     "price": 39.99,
-    "durH": 2.1
+    "durH": 2.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:42:00",
@@ -3027,8 +3403,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 27.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3042,7 +3420,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "EC 1219",
     "price": 27.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T17:13:00",
@@ -3051,8 +3430,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 39.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3066,7 +3447,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 2505",
     "price": 32.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:34:00",
@@ -3075,8 +3457,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 35.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3090,7 +3474,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 39.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T19:46:00",
@@ -3099,8 +3484,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 29.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -3114,7 +3501,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 39.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T17:46:00",
@@ -3123,8 +3511,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ECE 4",
     "price": 29.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -3138,7 +3528,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 39.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T19:23:00",
@@ -3147,8 +3538,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 29.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -3162,7 +3555,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 39.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T17:23:00",
@@ -3171,8 +3565,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 574",
     "price": 29.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -3186,7 +3582,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 2505",
     "price": 34.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:11:00",
@@ -3195,8 +3592,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 36.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3210,7 +3609,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 41.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:57:00",
@@ -3219,8 +3619,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 729",
     "price": 29.99,
-    "durH": 3.9
-   }
+    "durH": 3.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3234,7 +3636,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 289",
     "price": 19.99,
-    "durH": 2.2
+    "durH": 2.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T18:42:00",
@@ -3243,8 +3646,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3258,7 +3663,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 35.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T17:57:00",
@@ -3267,8 +3673,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 725",
     "price": 35.99,
-    "durH": 3.3
-   }
+    "durH": 3.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3282,7 +3690,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "ICE 1205",
     "price": 19.99,
-    "durH": 2.1
+    "durH": 2.1,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T18:42:00",
@@ -3291,8 +3700,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3306,7 +3717,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 289",
     "price": 19.99,
-    "durH": 2.2
+    "durH": 2.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T18:42:00",
@@ -3315,8 +3727,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3330,7 +3744,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 49.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T20:42:00",
@@ -3339,8 +3754,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 80",
     "price": 21.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3354,7 +3771,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 209",
     "price": 22.99,
-    "durH": 3.8
+    "durH": 3.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:34:00",
@@ -3363,8 +3781,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 49.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3378,7 +3798,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 43.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T20:42:00",
@@ -3387,8 +3808,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 80",
     "price": 28.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3402,7 +3825,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 209",
     "price": 23.99,
-    "durH": 4.3
+    "durH": 4.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:11:00",
@@ -3411,8 +3835,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 49.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3426,7 +3852,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 105",
     "price": 33.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T19:34:00",
@@ -3435,8 +3862,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 41.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3450,7 +3879,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 2090",
     "price": 35.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T16:10:00",
@@ -3459,8 +3889,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1291",
     "price": 39.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3474,7 +3906,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 2505",
     "price": 32.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:34:00",
@@ -3483,8 +3916,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 43.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3498,7 +3933,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:37:00",
@@ -3507,8 +3943,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 49.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3522,7 +3960,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "EC 1219",
     "price": 27.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T17:13:00",
@@ -3531,8 +3970,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 49.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3546,7 +3987,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 2505",
     "price": 34.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:11:00",
@@ -3555,8 +3997,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2504",
     "price": 43.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3570,7 +4014,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 39.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T20:46:00",
@@ -3579,8 +4024,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 39.99,
-    "durH": 3.9
-   }
+    "durH": 3.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3594,7 +4041,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 619",
     "price": 29.99,
-    "durH": 7.8
+    "durH": 7.8,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T19:23:00",
@@ -3603,8 +4051,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 49.99,
-    "durH": 5.3
-   }
+    "durH": 5.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3618,7 +4068,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 29.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T17:13:00",
@@ -3627,8 +4078,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 49.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3642,7 +4095,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 510",
     "price": 29.99,
-    "durH": 4.7
+    "durH": 4.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:35:00",
@@ -3651,8 +4105,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 725",
     "price": 49.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -3666,7 +4122,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 289",
     "price": 19.99,
-    "durH": 2.2
+    "durH": 2.2,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-02T16:42:00",
@@ -3675,8 +4132,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 84",
     "price": 60.6,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3690,7 +4149,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 27.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:34:00",
@@ -3699,8 +4159,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 55.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3714,7 +4176,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 105",
     "price": 39.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T19:11:00",
@@ -3723,8 +4186,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 43.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3738,7 +4203,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 105",
     "price": 33.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:34:00",
@@ -3747,8 +4213,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 49.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3762,7 +4230,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 43.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T20:42:00",
@@ -3771,8 +4240,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 80",
     "price": 39.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3786,7 +4257,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 609",
     "price": 34.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:37:00",
@@ -3795,8 +4267,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 49.99,
-    "durH": 1.8
-   }
+    "durH": 1.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3810,7 +4284,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 517",
     "price": 34.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T16:11:00",
@@ -3819,8 +4294,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 518",
     "price": 49.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3834,7 +4311,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 54.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T19:57:00",
@@ -3843,8 +4321,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 729",
     "price": 29.99,
-    "durH": 3.9
-   }
+    "durH": 3.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -3858,7 +4338,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1183",
     "price": 25.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T16:42:00",
@@ -3867,8 +4348,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 84",
     "price": 60.6,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3882,7 +4365,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 79",
     "price": 29.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:46:00",
@@ -3891,8 +4375,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 56.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3906,7 +4392,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 79",
     "price": 29.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T17:46:00",
@@ -3915,8 +4402,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 4",
     "price": 56.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3930,7 +4419,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 921",
     "price": 25.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:56:00",
@@ -3939,8 +4429,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 61.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3954,7 +4446,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 71",
     "price": 39.99,
-    "durH": 3.8
+    "durH": 3.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:46:00",
@@ -3963,8 +4456,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 47.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -3978,7 +4473,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 609",
     "price": 39.99,
-    "durH": 3.4
+    "durH": 3.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T15:16:00",
@@ -3987,8 +4483,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 47.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4002,7 +4500,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 990",
     "price": 23.99,
-    "durH": 3.4
+    "durH": 3.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:11:00",
@@ -4011,8 +4510,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 63.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4026,7 +4527,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 49.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T17:13:00",
@@ -4035,8 +4537,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 37.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4050,7 +4554,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 105",
     "price": 39.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:11:00",
@@ -4059,8 +4564,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 49.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4074,7 +4581,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 49.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T19:23:00",
@@ -4083,8 +4591,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 39.99,
-    "durH": 5.3
-   }
+    "durH": 5.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4098,7 +4608,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 1081",
     "price": 29.99,
-    "durH": 6.3
+    "durH": 6.3,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T16:26:00",
@@ -4107,8 +4618,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 90",
     "price": 59.99,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -4122,7 +4635,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 41.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:11:00",
@@ -4131,8 +4645,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 47.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4146,7 +4662,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 728",
     "price": 49.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T18:35:00",
@@ -4155,8 +4672,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 729",
     "price": 39.99,
-    "durH": 5.4
-   }
+    "durH": 5.4,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -4170,7 +4689,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 873",
     "price": 35.99,
-    "durH": 2
+    "durH": 2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:34:00",
@@ -4179,8 +4699,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2588",
     "price": 55.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4194,7 +4716,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 43.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T15:16:00",
@@ -4203,8 +4726,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 47.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4218,7 +4743,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 609",
     "price": 39.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:16:00",
@@ -4227,8 +4753,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 53.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4242,7 +4770,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 41.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:16:00",
@@ -4251,8 +4780,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2590",
     "price": 53.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4266,7 +4797,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1602",
     "price": 50.99,
-    "durH": 5.7
+    "durH": 5.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:09:00",
@@ -4275,8 +4807,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 44.99,
-    "durH": 6.9
-   }
+    "durH": 6.9,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -4290,7 +4824,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 43.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:42:00",
@@ -4299,8 +4834,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4314,7 +4851,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 43.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T18:42:00",
@@ -4323,8 +4861,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4338,7 +4878,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 65.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T22:28:00",
@@ -4347,8 +4888,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 29.99,
-    "durH": 7.8
-   }
+    "durH": 7.8,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -4362,7 +4905,8 @@ window.BAHN_DATA = {
     "to": "Münster (Westf) Hbf",
     "trains": "ICE 105",
     "price": 34.99,
-    "durH": 2.3
+    "durH": 2.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:56:00",
@@ -4371,8 +4915,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 516",
     "price": 61.99,
-    "durH": 2.3
-   }
+    "durH": 2.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4386,7 +4932,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 71",
     "price": 39.99,
-    "durH": 3.8
+    "durH": 3.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:46:00",
@@ -4395,8 +4942,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 56.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4410,7 +4959,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 39.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T17:46:00",
@@ -4419,8 +4969,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 4",
     "price": 56.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4434,7 +4986,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 35.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:12:00",
@@ -4443,8 +4996,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 61.99,
-    "durH": 3.2
-   }
+    "durH": 3.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4458,7 +5013,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 94",
     "price": 35.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-09T19:32:00",
@@ -4467,8 +5023,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 199",
     "price": 61.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -4482,7 +5040,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 49.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T18:34:00",
@@ -4491,8 +5050,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 2552",
     "price": 49.99,
-    "durH": 2
-   }
+    "durH": 2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4506,7 +5067,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 49.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T18:12:00",
@@ -4515,8 +5077,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 49.99,
-    "durH": 3.2
-   }
+    "durH": 3.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4530,7 +5094,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 619",
     "price": 39.99,
-    "durH": 7.8
+    "durH": 7.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:23:00",
@@ -4539,8 +5104,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 59.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4554,7 +5121,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 49.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:23:00",
@@ -4563,8 +5131,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 49.99,
-    "durH": 5.3
-   }
+    "durH": 5.3,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4578,7 +5148,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 698",
     "price": 23.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:11:00",
@@ -4587,8 +5158,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 75.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4602,7 +5175,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 728",
     "price": 49.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T16:35:00",
@@ -4611,8 +5185,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 725",
     "price": 49.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -4626,7 +5202,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 609",
     "price": 39.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T18:12:00",
@@ -4635,8 +5212,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 61.99,
-    "durH": 3.2
-   }
+    "durH": 3.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4650,7 +5229,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 51.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T17:13:00",
@@ -4659,8 +5239,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 49.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4674,7 +5256,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 55.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:32:00",
@@ -4683,8 +5266,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 199",
     "price": 45.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -4698,7 +5283,8 @@ window.BAHN_DATA = {
     "to": "Innsbruck Hbf",
     "trains": "RJ 1281",
     "price": 49.99,
-    "durH": 1.9
+    "durH": 1.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T18:42:00",
@@ -4707,8 +5293,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 82",
     "price": 51.99,
-    "durH": 1.9
-   }
+    "durH": 1.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4722,7 +5310,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1102",
     "price": 73.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T22:45:00",
@@ -4731,8 +5320,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 905",
     "price": 29.99,
-    "durH": 8.5
-   }
+    "durH": 8.5,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4746,7 +5337,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "EC 1219",
     "price": 49.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T17:13:00",
@@ -4755,8 +5347,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 54.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4770,7 +5364,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 49.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T17:13:00",
@@ -4779,8 +5374,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 1210",
     "price": 54.99,
-    "durH": 4.8
-   }
+    "durH": 4.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4794,7 +5391,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 55.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T20:46:00",
@@ -4803,8 +5401,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 49.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4818,7 +5418,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 75.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T22:28:00",
@@ -4827,8 +5428,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 29.99,
-    "durH": 7.7
-   }
+    "durH": 7.7,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4842,7 +5445,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 921",
     "price": 43.99,
-    "durH": 3.9
+    "durH": 3.9,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:34:00",
@@ -4851,8 +5455,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 64.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4866,7 +5472,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 105",
     "price": 59.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T19:34:00",
@@ -4875,8 +5482,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 49.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4890,7 +5499,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 777",
     "price": 39.99,
-    "durH": 5.7
+    "durH": 5.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:23:00",
@@ -4899,8 +5509,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 69.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4914,7 +5526,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 1081",
     "price": 29.99,
-    "durH": 6.8
+    "durH": 6.8,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T16:26:00",
@@ -4923,8 +5536,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 90",
     "price": 79.99,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -4938,7 +5553,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 29.99,
-    "durH": 7.7
+    "durH": 7.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:28:00",
@@ -4947,8 +5563,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 79.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -4962,7 +5580,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 524",
     "price": 39.99,
-    "durH": 4.9
+    "durH": 4.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-16T15:54:00",
@@ -4971,8 +5590,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 69.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -4986,7 +5607,8 @@ window.BAHN_DATA = {
     "to": "Praha hl.n.",
     "trains": "353",
     "price": 55,
-    "durH": 5.7
+    "durH": 5.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-07-26T15:35:00",
@@ -4995,8 +5617,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EX 352",
     "price": 55,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -5010,7 +5634,8 @@ window.BAHN_DATA = {
     "to": "Praha hl.n.",
     "trains": "353",
     "price": 55,
-    "durH": 5.7
+    "durH": 5.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-07-25T17:35:00",
@@ -5019,8 +5644,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EX 350",
     "price": 55,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -5034,7 +5661,8 @@ window.BAHN_DATA = {
     "to": "Praha hl.n.",
     "trains": "353",
     "price": 55,
-    "durH": 5.6
+    "durH": 5.6,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:35:00",
@@ -5043,8 +5671,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EX 352",
     "price": 55,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -5058,7 +5688,8 @@ window.BAHN_DATA = {
     "to": "Praha hl.n.",
     "trains": "353",
     "price": 55,
-    "durH": 5.6
+    "durH": 5.6,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-22T17:35:00",
@@ -5067,8 +5698,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EX 350",
     "price": 55,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -5082,7 +5715,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 53.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-22T19:37:00",
@@ -5091,8 +5725,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 58.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5106,7 +5742,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 609",
     "price": 49.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:51:00",
@@ -5115,8 +5752,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 90",
     "price": 63.99,
-    "durH": 3.8
-   }
+    "durH": 3.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5130,7 +5769,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 49.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:51:00",
@@ -5139,8 +5779,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 90",
     "price": 63.99,
-    "durH": 3.8
-   }
+    "durH": 3.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5154,7 +5796,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 53.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T19:37:00",
@@ -5163,8 +5806,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 59.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -5178,7 +5823,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 921",
     "price": 44.99,
-    "durH": 4.3
+    "durH": 4.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:11:00",
@@ -5187,8 +5833,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 69.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5202,7 +5850,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 517",
     "price": 69.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T20:11:00",
@@ -5211,8 +5860,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 44.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5226,7 +5877,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 64.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T19:23:00",
@@ -5235,8 +5887,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 49.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5250,7 +5904,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 65.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T19:23:00",
@@ -5259,8 +5914,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 49.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5274,7 +5931,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 2090",
     "price": 65.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T17:50:00",
@@ -5283,8 +5941,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 691",
     "price": 51.99,
-    "durH": 3.4
-   }
+    "durH": 3.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5298,7 +5958,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 55.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:32:00",
@@ -5307,8 +5968,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 199",
     "price": 61.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -5322,7 +5985,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 728",
     "price": 54.99,
-    "durH": 3.3
+    "durH": 3.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T18:11:00",
@@ -5331,8 +5995,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 63.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5346,7 +6012,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 575",
     "price": 79.99,
-    "durH": 4.7
+    "durH": 4.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T20:46:00",
@@ -5355,8 +6022,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 39.99,
-    "durH": 4.9
-   }
+    "durH": 4.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5370,7 +6039,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 49.99,
-    "durH": 8.2
+    "durH": 8.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:28:00",
@@ -5379,8 +6049,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 69.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5394,7 +6066,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 910",
     "price": 59.99,
-    "durH": 4.2
+    "durH": 4.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:54:00",
@@ -5403,8 +6076,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 59.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5418,7 +6093,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 522",
     "price": 49.99,
-    "durH": 4.8
+    "durH": 4.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T17:54:00",
@@ -5427,8 +6103,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 69.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5442,7 +6120,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
     "price": 39.99,
-    "durH": 8.7
+    "durH": 8.7,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:45:00",
@@ -5451,8 +6130,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 79.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -5466,7 +6147,8 @@ window.BAHN_DATA = {
     "to": "Düsseldorf Hbf",
     "trains": "ICE 105",
     "price": 59.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:34:00",
@@ -5475,8 +6157,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 64.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5490,7 +6174,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 64.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T19:23:00",
@@ -5499,8 +6184,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 59.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5514,7 +6201,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1102",
     "price": 73.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:37:00",
@@ -5523,8 +6211,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 50.99,
-    "durH": 7
-   }
+    "durH": 7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5538,7 +6228,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 94",
     "price": 45.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T15:32:00",
@@ -5547,8 +6238,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 195",
     "price": 79.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5562,7 +6255,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "RJX 265",
     "price": 51.99,
-    "durH": 4.5
+    "durH": 4.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:28:00",
@@ -5571,8 +6265,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJX 68",
     "price": 74.99,
-    "durH": 4.4
-   }
+    "durH": 4.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5586,7 +6282,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 69.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T17:32:00",
@@ -5595,8 +6292,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 197",
     "price": 57.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5610,7 +6309,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1000",
     "price": 68.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T19:37:00",
@@ -5619,8 +6319,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 59.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5634,7 +6336,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 89.99,
-    "durH": 6.2
+    "durH": 6.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T19:23:00",
@@ -5643,8 +6346,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 39.99,
-    "durH": 6.2
-   }
+    "durH": 6.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5658,7 +6363,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 619",
     "price": 39.99,
-    "durH": 5.5
+    "durH": 5.5,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:46:00",
@@ -5667,8 +6373,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 89.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5682,7 +6390,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 70.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:37:00",
@@ -5691,8 +6400,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 59.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5706,7 +6417,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 96",
     "price": 61.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:32:00",
@@ -5715,8 +6427,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 199",
     "price": 69.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5730,7 +6444,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 70.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T19:37:00",
@@ -5739,8 +6454,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 60.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5754,7 +6471,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1602",
     "price": 50.99,
-    "durH": 5.7
+    "durH": 5.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:37:00",
@@ -5763,8 +6481,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1601",
     "price": 81.99,
-    "durH": 6.4
-   }
+    "durH": 6.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5778,7 +6498,8 @@ window.BAHN_DATA = {
     "to": "Wien Hbf",
     "trains": "EC 1219",
     "price": 59.99,
-    "durH": 4.4
+    "durH": 4.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:28:00",
@@ -5787,8 +6508,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJX 68",
     "price": 74.99,
-    "durH": 4.4
-   }
+    "durH": 4.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5802,7 +6525,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 65.99,
-    "durH": 5.2
+    "durH": 5.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:23:00",
@@ -5811,8 +6535,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 69.99,
-    "durH": 5.1
-   }
+    "durH": 5.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5826,7 +6552,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1000",
     "price": 84.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:37:00",
@@ -5835,8 +6562,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 50.99,
-    "durH": 7
-   }
+    "durH": 7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5850,7 +6579,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1502",
     "price": 77.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T19:37:00",
@@ -5859,8 +6589,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 59.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5874,7 +6606,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 505",
     "price": 49.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -5883,8 +6616,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 5324",
     "price": 89.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -5898,7 +6633,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 517",
     "price": 69.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:11:00",
@@ -5907,8 +6643,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
     "price": 69.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5922,7 +6660,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 69.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:32:00",
@@ -5931,8 +6670,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 199",
     "price": 69.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5946,7 +6687,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 2090",
     "price": 65.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T18:11:00",
@@ -5955,8 +6697,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1097",
     "price": 75.99,
-    "durH": 4
-   }
+    "durH": 4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5970,7 +6714,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 75.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T17:32:00",
@@ -5979,8 +6724,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 197",
     "price": 65.99,
-    "durH": 3.8
-   }
+    "durH": 3.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -5994,7 +6741,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 904",
     "price": 69.99,
-    "durH": 7.8
+    "durH": 7.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:37:00",
@@ -6003,8 +6751,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 74.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6018,7 +6768,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 609",
     "price": 55.99,
-    "durH": 1.8
+    "durH": 1.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -6027,8 +6778,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 5324",
     "price": 89.99,
-    "durH": 2.2
-   }
+    "durH": 2.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6042,7 +6795,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 1071",
     "price": 55.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:46:00",
@@ -6051,8 +6805,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 89.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6066,7 +6822,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 65.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-23T15:45:00",
@@ -6075,8 +6832,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 79.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "München",
@@ -6090,7 +6849,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 81.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T19:37:00",
@@ -6099,8 +6859,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 67.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6114,7 +6876,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 89.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T18:12:00",
@@ -6123,8 +6886,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 504",
     "price": 65.99,
-    "durH": 3.4
-   }
+    "durH": 3.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6138,7 +6903,8 @@ window.BAHN_DATA = {
     "to": "Zürich HB",
     "trains": "ECE 198",
     "price": 75.99,
-    "durH": 3.7
+    "durH": 3.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T15:32:00",
@@ -6147,8 +6913,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "EC 195",
     "price": 79.99,
-    "durH": 3.7
-   }
+    "durH": 3.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6162,7 +6930,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 115.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T17:54:00",
@@ -6171,8 +6940,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 39.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": true
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6186,7 +6957,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
     "price": 81.99,
-    "durH": 4.1
+    "durH": 4.1,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:37:00",
@@ -6195,8 +6967,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1605",
     "price": 74.99,
-    "durH": 4.1
-   }
+    "durH": 4.1,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6210,7 +6984,8 @@ window.BAHN_DATA = {
     "to": "Berlin Hbf",
     "trains": "ICE 1502",
     "price": 76.99,
-    "durH": 4
+    "durH": 4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:37:00",
@@ -6219,8 +6994,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1601",
     "price": 81.99,
-    "durH": 6.4
-   }
+    "durH": 6.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6234,7 +7011,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
     "price": 69.99,
-    "durH": 9
+    "durH": 9,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:45:00",
@@ -6243,8 +7021,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 89.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6258,7 +7038,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 115.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T22:28:00",
@@ -6267,8 +7048,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 49.99,
-    "durH": 7.7
-   }
+    "durH": 7.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6282,7 +7065,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 75.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:45:00",
@@ -6291,8 +7075,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 89.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6306,7 +7092,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 517",
     "price": 79.99,
-    "durH": 8.7
+    "durH": 8.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T22:01:00",
@@ -6315,8 +7102,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
     "price": 89.99,
-    "durH": 8.9
-   }
+    "durH": 8.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6330,7 +7119,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 119.99,
-    "durH": 8.8
+    "durH": 8.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-08T22:28:00",
@@ -6339,8 +7129,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 49.99,
-    "durH": 7.8
-   }
+    "durH": 7.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6354,7 +7146,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 115.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-15T17:54:00",
@@ -6363,8 +7156,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 56.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6378,7 +7173,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 79",
     "price": 75.99,
-    "durH": 5.6
+    "durH": 5.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:47:00",
@@ -6387,8 +7183,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 99.99,
-    "durH": 5.2
-   }
+    "durH": 5.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6402,7 +7200,8 @@ window.BAHN_DATA = {
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 575",
     "price": 79.99,
-    "durH": 4.7
+    "durH": 4.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:47:00",
@@ -6411,8 +7210,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 70",
     "price": 99.99,
-    "durH": 5.2
-   }
+    "durH": 5.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6426,7 +7227,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 59.99,
-    "durH": 8.2
+    "durH": 8.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T15:28:00",
@@ -6435,8 +7237,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 119.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6450,7 +7254,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 133.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-01T17:54:00",
@@ -6459,8 +7264,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 49.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6474,7 +7281,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 609",
     "price": 69.99,
-    "durH": 3.6
+    "durH": 3.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T15:16:00",
@@ -6483,8 +7291,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 5324",
     "price": 115.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6498,7 +7308,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 115.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T17:54:00",
@@ -6507,8 +7318,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 69.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6522,7 +7335,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 115.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-16T15:54:00",
@@ -6531,8 +7345,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 611",
     "price": 69.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6546,7 +7362,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 69.99,
-    "durH": 7.8
+    "durH": 7.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:28:00",
@@ -6555,8 +7372,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 119.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6570,7 +7389,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 133.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T19:54:00",
@@ -6579,8 +7399,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 59.99,
-    "durH": 4.7
-   }
+    "durH": 4.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6594,7 +7416,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 619",
     "price": 89.99,
-    "durH": 7.8
+    "durH": 7.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:23:00",
@@ -6603,8 +7426,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 105.99,
-    "durH": 6.4
-   }
+    "durH": 6.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6618,7 +7443,8 @@ window.BAHN_DATA = {
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
     "price": 89.99,
-    "durH": 6.2
+    "durH": 6.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T19:23:00",
@@ -6627,8 +7453,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
     "price": 105.99,
-    "durH": 6.4
-   }
+    "durH": 6.4,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6642,7 +7470,8 @@ window.BAHN_DATA = {
     "to": "København H",
     "trains": "ECE 392",
     "price": 89.99,
-    "durH": 5.9
+    "durH": 5.9,
+    "low": true
    },
    "ret": {
     "dep": "2026-07-26T16:15:00",
@@ -6651,8 +7480,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "BUS 40399",
     "price": 109.5,
-    "durH": 5.2
-   }
+    "durH": 5.2,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6666,7 +7497,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 517",
     "price": 79.99,
-    "durH": 8.7
+    "durH": 8.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:28:00",
@@ -6675,8 +7507,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 119.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -6690,7 +7524,8 @@ window.BAHN_DATA = {
     "to": "København H",
     "trains": "Bus 40398",
     "price": 95.1,
-    "durH": 5.4
+    "durH": 5.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T16:15:00",
@@ -6699,8 +7534,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "BUS 40399",
     "price": 109.5,
-    "durH": 5.2
-   }
+    "durH": 5.2,
+    "low": false
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -6714,7 +7551,8 @@ window.BAHN_DATA = {
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
     "price": 89.99,
-    "durH": 3.2
+    "durH": 3.2,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T15:16:00",
@@ -6723,8 +7561,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 5324",
     "price": 115.99,
-    "durH": 3.5
-   }
+    "durH": 3.5,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6738,7 +7578,8 @@ window.BAHN_DATA = {
     "to": "Venezia Santa Lucia",
     "trains": "RJ 1281",
     "price": 115.99,
-    "durH": 7
+    "durH": 7,
+    "low": true
    },
    "ret": {
     "dep": "2026-08-23T15:35:00",
@@ -6747,8 +7588,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "RJ 80",
     "price": 95.99,
-    "durH": 7
-   }
+    "durH": 7,
+    "low": true
+   },
+   "lowRt": true
   },
   {
    "origin": "Hamburg",
@@ -6762,7 +7605,8 @@ window.BAHN_DATA = {
     "to": "Nürnberg Hbf",
     "trains": "ICE 1081",
     "price": 79.99,
-    "durH": 6.3
+    "durH": 6.3,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T16:26:00",
@@ -6771,8 +7615,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 90",
     "price": 135.99,
-    "durH": 5.7
-   }
+    "durH": 5.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6786,7 +7632,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 510",
     "price": 79.99,
-    "durH": 4.7
+    "durH": 4.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T17:54:00",
@@ -6795,8 +7642,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 135.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6810,7 +7659,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
     "price": 119.99,
-    "durH": 8.7
+    "durH": 8.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:45:00",
@@ -6819,8 +7669,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 105.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6834,7 +7686,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
     "price": 119.99,
-    "durH": 8.8
+    "durH": 8.8,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-09T15:45:00",
@@ -6843,8 +7696,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 105.99,
-    "durH": 8.7
-   }
+    "durH": 8.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6858,7 +7713,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 115.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T15:45:00",
@@ -6867,8 +7723,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 119.99,
-    "durH": 8.9
-   }
+    "durH": 8.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6882,7 +7740,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
     "price": 119.99,
-    "durH": 8.4
+    "durH": 8.4,
+    "low": false
    },
    "ret": {
     "dep": "2026-08-02T15:45:00",
@@ -6891,8 +7750,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 615",
     "price": 119.99,
-    "durH": 8.9
-   }
+    "durH": 8.9,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6906,7 +7767,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 133.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T17:54:00",
@@ -6915,8 +7777,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 115.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6930,7 +7794,8 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 602",
     "price": 135.99,
-    "durH": 6.6
+    "durH": 6.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-25T22:28:00",
@@ -6939,8 +7804,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 119.99,
-    "durH": 7.7
-   }
+    "durH": 7.7,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "München",
@@ -6954,7 +7821,8 @@ window.BAHN_DATA = {
     "to": "Köln Hbf",
     "trains": "ICE 612",
     "price": 133.99,
-    "durH": 4.6
+    "durH": 4.6,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T17:54:00",
@@ -6963,8 +7831,10 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 613",
     "price": 135.99,
-    "durH": 4.6
-   }
+    "durH": 4.6,
+    "low": false
+   },
+   "lowRt": false
   },
   {
    "origin": "Hamburg",
@@ -6978,7 +7848,8 @@ window.BAHN_DATA = {
     "to": "München Hbf",
     "trains": "ICE 1081",
     "price": 135.99,
-    "durH": 7.7
+    "durH": 7.7,
+    "low": false
    },
    "ret": {
     "dep": "2026-07-26T15:28:00",
@@ -6987,8 +7858,10 @@ window.BAHN_DATA = {
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
     "price": 135.99,
-    "durH": 8.8
-   }
+    "durH": 8.8,
+    "low": false
+   },
+   "lowRt": false
   }
  ]
 };
