@@ -12,6 +12,12 @@ on:
   push:
     paths:
       - "data.js"
+  workflow_dispatch:
+    inputs:
+      send_mail:
+        description: "Abonelere mail gonderilsin mi?"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
