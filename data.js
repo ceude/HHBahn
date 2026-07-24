@@ -24,6 +24,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -39,8 +44,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -60,6 +75,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -75,8 +95,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -96,6 +126,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -111,8 +146,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -136,6 +181,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -151,8 +201,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -172,6 +232,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -187,8 +252,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "18:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -212,6 +287,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -227,8 +307,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -248,6 +338,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -263,8 +358,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "18:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "München",
@@ -284,6 +389,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -294,8 +404,18 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -315,6 +435,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -325,8 +450,18 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -354,6 +489,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -377,8 +517,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "19:03"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -398,6 +548,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -408,8 +563,18 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -437,6 +602,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -460,8 +630,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -481,6 +661,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -491,8 +676,18 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -516,6 +711,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -526,8 +726,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 12.99,
     "durH": 1.9,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -551,6 +761,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -561,8 +776,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     32.0
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -586,6 +811,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -596,8 +826,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     32.0
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -621,6 +861,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -631,8 +876,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 14.99,
     "durH": 1.3,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -647,7 +902,12 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 14.99,
     "durH": 1.3,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T21:08:00",
@@ -657,8 +917,18 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 6.99,
     "durH": 1.5,
-    "stops": []
-   }
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     39.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -678,6 +948,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -693,8 +968,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -714,6 +999,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -729,8 +1019,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -750,6 +1050,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -765,8 +1070,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -786,6 +1101,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -801,8 +1121,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -822,6 +1152,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:21"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -837,8 +1172,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "17:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -858,6 +1203,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -873,8 +1223,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "17:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -894,6 +1254,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:21"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -909,8 +1274,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -930,6 +1305,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -945,8 +1325,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "München",
@@ -974,6 +1364,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -997,8 +1392,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -1018,6 +1423,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -1028,8 +1438,18 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 17.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -1044,7 +1464,12 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:15:00",
@@ -1059,8 +1484,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "15:43"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -1080,6 +1515,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -1090,8 +1530,18 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1119,6 +1569,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -1142,8 +1597,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "München",
@@ -1171,6 +1636,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -1194,8 +1664,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -1223,6 +1703,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -1246,8 +1731,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -1267,6 +1762,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "22:44"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -1277,8 +1777,18 @@ window.BAHN_DATA = {
     "trains": "ICE 627",
     "price": 19.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "München",
@@ -1298,6 +1808,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -1308,8 +1823,18 @@ window.BAHN_DATA = {
     "trains": "ICE 627",
     "price": 19.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -1329,6 +1854,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -1339,8 +1869,18 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 19.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1360,6 +1900,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -1375,8 +1920,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1396,6 +1951,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -1411,8 +1971,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "München",
@@ -1427,7 +1997,12 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": true,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T20:01:00",
@@ -1437,8 +2012,18 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 21.99,
     "durH": 1.3,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -1474,6 +2059,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "20:52"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1501,8 +2091,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "München",
@@ -1538,6 +2138,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "20:52"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1565,8 +2170,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "München",
@@ -1614,6 +2229,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -1637,8 +2257,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1658,6 +2288,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -1673,8 +2308,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1698,6 +2343,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -1713,8 +2363,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "München",
@@ -1750,6 +2410,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1777,8 +2442,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "München",
@@ -1802,6 +2477,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1829,8 +2509,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -1866,6 +2556,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1893,8 +2588,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "München",
@@ -1918,6 +2623,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -1945,8 +2655,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1974,6 +2694,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -1997,8 +2722,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "München",
@@ -2026,6 +2761,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2049,8 +2789,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -2078,6 +2828,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2101,8 +2856,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -2130,6 +2895,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2153,8 +2923,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -2182,6 +2962,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2205,8 +2990,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "München",
@@ -2234,6 +3029,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2257,8 +3057,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "17:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -2286,6 +3096,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -2309,8 +3124,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "17:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2338,6 +3163,11 @@ window.BAHN_DATA = {
       "Celle",
       "22:32"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -2353,8 +3183,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "16:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2378,6 +3218,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -2393,8 +3238,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "16:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2422,6 +3277,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -2445,8 +3305,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2466,6 +3336,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -2481,8 +3356,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2510,6 +3395,11 @@ window.BAHN_DATA = {
       "Celle",
       "22:32"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -2525,8 +3415,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "München",
@@ -2550,6 +3450,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -2577,8 +3482,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "München",
@@ -2602,6 +3517,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -2629,8 +3549,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2658,6 +3588,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -2685,8 +3620,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2710,6 +3655,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -2725,8 +3675,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "München",
@@ -2741,7 +3701,12 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 17.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:15:00",
@@ -2756,8 +3721,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "15:43"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "München",
@@ -2772,7 +3747,12 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 17.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:01:00",
@@ -2782,8 +3762,18 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "München",
@@ -2807,6 +3797,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -2834,8 +3829,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "München",
@@ -2850,7 +3855,12 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 18.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -2860,8 +3870,18 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 17.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2885,6 +3905,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -2895,8 +3920,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 23.99,
     "durH": 1.3,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2916,6 +3951,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
     ]
    },
    "ret": {
@@ -2931,8 +3971,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2956,6 +4006,11 @@ window.BAHN_DATA = {
       "Wittenberge",
       "08:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
     ]
    },
    "ret": {
@@ -2975,8 +4030,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "München",
@@ -3000,6 +4065,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -3010,8 +4080,18 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 17.99,
     "durH": 1.9,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -3051,6 +4131,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -3090,8 +4175,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -3106,7 +4201,12 @@ window.BAHN_DATA = {
     "trains": "ICE 524",
     "price": 19.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:01:00",
@@ -3116,8 +4216,18 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 19.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "München",
@@ -3157,6 +4267,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -3196,8 +4311,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3221,6 +4346,11 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -3236,8 +4366,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3265,6 +4405,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "21:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -3288,8 +4433,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3304,7 +4459,12 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 14.99,
     "durH": 1.3,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:08:00",
@@ -3319,8 +4479,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "München",
@@ -3335,7 +4505,12 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 14.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:01:00",
@@ -3345,8 +4520,18 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 27.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -3374,6 +4559,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -3397,8 +4587,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -3426,6 +4626,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -3449,8 +4654,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3478,6 +4693,11 @@ window.BAHN_DATA = {
       "Celle",
       "22:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -3497,8 +4717,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "17:49"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3522,6 +4752,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -3541,8 +4776,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "17:49"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3566,6 +4811,11 @@ window.BAHN_DATA = {
       "Wittenberge",
       "08:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
     ]
    },
    "ret": {
@@ -3585,8 +4835,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "München",
@@ -3622,6 +4882,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -3649,8 +4914,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3674,6 +4949,11 @@ window.BAHN_DATA = {
       "Wittenberge",
       "08:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
     ]
    },
    "ret": {
@@ -3693,8 +4973,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3718,6 +5008,11 @@ window.BAHN_DATA = {
       "Wittenberge",
       "08:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
     ]
    },
    "ret": {
@@ -3737,8 +5032,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "München",
@@ -3766,6 +5071,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -3789,8 +5099,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "München",
@@ -3810,6 +5130,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "23:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
     ]
    },
    "ret": {
@@ -3820,8 +5145,18 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 27.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3849,6 +5184,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "21:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -3872,8 +5212,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3901,6 +5251,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -3924,8 +5279,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3957,6 +5322,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:35"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -3980,8 +5350,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4013,6 +5393,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:35"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -4036,8 +5421,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "München",
@@ -4061,6 +5456,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -4088,8 +5488,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4113,6 +5523,11 @@ window.BAHN_DATA = {
       "Uelzen",
       "21:09"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -4128,8 +5543,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4165,6 +5590,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "22:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -4192,8 +5622,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4225,6 +5665,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -4260,8 +5705,18 @@ window.BAHN_DATA = {
       "Büchen",
       "00:22"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -4285,6 +5740,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -4312,8 +5772,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -4341,6 +5811,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -4364,8 +5839,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "München",
@@ -4401,6 +5886,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -4424,8 +5914,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -4465,6 +5965,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -4504,8 +6009,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -4549,6 +6064,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -4588,8 +6108,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "München",
@@ -4629,6 +6159,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -4668,8 +6203,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4697,6 +6242,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -4720,8 +6270,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4745,6 +6305,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -4760,8 +6325,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4776,7 +6351,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T18:33:00",
@@ -4795,8 +6375,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4824,6 +6414,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -4847,8 +6442,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -4884,6 +6489,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -4915,8 +6525,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4948,6 +6568,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:33"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -4971,8 +6596,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "München",
@@ -4987,7 +6622,12 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 14.99,
     "durH": 1.2,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:55:00",
@@ -4997,8 +6637,18 @@ window.BAHN_DATA = {
     "trains": "ICE 601",
     "price": 36.99,
     "durH": 1.2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -5046,6 +6696,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -5069,8 +6724,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5085,7 +6750,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T20:09:00",
@@ -5108,8 +6778,18 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5137,6 +6817,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -5160,8 +6845,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -5185,6 +6880,11 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -5240,8 +6940,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "München",
@@ -5277,6 +6987,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -5308,8 +7023,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "21:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5337,6 +7062,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -5364,8 +7094,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5380,7 +7120,12 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -5399,8 +7144,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5415,7 +7170,12 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:33:00",
@@ -5434,8 +7194,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "München",
@@ -5471,6 +7241,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -5494,8 +7269,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "18:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -5535,6 +7320,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -5574,8 +7364,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -5603,6 +7403,11 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "23:34"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -5626,8 +7431,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5675,6 +7490,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -5718,8 +7538,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "München",
@@ -5759,6 +7589,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -5798,8 +7633,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -5843,6 +7688,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -5882,8 +7732,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "München",
@@ -5923,6 +7783,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -5962,8 +7827,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5991,6 +7866,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -6014,8 +7894,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6063,6 +7953,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:29"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -6114,8 +8009,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6159,6 +8064,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "00:10"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -6206,8 +8116,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    127.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6263,6 +8183,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:30"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -6306,8 +8231,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6359,6 +8294,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "00:10"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -6406,8 +8346,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    127.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6439,6 +8389,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -6474,8 +8429,18 @@ window.BAHN_DATA = {
       "Büchen",
       "00:22"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -6503,6 +8468,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "08:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -6526,8 +8496,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    61.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6542,7 +8522,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -6561,8 +8546,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6610,6 +8605,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -6653,8 +8653,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    141.98
+   ]
   },
   {
    "origin": "München",
@@ -6714,6 +8724,11 @@ window.BAHN_DATA = {
       "Freilassing",
       "20:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32
     ]
    },
    "ret": {
@@ -6769,8 +8784,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     32.0
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    64
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6818,6 +8843,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -6861,8 +8891,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6914,6 +8954,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -6961,8 +9006,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6994,6 +9049,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -7029,8 +9089,18 @@ window.BAHN_DATA = {
       "Büchen",
       "00:22"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7045,7 +9115,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:37:00",
@@ -7055,8 +9130,18 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 37.99,
     "durH": 1.8,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7088,6 +9173,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -7123,8 +9213,18 @@ window.BAHN_DATA = {
       "Büchen",
       "00:42"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -7160,6 +9260,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -7203,8 +9308,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "19:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7236,6 +9351,11 @@ window.BAHN_DATA = {
       "Celle",
       "23:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -7251,8 +9371,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7276,6 +9406,11 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     26.99
     ]
    },
    "ret": {
@@ -7291,8 +9426,18 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    66.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7320,6 +9465,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -7343,8 +9493,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7380,6 +9540,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "22:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -7407,8 +9572,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7464,6 +9639,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:27"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -7507,8 +9687,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7552,6 +9742,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "02:29"
      ]
+    ],
+    "low": true,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -7591,8 +9786,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -7636,6 +9841,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -7675,8 +9885,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7724,6 +9944,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -7771,8 +9996,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7787,7 +10022,12 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -7806,8 +10046,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7883,6 +10133,11 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "02:36"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -7922,8 +10177,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7967,6 +10232,11 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "00:11"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -8006,8 +10276,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8039,6 +10319,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -8070,8 +10355,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -8115,6 +10410,11 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -8146,8 +10446,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -8183,6 +10493,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8210,8 +10525,18 @@ window.BAHN_DATA = {
       "Rosenheim",
       "21:46"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "München",
@@ -8259,6 +10584,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -8282,8 +10612,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "21:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "München",
@@ -8311,6 +10651,11 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "09:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -8334,8 +10679,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "München",
@@ -8371,6 +10726,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "20:58"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8402,8 +10762,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "München",
@@ -8439,6 +10809,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8470,8 +10845,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "München",
@@ -8507,6 +10892,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8538,8 +10928,18 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "München",
@@ -8575,6 +10975,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8606,8 +11011,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8655,6 +11070,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "00:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -8702,8 +11122,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    127.98
+   ]
   },
   {
    "origin": "München",
@@ -8739,6 +11169,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8770,8 +11205,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "München",
@@ -8807,6 +11252,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -8838,8 +11288,18 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8891,6 +11351,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:30"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -8942,8 +11407,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -8979,6 +11454,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -9010,8 +11490,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "München",
@@ -9039,6 +11529,11 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "09:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -9062,8 +11557,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9111,6 +11616,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -9158,8 +11668,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    148.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9174,7 +11694,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:34:00",
@@ -9193,8 +11718,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9214,6 +11749,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -9241,8 +11781,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -9278,6 +11828,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -9309,8 +11864,18 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9358,6 +11923,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -9409,8 +11979,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9462,6 +12042,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -9505,8 +12090,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9554,6 +12149,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -9589,8 +12189,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9638,6 +12248,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -9685,8 +12300,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9701,7 +12326,12 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 29.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:34:00",
@@ -9720,8 +12350,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9741,6 +12381,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -9764,8 +12409,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9841,6 +12496,11 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "02:17"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -9872,8 +12532,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9921,6 +12591,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -9964,8 +12639,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9985,6 +12670,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -10000,8 +12690,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "20:16"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10041,6 +12741,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -10076,8 +12781,18 @@ window.BAHN_DATA = {
       "Celle",
       "21:27"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10109,6 +12824,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -10140,8 +12860,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "München",
@@ -10169,6 +12899,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -10192,8 +12927,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "17:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -10229,6 +12974,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -10276,8 +13026,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -10309,6 +13069,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "12:15"
      ]
+    ],
+    "low": true,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -10340,8 +13105,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "22:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "München",
@@ -10377,6 +13152,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
+    ],
+    "low": true,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -10408,8 +13188,18 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10457,6 +13247,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -10504,8 +13299,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    148.98
+   ]
   },
   {
    "origin": "München",
@@ -10557,6 +13362,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -10604,8 +13414,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": true,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -10653,6 +13473,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -10676,8 +13501,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "18:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10692,7 +13527,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:37:00",
@@ -10707,8 +13547,18 @@ window.BAHN_DATA = {
       "Berlin-Spandau",
       "17:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10760,6 +13610,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -10811,8 +13666,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "München",
@@ -10848,6 +13713,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -10879,8 +13749,18 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -10928,6 +13808,11 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -10967,8 +13852,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "München",
@@ -11008,6 +13903,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -11047,8 +13947,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -11084,6 +13994,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "20:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -11115,8 +14030,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    85.98
+   ]
   },
   {
    "origin": "München",
@@ -11152,6 +14077,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -11183,8 +14113,18 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11220,6 +14160,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "22:47"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -11243,8 +14188,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "21:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11272,6 +14227,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "00:36"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -11295,8 +14255,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11344,6 +14314,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -11391,8 +14366,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    148.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11428,6 +14413,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -11455,8 +14445,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11476,6 +14476,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -11491,8 +14496,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "20:16"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11524,6 +14539,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:41"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -11555,8 +14575,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11608,6 +14638,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -11659,8 +14694,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11696,6 +14741,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -11723,8 +14773,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11764,6 +14824,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -11795,8 +14860,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11836,6 +14911,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -11875,8 +14955,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -11920,6 +15010,11 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -11963,8 +15058,18 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
+    ],
+    "low": true,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    89.98,
+    255.98
+   ]
   },
   {
    "origin": "München",
@@ -12008,6 +15113,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -12047,8 +15157,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "München",
@@ -12084,6 +15204,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -12115,8 +15240,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -12160,6 +15295,11 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -12191,8 +15331,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -12228,6 +15378,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -12259,8 +15414,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "20:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -12308,6 +15473,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -12331,8 +15501,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "21:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12347,7 +15527,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:37:00",
@@ -12357,8 +15542,18 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 49.99,
     "durH": 2,
-    "stops": []
-   }
+    "stops": [],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
+   },
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12390,6 +15585,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -12417,8 +15617,18 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12450,6 +15660,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -12481,8 +15696,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -12510,6 +15735,11 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "08:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     33.99
     ]
    },
    "ret": {
@@ -12533,8 +15763,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "17:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    93.98
+   ]
   },
   {
    "origin": "München",
@@ -12574,6 +15814,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -12613,8 +15858,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12642,6 +15897,11 @@ window.BAHN_DATA = {
       "Wittenberge",
       "22:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
     ]
    },
    "ret": {
@@ -12657,8 +15917,18 @@ window.BAHN_DATA = {
       "Berlin-Spandau",
       "17:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12710,6 +15980,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "00:53"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -12725,8 +16000,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "20:16"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "München",
@@ -12762,6 +16047,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -12793,8 +16083,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "München",
@@ -12846,6 +16146,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -12881,8 +16186,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12902,6 +16217,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -12925,8 +16245,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "21:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -12966,6 +16296,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -13005,8 +16340,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13046,6 +16391,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -13081,8 +16431,18 @@ window.BAHN_DATA = {
       "Celle",
       "21:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "München",
@@ -13118,6 +16478,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -13149,8 +16514,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "21:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13182,6 +16557,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -13209,8 +16589,18 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -13258,6 +16648,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "00:17"
      ]
+    ],
+    "low": true,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -13301,8 +16696,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    97.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -13338,6 +16743,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "12:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -13373,8 +16783,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "01:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13402,6 +16822,11 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
     ]
    },
    "ret": {
@@ -13425,8 +16850,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13458,6 +16893,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -13485,8 +16925,18 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13558,6 +17008,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "02:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -13597,8 +17052,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13638,6 +17103,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -13669,8 +17139,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13702,6 +17182,11 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -13749,8 +17234,18 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
+    ],
+    "low": true,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    255.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -13802,6 +17297,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:03"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -13873,8 +17373,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "München",
@@ -13918,6 +17428,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "02:52"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -13965,8 +17480,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -13998,6 +17523,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "12:15"
      ]
+    ],
+    "low": true,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -14029,8 +17559,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -14062,6 +17602,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -14093,8 +17638,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "München",
@@ -14142,6 +17697,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -14185,8 +17745,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": true,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    101.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -14222,6 +17792,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -14253,8 +17828,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "München",
@@ -14290,6 +17875,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -14321,8 +17911,18 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "München",
@@ -14358,6 +17958,11 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     57.99
     ]
    },
    "ret": {
@@ -14389,8 +17994,18 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "Hamburg",
@@ -14422,6 +18037,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -14453,8 +18073,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -14474,6 +18104,11 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -14489,8 +18124,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "20:16"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -14522,6 +18167,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -14569,8 +18219,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "07:06"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "München",
@@ -14622,6 +18282,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -14669,8 +18334,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -14730,6 +18405,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "13:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -14769,8 +18449,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -14814,6 +18504,11 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
+    ],
+    "low": true,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -14861,8 +18556,18 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    255.98
+   ]
   },
   {
    "origin": "München",
@@ -14902,6 +18607,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -14941,8 +18651,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -14986,6 +18706,11 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -15021,8 +18746,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -15054,6 +18789,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -15085,8 +18825,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "München",
@@ -15142,6 +18892,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15193,8 +18948,18 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15250,6 +19015,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15305,8 +19075,18 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15362,6 +19142,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15413,8 +19198,18 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15470,6 +19265,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15525,8 +19325,18 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15582,6 +19392,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15633,8 +19448,18 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15690,6 +19515,11 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
    },
    "ret": {
@@ -15745,8 +19575,18 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
+    ],
+    "low": true,
+    "rng": [
+     55.0,
+     55.0
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110.0
+   ]
   },
   {
    "origin": "München",
@@ -15794,6 +19634,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -15841,8 +19686,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -15878,6 +19733,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -15905,8 +19765,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "München",
@@ -15954,6 +19824,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -15985,8 +19860,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "21:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "München",
@@ -16026,6 +19911,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -16065,8 +19955,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16106,6 +20006,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -16145,8 +20050,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16178,6 +20093,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -16213,8 +20133,18 @@ window.BAHN_DATA = {
       "Büchen",
       "22:10"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -16262,6 +20192,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -16305,8 +20240,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    101.98,
+    135.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16366,6 +20311,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "13:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -16405,8 +20355,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "München",
@@ -16454,6 +20414,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -16497,8 +20462,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    117.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -16530,6 +20505,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -16561,8 +20541,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16618,6 +20608,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "01:00"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -16645,8 +20640,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16690,6 +20695,11 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "00:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -16729,8 +20739,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16762,6 +20782,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -16797,8 +20822,18 @@ window.BAHN_DATA = {
       "Büchen",
       "22:10"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16850,6 +20885,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:42"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -16921,8 +20961,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -16962,6 +21012,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -17033,8 +21088,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "München",
@@ -17086,6 +21151,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:30"
      ]
+    ],
+    "low": true,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -17157,8 +21227,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    119.98,
+    251.98
+   ]
   },
   {
    "origin": "München",
@@ -17190,6 +21270,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -17221,8 +21306,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "München",
@@ -17266,6 +21361,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -17305,8 +21405,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -17354,6 +21464,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -17401,8 +21516,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    141.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -17442,6 +21567,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -17481,8 +21611,18 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -17518,6 +21658,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -17545,8 +21690,18 @@ window.BAHN_DATA = {
       "Celle",
       "23:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -17602,6 +21757,11 @@ window.BAHN_DATA = {
       "Düsseldorf Flughafen",
       "02:30"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -17649,8 +21809,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    127.98
+   ]
   },
   {
    "origin": "München",
@@ -17698,6 +21868,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -17737,8 +21912,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "20:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    101.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -17770,6 +21955,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -17805,8 +21995,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "02:09"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "München",
@@ -17846,6 +22046,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "21:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -17881,8 +22086,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -17918,6 +22133,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "23:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -17949,8 +22169,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -17965,7 +22195,12 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -17984,8 +22219,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -18037,6 +22282,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -18080,8 +22330,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -18129,6 +22389,11 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
     ]
    },
    "ret": {
@@ -18176,8 +22441,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    148.98
+   ]
   },
   {
    "origin": "München",
@@ -18209,6 +22484,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -18240,8 +22520,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "München",
@@ -18273,6 +22563,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -18304,8 +22599,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "München",
@@ -18353,6 +22658,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -18396,8 +22706,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "18:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    117.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -18433,6 +22753,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "12:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -18468,8 +22793,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "21:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "München",
@@ -18517,6 +22852,11 @@ window.BAHN_DATA = {
       "Darmstadt Hbf",
       "11:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
     ]
    },
    "ret": {
@@ -18564,8 +22904,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:03"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "München",
@@ -18605,6 +22955,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -18644,8 +22999,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    135.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -18677,6 +23042,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -18708,8 +23078,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -18741,6 +23121,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -18776,8 +23161,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "02:09"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -18837,6 +23232,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "02:38"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -18888,8 +23288,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -18937,6 +23347,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "22:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -18980,8 +23395,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    97.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -19029,6 +23454,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -19072,8 +23502,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    117.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -19105,6 +23545,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -19136,8 +23581,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "München",
@@ -19169,6 +23624,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -19196,8 +23656,18 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "20:22"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "München",
@@ -19229,6 +23699,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -19260,8 +23735,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "21:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -19305,6 +23790,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -19336,8 +23826,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "00:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -19373,6 +23873,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -19400,8 +23905,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -19453,6 +23968,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -19524,8 +24044,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    145.98,
+    235.98
+   ]
   },
   {
    "origin": "München",
@@ -19577,6 +24107,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "06:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -19608,8 +24143,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "21:58"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -19661,6 +24206,11 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
    },
    "ret": {
@@ -19712,8 +24262,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
+    ],
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -19789,6 +24349,11 @@ window.BAHN_DATA = {
       "München-Pasing",
       "16:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -19860,8 +24425,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    149.98,
+    149.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -19937,6 +24512,11 @@ window.BAHN_DATA = {
       "München-Pasing",
       "16:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -19984,8 +24564,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": true,
+   "rngRt": [
+    149.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -20033,6 +24623,11 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "00:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
     ]
    },
    "ret": {
@@ -20076,8 +24671,18 @@ window.BAHN_DATA = {
       "Buchloe",
       "18:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    97.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -20133,6 +24738,11 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "00:16"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -20168,8 +24778,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -20213,6 +24833,11 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -20248,8 +24873,18 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "München",
@@ -20289,6 +24924,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -20324,8 +24964,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "München",
@@ -20357,6 +25007,11 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
     ]
    },
    "ret": {
@@ -20392,8 +25047,18 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "21:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -20408,7 +25073,12 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 69.99,
     "durH": 1.8,
-    "stops": []
+    "stops": [],
+    "low": false,
+    "rng": [
+     16.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -20427,8 +25097,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -20480,6 +25160,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:31"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -20551,8 +25236,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "München",
@@ -20604,6 +25299,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -20675,8 +25375,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    251.98
+   ]
   },
   {
    "origin": "München",
@@ -20728,6 +25438,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -20799,8 +25514,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    235.98
+   ]
   },
   {
    "origin": "München",
@@ -20876,6 +25601,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -20923,8 +25653,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:32"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -20960,6 +25700,11 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -20987,8 +25732,18 @@ window.BAHN_DATA = {
       "Celle",
       "23:51"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -21028,6 +25783,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -21063,8 +25823,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "München",
@@ -21108,6 +25878,11 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "23:06"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     99.99
     ]
    },
    "ret": {
@@ -21147,8 +25922,18 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
+    ],
+    "low": false,
+    "rng": [
+     19.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    175.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -21180,6 +25965,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -21211,8 +26001,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -21264,6 +26064,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -21311,8 +26116,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -21352,6 +26167,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -21387,8 +26207,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -21464,6 +26294,11 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "02:17"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
     ]
    },
    "ret": {
@@ -21495,8 +26330,18 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "00:11"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     75.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -21528,6 +26373,11 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:45"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
     ]
    },
    "ret": {
@@ -21559,8 +26409,18 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "17:39"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "München",
@@ -21600,6 +26460,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -21635,8 +26500,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -21676,6 +26551,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -21711,8 +26591,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "München",
@@ -21752,6 +26642,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -21787,8 +26682,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -21840,6 +26745,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:30"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -21911,8 +26821,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    251.98
+   ]
   },
   {
    "origin": "München",
@@ -21988,6 +26908,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -22059,8 +26984,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    235.98
+   ]
   },
   {
    "origin": "München",
@@ -22140,6 +27075,11 @@ window.BAHN_DATA = {
       "Venezia Mestre",
       "14:13"
      ]
+    ],
+    "low": true,
+    "rng": [
+     115.99,
+     115.99
     ]
    },
    "ret": {
@@ -22215,8 +27155,18 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     83.99,
+     95.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    199.98,
+    211.98
+   ]
   },
   {
    "origin": "München",
@@ -22296,6 +27246,11 @@ window.BAHN_DATA = {
       "Venezia Mestre",
       "14:13"
      ]
+    ],
+    "low": true,
+    "rng": [
+     115.99,
+     115.99
     ]
    },
    "ret": {
@@ -22371,8 +27326,18 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
+    ],
+    "low": false,
+    "rng": [
+     83.99,
+     95.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    199.98,
+    211.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -22424,6 +27389,11 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -22495,8 +27465,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -22560,6 +27540,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "00:53"
      ]
+    ],
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
     ]
    },
    "ret": {
@@ -22587,8 +27572,18 @@ window.BAHN_DATA = {
       "Celle",
       "23:51"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    215.98
+   ]
   },
   {
    "origin": "München",
@@ -22628,6 +27623,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -22663,8 +27663,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "München",
@@ -22716,6 +27726,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -22787,8 +27802,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    235.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -22840,6 +27865,11 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "06:10"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -22911,8 +27941,18 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "München",
@@ -22952,6 +27992,11 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -22987,8 +28032,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -23040,6 +28095,11 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:30"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -23111,8 +28171,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    251.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -23156,6 +28226,11 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
     ]
    },
    "ret": {
@@ -23199,8 +28274,18 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    255.98
+   ]
   },
   {
    "origin": "München",
@@ -23252,6 +28337,11 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
+    ],
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
     ]
    },
    "ret": {
@@ -23299,8 +28389,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
+    ],
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   },
   {
    "origin": "München",
@@ -23344,6 +28444,11 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
+    ],
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
     ]
    },
    "ret": {
@@ -23379,8 +28484,18 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
+    ],
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
     ]
-   }
+   },
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    271.98
+   ]
   }
  ],
  "legs": [
