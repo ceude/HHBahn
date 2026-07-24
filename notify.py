@@ -112,29 +112,34 @@ def route_key(origin, city, variant, direction):
     return f"{origin}|{city}|{variant}|{direction}"
 
 # Bu taramadaki her rota-yon icin gorulen en dusuk fiyati topla
-seen_low = {}  # route_key -> price
+seen_low, seen_high = {}, {}  # route_key -> price
+def _track(k, p):
+    seen_low[k] = min(seen_low.get(k, 1e9), p)
+    seen_high[k] = max(seen_high.get(k, 0.0), p)
+
 for d in deals:
     o = d.get("origin", "Hamburg")
-    seen_low_rt = route_key(o, d["city"], d["variant"], "rt")
-    seen_low[seen_low_rt] = min(seen_low.get(seen_low_rt, 1e9), d["total"])
+    _track(route_key(o, d["city"], d["variant"], "rt"), d["total"])
     for leg_dir in ("out", "ret"):
         leg = d.get(leg_dir) or {}
         p = leg.get("price")
         if p is None:
             continue
-        k = route_key(o, d["city"], "ow", leg_dir)
-        seen_low[k] = min(seen_low.get(k, 1e9), p)
+        _track(route_key(o, d["city"], "ow", leg_dir), p)
 
 # Supabase'deki kayitli en dusukleri cek
-hist = {}
+hist, hist_hi = {}, {}
 try:
     hr = requests.get(
-        f"{SUPABASE_URL}/rest/v1/bahn_price_low?select=route_key,low_price",
+        f"{SUPABASE_URL}/rest/v1/bahn_price_low?select=route_key,low_price,high_price",
         headers={"apikey": SERVICE_KEY, "Authorization": f"Bearer {SERVICE_KEY}"},
         timeout=20,
     )
     if hr.ok:
-        hist = {row["route_key"]: float(row["low_price"]) for row in hr.json()}
+        for row in hr.json():
+            hist[row["route_key"]] = float(row["low_price"])
+            if row.get("high_price") is not None:
+                hist_hi[row["route_key"]] = float(row["high_price"])
 except requests.RequestException as e:
     print(f"dip gecmisi okunamadi (atlandi): {e}")
 
@@ -143,21 +148,37 @@ def is_low(key, price):
     prev = hist.get(key)
     return prev is None or price <= prev + 0.001
 
+def rng_for(key, price):
+    """[gorulen_dip, gorulen_tavan] — bu taramayi da katarak."""
+    lo = min(hist.get(key, price), price)
+    hi = max(hist_hi.get(key, price), price)
+    return [round(lo, 2), round(hi, 2)]
+
 for d in deals:
     o = d.get("origin", "Hamburg")
-    d["lowRt"] = is_low(route_key(o, d["city"], d["variant"], "rt"), d["total"])
+    k_rt = route_key(o, d["city"], d["variant"], "rt")
+    d["lowRt"] = is_low(k_rt, d["total"])
+    d["rngRt"] = rng_for(k_rt, d["total"])
     for leg_dir in ("out", "ret"):
         leg = d.get(leg_dir) or {}
         p = leg.get("price")
         if p is not None:
-            leg["low"] = is_low(route_key(o, d["city"], "ow", leg_dir), p)
+            k_ow = route_key(o, d["city"], "ow", leg_dir)
+            leg["low"] = is_low(k_ow, p)
+            leg["rng"] = rng_for(k_ow, p)
 
 # Yeni dip degerlerini Supabase'e yaz (upsert)
 upserts = []
 for k, p in seen_low.items():
-    prev = hist.get(k)
-    if prev is None or p < prev:
-        upserts.append({"route_key": k, "low_price": round(p, 2)})
+    prev_lo, prev_hi = hist.get(k), hist_hi.get(k)
+    new_lo = min(prev_lo, p) if prev_lo is not None else p
+    new_hi = max(prev_hi or 0.0, seen_high.get(k, p))
+    if prev_lo is None or new_lo < prev_lo - 0.001 or prev_hi is None or new_hi > prev_hi + 0.001:
+        upserts.append({
+            "route_key": k,
+            "low_price": round(new_lo, 2),
+            "high_price": round(new_hi, 2),
+        })
 if upserts:
     try:
         ur = requests.post(
