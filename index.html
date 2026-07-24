@@ -135,7 +135,8 @@
   }
 
   /* ================= CHIPS ================= */
-  .chips{display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; position:relative; z-index:4}
+  .chips{display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:20px; position:relative; z-index:4}
+  @media (max-width:1000px){ .chip-toggle{margin-left:0} }
   .chip{
     display:inline-flex; align-items:center; gap:8px;
     background:var(--glass); border:1px solid var(--glass-border);
@@ -514,14 +515,14 @@
       <span id="txtFrom">Abfahrt:</span>
       <span class="org-seg" id="orgSeg"></span>
     </span>
-    <span class="chip">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12 L19 12 M13 6 L19 12 L13 18"/></svg>
-      <span id="txtDirect">Direktverbindungen, 2. Klasse</span>
-    </span>
     <span class="chip chip-origin">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3 L8 7 M16 3 L16 7 M3 10 L21 10"/></svg>
       <span id="txtDate">Termin:</span>
       <span class="org-seg" id="wkSeg"></span>
+    </span>
+    <span class="chip">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12 L19 12 M13 6 L19 12 L13 18"/></svg>
+      <span id="txtDirect">Direkt, 2. Klasse</span>
     </span>
     <span class="chip">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -529,7 +530,7 @@
     </span>
     <button class="chip-toggle" id="owToggle" type="button" role="switch" aria-checked="false">
       <span class="sw" aria-hidden="true"></span>
-      <span id="txtOneWay">Nur einfache Fahrt anzeigen</span>
+      <span id="txtOneWay">Nur einfache Fahrt</span>
     </button>
   </div>
 </div>
@@ -590,13 +591,13 @@ var I18N = {
     heroSub:"Direktverbindungen ab Hamburg & München — automatisch gescannt, nach Preis sortiert.",
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
-    metaDirect:"Direktverbindungen, 2. Klasse",
+    metaDirect:"Direkt, 2. Klasse",
     allDates:"Alle Termine",
     dateLabel:"Termin:",
     cities:"Städte",
     fromLabel:"ab — Hin & Rück",
     fromLabelOw:"ab — einfache Fahrt",
-    oneWay:"Nur einfache Fahrt anzeigen",
+    oneWay:"Nur einfache Fahrt",
     owOut:"Hinfahrt",
     owRet:"Rückfahrt",
     offers:"Angebote",
@@ -641,13 +642,13 @@ var I18N = {
     heroSub:"Direct connections from Hamburg & Munich — scanned automatically, sorted by price.",
     standLabel:"Last updated",
     metaFrom:"Departure:",
-    metaDirect:"Direct connections, 2nd class",
+    metaDirect:"Direct, 2nd class",
     allDates:"All dates",
     dateLabel:"Date:",
     cities:"cities",
     fromLabel:"from — round trip",
     fromLabelOw:"from — one-way",
-    oneWay:"Show one-way only",
+    oneWay:"One-way only",
     owOut:"Outbound",
     owRet:"Return",
     offers:"offers",
