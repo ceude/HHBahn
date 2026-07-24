@@ -22,7 +22,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -36,13 +36,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    30.98
    ]
   },
   {
@@ -61,7 +61,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -75,13 +75,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    30.98
    ]
   },
   {
@@ -100,7 +100,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -114,13 +114,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    30.98
    ]
   },
   {
@@ -139,7 +139,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -153,13 +153,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     39.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    47.98
    ]
   },
   {
@@ -178,7 +178,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -192,13 +192,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    30.98
    ]
   },
   {
@@ -217,7 +217,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -231,13 +231,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     39.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    47.98
    ]
   },
   {
@@ -256,7 +256,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -270,13 +270,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    30.98
    ]
   },
   {
@@ -295,7 +295,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -309,13 +309,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     36.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    51.98
    ]
   },
   {
@@ -334,7 +334,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -348,13 +348,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    59.98
    ]
   },
   {
@@ -373,7 +373,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -387,13 +387,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     36.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    51.98
    ]
   },
   {
@@ -412,7 +412,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -426,13 +426,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    59.98
    ]
   },
   {
@@ -451,7 +451,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -465,13 +465,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     36.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    51.98
    ]
   },
   {
@@ -490,7 +490,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -504,13 +504,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    59.98
    ]
   },
   {
@@ -529,7 +529,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -543,13 +543,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     36.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     13.98,
-    13.98
+    51.98
    ]
   },
   {
@@ -568,7 +568,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -582,13 +582,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    19.98
+    47.98
    ]
   },
   {
@@ -607,7 +607,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -621,13 +621,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    19.98
+    47.98
    ]
   },
   {
@@ -646,7 +646,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -660,13 +660,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    19.98
+    47.98
    ]
   },
   {
@@ -685,7 +685,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -699,13 +699,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    21.98
+    47.98
    ]
   },
   {
@@ -724,7 +724,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     24.99
     ]
    },
    "ret": {
@@ -738,13 +738,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    21.98
+    47.98
    ]
   },
   {
@@ -763,7 +763,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -777,13 +777,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    34.98
    ]
   },
   {
@@ -802,7 +802,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -816,13 +816,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    34.98
    ]
   },
   {
@@ -841,7 +841,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -855,13 +855,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    39.98
    ]
   },
   {
@@ -880,7 +880,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -894,13 +894,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    34.98
    ]
   },
   {
@@ -919,7 +919,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -933,13 +933,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    39.98
    ]
   },
   {
@@ -958,7 +958,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -972,13 +972,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    34.98
    ]
   },
   {
@@ -997,7 +997,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -1011,13 +1011,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    39.98
    ]
   },
   {
@@ -1036,7 +1036,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     17.99
     ]
    },
    "ret": {
@@ -1050,13 +1050,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    34.98
    ]
   },
   {
@@ -1075,7 +1075,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1089,13 +1089,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     36.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     24.98,
-    24.98
+    42.98
    ]
   },
   {
@@ -1114,7 +1114,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1128,13 +1128,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    25.98
+    42.98
    ]
   },
   {
@@ -1153,7 +1153,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1167,13 +1167,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    25.98
+    42.98
    ]
   },
   {
@@ -1192,7 +1192,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     45.99
     ]
    },
    "ret": {
@@ -1206,13 +1206,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    26.98
+    75.98
    ]
   },
   {
@@ -1231,7 +1231,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     45.99
     ]
    },
    "ret": {
@@ -1245,13 +1245,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    26.98
+    75.98
    ]
   },
   {
@@ -1270,7 +1270,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     31.99
     ]
    },
    "ret": {
@@ -1284,13 +1284,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     59.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    26.98
+    59.98
    ]
   },
   {
@@ -1309,7 +1309,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1323,13 +1323,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    26.98
+    45.98
    ]
   },
   {
@@ -1348,7 +1348,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1362,13 +1362,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    26.98
+    42.98
    ]
   },
   {
@@ -1387,7 +1387,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1401,13 +1401,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    26.98
+    42.98
    ]
   },
   {
@@ -1426,7 +1426,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     9.99
+     17.99
     ]
    },
    "ret": {
@@ -1440,13 +1440,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    27.98
+    39.98
    ]
   },
   {
@@ -1465,7 +1465,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     9.99
+     17.99
     ]
    },
    "ret": {
@@ -1479,13 +1479,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    27.98
+    39.98
    ]
   },
   {
@@ -1504,7 +1504,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     19.99
     ]
    },
    "ret": {
@@ -1518,13 +1518,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    28.98
+    51.98
    ]
   },
   {
@@ -1543,7 +1543,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -1557,13 +1557,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     25.98,
-    28.98
+    46.99
    ]
   },
   {
@@ -1582,7 +1582,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -1596,13 +1596,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     25.98,
-    28.98
+    46.99
    ]
   },
   {
@@ -1621,7 +1621,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     65.99
     ]
    },
    "ret": {
@@ -1635,13 +1635,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     75.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     29.98,
-    29.98
+    117.98
    ]
   },
   {
@@ -1660,7 +1660,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     17.99
     ]
    },
    "ret": {
@@ -1674,7 +1674,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     21.99
     ]
    },
    "lowRt": false,
@@ -1699,7 +1699,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -1713,13 +1713,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     39.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     30.98,
-    30.98
+    64.98
    ]
   },
   {
@@ -1738,7 +1738,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -1752,13 +1752,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     25.98,
-    30.98
+    46.99
    ]
   },
   {
@@ -1777,7 +1777,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -1791,13 +1791,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    30.98
+    47.98
    ]
   },
   {
@@ -1816,7 +1816,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -1830,13 +1830,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     25.98,
-    30.98
+    46.99
    ]
   },
   {
@@ -1855,7 +1855,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     23.99
     ]
    },
    "ret": {
@@ -1869,13 +1869,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     28.98,
-    30.98
+    55.99
    ]
   },
   {
@@ -1894,7 +1894,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     45.99
     ]
    },
    "ret": {
@@ -1908,13 +1908,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    31.98
+    75.98
    ]
   },
   {
@@ -1933,7 +1933,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     31.99
     ]
    },
    "ret": {
@@ -1947,13 +1947,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     59.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    31.98
+    59.98
    ]
   },
   {
@@ -1972,7 +1972,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -1986,13 +1986,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    77.98
    ]
   },
   {
@@ -2011,7 +2011,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2025,13 +2025,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    77.98
    ]
   },
   {
@@ -2050,7 +2050,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2064,13 +2064,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    91.98
    ]
   },
   {
@@ -2089,7 +2089,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2103,13 +2103,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    77.98
    ]
   },
   {
@@ -2128,7 +2128,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2142,13 +2142,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    91.98
    ]
   },
   {
@@ -2167,7 +2167,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2181,13 +2181,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    77.98
    ]
   },
   {
@@ -2206,7 +2206,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     31.99
     ]
    },
    "ret": {
@@ -2220,13 +2220,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     31.98,
-    31.98
+    91.98
    ]
   },
   {
@@ -2245,7 +2245,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -2259,13 +2259,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     25.99
+     39.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     32.98,
-    32.98
+    63.98
    ]
   },
   {
@@ -2284,7 +2284,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -2298,13 +2298,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     25.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     30.98,
-    32.98
+    64.98
    ]
   },
   {
@@ -2323,7 +2323,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     17.99
     ]
    },
    "ret": {
@@ -2362,7 +2362,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -2376,13 +2376,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     32.98,
-    34.98
+    63.98
    ]
   },
   {
@@ -2401,7 +2401,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      16.99,
-     16.99
+     62.99
     ]
    },
    "ret": {
@@ -2415,13 +2415,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     89.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     34.98,
-    34.98
+    91.98
    ]
   },
   {
@@ -2440,7 +2440,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -2454,13 +2454,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     28.98,
-    34.98
+    55.99
    ]
   },
   {
@@ -2479,7 +2479,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -2493,13 +2493,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     28.98,
-    34.98
+    55.99
    ]
   },
   {
@@ -2518,7 +2518,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -2532,13 +2532,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    35.98
+    75.98
    ]
   },
   {
@@ -2557,7 +2557,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     24.99
     ]
    },
    "ret": {
@@ -2571,13 +2571,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     30.98,
-    36.98
+    64.98
    ]
   },
   {
@@ -2596,7 +2596,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     89.99
     ]
    },
    "ret": {
@@ -2610,13 +2610,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     115.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     36.98,
-    36.98
+    155.98
    ]
   },
   {
@@ -2635,7 +2635,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     19.99
     ]
    },
    "ret": {
@@ -2649,13 +2649,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    36.98
+    45.98
    ]
   },
   {
@@ -2674,7 +2674,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     19.99
     ]
    },
    "ret": {
@@ -2688,13 +2688,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    36.98
+    45.98
    ]
   },
   {
@@ -2713,7 +2713,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     12.99
+     23.99
     ]
    },
    "ret": {
@@ -2727,13 +2727,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     28.98,
-    36.98
+    55.99
    ]
   },
   {
@@ -2752,7 +2752,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     19.99
     ]
    },
    "ret": {
@@ -2766,13 +2766,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    36.98
+    45.98
    ]
   },
   {
@@ -2791,7 +2791,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     24.99
     ]
    },
    "ret": {
@@ -2805,13 +2805,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    38.98
+    47.98
    ]
   },
   {
@@ -2869,7 +2869,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      16.99,
-     16.99
+     62.99
     ]
    },
    "ret": {
@@ -2883,13 +2883,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     89.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     39.98,
-    39.98
+    131.98
    ]
   },
   {
@@ -2908,7 +2908,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     23.99
     ]
    },
    "ret": {
@@ -2922,13 +2922,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    39.98
+    47.98
    ]
   },
   {
@@ -2947,7 +2947,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -2961,13 +2961,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     67.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     39.98,
-    39.98
+    109.98
    ]
   },
   {
@@ -3000,13 +3000,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     36.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     24.98,
-    39.98
+    45.98
    ]
   },
   {
@@ -3025,7 +3025,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -3039,13 +3039,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     67.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     39.98,
-    39.98
+    109.98
    ]
   },
   {
@@ -3064,7 +3064,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     24.99
     ]
    },
    "ret": {
@@ -3078,13 +3078,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     32.98,
-    41.98
+    63.98
    ]
   },
   {
@@ -3103,7 +3103,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -3117,13 +3117,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     35.98,
-    42.98
+    79.98
    ]
   },
   {
@@ -3142,7 +3142,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     24.99
     ]
    },
    "ret": {
@@ -3156,13 +3156,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     30.98,
-    42.98
+    64.98
    ]
   },
   {
@@ -3181,7 +3181,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     19.99
     ]
    },
    "ret": {
@@ -3195,7 +3195,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     36.99
     ]
    },
    "lowRt": false,
@@ -3220,7 +3220,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     31.99
     ]
    },
    "ret": {
@@ -3234,13 +3234,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     59.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     31.98,
-    42.98
+    77.98
    ]
   },
   {
@@ -3259,7 +3259,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     24.99
     ]
    },
    "ret": {
@@ -3273,13 +3273,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     32.98,
-    43.98
+    63.98
    ]
   },
   {
@@ -3298,7 +3298,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     24.99
     ]
    },
    "ret": {
@@ -3312,13 +3312,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     30.98,
-    43.98
+    64.98
    ]
   },
   {
@@ -3337,7 +3337,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     21.99
+     62.99
     ]
    },
    "ret": {
@@ -3351,13 +3351,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     21.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     34.98,
-    43.98
+    91.98
    ]
   },
   {
@@ -3376,7 +3376,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     18.99
+     23.99
     ]
    },
    "ret": {
@@ -3390,13 +3390,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     25.98,
-    43.98
+    46.99
    ]
   },
   {
@@ -3415,7 +3415,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     21.99
+     62.99
     ]
    },
    "ret": {
@@ -3429,13 +3429,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    44.98
+    131.98
    ]
   },
   {
@@ -3454,7 +3454,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     31.99
     ]
    },
    "ret": {
@@ -3468,13 +3468,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     59.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     31.98,
-    44.98
+    91.98
    ]
   },
   {
@@ -3493,7 +3493,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     19.99
     ]
    },
    "ret": {
@@ -3507,7 +3507,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     36.99
     ]
    },
    "lowRt": false,
@@ -3532,7 +3532,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -3546,13 +3546,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     35.98,
-    46.98
+    79.98
    ]
   },
   {
@@ -3571,7 +3571,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -3585,13 +3585,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     26.98,
-    46.98
+    99.98
    ]
   },
   {
@@ -3610,7 +3610,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -3624,13 +3624,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     35.98,
-    46.98
+    79.98
    ]
   },
   {
@@ -3649,7 +3649,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     45.99
     ]
    },
    "ret": {
@@ -3663,13 +3663,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     35.98,
-    46.98
+    79.98
    ]
   },
   {
@@ -3688,7 +3688,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     21.99
+     23.99
     ]
    },
    "ret": {
@@ -3702,13 +3702,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     32.0
     ]
    },
    "lowRt": false,
    "rngRt": [
     28.98,
-    46.98
+    55.99
    ]
   },
   {
@@ -3727,7 +3727,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     23.99
     ]
    },
    "ret": {
@@ -3741,7 +3741,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     32
+     32.0
     ]
    },
    "lowRt": false,
@@ -3780,7 +3780,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     22.99
+     39.99
     ]
    },
    "lowRt": false,
@@ -3805,7 +3805,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     24.99
     ]
    },
    "ret": {
@@ -3819,13 +3819,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     39.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     32.98,
-    47.98
+    63.98
    ]
   },
   {
@@ -3844,7 +3844,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     121.99
     ]
    },
    "ret": {
@@ -3858,13 +3858,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     99.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     47.98,
-    47.98
+    189.98
    ]
   },
   {
@@ -3897,7 +3897,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     32.0
     ]
    },
    "lowRt": false,
@@ -3922,7 +3922,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     65.99
     ]
    },
    "ret": {
@@ -3936,13 +3936,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     75.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     47.98,
-    47.98
+    99.98
    ]
   },
   {
@@ -3961,7 +3961,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -3975,13 +3975,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    47.98
+    109.98
    ]
   },
   {
@@ -4000,7 +4000,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -4014,13 +4014,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     67.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     47.98,
-    47.98
+    147.98
    ]
   },
   {
@@ -4039,7 +4039,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -4053,13 +4053,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     67.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     47.98,
-    47.98
+    127.98
    ]
   },
   {
@@ -4078,7 +4078,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     45.99
     ]
    },
    "ret": {
@@ -4092,13 +4092,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     26.98,
-    48.98
+    99.98
    ]
   },
   {
@@ -4117,7 +4117,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     45.99
     ]
    },
    "ret": {
@@ -4131,13 +4131,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     28.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     26.98,
-    48.98
+    99.98
    ]
   },
   {
@@ -4156,7 +4156,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -4170,13 +4170,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     21.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     34.98,
-    49.98
+    91.98
    ]
   },
   {
@@ -4195,7 +4195,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -4209,13 +4209,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     21.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     34.98,
-    49.98
+    91.98
    ]
   },
   {
@@ -4234,7 +4234,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     45.99
     ]
    },
    "ret": {
@@ -4248,13 +4248,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     26.98,
-    49.98
+    99.98
    ]
   },
   {
@@ -4273,7 +4273,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     25.99
+     49.99
     ]
    },
    "ret": {
@@ -4287,13 +4287,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     24.99
+     60.6
     ]
    },
    "lowRt": true,
    "rngRt": [
     50.98,
-    50.98
+    83.98
    ]
   },
   {
@@ -4312,7 +4312,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     19.99
+     45.99
     ]
    },
    "ret": {
@@ -4326,13 +4326,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     31.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     35.98,
-    51.98
+    79.98
    ]
   },
   {
@@ -4351,7 +4351,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     14.99
+     19.99
     ]
    },
    "ret": {
@@ -4390,7 +4390,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     24.99
+     31.99
     ]
    },
    "ret": {
@@ -4404,13 +4404,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     59.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     31.98,
-    52.98
+    91.98
    ]
   },
   {
@@ -4429,7 +4429,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     65.99
     ]
    },
    "ret": {
@@ -4443,13 +4443,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     75.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     52.98,
-    52.98
+    141.98
    ]
   },
   {
@@ -4468,7 +4468,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     75.99
     ]
    },
    "ret": {
@@ -4482,13 +4482,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     35.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     40.98,
-    53.98
+    127.98
    ]
   },
   {
@@ -4507,7 +4507,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     89.99
     ]
    },
    "ret": {
@@ -4521,13 +4521,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     36.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    54.98
+    139.98
    ]
   },
   {
@@ -4560,7 +4560,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     32
+     32.0
     ]
    },
    "lowRt": false,
@@ -4585,7 +4585,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     149.99
     ]
    },
    "ret": {
@@ -4599,13 +4599,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      6.99,
-     6.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     56.98,
-    56.98
+    249.98
    ]
   },
   {
@@ -4624,7 +4624,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     45.99
     ]
    },
    "ret": {
@@ -4638,13 +4638,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     13.98,
-    57.98
+    75.98
    ]
   },
   {
@@ -4663,7 +4663,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     34.99
+     62.99
     ]
    },
    "ret": {
@@ -4677,13 +4677,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     89.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     57.98,
-    57.98
+    152.98
    ]
   },
   {
@@ -4702,7 +4702,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     34.99
+     62.99
     ]
    },
    "ret": {
@@ -4716,13 +4716,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     89.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     57.98,
-    57.98
+    152.98
    ]
   },
   {
@@ -4741,7 +4741,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     65.99
     ]
    },
    "ret": {
@@ -4755,13 +4755,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    57.98
+    99.98
    ]
   },
   {
@@ -4780,7 +4780,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     29.99
+     79.99
     ]
    },
    "ret": {
@@ -4794,13 +4794,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    57.98
+    109.98
    ]
   },
   {
@@ -4819,7 +4819,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     65.99
     ]
    },
    "ret": {
@@ -4833,13 +4833,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    57.98
+    99.98
    ]
   },
   {
@@ -4858,7 +4858,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     35.99
+     89.99
     ]
    },
    "ret": {
@@ -4872,13 +4872,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     22.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     36.98,
-    58.98
+    155.98
    ]
   },
   {
@@ -4897,7 +4897,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     33.99
+     49.99
     ]
    },
    "ret": {
@@ -4911,13 +4911,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     24.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     50.98,
-    58.98
+    83.98
    ]
   },
   {
@@ -4936,7 +4936,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     29.99
+     89.99
     ]
    },
    "ret": {
@@ -4950,13 +4950,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     29.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    59.98
+    152.98
    ]
   },
   {
@@ -4989,7 +4989,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     27.99
+     59.99
     ]
    },
    "lowRt": false,
@@ -5014,7 +5014,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -5028,13 +5028,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     39.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    59.98
+    127.98
    ]
   },
   {
@@ -5053,7 +5053,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     149.99
     ]
    },
    "ret": {
@@ -5067,13 +5067,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     59.98,
-    59.98
+    241.98
    ]
   },
   {
@@ -5092,7 +5092,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -5106,13 +5106,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     39.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    59.98
+    147.98
    ]
   },
   {
@@ -5131,7 +5131,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     79.99
     ]
    },
    "ret": {
@@ -5145,13 +5145,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     39.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    59.98
+    127.98
    ]
   },
   {
@@ -5170,7 +5170,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     45.99
     ]
    },
    "ret": {
@@ -5184,13 +5184,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     31.99
+     53.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     26.98,
-    61.98
+    99.98
    ]
   },
   {
@@ -5209,7 +5209,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     89.99
     ]
    },
    "ret": {
@@ -5223,13 +5223,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    61.98
+    139.98
    ]
   },
   {
@@ -5248,7 +5248,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     75.99
     ]
    },
    "ret": {
@@ -5262,13 +5262,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     40.98,
-    61.98
+    127.98
    ]
   },
   {
@@ -5287,7 +5287,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     43.99
+     89.99
     ]
    },
    "ret": {
@@ -5301,13 +5301,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     36.98,
-    61.98
+    155.98
    ]
   },
   {
@@ -5326,7 +5326,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     33.99
+     49.99
     ]
    },
    "ret": {
@@ -5340,13 +5340,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     58.98,
-    61.98
+    102.69
    ]
   },
   {
@@ -5365,7 +5365,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -5379,13 +5379,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    62.98
+    131.98
    ]
   },
   {
@@ -5404,7 +5404,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     32.99
+     75.99
     ]
    },
    "ret": {
@@ -5418,13 +5418,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     29.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    62.98
+    141.98
    ]
   },
   {
@@ -5443,7 +5443,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     23.99
+     24.99
     ]
    },
    "ret": {
@@ -5521,7 +5521,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -5535,13 +5535,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     29.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    64.98
+    152.98
    ]
   },
   {
@@ -5560,7 +5560,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -5574,13 +5574,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     29.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    64.98
+    152.98
    ]
   },
   {
@@ -5599,7 +5599,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     41.99
+     89.99
     ]
    },
    "ret": {
@@ -5613,13 +5613,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     22.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     36.98,
-    64.98
+    155.98
    ]
   },
   {
@@ -5638,7 +5638,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -5652,13 +5652,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     37.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     34.98,
-    65.98
+    91.98
    ]
   },
   {
@@ -5677,7 +5677,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     65.99
     ]
    },
    "ret": {
@@ -5691,13 +5691,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     47.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    65.98
+    99.98
    ]
   },
   {
@@ -5716,7 +5716,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     121.99
     ]
    },
    "ret": {
@@ -5730,13 +5730,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    67.98
+    189.98
    ]
   },
   {
@@ -5755,7 +5755,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     89.99
     ]
    },
    "ret": {
@@ -5769,13 +5769,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    67.98
+    139.98
    ]
   },
   {
@@ -5794,7 +5794,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      17.99,
-     17.99
+     89.99
     ]
    },
    "ret": {
@@ -5808,13 +5808,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    67.98
+    139.98
    ]
   },
   {
@@ -5833,7 +5833,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     79.99
     ]
    },
    "ret": {
@@ -5847,13 +5847,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     39.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    67.98
+    147.98
    ]
   },
   {
@@ -5872,7 +5872,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     32.99
+     75.99
     ]
    },
    "ret": {
@@ -5886,13 +5886,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     35.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    68.98
+    148.98
    ]
   },
   {
@@ -5911,7 +5911,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     36.99
+     75.99
     ]
    },
    "ret": {
@@ -5925,13 +5925,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     32.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    69.98
+    141.98
    ]
   },
   {
@@ -5950,7 +5950,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     34.99
+     62.99
     ]
    },
    "ret": {
@@ -5964,13 +5964,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     57.98,
-    69.98
+    152.98
    ]
   },
   {
@@ -5989,7 +5989,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     133.99
     ]
    },
    "ret": {
@@ -6003,13 +6003,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    69.98
+    159.98
    ]
   },
   {
@@ -6028,7 +6028,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     133.99
     ]
    },
    "ret": {
@@ -6042,13 +6042,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    69.98
+    159.98
    ]
   },
   {
@@ -6067,7 +6067,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     89.99
     ]
    },
    "ret": {
@@ -6081,13 +6081,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    69.98
+    205.98
    ]
   },
   {
@@ -6120,13 +6120,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     50.98,
-    69.98
+    83.98
    ]
   },
   {
@@ -6145,7 +6145,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -6159,13 +6159,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     36.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    71.98
+    169.98
    ]
   },
   {
@@ -6184,7 +6184,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     43.99
+     49.99
     ]
    },
    "ret": {
@@ -6198,13 +6198,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     27.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     54.98,
-    71.98
+    80.59
    ]
   },
   {
@@ -6223,7 +6223,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     41.99
+     65.99
     ]
    },
    "ret": {
@@ -6237,13 +6237,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     29.98,
-    71.98
+    117.98
    ]
   },
   {
@@ -6262,7 +6262,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     35.99
+     65.99
     ]
    },
    "ret": {
@@ -6276,13 +6276,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     35.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     29.98,
-    71.98
+    117.98
    ]
   },
   {
@@ -6301,7 +6301,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     49.99
     ]
    },
    "ret": {
@@ -6315,13 +6315,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     54.98,
-    71.98
+    80.59
    ]
   },
   {
@@ -6340,7 +6340,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     49.99
     ]
    },
    "ret": {
@@ -6354,13 +6354,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     54.98,
-    71.98
+    80.59
    ]
   },
   {
@@ -6393,13 +6393,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     21.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     50.98,
-    71.98
+    83.98
    ]
   },
   {
@@ -6418,7 +6418,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     49.99
     ]
    },
    "ret": {
@@ -6432,13 +6432,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     54.98,
-    71.98
+    80.59
    ]
   },
   {
@@ -6457,7 +6457,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     22.99
+     75.99
     ]
    },
    "ret": {
@@ -6471,13 +6471,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     40.98,
-    72.98
+    127.98
    ]
   },
   {
@@ -6496,7 +6496,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     43.99
+     49.99
     ]
    },
    "ret": {
@@ -6510,13 +6510,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     28.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     50.98,
-    72.98
+    83.98
    ]
   },
   {
@@ -6535,7 +6535,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     23.99
+     89.99
     ]
    },
    "ret": {
@@ -6549,13 +6549,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    73.98
+    139.98
    ]
   },
   {
@@ -6588,7 +6588,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     53.99
     ]
    },
    "lowRt": false,
@@ -6613,7 +6613,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     35.99
+     65.99
     ]
    },
    "ret": {
@@ -6627,13 +6627,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    75.98
+    141.98
    ]
   },
   {
@@ -6652,7 +6652,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -6666,13 +6666,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     49.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    77.98
+    131.98
    ]
   },
   {
@@ -6691,7 +6691,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     47.99
+     121.99
     ]
    },
    "ret": {
@@ -6705,13 +6705,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    77.98
+    221.98
    ]
   },
   {
@@ -6730,7 +6730,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     17.99
+     31.99
     ]
    },
    "ret": {
@@ -6769,7 +6769,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     49.99
     ]
    },
    "ret": {
@@ -6783,13 +6783,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     58.7
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     54.98,
-    78.69
+    80.59
    ]
   },
   {
@@ -6808,7 +6808,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -6822,13 +6822,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    78.98
+    169.98
    ]
   },
   {
@@ -6847,7 +6847,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -6861,13 +6861,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    78.98
+    152.98
    ]
   },
   {
@@ -6886,7 +6886,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     25.99
+     45.99
     ]
    },
    "ret": {
@@ -6925,7 +6925,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     37.99
+     75.99
     ]
    },
    "ret": {
@@ -6939,13 +6939,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     41.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    79.98
+    141.98
    ]
   },
   {
@@ -6964,7 +6964,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     29.99
+     62.99
     ]
    },
    "ret": {
@@ -6978,13 +6978,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     49.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     57.98,
-    79.98
+    152.98
    ]
   },
   {
@@ -7003,7 +7003,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -7017,13 +7017,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    79.98
+    177.98
    ]
   },
   {
@@ -7042,7 +7042,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     133.99
     ]
    },
    "ret": {
@@ -7056,13 +7056,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    79.98
+    159.98
    ]
   },
   {
@@ -7081,7 +7081,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     29.99
+     89.99
     ]
    },
    "ret": {
@@ -7095,13 +7095,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    79.98
+    169.98
    ]
   },
   {
@@ -7120,7 +7120,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -7134,13 +7134,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    79.98
+    177.98
    ]
   },
   {
@@ -7159,7 +7159,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     133.99
     ]
    },
    "ret": {
@@ -7173,13 +7173,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    79.98
+    190.98
    ]
   },
   {
@@ -7198,7 +7198,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     89.99
     ]
    },
    "ret": {
@@ -7212,13 +7212,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    79.98
+    201.98
    ]
   },
   {
@@ -7237,7 +7237,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     23.99
+     65.99
     ]
    },
    "ret": {
@@ -7251,13 +7251,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     55.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    79.98
+    99.98
    ]
   },
   {
@@ -7276,7 +7276,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     149.99
     ]
    },
    "ret": {
@@ -7290,13 +7290,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     29.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     79.98,
-    79.98
+    269.98
    ]
   },
   {
@@ -7315,7 +7315,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      39.99,
-     39.99
+     84.99
     ]
    },
    "ret": {
@@ -7329,13 +7329,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     81.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     79.98,
-    79.98
+    140.98
    ]
   },
   {
@@ -7354,7 +7354,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      19.99,
-     19.99
+     49.99
     ]
    },
    "ret": {
@@ -7393,7 +7393,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     36.99
+     75.99
     ]
    },
    "ret": {
@@ -7407,13 +7407,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    80.98
+    148.98
    ]
   },
   {
@@ -7432,7 +7432,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     56.99
+     135.99
     ]
    },
    "ret": {
@@ -7446,13 +7446,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      23.99,
-     23.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     80.98,
-    80.98
+    271.98
    ]
   },
   {
@@ -7471,7 +7471,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     41.99
+     65.99
     ]
    },
    "ret": {
@@ -7485,13 +7485,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    81.98
+    141.98
    ]
   },
   {
@@ -7510,7 +7510,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     27.99
+     62.99
     ]
    },
    "ret": {
@@ -7524,13 +7524,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     55.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    83.98
+    131.98
    ]
   },
   {
@@ -7549,7 +7549,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     89.99
     ]
    },
    "ret": {
@@ -7563,13 +7563,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     43.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    83.98
+    152.98
    ]
   },
   {
@@ -7588,7 +7588,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     43.99
+     49.99
     ]
    },
    "ret": {
@@ -7602,7 +7602,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     39.99
+     60.6
     ]
    },
    "lowRt": false,
@@ -7627,7 +7627,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     34.99
+     89.99
     ]
    },
    "ret": {
@@ -7641,13 +7641,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    84.98
+    169.98
    ]
   },
   {
@@ -7666,7 +7666,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     29.99
+     79.99
     ]
    },
    "ret": {
@@ -7680,13 +7680,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     54.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    84.98
+    127.98
    ]
   },
   {
@@ -7705,7 +7705,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     25.99
+     49.99
     ]
    },
    "ret": {
@@ -7725,7 +7725,7 @@ window.BAHN_DATA = {
    "lowRt": false,
    "rngRt": [
     58.98,
-    86.59
+    102.69
    ]
   },
   {
@@ -7744,7 +7744,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     29.99
+     121.99
     ]
    },
    "ret": {
@@ -7758,13 +7758,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    86.98
+    189.98
    ]
   },
   {
@@ -7783,7 +7783,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     37.99
+     75.99
     ]
    },
    "ret": {
@@ -7797,13 +7797,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     72.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     55.98,
-    87.98
+    148.98
    ]
   },
   {
@@ -7822,7 +7822,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -7836,13 +7836,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     47.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    87.98
+    177.98
    ]
   },
   {
@@ -7861,7 +7861,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     47.99
+     121.99
     ]
    },
    "ret": {
@@ -7875,13 +7875,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    87.98
+    177.98
    ]
   },
   {
@@ -7900,7 +7900,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     89.99
     ]
    },
    "ret": {
@@ -7914,13 +7914,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     47.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    87.98
+    201.98
    ]
   },
   {
@@ -7939,7 +7939,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     89.99
     ]
    },
    "ret": {
@@ -7953,13 +7953,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     49.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    89.98
+    169.98
    ]
   },
   {
@@ -7978,7 +7978,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -7992,13 +7992,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    89.98
+    221.98
    ]
   },
   {
@@ -8017,7 +8017,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     133.99
     ]
    },
    "ret": {
@@ -8031,13 +8031,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    89.98
+    190.98
    ]
   },
   {
@@ -8056,7 +8056,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     133.99
     ]
    },
    "ret": {
@@ -8070,13 +8070,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    89.98
+    203.98
    ]
   },
   {
@@ -8095,7 +8095,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     79.99
     ]
    },
    "ret": {
@@ -8109,13 +8109,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      59.99,
-     59.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     89.98,
-    89.98
+    215.98
    ]
   },
   {
@@ -8134,7 +8134,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     34.99
+     79.99
     ]
    },
    "ret": {
@@ -8148,13 +8148,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     54.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    89.98
+    147.98
    ]
   },
   {
@@ -8173,7 +8173,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     149.99
     ]
    },
    "ret": {
@@ -8187,13 +8187,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     49.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    89.98
+    241.98
    ]
   },
   {
@@ -8212,7 +8212,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     149.99
     ]
    },
    "ret": {
@@ -8226,13 +8226,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     49.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    89.98
+    269.98
    ]
   },
   {
@@ -8251,7 +8251,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     54.99
+     65.99
     ]
    },
    "ret": {
@@ -8265,13 +8265,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     35.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     29.98,
-    90.98
+    117.98
    ]
   },
   {
@@ -8290,7 +8290,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     41.99
+     62.99
     ]
    },
    "ret": {
@@ -8304,7 +8304,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     49.99
+     89.99
     ]
    },
    "lowRt": false,
@@ -8329,7 +8329,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     89.99
     ]
    },
    "ret": {
@@ -8343,13 +8343,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     61.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    91.98
+    201.98
    ]
   },
   {
@@ -8368,7 +8368,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     43.99
+     89.99
     ]
    },
    "ret": {
@@ -8382,13 +8382,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     47.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    91.98
+    205.98
    ]
   },
   {
@@ -8446,7 +8446,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     56.99
+     79.99
     ]
    },
    "ret": {
@@ -8460,13 +8460,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     37.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     39.98,
-    94.98
+    109.98
    ]
   },
   {
@@ -8485,7 +8485,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     39.99
+     62.99
     ]
    },
    "ret": {
@@ -8499,13 +8499,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     55.99
+     89.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     57.98,
-    95.98
+    152.98
    ]
   },
   {
@@ -8524,7 +8524,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     29.99
+     121.99
     ]
    },
    "ret": {
@@ -8538,13 +8538,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     65.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    95.98
+    189.98
    ]
   },
   {
@@ -8563,7 +8563,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     43.99
+     49.99
     ]
    },
    "ret": {
@@ -8577,13 +8577,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     58.98,
-    95.98
+    102.69
    ]
   },
   {
@@ -8602,7 +8602,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     65.99
+     135.99
     ]
    },
    "ret": {
@@ -8616,13 +8616,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     29.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     80.98,
-    95.98
+    271.98
    ]
   },
   {
@@ -8641,7 +8641,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -8655,13 +8655,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    96.98
+    221.98
    ]
   },
   {
@@ -8680,7 +8680,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     133.99
     ]
    },
    "ret": {
@@ -8694,13 +8694,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    96.98
+    203.98
    ]
   },
   {
@@ -8719,7 +8719,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     133.99
     ]
    },
    "ret": {
@@ -8733,13 +8733,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    96.98
+    190.98
    ]
   },
   {
@@ -8758,7 +8758,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     149.99
     ]
    },
    "ret": {
@@ -8772,13 +8772,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     56.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     56.98,
-    96.98
+    249.98
    ]
   },
   {
@@ -8797,7 +8797,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     35.99
+     89.99
     ]
    },
    "ret": {
@@ -8811,13 +8811,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     61.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    97.98
+    205.98
    ]
   },
   {
@@ -8836,7 +8836,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      35.99,
-     35.99
+     75.99
     ]
    },
    "ret": {
@@ -8850,13 +8850,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     61.99
+     79.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     97.98,
-    97.98
+    149.98
    ]
   },
   {
@@ -8875,7 +8875,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     52.99
+     84.99
     ]
    },
    "ret": {
@@ -8889,13 +8889,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     45.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    98.98
+    140.98
    ]
   },
   {
@@ -8953,7 +8953,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     89.99
     ]
    },
    "ret": {
@@ -8967,13 +8967,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     49.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     36.98,
-    99.98
+    155.98
    ]
   },
   {
@@ -8992,7 +8992,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     133.99
     ]
    },
    "ret": {
@@ -9006,13 +9006,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    99.98
+    159.98
    ]
   },
   {
@@ -9031,7 +9031,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     133.99
     ]
    },
    "ret": {
@@ -9045,13 +9045,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    99.98
+    203.98
    ]
   },
   {
@@ -9070,7 +9070,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     79.99
     ]
    },
    "ret": {
@@ -9084,13 +9084,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      59.99,
-     59.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     89.98,
-    99.98
+    215.98
    ]
   },
   {
@@ -9109,7 +9109,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     119.99
     ]
    },
    "ret": {
@@ -9123,13 +9123,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     69.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     99.98,
-    99.98
+    239.98
    ]
   },
   {
@@ -9148,7 +9148,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     23.99
+     65.99
     ]
    },
    "ret": {
@@ -9187,7 +9187,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      39.99,
-     39.99
+     84.99
     ]
    },
    "ret": {
@@ -9201,13 +9201,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     81.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     99.98,
-    99.98
+    144.98
    ]
   },
   {
@@ -9226,7 +9226,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     89.99
     ]
    },
    "ret": {
@@ -9240,13 +9240,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     61.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    101.98
+    201.98
    ]
   },
   {
@@ -9265,7 +9265,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     55.99
+     75.99
     ]
    },
    "ret": {
@@ -9279,13 +9279,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      45.99,
-     45.99
+     79.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     101.98,
-    101.98
+    135.98
    ]
   },
   {
@@ -9318,13 +9318,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     58.98,
-    101.98
+    102.69
    ]
   },
   {
@@ -9357,13 +9357,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     51.99
+     60.6
     ]
    },
    "lowRt": false,
    "rngRt": [
     58.98,
-    101.98
+    102.69
    ]
   },
   {
@@ -9382,7 +9382,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     43.99
+     49.99
     ]
    },
    "ret": {
@@ -9396,7 +9396,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     58.7
+     60.6
     ]
    },
    "lowRt": false,
@@ -9421,7 +9421,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     41.99
+     89.99
     ]
    },
    "ret": {
@@ -9435,13 +9435,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     61.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    103.98
+    205.98
    ]
   },
   {
@@ -9460,7 +9460,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     39.99
+     121.99
     ]
    },
    "ret": {
@@ -9474,13 +9474,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     65.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    105.98
+    221.98
    ]
   },
   {
@@ -9499,7 +9499,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     75.99
+     84.99
     ]
    },
    "ret": {
@@ -9513,13 +9513,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    105.98
+    140.98
    ]
   },
   {
@@ -9538,7 +9538,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     75.99
+     135.99
     ]
    },
    "ret": {
@@ -9552,13 +9552,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     29.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     80.98,
-    105.98
+    271.98
    ]
   },
   {
@@ -9577,7 +9577,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     133.99
     ]
    },
    "ret": {
@@ -9591,13 +9591,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    106.98
+    190.98
    ]
   },
   {
@@ -9616,7 +9616,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      29.99,
-     29.99
+     79.99
     ]
    },
    "ret": {
@@ -9630,13 +9630,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     79.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     89.98,
-    109.98
+    215.98
    ]
   },
   {
@@ -9655,7 +9655,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     59.99
+     79.99
     ]
    },
    "ret": {
@@ -9669,7 +9669,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     49.99
+     67.99
     ]
    },
    "lowRt": false,
@@ -9694,7 +9694,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     149.99
     ]
    },
    "ret": {
@@ -9708,13 +9708,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     69.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    109.98
+    241.98
    ]
   },
   {
@@ -9733,7 +9733,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     49.99
+     84.99
     ]
    },
    "ret": {
@@ -9747,13 +9747,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     81.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     109.98,
-    109.98
+    158.98
    ]
   },
   {
@@ -9772,7 +9772,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9786,13 +9786,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -9811,7 +9811,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9825,13 +9825,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -9850,7 +9850,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9864,13 +9864,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -9889,7 +9889,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9903,13 +9903,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -9928,7 +9928,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9942,13 +9942,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -9967,7 +9967,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "ret": {
@@ -9981,13 +9981,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      55.0,
-     55
+     55.0
     ]
    },
    "lowRt": true,
    "rngRt": [
     110.0,
-    110
+    110.0
    ]
   },
   {
@@ -10006,7 +10006,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     54.99
+     65.99
     ]
    },
    "ret": {
@@ -10020,13 +10020,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     55.99
+     75.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     52.98,
-    110.98
+    141.98
    ]
   },
   {
@@ -10045,7 +10045,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     55.99
+     121.99
     ]
    },
    "ret": {
@@ -10059,13 +10059,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     55.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    111.98
+    177.98
    ]
   },
   {
@@ -10084,7 +10084,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     56.99
+     79.99
     ]
    },
    "ret": {
@@ -10098,13 +10098,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     54.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    111.98
+    127.98
    ]
   },
   {
@@ -10123,7 +10123,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     89.99
     ]
    },
    "ret": {
@@ -10137,13 +10137,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     63.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    113.98
+    201.98
    ]
   },
   {
@@ -10162,7 +10162,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     89.99
     ]
    },
    "ret": {
@@ -10176,13 +10176,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     63.99
+     115.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    113.98
+    205.98
    ]
   },
   {
@@ -10201,7 +10201,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     133.99
     ]
    },
    "ret": {
@@ -10215,13 +10215,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    116.98
+    203.98
    ]
   },
   {
@@ -10254,7 +10254,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     51.99
+     75.99
     ]
    },
    "lowRt": false,
@@ -10279,7 +10279,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     55.99
+     75.99
     ]
    },
    "ret": {
@@ -10293,13 +10293,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     61.99
+     79.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     117.98,
-    117.98
+    155.98
    ]
   },
   {
@@ -10318,7 +10318,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     58.99
+     84.99
     ]
    },
    "ret": {
@@ -10332,13 +10332,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    118.98
+    144.98
    ]
   },
   {
@@ -10357,7 +10357,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     29.99
+     121.99
     ]
    },
    "ret": {
@@ -10371,13 +10371,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     89.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    119.98
+    189.98
    ]
   },
   {
@@ -10396,7 +10396,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     133.99
     ]
    },
    "ret": {
@@ -10416,7 +10416,7 @@ window.BAHN_DATA = {
    "lowRt": false,
    "rngRt": [
     59.98,
-    119.98
+    159.98
    ]
   },
   {
@@ -10435,7 +10435,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     49.99
+     119.99
     ]
    },
    "ret": {
@@ -10449,13 +10449,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     69.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    119.98
+    239.98
    ]
   },
   {
@@ -10474,7 +10474,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     39.99
+     119.99
     ]
    },
    "ret": {
@@ -10488,13 +10488,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     79.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    119.98
+    239.98
    ]
   },
   {
@@ -10513,7 +10513,7 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      39.99,
-     39.99
+     135.99
     ]
    },
    "ret": {
@@ -10527,13 +10527,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     79.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     119.98,
-    119.98
+    237.98
    ]
   },
   {
@@ -10552,7 +10552,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     58.99
+     84.99
     ]
    },
    "ret": {
@@ -10566,13 +10566,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     60.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    119.98
+    140.98
    ]
   },
   {
@@ -10591,7 +10591,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     65.99
+     133.99
     ]
    },
    "ret": {
@@ -10605,13 +10605,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     69.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    122.98
+    190.98
    ]
   },
   {
@@ -10630,7 +10630,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     67.99
+     79.99
     ]
    },
    "ret": {
@@ -10644,13 +10644,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     54.99
+     67.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     47.98,
-    122.98
+    147.98
    ]
   },
   {
@@ -10669,7 +10669,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     54.99
+     75.99
     ]
    },
    "ret": {
@@ -10708,7 +10708,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      19.99,
-     59.99
+     79.99
     ]
    },
    "ret": {
@@ -10747,7 +10747,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     69.99
+     75.99
     ]
    },
    "ret": {
@@ -10761,13 +10761,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     57.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     101.98,
-    127.98
+    135.98
    ]
   },
   {
@@ -10786,7 +10786,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     75.99
+     84.99
     ]
    },
    "ret": {
@@ -10800,13 +10800,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     53.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    129.98
+    144.98
    ]
   },
   {
@@ -10825,7 +10825,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     69.99
+     149.99
     ]
    },
    "ret": {
@@ -10839,13 +10839,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     59.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    129.98
+    241.98
    ]
   },
   {
@@ -10864,7 +10864,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     70.99
+     84.99
     ]
    },
    "ret": {
@@ -10878,13 +10878,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     109.98,
-    130.98
+    158.98
    ]
   },
   {
@@ -10903,7 +10903,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      16.99,
-     41.99
+     62.99
     ]
    },
    "ret": {
@@ -10942,7 +10942,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     71.99
+     84.99
     ]
    },
    "ret": {
@@ -10956,13 +10956,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     61.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    133.98
+    144.98
    ]
   },
   {
@@ -10981,7 +10981,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     71.99
+     84.99
     ]
    },
    "ret": {
@@ -10995,13 +10995,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     61.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    133.98
+    140.98
    ]
   },
   {
@@ -11020,7 +11020,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     52.99
+     84.99
     ]
    },
    "ret": {
@@ -11040,7 +11040,7 @@ window.BAHN_DATA = {
    "lowRt": false,
    "rngRt": [
     99.98,
-    134.98
+    144.98
    ]
   },
   {
@@ -11059,7 +11059,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     65.99
+     133.99
     ]
    },
    "ret": {
@@ -11079,7 +11079,7 @@ window.BAHN_DATA = {
    "lowRt": false,
    "rngRt": [
     69.98,
-    135.98
+    203.98
    ]
   },
   {
@@ -11112,7 +11112,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     59.99
+     79.99
     ]
    },
    "lowRt": false,
@@ -11151,13 +11151,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     53.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     109.98,
-    138.98
+    158.98
    ]
   },
   {
@@ -11176,7 +11176,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     59.99
+     89.99
     ]
    },
    "ret": {
@@ -11215,7 +11215,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     69.99
+     75.99
     ]
    },
    "ret": {
@@ -11229,13 +11229,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     69.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     97.98,
-    139.98
+    149.98
    ]
   },
   {
@@ -11254,7 +11254,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     69.99
+     75.99
     ]
    },
    "ret": {
@@ -11268,13 +11268,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      45.99,
-     69.99
+     79.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     117.98,
-    139.98
+    155.98
    ]
   },
   {
@@ -11293,7 +11293,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     77.99
+     84.99
     ]
    },
    "ret": {
@@ -11307,13 +11307,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     61.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     109.98,
-    139.98
+    158.98
    ]
   },
   {
@@ -11332,7 +11332,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     67.99
+     84.99
     ]
    },
    "ret": {
@@ -11346,7 +11346,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     72.99
+     81.99
     ]
    },
    "lowRt": false,
@@ -11385,7 +11385,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     65.99
+     72.99
     ]
    },
    "lowRt": false,
@@ -11449,7 +11449,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     67.99
+     84.99
     ]
    },
    "ret": {
@@ -11463,7 +11463,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     76.99
+     81.99
     ]
    },
    "lowRt": false,
@@ -11488,7 +11488,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     55.99
+     121.99
     ]
    },
    "ret": {
@@ -11502,13 +11502,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     89.99
+     99.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     69.98,
-    145.98
+    221.98
    ]
   },
   {
@@ -11527,7 +11527,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     65.99
+     135.99
     ]
    },
    "ret": {
@@ -11541,13 +11541,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     79.99
+     135.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     145.98,
-    145.98
+    221.98
    ]
   },
   {
@@ -11566,7 +11566,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     69.99
+     84.99
     ]
    },
    "ret": {
@@ -11580,13 +11580,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     76.99
+     81.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     109.98,
-    146.98
+    158.98
    ]
   },
   {
@@ -11683,7 +11683,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     119.99
     ]
    },
    "ret": {
@@ -11697,7 +11697,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": true,
@@ -11722,7 +11722,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     119.99
     ]
    },
    "ret": {
@@ -11736,7 +11736,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": true,
@@ -11761,7 +11761,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      35.99,
-     69.99
+     75.99
     ]
    },
    "ret": {
@@ -11800,7 +11800,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     59.99
+     149.99
     ]
    },
    "ret": {
@@ -11814,13 +11814,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     59.98,
-    149.98
+    241.98
    ]
   },
   {
@@ -11892,7 +11892,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      22.99,
-     62.99
+     79.99
     ]
    },
    "lowRt": false,
@@ -11931,7 +11931,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     65.99
+     115.99
     ]
    },
    "lowRt": false,
@@ -11995,7 +11995,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     115.99
+     149.99
     ]
    },
    "ret": {
@@ -12009,13 +12009,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     39.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     56.98,
-    155.98
+    249.98
    ]
   },
   {
@@ -12034,7 +12034,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     76.99
+     84.99
     ]
    },
    "ret": {
@@ -12073,7 +12073,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     89.99
+     133.99
     ]
    },
    "ret": {
@@ -12112,7 +12112,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     69.99
+     119.99
     ]
    },
    "ret": {
@@ -12126,13 +12126,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     99.98,
-    159.98
+    239.98
    ]
   },
   {
@@ -12151,7 +12151,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     69.99
+     135.99
     ]
    },
    "ret": {
@@ -12165,13 +12165,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     119.98,
-    159.98
+    237.98
    ]
   },
   {
@@ -12190,7 +12190,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     75.99
+     135.99
     ]
    },
    "ret": {
@@ -12204,13 +12204,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     145.98,
-    165.98
+    221.98
    ]
   },
   {
@@ -12268,7 +12268,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     119.99
+     135.99
     ]
    },
    "ret": {
@@ -12282,13 +12282,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     49.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     80.98,
-    169.98
+    271.98
    ]
   },
   {
@@ -12307,7 +12307,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     115.99
+     149.99
     ]
    },
    "ret": {
@@ -12321,13 +12321,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     56.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     56.98,
-    172.98
+    249.98
    ]
   },
   {
@@ -12360,7 +12360,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     55.99
+     99.99
     ]
    },
    "lowRt": false,
@@ -12385,7 +12385,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     115.99
+     135.99
     ]
    },
    "ret": {
@@ -12399,13 +12399,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     65.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     80.98,
-    181.98
+    271.98
    ]
   },
   {
@@ -12424,7 +12424,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     115.99
+     149.99
     ]
    },
    "ret": {
@@ -12438,13 +12438,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     69.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    185.98
+    269.98
    ]
   },
   {
@@ -12463,7 +12463,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      17.99,
-     89.99
+     121.99
     ]
    },
    "ret": {
@@ -12516,7 +12516,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     56.99
+     69.99
     ]
    },
    "lowRt": false,
@@ -12555,13 +12555,13 @@ window.BAHN_DATA = {
     "low": true,
     "rng": [
      83.99,
-     83.99
+     95.99
     ]
    },
    "lowRt": true,
    "rngRt": [
     199.98,
-    199.98
+    211.98
    ]
   },
   {
@@ -12580,7 +12580,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     85.99
+     89.99
     ]
    },
    "ret": {
@@ -12697,7 +12697,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     115.99
+     149.99
     ]
    },
    "ret": {
@@ -12711,13 +12711,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    205.98
+    269.98
    ]
   },
   {
@@ -12750,13 +12750,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     56.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     56.98,
-    206.98
+    249.98
    ]
   },
   {
@@ -12789,13 +12789,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     59.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     79.98,
-    209.98
+    269.98
    ]
   },
   {
@@ -12814,7 +12814,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     119.99
+     135.99
     ]
    },
    "ret": {
@@ -12828,13 +12828,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     119.98,
-    209.98
+    237.98
    ]
   },
   {
@@ -12853,7 +12853,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     119.99
+     135.99
     ]
    },
    "ret": {
@@ -12867,13 +12867,13 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     89.99
+     135.99
     ]
    },
    "lowRt": false,
    "rngRt": [
     145.98,
-    209.98
+    221.98
    ]
   },
   {
@@ -12931,7 +12931,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     79.99
+     119.99
     ]
    },
    "ret": {
@@ -12951,7 +12951,7 @@ window.BAHN_DATA = {
    "lowRt": false,
    "rngRt": [
     99.98,
-    215.98
+    239.98
    ]
   },
   {
@@ -13048,7 +13048,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     115.99
+     135.99
     ]
    },
    "ret": {
@@ -13062,7 +13062,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     105.99
+     135.99
     ]
    },
    "lowRt": false,
@@ -13087,7 +13087,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      39.99,
-     131.99
+     135.99
     ]
    },
    "ret": {
@@ -13101,7 +13101,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      23.99,
-     105.99
+     135.99
     ]
    },
    "lowRt": false,
@@ -13140,7 +13140,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      59.99,
-     119.99
+     135.99
     ]
    },
    "lowRt": false,
@@ -13165,7 +13165,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     105.99
+     149.99
     ]
    },
    "ret": {
@@ -13204,7 +13204,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     133.99
+     149.99
     ]
    },
    "ret": {
@@ -13218,7 +13218,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      6.99,
-     115.99
+     135.99
     ]
    },
    "lowRt": false,
@@ -13243,7 +13243,7 @@ window.BAHN_DATA = {
     "low": false,
     "rng": [
      29.99,
-     133.99
+     149.99
     ]
    },
    "ret": {
