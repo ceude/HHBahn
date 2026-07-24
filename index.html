@@ -283,6 +283,27 @@
     font-size:13px; color:var(--slate);
   }
   .card-foot .count{flex:1; display:inline-flex; align-items:center; gap:7px}
+  .thermo{padding:0 16px 14px; margin-top:-4px}
+  .thermo-bar{
+    position:relative; height:6px; border-radius:99px;
+    background:linear-gradient(90deg,#12B76A 0%,#FFC44D 55%,#EC0016 100%);
+    opacity:.85;
+  }
+  .thermo-bar .pin{
+    position:absolute; top:50%; width:13px; height:13px; border-radius:50%;
+    background:#fff; border:2.5px solid var(--ink);
+    transform:translate(-50%,-50%);
+    box-shadow:0 2px 6px rgba(27,30,37,.35);
+  }
+  .thermo-scale{
+    display:flex; justify-content:space-between; align-items:center;
+    margin-top:6px; font-size:10px; color:var(--faint);
+    font-family:'IBM Plex Mono',monospace;
+  }
+  .thermo-scale .mid{
+    font-family:'Archivo',sans-serif; letter-spacing:.06em; text-transform:uppercase;
+    font-size:9px; font-weight:700;
+  }
   .card-foot .dot{width:7px; height:7px; border-radius:50%; background:var(--red); flex:none}
   .card-foot svg{color:var(--faint)}
 
@@ -344,7 +365,7 @@
   .row .chev{flex:none; color:var(--faint); transition:transform .3s cubic-bezier(.2,.7,.3,1)}
   .row.open .chev{transform:rotate(180deg)}
   .row-details{max-height:0; overflow:hidden; transition:max-height .34s cubic-bezier(.2,.7,.3,1)}
-  .row.open .row-details{max-height:360px}
+  .row.open .row-details{max-height:1200px}
   .row-details-inner{
     margin:0 14px 14px; background:#F7F6F8; border-radius:var(--r-md); overflow:hidden;
   }
@@ -359,6 +380,26 @@
   .leg .times .arrow{color:var(--faint); padding:0 3px}
   .leg .sub{font-size:12px; color:var(--slate); margin-top:2px}
   .leg .lp{flex:none; font-family:'IBM Plex Mono',monospace; font-size:13px}
+  .stops-toggle{
+    all:unset; cursor:pointer; display:inline-flex; align-items:center; gap:5px;
+    margin-top:6px; font-size:11.5px; font-weight:700; color:var(--red);
+  }
+  .stops-toggle svg{transition:transform .25s ease}
+  .stops-toggle.open svg{transform:rotate(180deg)}
+  .stops-toggle:focus-visible{outline:2px solid var(--red); outline-offset:2px; border-radius:4px}
+  .stops-list{
+    display:none; margin:8px 0 2px; padding-left:12px;
+    border-left:2px dotted rgba(236,0,22,.35);
+  }
+  .stops-list.open{display:block}
+  .stops-list .st{
+    display:flex; align-items:baseline; gap:8px;
+    font-size:12px; color:var(--slate); padding:2px 0;
+  }
+  .stops-list .st .t{
+    font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--faint); flex:none; min-width:38px;
+  }
+  .stops-none{margin-top:6px; font-size:11.5px; color:var(--faint); font-weight:600}
   .ticket-link{
     display:flex; align-items:center; justify-content:center; gap:8px;
     margin:0 14px 14px; padding:12px;
@@ -622,7 +663,10 @@ var I18N = {
     variantSuffix:"Abfahrt",
     dayTrip:"Tagesausflug Samstag",
     lowBadge:"Bestpreis",
+    seenRange:"bisher gesehen",
     footer3:"\u201eBestpreis\u201c bezieht sich nur auf die bisher auf dieser Seite durchgeführten Scans — anderswo oder zu anderen Zeiten sind günstigere Tickets möglich.",
+    stopsLabel:"Zwischenhalte",
+    stopsNone:"Ohne Zwischenhalt",
     legOut:"Hin",
     legRet:"Rück",
     goToTicket:"Zum Ticket auf bahn.de",
@@ -673,7 +717,10 @@ var I18N = {
     variantSuffix:"departure",
     dayTrip:"Saturday day trip",
     lowBadge:"Lowest",
+    seenRange:"seen so far",
     footer3:"\u201cLowest\u201d refers only to the scans run on this site so far — cheaper tickets may exist elsewhere or at other times.",
+    stopsLabel:"Stops on the way",
+    stopsNone:"Non-stop",
     legOut:"Out",
     legRet:"Back",
     goToTicket:"Go to ticket on bahn.de",
@@ -724,7 +771,10 @@ var I18N = {
     variantSuffix:"çıkışlı",
     dayTrip:"Cumartesi günübirlik",
     lowBadge:"Dip fiyat",
+    seenRange:"şimdiye dek görülen",
     footer3:"\u201cDip fiyat\u201d yalnızca bu sitede şimdiye dek yapılan taramalar içindeki en düşüğü ifade eder; başka yerlerde veya başka zamanlarda daha ucuz biletler bulunabilir.",
+    stopsLabel:"Ara duraklar",
+    stopsNone:"Duraksız",
     legOut:"Gidiş",
     legRet:"Dönüş",
     goToTicket:"bahn.de'de bilete git",
@@ -995,15 +1045,61 @@ function setLang(code){
   function legRow(dirLabel, leg){
     var t = T();
     var dep = new Date(leg.dep), arr = new Date(leg.arr);
+    var stops = leg.stops || [];
+    var stopsHtml = "";
+    if (stops.length){
+      stopsHtml =
+        '<button class="stops-toggle" type="button" aria-expanded="false">' +
+          '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
+          stops.length + ' ' + t.stopsLabel +
+        '</button>' +
+        '<div class="stops-list">' +
+          stops.map(function(h){
+            return '<div class="st"><span class="t">' + (h[1] || "") + '</span><span>' + h[0] + '</span></div>';
+          }).join("") +
+        '</div>';
+    } else if (stops && leg.stops) {
+      stopsHtml = '<div class="stops-none">' + t.stopsNone + '</div>';
+    }
     return '<div class="leg">' +
       '<span class="dir">' + dirLabel + '</span>' +
       '<span class="body">' +
         '<span class="times">' + hhmm(dep) + '<span class="arrow">\u2192</span>' + hhmm(arr) + '</span>' +
         '<div class="sub">' + t.days[dep.getDay()] + ' ' + pad(dep.getDate()) + '.' + pad(dep.getMonth()+1) +
         ' \u00B7 ' + leg.trains + '</div>' +
+        stopsHtml +
       '</span>' +
       '<span class="lp">' + eur(leg.price) + ' \u20AC</span>' +
     '</div>';
+  }
+
+  // Fiyat termometresi: [dip, tavan] araliginda mevcut fiyatin yeri
+  function thermoHtml(rng, price){
+    if (!rng || rng.length !== 2) return "";
+    var lo = rng[0], hi = rng[1];
+    if (!(hi - lo >= 1)) return ""; // anlamli bir aralik yoksa gosterme
+    var t = T();
+    var pct = Math.max(0, Math.min(100, ((price - lo) / (hi - lo)) * 100));
+    return '<div class="thermo">' +
+      '<div class="thermo-bar"><span class="pin" style="left:' + pct.toFixed(1) + '%"></span></div>' +
+      '<div class="thermo-scale">' +
+        '<span>' + eur(lo) + ' \u20AC</span>' +
+        '<span class="mid">' + t.seenRange + '</span>' +
+        '<span>' + eur(hi) + ' \u20AC</span>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function bindStops(root){
+    root.querySelectorAll(".stops-toggle").forEach(function(tg){
+      tg.addEventListener("click", function(e){
+        e.stopPropagation();
+        var list = tg.nextElementSibling;
+        var open = list.classList.toggle("open");
+        tg.classList.toggle("open", open);
+        tg.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    });
   }
 
   function groupByCity(deals){
@@ -1179,6 +1275,7 @@ function setLang(code){
             '<span class="count"><span class="dot"></span>' + list.length + ' ' + t.offers + '</span>' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>' +
           '</div>' +
+          thermoHtml(oneWay ? list[0].leg.rng : list[0].rngRt, min) +
         '</div>';
       var btn = card.querySelector(".card-btn");
       function go(){ location.hash = "c/" + encodeURIComponent(city); }
@@ -1247,6 +1344,7 @@ function setLang(code){
           var open = row.classList.toggle("open");
           b.setAttribute("aria-expanded", open ? "true" : "false");
         });
+        bindStops(row);
         rows.appendChild(row);
       });
     }
@@ -1277,6 +1375,7 @@ function setLang(code){
         var open = row.classList.toggle("open");
         btn.setAttribute("aria-expanded", open ? "true" : "false");
       });
+      bindStops(row);
       rows.appendChild(row);
     });
 
