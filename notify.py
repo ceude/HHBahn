@@ -127,6 +127,12 @@ for d in deals:
             continue
         _track(route_key(o, d["city"], "ow", leg_dir), p)
 
+# v9: tum tek yon seferler (legs) de dip/tavan takibine dahil
+for L in (data.get("legs") or []):
+    if L.get("price") is None:
+        continue
+    _track(route_key(L.get("o", "Hamburg"), L.get("c"), "ow", L.get("dir", "out")), L["price"])
+
 # Supabase'deki kayitli en dusukleri cek
 hist, hist_hi = {}, {}
 try:
@@ -166,6 +172,15 @@ for d in deals:
             k_ow = route_key(o, d["city"], "ow", leg_dir)
             leg["low"] = is_low(k_ow, p)
             leg["rng"] = rng_for(k_ow, p)
+
+# v9: legs dizisine de bayrak + aralik yaz (site tek yon modunda bunu kullaniyor)
+for L in (data.get("legs") or []):
+    p = L.get("price")
+    if p is None:
+        continue
+    k_ow = route_key(L.get("o", "Hamburg"), L.get("c"), "ow", L.get("dir", "out"))
+    L["low"] = is_low(k_ow, p)
+    L["rng"] = rng_for(k_ow, p)
 
 # Yeni dip degerlerini Supabase'e yaz (upsert)
 upserts = []
