@@ -1116,6 +1116,25 @@ function setLang(code){
     return map;
   }
 
+  // Tek yon: v9 verisinde TUM seferler (data.legs) var; yoksa kombolardan tureti
+  function oneWayFromLegs(legs){
+    var map = {};
+    legs.forEach(function(L){
+      if ((L.o || "Hamburg") !== origin) return;
+      if (filterWk && weekendKey(L.dep) !== filterWk) return;
+      (map[L.c] = map[L.c] || []).push({
+        dir: L.dir, city: L.c, origin: L.o,
+        leg: { dep: L.dep, arr: L.arr, from: L.from, to: L.to,
+               trains: L.trains, price: L.price, durH: L.durH,
+               stops: L.stops, low: !!L.low, rng: L.rng }
+      });
+    });
+    Object.keys(map).forEach(function(c){
+      map[c].sort(function(a,b){ return a.leg.price - b.leg.price; });
+    });
+    return map;
+  }
+
   // Tek yon: kombolardaki gidis/donus bacaklarini ayristirip tekillestir
   function oneWayByCity(deals){
     var map = {}, seen = {};
@@ -1247,7 +1266,9 @@ function setLang(code){
   function renderHome(data){
     currentCity = null;
     var t = T();
-    var byCity = oneWay ? oneWayByCity(data.deals || []) : groupByCity(data.deals || []);
+    var byCity = oneWay
+      ? ((data.legs && data.legs.length) ? oneWayFromLegs(data.legs) : oneWayByCity(data.deals || []))
+      : groupByCity(data.deals || []);
     var minOf = function(c){ return oneWay ? byCity[c][0].leg.price : byCity[c][0].total; };
     var cities = Object.keys(byCity).sort(function(a,b){ return minOf(a) - minOf(b); });
     document.getElementById("cityCount").textContent = cities.length;
@@ -1298,7 +1319,9 @@ function setLang(code){
   function renderCity(data, city){
     currentCity = city;
     var t = T();
-    var byCity = oneWay ? oneWayByCity(data.deals || []) : groupByCity(data.deals || []);
+    var byCity = oneWay
+      ? ((data.legs && data.legs.length) ? oneWayFromLegs(data.legs) : oneWayByCity(data.deals || []))
+      : groupByCity(data.deals || []);
     var list = byCity[city];
     if (!list){ location.hash = ""; return; }
     var min = oneWay ? list[0].leg.price : list[0].total;
@@ -1328,7 +1351,9 @@ function setLang(code){
           '<button class="row-btn" type="button" aria-expanded="false">' +
             '<span class="row-info">' +
               '<div class="row-date">' + t.days[dep.getDay()] + ' ' + dep.getDate() + ' ' + t.months[dep.getMonth()] + (item.leg.low ? '<span class="row-low">' + t.lowBadge + '</span>' : '') + '</div>' +
-              '<div class="row-variant"><span class="dot"></span>' + (item.dir === "out" ? t.owOut : t.owRet) + '</div>' +
+              '<div class="row-variant"><span class="dot"></span>' + (item.dir === "out" ? t.owOut : t.owRet) +
+                (item.leg.durH ? ' \u00B7 ' + Math.floor(item.leg.durH) + 's ' + Math.round((item.leg.durH % 1) * 60) + 'dk' : '') +
+                ' \u00B7 ' + hhmm(new Date(item.leg.dep)) + '\u2192' + hhmm(new Date(item.leg.arr)) + '</div>' +
             '</span>' +
             '<span class="row-price">' + eur(item.leg.price) + ' \u20AC</span>' +
             '<svg class="chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9 L12 15 L18 9"/></svg>' +
