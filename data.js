@@ -19,7 +19,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T22:20:00",
@@ -29,9 +33,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -46,7 +58,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T18:17:00",
@@ -56,9 +72,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2508",
     "price": 6.99,
     "durH": 1,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -73,7 +97,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T18:17:00",
@@ -83,9 +111,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2508",
     "price": 6.99,
     "durH": 1,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -100,7 +136,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T20:08:00",
@@ -110,9 +150,17 @@ window.BAHN_DATA = {
     "trains": "ECE 4",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -127,7 +175,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:17:00",
@@ -137,9 +189,17 @@ window.BAHN_DATA = {
     "trains": "ICE 610",
     "price": 6.99,
     "durH": 1,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -154,7 +214,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:08:00",
@@ -164,9 +228,17 @@ window.BAHN_DATA = {
     "trains": "ICE 72",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -181,7 +253,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:17:00",
@@ -191,9 +267,17 @@ window.BAHN_DATA = {
     "trains": "ICE 610",
     "price": 6.99,
     "durH": 1,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -208,7 +292,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T17:01:00",
@@ -218,9 +306,17 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -235,7 +331,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T18:17:00",
@@ -245,9 +345,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 6.99,
     "durH": 2.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -262,7 +370,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:01:00",
@@ -272,9 +384,17 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -289,7 +409,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:17:00",
@@ -299,9 +423,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2589",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -316,7 +448,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:01:00",
@@ -326,9 +462,17 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -343,7 +487,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:17:00",
@@ -353,9 +501,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 6.99,
     "durH": 2.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -370,7 +526,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:01:00",
@@ -380,9 +540,17 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    13.98,
+    13.98
+   ]
   },
   {
    "origin": "München",
@@ -397,7 +565,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T18:04:00",
@@ -407,9 +579,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    19.98
+   ]
   },
   {
    "origin": "München",
@@ -424,7 +604,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T18:04:00",
@@ -434,9 +618,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    19.98
+   ]
   },
   {
    "origin": "München",
@@ -451,7 +643,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:04:00",
@@ -461,9 +657,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    19.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -478,7 +682,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T20:19:00",
@@ -488,9 +696,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 14.99,
     "durH": 1.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    21.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -505,7 +721,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 14.99,
     "durH": 1.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T21:08:00",
@@ -515,9 +735,17 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 6.99,
     "durH": 1.5,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    21.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -532,7 +760,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:17:00",
@@ -542,9 +774,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -559,7 +799,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:17:00",
@@ -569,9 +813,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -586,7 +838,11 @@ window.BAHN_DATA = {
     "trains": "ICE 921",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:17:00",
@@ -596,9 +852,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -613,7 +877,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:17:00",
@@ -623,9 +891,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -640,7 +916,11 @@ window.BAHN_DATA = {
     "trains": "IC 60471",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:17:00",
@@ -650,9 +930,17 @@ window.BAHN_DATA = {
     "trains": "ICE 200",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -667,7 +955,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:17:00",
@@ -677,9 +969,17 @@ window.BAHN_DATA = {
     "trains": "ICE 200",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -694,7 +994,11 @@ window.BAHN_DATA = {
     "trains": "IC 60471",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:17:00",
@@ -704,9 +1008,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -721,7 +1033,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 6.99,
     "durH": 0.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:17:00",
@@ -731,9 +1047,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "München",
@@ -748,7 +1072,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -758,9 +1086,17 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 17.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    24.98,
+    24.98
+   ]
   },
   {
    "origin": "München",
@@ -775,7 +1111,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:15:00",
@@ -785,9 +1125,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1007",
     "price": 18.99,
     "durH": 1.1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    25.98
+   ]
   },
   {
    "origin": "München",
@@ -802,7 +1150,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:01:00",
@@ -812,9 +1164,17 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    25.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -829,7 +1189,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 19.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T19:56:00",
@@ -839,9 +1203,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 6.99,
     "durH": 2.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    26.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -856,7 +1228,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 19.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:56:00",
@@ -866,9 +1242,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 6.99,
     "durH": 2.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    26.98
+   ]
   },
   {
    "origin": "München",
@@ -883,7 +1267,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 19.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T22:17:00",
@@ -893,9 +1281,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 6.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    26.98
+   ]
   },
   {
    "origin": "München",
@@ -910,7 +1306,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 6.99,
     "durH": 2.1,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:01:00",
@@ -920,9 +1320,17 @@ window.BAHN_DATA = {
     "trains": "ICE 627",
     "price": 19.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    26.98
+   ]
   },
   {
    "origin": "München",
@@ -937,7 +1345,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:01:00",
@@ -947,9 +1359,17 @@ window.BAHN_DATA = {
     "trains": "ICE 627",
     "price": 19.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    26.98
+   ]
   },
   {
    "origin": "München",
@@ -964,7 +1384,11 @@ window.BAHN_DATA = {
     "trains": "ICE 886",
     "price": 6.99,
     "durH": 1.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:01:00",
@@ -974,9 +1398,17 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 19.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    26.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -991,7 +1423,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 9.99,
     "durH": 0.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     9.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:17:00",
@@ -1001,9 +1437,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    27.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1018,7 +1462,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 9.99,
     "durH": 0.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     9.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:17:00",
@@ -1028,9 +1476,17 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    27.98
+   ]
   },
   {
    "origin": "München",
@@ -1045,7 +1501,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T20:01:00",
@@ -1055,9 +1515,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 21.99,
     "durH": 1.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    28.98
+   ]
   },
   {
    "origin": "München",
@@ -1072,7 +1540,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1293",
     "price": 6.99,
     "durH": 1.8,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:00:00",
@@ -1082,9 +1554,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 21.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    28.98
+   ]
   },
   {
    "origin": "München",
@@ -1099,7 +1579,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1293",
     "price": 6.99,
     "durH": 1.8,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:00:00",
@@ -1109,9 +1593,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 21.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    28.98
+   ]
   },
   {
    "origin": "München",
@@ -1126,7 +1618,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 22.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:57:00",
@@ -1136,9 +1632,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 6.99,
     "durH": 3.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    29.98,
+    29.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1153,7 +1657,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 12.99,
     "durH": 0.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T21:17:00",
@@ -1163,9 +1671,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 17.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1180,7 +1696,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:08:00",
@@ -1190,9 +1710,17 @@ window.BAHN_DATA = {
     "trains": "ICE 576",
     "price": 23.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    30.98,
+    30.98
+   ]
   },
   {
    "origin": "München",
@@ -1207,7 +1735,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1297",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:00:00",
@@ -1217,9 +1749,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 23.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    30.98
+   ]
   },
   {
    "origin": "München",
@@ -1234,7 +1774,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T18:00:00",
@@ -1244,9 +1788,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 17.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    30.98
+   ]
   },
   {
    "origin": "München",
@@ -1261,7 +1813,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1297",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:00:00",
@@ -1271,9 +1827,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 23.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    30.98
+   ]
   },
   {
    "origin": "München",
@@ -1288,7 +1852,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:00:00",
@@ -1298,9 +1866,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 23.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    30.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1315,7 +1891,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T19:56:00",
@@ -1325,9 +1905,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 6.99,
     "durH": 2.3,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1342,7 +1930,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 24.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T22:17:00",
@@ -1352,9 +1944,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 6.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1369,7 +1969,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -1379,9 +1983,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1396,7 +2008,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:17:00",
@@ -1406,9 +2022,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1423,7 +2047,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:17:00",
@@ -1433,9 +2061,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1450,7 +2086,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1060",
     "price": 6.99,
     "durH": 1.9,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:17:00",
@@ -1460,9 +2100,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1477,7 +2125,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:17:00",
@@ -1487,9 +2139,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1504,7 +2164,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 6.99,
     "durH": 2.6,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:17:00",
@@ -1514,9 +2178,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 24.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "München",
@@ -1531,7 +2203,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 6.99,
     "durH": 2,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:17:00",
@@ -1541,9 +2217,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 24.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    31.98,
+    31.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1558,7 +2242,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1687",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:08:00",
@@ -1568,9 +2256,17 @@ window.BAHN_DATA = {
     "trains": "ICE 6",
     "price": 25.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     25.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    32.98,
+    32.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1585,7 +2281,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:08:00",
@@ -1595,9 +2295,17 @@ window.BAHN_DATA = {
     "trains": "ICE 6",
     "price": 25.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     25.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    32.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1612,7 +2320,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 12.99,
     "durH": 0.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:17:00",
@@ -1622,9 +2334,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 21.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1639,7 +2359,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1687",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:08:00",
@@ -1649,9 +2373,17 @@ window.BAHN_DATA = {
     "trains": "ICE 576",
     "price": 27.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": true
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1666,7 +2398,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 16.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     16.99,
+     16.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T18:33:00",
@@ -1676,9 +2412,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 17.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    34.98,
+    34.98
+   ]
   },
   {
    "origin": "München",
@@ -1693,7 +2437,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:00:00",
@@ -1703,9 +2451,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 21.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    34.98
+   ]
   },
   {
    "origin": "München",
@@ -1720,7 +2476,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:00:00",
@@ -1730,9 +2490,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 21.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    34.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1747,7 +2515,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T20:57:00",
@@ -1757,9 +2529,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    35.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1774,7 +2554,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 6.99,
     "durH": 1.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:08:00",
@@ -1784,9 +2568,17 @@ window.BAHN_DATA = {
     "trains": "ECE 72",
     "price": 29.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    36.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1801,7 +2593,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 29.99,
     "durH": 3.2,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T21:16:00",
@@ -1811,9 +2607,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2584",
     "price": 6.99,
     "durH": 3.5,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    36.98,
+    36.98
+   ]
   },
   {
    "origin": "München",
@@ -1828,7 +2632,11 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 17.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:15:00",
@@ -1838,9 +2646,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1007",
     "price": 18.99,
     "durH": 1.1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    36.98
+   ]
   },
   {
    "origin": "München",
@@ -1855,7 +2671,11 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 17.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:01:00",
@@ -1865,9 +2685,17 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    36.98
+   ]
   },
   {
    "origin": "München",
@@ -1882,7 +2710,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 12.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     12.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:00:00",
@@ -1892,9 +2724,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 23.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    36.98
+   ]
   },
   {
    "origin": "München",
@@ -1909,7 +2749,11 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 18.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -1919,9 +2763,17 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 17.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    36.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1936,7 +2788,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 14.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T20:19:00",
@@ -1946,9 +2802,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 23.99,
     "durH": 1.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    38.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1963,7 +2827,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 17.99,
     "durH": 0.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:17:00",
@@ -1973,9 +2841,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 21.99,
     "durH": 1,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -1990,7 +2866,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 16.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     16.99,
+     16.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -2000,9 +2880,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 22.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    39.98,
+    39.98
+   ]
   },
   {
    "origin": "München",
@@ -2017,7 +2905,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 21.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T18:04:00",
@@ -2027,9 +2919,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 17.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    39.98
+   ]
   },
   {
    "origin": "München",
@@ -2044,7 +2944,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:13:00",
@@ -2054,9 +2958,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 19.99,
     "durH": 4.8,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    39.98,
+    39.98
+   ]
   },
   {
    "origin": "München",
@@ -2071,7 +2983,11 @@ window.BAHN_DATA = {
     "trains": "ICE 524",
     "price": 19.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:01:00",
@@ -2081,9 +2997,17 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 19.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    39.98
+   ]
   },
   {
    "origin": "München",
@@ -2098,7 +3022,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:13:00",
@@ -2108,9 +3036,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 19.99,
     "durH": 4.8,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    39.98,
+    39.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2125,7 +3061,11 @@ window.BAHN_DATA = {
     "trains": "ICE 79",
     "price": 17.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:08:00",
@@ -2135,9 +3075,17 @@ window.BAHN_DATA = {
     "trains": "ICE 576",
     "price": 23.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    41.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2152,7 +3100,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:56:00",
@@ -2162,9 +3114,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    42.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2179,7 +3139,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 14.99,
     "durH": 1.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:08:00",
@@ -2189,9 +3153,17 @@ window.BAHN_DATA = {
     "trains": "ICE 576",
     "price": 27.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -2206,7 +3178,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 14.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:01:00",
@@ -2216,9 +3192,17 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 27.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    42.98
+   ]
   },
   {
    "origin": "München",
@@ -2233,7 +3217,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 14.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -2243,9 +3231,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 27.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    42.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2260,7 +3256,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1687",
     "price": 14.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:08:00",
@@ -2270,9 +3270,17 @@ window.BAHN_DATA = {
     "trains": "ICE 578",
     "price": 28.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    43.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2287,7 +3295,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 14.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:08:00",
@@ -2297,9 +3309,17 @@ window.BAHN_DATA = {
     "trains": "ICE 578",
     "price": 28.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    43.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2314,7 +3334,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 21.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     21.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:33:00",
@@ -2324,9 +3348,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 21.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    43.98
+   ]
   },
   {
    "origin": "München",
@@ -2341,7 +3373,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1297",
     "price": 18.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     18.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:00:00",
@@ -2351,9 +3387,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 24.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    43.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2368,7 +3412,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2587",
     "price": 21.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     21.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:33:00",
@@ -2378,9 +3426,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 22.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    44.98
+   ]
   },
   {
    "origin": "München",
@@ -2395,7 +3451,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 19.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -2405,9 +3465,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    44.98
+   ]
   },
   {
    "origin": "München",
@@ -2422,7 +3490,11 @@ window.BAHN_DATA = {
     "trains": "ICE 904",
     "price": 17.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:01:00",
@@ -2432,9 +3504,17 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 27.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    24.98,
+    45.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2449,7 +3529,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:56:00",
@@ -2459,9 +3543,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    46.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2476,7 +3568,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:56:00",
@@ -2486,9 +3582,17 @@ window.BAHN_DATA = {
     "trains": "ICE 518",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    46.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2503,7 +3607,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:56:00",
@@ -2513,9 +3621,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    46.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2530,7 +3646,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:56:00",
@@ -2540,9 +3660,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    46.98
+   ]
   },
   {
    "origin": "München",
@@ -2557,7 +3685,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 21.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     21.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:00:00",
@@ -2567,9 +3699,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 24.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    46.98
+   ]
   },
   {
    "origin": "München",
@@ -2584,7 +3724,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1297",
     "price": 14.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:07:00",
@@ -2594,9 +3738,17 @@ window.BAHN_DATA = {
     "trains": "79040",
     "price": 32,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     32
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    25.98,
+    46.99
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2611,7 +3763,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 24.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:08:00",
@@ -2621,9 +3777,17 @@ window.BAHN_DATA = {
     "trains": "ICE 72",
     "price": 22.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     22.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2638,7 +3802,11 @@ window.BAHN_DATA = {
     "trains": "ICE 79",
     "price": 17.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:08:00",
@@ -2648,9 +3816,17 @@ window.BAHN_DATA = {
     "trains": "ECE 72",
     "price": 29.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    47.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2665,7 +3841,11 @@ window.BAHN_DATA = {
     "trains": "ICE 79",
     "price": 17.99,
     "durH": 5.2,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:46:00",
@@ -2675,9 +3855,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 29.99,
     "durH": 3.7,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -2692,7 +3880,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 23.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T18:00:00",
@@ -2702,9 +3894,17 @@ window.BAHN_DATA = {
     "trains": "RJ 112",
     "price": 23.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -2719,7 +3919,11 @@ window.BAHN_DATA = {
     "trains": "ICE 990",
     "price": 17.99,
     "durH": 3.5,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T17:57:00",
@@ -2729,9 +3933,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 29.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -2746,7 +3958,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:13:00",
@@ -2756,9 +3972,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 27.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -2773,7 +3997,11 @@ window.BAHN_DATA = {
     "trains": "EC 1219",
     "price": 19.99,
     "durH": 4.4,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T17:13:00",
@@ -2783,9 +4011,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 27.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    47.98
+   ]
   },
   {
    "origin": "München",
@@ -2800,7 +4036,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T17:13:00",
@@ -2810,9 +4050,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 27.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    47.98,
+    47.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2827,7 +4075,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 19.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:56:00",
@@ -2837,9 +4089,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    48.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2854,7 +4114,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 19.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:56:00",
@@ -2864,9 +4128,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 28.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    48.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2881,7 +4153,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T22:53:00",
@@ -2891,9 +4167,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2584",
     "price": 21.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2908,7 +4192,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T18:33:00",
@@ -2918,9 +4206,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 21.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    49.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2935,7 +4231,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:56:00",
@@ -2945,9 +4245,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 24.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    49.98
+   ]
   },
   {
    "origin": "München",
@@ -2962,7 +4270,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1183",
     "price": 25.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     25.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T18:42:00",
@@ -2972,9 +4284,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 24.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     24.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    50.98,
+    50.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -2989,7 +4309,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 19.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:56:00",
@@ -2999,9 +4323,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 31.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     31.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -3016,7 +4348,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 14.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     14.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:55:00",
@@ -3026,9 +4362,17 @@ window.BAHN_DATA = {
     "trains": "ICE 601",
     "price": 36.99,
     "durH": 1.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     36.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    51.98
+   ]
   },
   {
    "origin": "München",
@@ -3043,7 +4387,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2592",
     "price": 24.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:17:00",
@@ -3053,9 +4401,17 @@ window.BAHN_DATA = {
     "trains": "ICE 611",
     "price": 27.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    52.98
+   ]
   },
   {
    "origin": "München",
@@ -3070,7 +4426,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 22.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T17:57:00",
@@ -3080,9 +4440,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 29.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    52.98,
+    52.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3097,7 +4465,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 3.8,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:34:00",
@@ -3107,9 +4479,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 35.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     35.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    53.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3124,7 +4504,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:11:00",
@@ -3134,9 +4518,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 36.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     36.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    54.98
+   ]
   },
   {
    "origin": "München",
@@ -3151,7 +4543,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 23.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:07:00",
@@ -3161,9 +4557,17 @@ window.BAHN_DATA = {
     "trains": "79040",
     "price": 32,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     32
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    28.98,
+    55.99
+   ]
   },
   {
    "origin": "München",
@@ -3178,7 +4582,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 49.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T18:35:00",
@@ -3188,9 +4596,17 @@ window.BAHN_DATA = {
     "trains": "ICE 729",
     "price": 6.99,
     "durH": 5.4,
-    "low": true
+    "low": true,
+    "rng": [
+     6.99,
+     6.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    56.98,
+    56.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3205,7 +4621,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 29.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T20:56:00",
@@ -3215,9 +4635,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 27.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    57.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3232,7 +4660,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -3242,9 +4674,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 22.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    57.98,
+    57.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3259,7 +4699,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:33:00",
@@ -3269,9 +4713,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 22.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    57.98,
+    57.98
+   ]
   },
   {
    "origin": "München",
@@ -3286,7 +4738,11 @@ window.BAHN_DATA = {
     "trains": "ICE 990",
     "price": 17.99,
     "durH": 3.4,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T16:57:00",
@@ -3296,9 +4752,17 @@ window.BAHN_DATA = {
     "trains": "ICE 723",
     "price": 39.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    57.98
+   ]
   },
   {
    "origin": "München",
@@ -3313,7 +4777,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 29.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T17:13:00",
@@ -3323,9 +4791,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 27.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    57.98
+   ]
   },
   {
    "origin": "München",
@@ -3340,7 +4816,11 @@ window.BAHN_DATA = {
     "trains": "ICE 520",
     "price": 17.99,
     "durH": 3.9,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:57:00",
@@ -3350,9 +4830,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 39.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    57.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3367,7 +4855,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 35.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     35.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T21:35:00",
@@ -3377,9 +4869,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2584",
     "price": 22.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     22.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    58.98
+   ]
   },
   {
    "origin": "München",
@@ -3394,7 +4894,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1183",
     "price": 33.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     33.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T18:42:00",
@@ -3404,9 +4908,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 24.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     24.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    58.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3421,7 +4933,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 29.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T18:11:00",
@@ -3431,9 +4947,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 29.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    59.98
+   ]
   },
   {
    "origin": "München",
@@ -3448,7 +4972,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 31.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     31.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T20:17:00",
@@ -3458,9 +4986,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 27.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    59.98
+   ]
   },
   {
    "origin": "München",
@@ -3475,7 +5011,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:13:00",
@@ -3485,9 +5025,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 39.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    59.98
+   ]
   },
   {
    "origin": "München",
@@ -3502,7 +5050,11 @@ window.BAHN_DATA = {
     "trains": "ICE 510",
     "price": 29.99,
     "durH": 4.7,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:35:00",
@@ -3512,9 +5064,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 29.99,
     "durH": 4.7,
-    "low": true
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    59.98,
+    59.98
+   ]
   },
   {
    "origin": "München",
@@ -3529,7 +5089,11 @@ window.BAHN_DATA = {
     "trains": "EC 1219",
     "price": 19.99,
     "durH": 4.4,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T17:13:00",
@@ -3539,9 +5103,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 39.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    59.98
+   ]
   },
   {
    "origin": "München",
@@ -3556,7 +5128,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 19.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T17:13:00",
@@ -3566,9 +5142,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 39.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    59.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3583,7 +5167,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 29.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:56:00",
@@ -3593,9 +5181,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 31.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     31.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    61.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3610,7 +5206,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 5.4,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:11:00",
@@ -3620,9 +5220,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 43.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    61.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3637,7 +5245,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 4.2,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:34:00",
@@ -3647,9 +5259,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 43.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    61.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3664,7 +5284,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 43.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T21:16:00",
@@ -3674,9 +5298,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2584",
     "price": 17.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    61.98
+   ]
   },
   {
    "origin": "München",
@@ -3691,7 +5323,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1183",
     "price": 33.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     33.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:42:00",
@@ -3701,9 +5337,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 27.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    61.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3718,7 +5362,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -3728,9 +5376,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 34.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    62.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3745,7 +5401,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 32.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     32.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:34:00",
@@ -3755,9 +5415,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2506",
     "price": 29.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    62.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3772,7 +5440,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 23.99,
     "durH": 1.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:08:00",
@@ -3782,9 +5454,17 @@ window.BAHN_DATA = {
     "trains": "ICE 72",
     "price": 39.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    32.98,
+    63.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3799,7 +5479,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 24.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     24.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:08:00",
@@ -3809,9 +5493,17 @@ window.BAHN_DATA = {
     "trains": "ICE 72",
     "price": 39.99,
     "durH": 1.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    30.98,
+    64.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3826,7 +5518,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 34.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T20:11:00",
@@ -3836,9 +5532,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 29.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    64.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3853,7 +5557,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 34.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:11:00",
@@ -3863,9 +5571,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2506",
     "price": 29.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    64.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3880,7 +5596,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T21:16:00",
@@ -3890,9 +5610,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2584",
     "price": 22.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     22.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    64.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3907,7 +5635,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:37:00",
@@ -3917,9 +5649,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 37.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     37.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    65.98
+   ]
   },
   {
    "origin": "München",
@@ -3934,7 +5674,11 @@ window.BAHN_DATA = {
     "trains": "ICE 990",
     "price": 17.99,
     "durH": 3.4,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:10:00",
@@ -3944,9 +5688,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1291",
     "price": 47.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     47.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    65.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3961,7 +5713,11 @@ window.BAHN_DATA = {
     "trains": "ICE 79",
     "price": 17.99,
     "durH": 4.5,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:46:00",
@@ -3971,9 +5727,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 49.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    67.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -3988,7 +5752,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 17.99,
     "durH": 4.4,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:11:00",
@@ -3998,9 +5766,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    67.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4015,7 +5791,11 @@ window.BAHN_DATA = {
     "trains": "ICE 921",
     "price": 17.99,
     "durH": 4.3,
-    "low": true
+    "low": true,
+    "rng": [
+     17.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:11:00",
@@ -4025,9 +5805,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    67.98
+   ]
   },
   {
    "origin": "München",
@@ -4042,7 +5830,11 @@ window.BAHN_DATA = {
     "trains": "EC 1219",
     "price": 27.99,
     "durH": 4.4,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:13:00",
@@ -4052,9 +5844,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 39.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    67.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4069,7 +5869,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 32.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     32.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:34:00",
@@ -4079,9 +5883,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 35.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     35.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    68.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4096,7 +5908,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 36.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     36.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:34:00",
@@ -4106,9 +5922,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 32.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     32.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    69.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4123,7 +5947,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -4133,9 +5961,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 34.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    69.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4150,7 +5986,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 29.99,
     "durH": 8.1,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:23:00",
@@ -4160,9 +6000,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    69.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4177,7 +6025,11 @@ window.BAHN_DATA = {
     "trains": "ICE 777",
     "price": 29.99,
     "durH": 5.4,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:23:00",
@@ -4187,9 +6039,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    69.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4204,7 +6064,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 29.99,
     "durH": 3.2,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:16:00",
@@ -4214,9 +6078,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 39.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    69.98
+   ]
   },
   {
    "origin": "München",
@@ -4231,7 +6103,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 49.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T20:42:00",
@@ -4241,9 +6117,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 19.99,
     "durH": 2.1,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    69.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4258,7 +6142,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 34.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:11:00",
@@ -4268,9 +6156,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 36.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     36.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4285,7 +6181,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1205",
     "price": 43.99,
     "durH": 2.1,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:42:00",
@@ -4295,9 +6195,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 27.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     27.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4312,7 +6220,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 41.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:57:00",
@@ -4322,9 +6234,17 @@ window.BAHN_DATA = {
     "trains": "ICE 729",
     "price": 29.99,
     "durH": 3.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4339,7 +6259,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 35.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     35.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:57:00",
@@ -4349,9 +6273,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 35.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     35.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4366,7 +6298,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1205",
     "price": 19.99,
     "durH": 2.1,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:42:00",
@@ -4376,9 +6312,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4393,7 +6337,11 @@ window.BAHN_DATA = {
     "trains": "RJ 289",
     "price": 19.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:42:00",
@@ -4403,9 +6351,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4420,7 +6376,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 49.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T20:42:00",
@@ -4430,9 +6390,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 21.99,
     "durH": 1.9,
-    "low": true
+    "low": false,
+    "rng": [
+     19.99,
+     21.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    71.98
+   ]
   },
   {
    "origin": "München",
@@ -4447,7 +6415,11 @@ window.BAHN_DATA = {
     "trains": "RJ 289",
     "price": 19.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:42:00",
@@ -4457,9 +6429,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    71.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4474,7 +6454,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 22.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     22.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:34:00",
@@ -4484,9 +6468,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 49.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    72.98
+   ]
   },
   {
    "origin": "München",
@@ -4501,7 +6493,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 43.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T20:42:00",
@@ -4511,9 +6507,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 28.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     28.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    72.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4528,7 +6532,11 @@ window.BAHN_DATA = {
     "trains": "ICE 209",
     "price": 23.99,
     "durH": 4.3,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:11:00",
@@ -4538,9 +6546,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    73.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4555,7 +6571,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 45.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T21:56:00",
@@ -4565,9 +6585,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 29.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    13.98,
+    75.98
+   ]
   },
   {
    "origin": "München",
@@ -4582,7 +6610,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 35.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     35.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:57:00",
@@ -4592,9 +6624,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 39.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    75.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4609,7 +6649,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:34:00",
@@ -4619,9 +6663,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 49.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    77.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4636,7 +6688,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 47.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     47.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:46:00",
@@ -4646,9 +6702,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 29.99,
     "durH": 3.7,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    77.98
+   ]
   },
   {
    "origin": "München",
@@ -4663,7 +6727,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 17.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     17.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:17:00",
@@ -4673,9 +6741,17 @@ window.BAHN_DATA = {
     "trains": "ICE 597",
     "price": 59.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    77.98
+   ]
   },
   {
    "origin": "München",
@@ -4690,7 +6766,11 @@ window.BAHN_DATA = {
     "trains": "RJ 289",
     "price": 19.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T16:42:00",
@@ -4700,9 +6780,17 @@ window.BAHN_DATA = {
     "trains": "RJ 84",
     "price": 58.7,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     58.7
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    78.69
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4717,7 +6805,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 34.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:11:00",
@@ -4727,9 +6819,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 43.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    78.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4744,7 +6844,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 34.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:11:00",
@@ -4754,9 +6858,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 43.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    78.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4771,7 +6883,11 @@ window.BAHN_DATA = {
     "trains": "ICE 921",
     "price": 25.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     25.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:56:00",
@@ -4781,9 +6897,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 53.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     53.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    35.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4798,7 +6922,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 37.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     37.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:34:00",
@@ -4808,9 +6936,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 41.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     41.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4825,7 +6961,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 29.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:34:00",
@@ -4835,9 +6975,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2588",
     "price": 49.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4852,7 +7000,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T20:46:00",
@@ -4862,9 +7014,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 3.9,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4879,7 +7039,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 29.99,
     "durH": 7.8,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:23:00",
@@ -4889,9 +7053,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 49.99,
     "durH": 5.3,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4906,7 +7078,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 29.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:11:00",
@@ -4916,9 +7092,17 @@ window.BAHN_DATA = {
     "trains": "ICE 516",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4933,7 +7117,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:02:00",
@@ -4943,9 +7131,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4960,7 +7156,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 49.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:23:00",
@@ -4970,9 +7170,17 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 29.99,
     "durH": 5.1,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    79.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -4987,7 +7195,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 39.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:16:00",
@@ -4997,9 +7209,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 39.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -5014,7 +7234,11 @@ window.BAHN_DATA = {
     "trains": "ICE 990",
     "price": 23.99,
     "durH": 3.4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:11:00",
@@ -5024,9 +7248,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1097",
     "price": 55.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -5041,7 +7273,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 49.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:35:00",
@@ -5051,9 +7287,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 29.99,
     "durH": 4.7,
-    "low": true
+    "low": false,
+    "rng": [
+     6.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    79.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -5068,7 +7312,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1602",
     "price": 39.99,
     "durH": 4,
-    "low": true
+    "low": true,
+    "rng": [
+     39.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:37:00",
@@ -5078,9 +7326,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1105",
     "price": 39.99,
     "durH": 5,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    79.98,
+    79.98
+   ]
   },
   {
    "origin": "München",
@@ -5095,7 +7351,11 @@ window.BAHN_DATA = {
     "trains": "RJ 289",
     "price": 19.99,
     "durH": 2.2,
-    "low": true
+    "low": true,
+    "rng": [
+     19.99,
+     19.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T16:42:00",
@@ -5105,9 +7365,17 @@ window.BAHN_DATA = {
     "trains": "RJ 84",
     "price": 60.6,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    54.98,
+    80.59
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5122,7 +7390,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2505",
     "price": 36.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     36.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:34:00",
@@ -5132,9 +7404,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2504",
     "price": 43.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    80.98
+   ]
   },
   {
    "origin": "München",
@@ -5149,7 +7429,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 56.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T22:28:00",
@@ -5159,9 +7443,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 23.99,
     "durH": 7.7,
-    "low": true
+    "low": true,
+    "rng": [
+     23.99,
+     23.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    80.98,
+    80.98
+   ]
   },
   {
    "origin": "München",
@@ -5176,7 +7468,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 41.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T16:57:00",
@@ -5186,9 +7482,17 @@ window.BAHN_DATA = {
     "trains": "ICE 723",
     "price": 39.99,
     "durH": 3.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    81.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5203,7 +7507,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     27.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:37:00",
@@ -5213,9 +7521,17 @@ window.BAHN_DATA = {
     "trains": "ICE 506",
     "price": 55.99,
     "durH": 2.4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    83.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5230,7 +7546,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 39.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:11:00",
@@ -5240,9 +7560,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 43.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     43.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    83.98
+   ]
   },
   {
    "origin": "München",
@@ -5257,7 +7585,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 43.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T20:42:00",
@@ -5267,9 +7599,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 39.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    50.98,
+    83.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5284,7 +7624,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 34.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:11:00",
@@ -5294,9 +7638,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    84.98
+   ]
   },
   {
    "origin": "München",
@@ -5311,7 +7663,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 29.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:13:00",
@@ -5321,9 +7677,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 54.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     54.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    84.98
+   ]
   },
   {
    "origin": "München",
@@ -5338,7 +7702,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1183",
     "price": 25.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     25.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T16:42:00",
@@ -5348,9 +7716,17 @@ window.BAHN_DATA = {
     "trains": "RJ 84",
     "price": 60.6,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     60.6
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    86.59
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5365,7 +7741,11 @@ window.BAHN_DATA = {
     "trains": "ICE 79",
     "price": 29.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:46:00",
@@ -5375,9 +7755,17 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 56.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    86.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5392,7 +7780,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 37.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     37.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:34:00",
@@ -5402,9 +7794,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 49.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5419,7 +7819,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 39.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:46:00",
@@ -5429,9 +7833,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 47.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     47.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5446,7 +7858,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 47.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     47.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T18:02:00",
@@ -5456,9 +7872,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5473,7 +7897,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 39.99,
     "durH": 3.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:16:00",
@@ -5483,9 +7911,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 47.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     47.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    87.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5500,7 +7936,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 39.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:11:00",
@@ -5510,9 +7950,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 49.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    89.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5527,7 +7975,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 39.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:46:00",
@@ -5537,9 +7989,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 49.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    89.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5554,7 +8014,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 49.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T19:23:00",
@@ -5564,9 +8028,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 5.3,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    89.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5581,7 +8053,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 49.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:23:00",
@@ -5591,9 +8067,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    89.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5608,7 +8092,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 29.99,
     "durH": 6.3,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:05:00",
@@ -5618,9 +8106,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 59.99,
     "durH": 5.3,
-    "low": true
+    "low": true,
+    "rng": [
+     59.99,
+     59.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    89.98,
+    89.98
+   ]
   },
   {
    "origin": "München",
@@ -5635,7 +8131,11 @@ window.BAHN_DATA = {
     "trains": "EC 1219",
     "price": 34.99,
     "durH": 4.4,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     34.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:13:00",
@@ -5645,9 +8145,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 54.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     54.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    89.98
+   ]
   },
   {
    "origin": "München",
@@ -5662,7 +8170,11 @@ window.BAHN_DATA = {
     "trains": "ICE 510",
     "price": 39.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:35:00",
@@ -5672,9 +8184,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 49.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    89.98
+   ]
   },
   {
    "origin": "München",
@@ -5689,7 +8209,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 39.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T16:35:00",
@@ -5699,9 +8223,17 @@ window.BAHN_DATA = {
     "trains": "ICE 725",
     "price": 49.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     49.99
+    ]
    },
-   "lowRt": true
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    89.98
+   ]
   },
   {
    "origin": "München",
@@ -5716,7 +8248,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 54.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     54.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:57:00",
@@ -5726,9 +8262,17 @@ window.BAHN_DATA = {
     "trains": "ICE 729",
     "price": 35.99,
     "durH": 3.9,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     35.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    90.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5743,7 +8287,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:37:00",
@@ -5753,9 +8301,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 49.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    34.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5770,7 +8326,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 29.99,
     "durH": 3.2,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:12:00",
@@ -5780,9 +8340,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 61.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    91.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5797,7 +8365,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 43.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:16:00",
@@ -5807,9 +8379,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 47.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     47.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    91.98
+   ]
   },
   {
    "origin": "München",
@@ -5824,7 +8404,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 31.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     31.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:17:00",
@@ -5834,9 +8418,17 @@ window.BAHN_DATA = {
     "trains": "ICE 597",
     "price": 59.99,
     "durH": 2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    31.98,
+    91.98
+   ]
   },
   {
    "origin": "München",
@@ -5851,7 +8443,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 56.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T17:13:00",
@@ -5861,9 +8457,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 37.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     37.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    94.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5878,7 +8482,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 39.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:37:00",
@@ -5888,9 +8496,17 @@ window.BAHN_DATA = {
     "trains": "ICE 506",
     "price": 55.99,
     "durH": 2.4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    95.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5905,7 +8521,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 29.99,
     "durH": 5.4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:02:00",
@@ -5915,9 +8535,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 65.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     65.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    95.98
+   ]
   },
   {
    "origin": "München",
@@ -5932,7 +8560,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 43.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:42:00",
@@ -5942,9 +8574,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    95.98
+   ]
   },
   {
    "origin": "München",
@@ -5959,7 +8599,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 65.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T22:28:00",
@@ -5969,9 +8613,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 29.99,
     "durH": 7.8,
-    "low": true
+    "low": false,
+    "rng": [
+     23.99,
+     29.99
+    ]
    },
-   "lowRt": true
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    95.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -5986,7 +8638,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T18:46:00",
@@ -5996,9 +8652,17 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 56.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    96.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6013,7 +8677,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 56.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:23:00",
@@ -6023,9 +8691,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 39.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    96.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6040,7 +8716,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 56.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:23:00",
@@ -6050,9 +8730,17 @@ window.BAHN_DATA = {
     "trains": "ICE 574",
     "price": 39.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    96.98
+   ]
   },
   {
    "origin": "München",
@@ -6067,7 +8755,11 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 39.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-29T18:35:00",
@@ -6077,9 +8769,17 @@ window.BAHN_DATA = {
     "trains": "ICE 729",
     "price": 56.99,
     "durH": 5.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    96.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6094,7 +8794,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 35.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     35.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T18:12:00",
@@ -6104,9 +8808,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 61.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    97.98
+   ]
   },
   {
    "origin": "München",
@@ -6121,7 +8833,11 @@ window.BAHN_DATA = {
     "trains": "ECE 94",
     "price": 35.99,
     "durH": 3.7,
-    "low": true
+    "low": true,
+    "rng": [
+     35.99,
+     35.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:32:00",
@@ -6131,9 +8847,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 61.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     61.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    97.98,
+    97.98
+   ]
   },
   {
    "origin": "München",
@@ -6148,7 +8872,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1602",
     "price": 52.99,
     "durH": 5.7,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     52.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:09:00",
@@ -6158,9 +8886,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 45.99,
     "durH": 6.9,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     45.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    98.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6175,7 +8911,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 45.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     45.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:56:00",
@@ -6185,9 +8925,17 @@ window.BAHN_DATA = {
     "trains": "ICE 106",
     "price": 53.99,
     "durH": 2.3,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     53.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    26.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6202,7 +8950,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 49.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T18:12:00",
@@ -6212,9 +8964,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 49.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6229,7 +8989,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 39.99,
     "durH": 7.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:23:00",
@@ -6239,9 +9003,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 59.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6256,7 +9028,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 49.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:23:00",
@@ -6266,9 +9042,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 49.99,
     "durH": 5.3,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6283,7 +9067,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 39.99,
     "durH": 6.3,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T16:26:00",
@@ -6293,9 +9081,17 @@ window.BAHN_DATA = {
     "trains": "ICE 90",
     "price": 59.99,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     59.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6310,7 +9106,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 29.99,
     "durH": 8.3,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:28:00",
@@ -6320,9 +9120,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 69.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     69.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    99.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -6337,7 +9145,11 @@ window.BAHN_DATA = {
     "trains": "ICE 698",
     "price": 23.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     23.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:11:00",
@@ -6347,9 +9159,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1097",
     "price": 75.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    99.98
+   ]
   },
   {
    "origin": "München",
@@ -6364,7 +9184,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1602",
     "price": 39.99,
     "durH": 4,
-    "low": true
+    "low": true,
+    "rng": [
+     39.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:36:00",
@@ -6374,9 +9198,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 59.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    99.98,
+    99.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6391,7 +9223,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 39.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:16:00",
@@ -6401,9 +9237,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 61.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    101.98
+   ]
   },
   {
    "origin": "München",
@@ -6418,7 +9262,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 55.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     55.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:32:00",
@@ -6428,9 +9276,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 45.99,
     "durH": 3.5,
-    "low": true
+    "low": true,
+    "rng": [
+     45.99,
+     45.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    101.98,
+    101.98
+   ]
   },
   {
    "origin": "München",
@@ -6445,7 +9301,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 49.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T18:42:00",
@@ -6455,9 +9315,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    101.98
+   ]
   },
   {
    "origin": "München",
@@ -6472,7 +9340,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 49.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:42:00",
@@ -6482,9 +9354,17 @@ window.BAHN_DATA = {
     "trains": "RJ 82",
     "price": 51.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    101.98
+   ]
   },
   {
    "origin": "München",
@@ -6499,7 +9379,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 43.99,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     43.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T16:42:00",
@@ -6509,9 +9393,17 @@ window.BAHN_DATA = {
     "trains": "RJ 84",
     "price": 58.7,
     "durH": 1.9,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     58.7
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    58.98,
+    102.69
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6526,7 +9418,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:16:00",
@@ -6536,9 +9432,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2590",
     "price": 61.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    103.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6553,7 +9457,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 39.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T18:02:00",
@@ -6563,9 +9471,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 65.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     65.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    105.98
+   ]
   },
   {
    "origin": "München",
@@ -6580,7 +9496,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 75.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T22:45:00",
@@ -6590,9 +9510,17 @@ window.BAHN_DATA = {
     "trains": "ICE 905",
     "price": 29.99,
     "durH": 8.5,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    105.98
+   ]
   },
   {
    "origin": "München",
@@ -6607,7 +9535,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 75.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T22:28:00",
@@ -6617,9 +9549,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 29.99,
     "durH": 7.7,
-    "low": true
+    "low": false,
+    "rng": [
+     23.99,
+     29.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    105.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6634,7 +9574,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 56.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T19:23:00",
@@ -6644,9 +9588,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 49.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    106.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6661,7 +9613,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 29.99,
     "durH": 6.8,
-    "low": true
+    "low": true,
+    "rng": [
+     29.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T16:26:00",
@@ -6671,9 +9627,17 @@ window.BAHN_DATA = {
     "trains": "ICE 90",
     "price": 79.99,
     "durH": 5.7,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -6688,7 +9652,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 59.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:13:00",
@@ -6698,9 +9666,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 49.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -6715,7 +9691,11 @@ window.BAHN_DATA = {
     "trains": "ICE 510",
     "price": 39.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:54:00",
@@ -6725,9 +9705,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 69.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -6742,7 +9730,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1502",
     "price": 49.99,
     "durH": 4,
-    "low": true
+    "low": false,
+    "rng": [
+     39.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T19:36:00",
@@ -6752,9 +9744,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 59.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    109.98,
+    109.98
+   ]
   },
   {
    "origin": "München",
@@ -6769,7 +9769,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:35:00",
@@ -6779,9 +9783,17 @@ window.BAHN_DATA = {
     "trains": "EX 352",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6796,7 +9808,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:35:00",
@@ -6806,9 +9822,17 @@ window.BAHN_DATA = {
     "trains": "EX 350",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6823,7 +9847,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.6,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:35:00",
@@ -6833,9 +9861,17 @@ window.BAHN_DATA = {
     "trains": "EX 352",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6850,7 +9886,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.6,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-08-22T17:35:00",
@@ -6860,9 +9900,17 @@ window.BAHN_DATA = {
     "trains": "EX 350",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6877,7 +9925,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.6,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:35:00",
@@ -6887,9 +9939,17 @@ window.BAHN_DATA = {
     "trains": "EX 352",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6904,7 +9964,11 @@ window.BAHN_DATA = {
     "trains": "353",
     "price": 55,
     "durH": 5.6,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
    "ret": {
     "dep": "2026-08-29T17:35:00",
@@ -6914,9 +9978,17 @@ window.BAHN_DATA = {
     "trains": "EX 350",
     "price": 55,
     "durH": 5.7,
-    "low": true
+    "low": true,
+    "rng": [
+     55.0,
+     55
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    110.0,
+    110
+   ]
   },
   {
    "origin": "München",
@@ -6931,7 +10003,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 54.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     54.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:11:00",
@@ -6941,9 +10017,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1097",
     "price": 55.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    110.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -6958,7 +10042,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 55.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     55.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T17:46:00",
@@ -6968,9 +10056,17 @@ window.BAHN_DATA = {
     "trains": "ECE 4",
     "price": 55.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    111.98
+   ]
   },
   {
    "origin": "München",
@@ -6985,7 +10081,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 56.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:13:00",
@@ -6995,9 +10095,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 54.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     54.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    111.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7012,7 +10120,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 49.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:51:00",
@@ -7022,9 +10134,17 @@ window.BAHN_DATA = {
     "trains": "ICE 90",
     "price": 63.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     63.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    113.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7039,7 +10159,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 49.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T18:51:00",
@@ -7049,9 +10173,17 @@ window.BAHN_DATA = {
     "trains": "ICE 90",
     "price": 63.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     63.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    113.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7066,7 +10198,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 56.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:23:00",
@@ -7076,9 +10212,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 59.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    116.98
+   ]
   },
   {
    "origin": "München",
@@ -7093,7 +10237,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 65.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:50:00",
@@ -7103,9 +10251,17 @@ window.BAHN_DATA = {
     "trains": "ICE 691",
     "price": 51.99,
     "durH": 3.4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     51.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    29.98,
+    117.98
+   ]
   },
   {
    "origin": "München",
@@ -7120,7 +10276,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 55.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     55.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T19:32:00",
@@ -7130,9 +10290,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 61.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     61.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    117.98,
+    117.98
+   ]
   },
   {
    "origin": "München",
@@ -7147,7 +10315,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 58.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     58.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:37:00",
@@ -7157,9 +10329,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 59.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    118.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7174,7 +10354,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 29.99,
     "durH": 5.5,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     29.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:46:00",
@@ -7184,9 +10368,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 89.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    119.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7201,7 +10393,11 @@ window.BAHN_DATA = {
     "trains": "ICE 777",
     "price": 49.99,
     "durH": 5.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:23:00",
@@ -7211,9 +10407,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 69.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    119.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7228,7 +10432,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 49.99,
     "durH": 8.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     49.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:28:00",
@@ -7238,9 +10446,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 69.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    119.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7255,7 +10471,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 39.99,
     "durH": 7.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:28:00",
@@ -7265,9 +10485,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 79.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    119.98
+   ]
   },
   {
    "origin": "München",
@@ -7282,7 +10510,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 39.99,
     "durH": 8.7,
-    "low": true
+    "low": true,
+    "rng": [
+     39.99,
+     39.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:45:00",
@@ -7292,9 +10524,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 79.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     79.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    119.98,
+    119.98
+   ]
   },
   {
    "origin": "München",
@@ -7309,7 +10549,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 58.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     58.99
+    ]
    },
    "ret": {
     "dep": "2026-08-22T19:37:00",
@@ -7319,9 +10563,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 60.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     60.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    119.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7336,7 +10588,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 65.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T19:23:00",
@@ -7346,9 +10602,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 56.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    122.98
+   ]
   },
   {
    "origin": "München",
@@ -7363,7 +10627,11 @@ window.BAHN_DATA = {
     "trains": "EC 1219",
     "price": 67.99,
     "durH": 4.4,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     67.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T17:13:00",
@@ -7373,9 +10641,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 54.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     54.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    122.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7390,7 +10666,11 @@ window.BAHN_DATA = {
     "trains": "ICE 921",
     "price": 54.99,
     "durH": 3.9,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     54.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:34:00",
@@ -7400,9 +10680,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 72.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    40.98,
+    127.98
+   ]
   },
   {
    "origin": "München",
@@ -7417,7 +10705,11 @@ window.BAHN_DATA = {
     "trains": "RJX 265",
     "price": 59.99,
     "durH": 4.5,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T17:13:00",
@@ -7427,9 +10719,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 67.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     67.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    127.98
+   ]
   },
   {
    "origin": "München",
@@ -7444,7 +10744,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 69.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T17:32:00",
@@ -7454,9 +10758,17 @@ window.BAHN_DATA = {
     "trains": "EC 197",
     "price": 57.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     57.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    101.98,
+    127.98
+   ]
   },
   {
    "origin": "München",
@@ -7471,7 +10783,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 75.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:37:00",
@@ -7481,9 +10797,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 53.99,
     "durH": 7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     53.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    129.98
+   ]
   },
   {
    "origin": "München",
@@ -7498,7 +10822,11 @@ window.BAHN_DATA = {
     "trains": "ICE 910",
     "price": 69.99,
     "durH": 4.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:54:00",
@@ -7508,9 +10836,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 59.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    129.98
+   ]
   },
   {
    "origin": "München",
@@ -7525,7 +10861,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1000",
     "price": 70.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     70.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T19:37:00",
@@ -7535,9 +10875,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 59.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    130.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7552,7 +10900,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 41.99,
     "durH": 1.8,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     41.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -7562,9 +10914,17 @@ window.BAHN_DATA = {
     "trains": "ICE 5324",
     "price": 89.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    39.98,
+    131.98
+   ]
   },
   {
    "origin": "München",
@@ -7579,7 +10939,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 71.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     71.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:37:00",
@@ -7589,9 +10953,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 61.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    133.98
+   ]
   },
   {
    "origin": "München",
@@ -7606,7 +10978,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 71.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     71.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T19:37:00",
@@ -7616,9 +10992,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 61.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    133.98
+   ]
   },
   {
    "origin": "München",
@@ -7633,7 +11017,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1602",
     "price": 52.99,
     "durH": 5.7,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     52.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:37:00",
@@ -7643,9 +11031,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1601",
     "price": 81.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    134.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7660,7 +11056,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 65.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:23:00",
@@ -7670,9 +11070,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 69.99,
     "durH": 5.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -7687,7 +11095,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 75.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:32:00",
@@ -7697,9 +11109,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 59.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    101.98,
+    135.98
+   ]
   },
   {
    "origin": "München",
@@ -7714,7 +11134,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1502",
     "price": 84.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     84.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:37:00",
@@ -7724,9 +11148,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 53.99,
     "durH": 7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     53.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    138.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7741,7 +11173,11 @@ window.BAHN_DATA = {
     "trains": "ICE 921",
     "price": 59.99,
     "durH": 4.3,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:11:00",
@@ -7751,9 +11187,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 79.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -7768,7 +11212,11 @@ window.BAHN_DATA = {
     "trains": "ECE 96",
     "price": 69.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:32:00",
@@ -7778,9 +11226,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 69.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    97.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -7795,7 +11251,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 69.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:32:00",
@@ -7805,9 +11265,17 @@ window.BAHN_DATA = {
     "trains": "EC 199",
     "price": 69.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    117.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -7822,7 +11290,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1502",
     "price": 77.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     77.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T19:37:00",
@@ -7832,9 +11304,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1605",
     "price": 61.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     61.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    139.98
+   ]
   },
   {
    "origin": "München",
@@ -7849,7 +11329,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 67.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     67.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:36:00",
@@ -7859,9 +11343,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1603",
     "price": 72.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     72.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    140.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7876,7 +11368,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 75.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:34:00",
@@ -7886,9 +11382,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 65.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     65.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    141.98
+   ]
   },
   {
    "origin": "München",
@@ -7903,7 +11407,11 @@ window.BAHN_DATA = {
     "trains": "ICE 2090",
     "price": 65.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:11:00",
@@ -7913,9 +11421,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1097",
     "price": 75.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     75.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    141.98
+   ]
   },
   {
    "origin": "München",
@@ -7930,7 +11446,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1604",
     "price": 67.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     67.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:37:00",
@@ -7940,9 +11460,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1105",
     "price": 76.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     76.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    144.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -7957,7 +11485,11 @@ window.BAHN_DATA = {
     "trains": "ICE 71",
     "price": 55.99,
     "durH": 3.8,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     55.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:46:00",
@@ -7967,9 +11499,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 89.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    145.98
+   ]
   },
   {
    "origin": "München",
@@ -7984,7 +11524,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 65.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     65.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:45:00",
@@ -7994,9 +11538,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 79.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     79.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    145.98,
+    145.98
+   ]
   },
   {
    "origin": "München",
@@ -8011,7 +11563,11 @@ window.BAHN_DATA = {
     "trains": "ICE 904",
     "price": 69.99,
     "durH": 7.8,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T18:37:00",
@@ -8021,9 +11577,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1105",
     "price": 76.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     76.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    146.98
+   ]
   },
   {
    "origin": "München",
@@ -8038,7 +11602,11 @@ window.BAHN_DATA = {
     "trains": "IC 406",
     "price": 79.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     79.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T17:13:00",
@@ -8048,9 +11616,17 @@ window.BAHN_DATA = {
     "trains": "EC 1210",
     "price": 67.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     19.99,
+     67.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    147.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8065,7 +11641,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 75.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:34:00",
@@ -8075,9 +11655,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 72.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     72.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    55.98,
+    148.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8092,7 +11680,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 59.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:28:00",
@@ -8102,9 +11694,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 89.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     89.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    149.98,
+    149.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8119,7 +11719,11 @@ window.BAHN_DATA = {
     "trains": "ICE 517",
     "price": 59.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T22:01:00",
@@ -8129,9 +11733,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 89.99,
     "durH": 8.9,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     89.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    149.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -8146,7 +11758,11 @@ window.BAHN_DATA = {
     "trains": "ECE 94",
     "price": 69.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:32:00",
@@ -8156,9 +11772,17 @@ window.BAHN_DATA = {
     "trains": "EC 195",
     "price": 79.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    97.98,
+    149.98
+   ]
   },
   {
    "origin": "München",
@@ -8173,7 +11797,11 @@ window.BAHN_DATA = {
     "trains": "ICE 522",
     "price": 59.99,
     "durH": 4.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     59.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:54:00",
@@ -8183,9 +11811,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 89.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    149.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8200,7 +11836,11 @@ window.BAHN_DATA = {
     "trains": "ICE 809",
     "price": 62.99,
     "durH": 2.1,
-    "low": false
+    "low": false,
+    "rng": [
+     16.99,
+     62.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T16:34:00",
@@ -8210,9 +11850,17 @@ window.BAHN_DATA = {
     "trains": "ICE 5324",
     "price": 89.99,
     "durH": 2.2,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    57.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8227,7 +11875,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 89.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T20:11:00",
@@ -8237,9 +11889,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 62.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     62.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    52.98,
+    152.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8254,7 +11914,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 89.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T21:16:00",
@@ -8264,9 +11928,17 @@ window.BAHN_DATA = {
     "trains": "ICE 2558",
     "price": 65.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     65.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    36.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -8281,7 +11953,11 @@ window.BAHN_DATA = {
     "trains": "ECE 198",
     "price": 75.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     35.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:32:00",
@@ -8291,9 +11967,17 @@ window.BAHN_DATA = {
     "trains": "EC 195",
     "price": 79.99,
     "durH": 3.7,
-    "low": false
+    "low": false,
+    "rng": [
+     45.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    117.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -8308,7 +11992,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 115.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T17:54:00",
@@ -8318,9 +12006,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 39.99,
     "durH": 4.6,
-    "low": true
+    "low": false,
+    "rng": [
+     6.99,
+     39.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    155.98
+   ]
   },
   {
    "origin": "München",
@@ -8335,7 +12031,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1502",
     "price": 76.99,
     "durH": 4,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     76.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:37:00",
@@ -8345,9 +12045,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1601",
     "price": 81.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     81.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    109.98,
+    158.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8362,7 +12070,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 89.99,
     "durH": 7.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:23:00",
@@ -8372,9 +12084,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 69.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    159.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8389,7 +12109,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 69.99,
     "durH": 7.8,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:28:00",
@@ -8399,9 +12123,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 89.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    159.98
+   ]
   },
   {
    "origin": "München",
@@ -8416,7 +12148,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 69.99,
     "durH": 9,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     69.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:45:00",
@@ -8426,9 +12162,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 89.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    159.98
+   ]
   },
   {
    "origin": "München",
@@ -8443,7 +12187,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 75.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     75.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T15:45:00",
@@ -8453,9 +12201,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 89.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    165.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8470,7 +12226,11 @@ window.BAHN_DATA = {
     "trains": "ICE 105",
     "price": 89.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:11:00",
@@ -8480,9 +12240,17 @@ window.BAHN_DATA = {
     "trains": "ICE 104",
     "price": 79.99,
     "durH": 4.1,
-    "low": false
+    "low": false,
+    "rng": [
+     22.99,
+     79.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    169.98
+   ]
   },
   {
    "origin": "München",
@@ -8497,7 +12265,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 119.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     119.99
+    ]
    },
    "ret": {
     "dep": "2026-08-08T22:28:00",
@@ -8507,9 +12279,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 49.99,
     "durH": 7.8,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     49.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    169.98
+   ]
   },
   {
    "origin": "München",
@@ -8524,7 +12304,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 115.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-15T17:54:00",
@@ -8534,9 +12318,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 56.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    172.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8551,7 +12343,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 121.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:47:00",
@@ -8561,9 +12357,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 55.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     55.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    177.98
+   ]
   },
   {
    "origin": "München",
@@ -8578,7 +12382,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 115.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T22:28:00",
@@ -8588,9 +12396,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 65.99,
     "durH": 7.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     65.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    181.98
+   ]
   },
   {
    "origin": "München",
@@ -8605,7 +12421,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 115.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-16T17:54:00",
@@ -8615,9 +12435,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 69.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    185.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8632,7 +12460,11 @@ window.BAHN_DATA = {
     "trains": "ICE 619",
     "price": 89.99,
     "durH": 5.4,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:47:00",
@@ -8642,9 +12474,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 99.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    47.98,
+    189.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8659,7 +12499,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 133.99,
     "durH": 6.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T19:23:00",
@@ -8669,9 +12513,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 56.99,
     "durH": 6.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    190.98
+   ]
   },
   {
    "origin": "München",
@@ -8686,7 +12538,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 115.99,
     "durH": 7,
-    "low": true
+    "low": true,
+    "rng": [
+     115.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-30T15:35:00",
@@ -8696,9 +12552,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 83.99,
     "durH": 7,
-    "low": true
+    "low": true,
+    "rng": [
+     83.99,
+     83.99
+    ]
    },
-   "lowRt": true
+   "lowRt": true,
+   "rngRt": [
+    199.98,
+    199.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8713,7 +12577,11 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 85.99,
     "durH": 3.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     85.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:16:00",
@@ -8723,9 +12591,17 @@ window.BAHN_DATA = {
     "trains": "ICE 5324",
     "price": 115.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    201.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8740,7 +12616,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 133.99,
     "durH": 6.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:23:00",
@@ -8750,9 +12630,17 @@ window.BAHN_DATA = {
     "trains": "ICE 572",
     "price": 69.99,
     "durH": 6.4,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     69.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    203.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8767,7 +12655,11 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 89.99,
     "durH": 3.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     89.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:16:00",
@@ -8777,9 +12669,17 @@ window.BAHN_DATA = {
     "trains": "ICE 5324",
     "price": 115.99,
     "durH": 3.5,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -8794,7 +12694,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 115.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T17:54:00",
@@ -8804,9 +12708,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 89.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    205.98
+   ]
   },
   {
    "origin": "München",
@@ -8821,7 +12733,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 149.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
+    ]
    },
    "ret": {
     "dep": "2026-08-01T17:54:00",
@@ -8831,9 +12747,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 56.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     56.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    206.98
+   ]
   },
   {
    "origin": "München",
@@ -8848,7 +12772,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 149.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     149.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T19:54:00",
@@ -8858,9 +12786,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 59.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     59.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    209.98
+   ]
   },
   {
    "origin": "München",
@@ -8875,7 +12811,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 119.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     119.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:45:00",
@@ -8885,9 +12825,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 89.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    209.98
+   ]
   },
   {
    "origin": "München",
@@ -8902,7 +12850,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 119.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     119.99
+    ]
    },
    "ret": {
     "dep": "2026-08-09T15:45:00",
@@ -8912,9 +12864,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 89.99,
     "durH": 8.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     89.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    209.98
+   ]
   },
   {
    "origin": "München",
@@ -8929,7 +12889,11 @@ window.BAHN_DATA = {
     "trains": "RJ 1281",
     "price": 115.99,
     "durH": 7,
-    "low": true
+    "low": true,
+    "rng": [
+     115.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-23T15:35:00",
@@ -8939,9 +12903,17 @@ window.BAHN_DATA = {
     "trains": "RJ 80",
     "price": 95.99,
     "durH": 7,
-    "low": true
+    "low": false,
+    "rng": [
+     83.99,
+     95.99
+    ]
    },
-   "lowRt": true
+   "lowRt": false,
+   "rngRt": [
+    199.98,
+    211.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8956,7 +12928,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 79.99,
     "durH": 7.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     79.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T15:28:00",
@@ -8966,9 +12942,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 135.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -8983,7 +12967,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 79.99,
     "durH": 6.3,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     79.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T16:05:00",
@@ -8993,9 +12981,17 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 135.99,
     "durH": 5.3,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     135.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    89.98,
+    215.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9010,7 +13006,11 @@ window.BAHN_DATA = {
     "trains": "ICE 575",
     "price": 121.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     17.99,
+     121.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T19:47:00",
@@ -9020,9 +13020,17 @@ window.BAHN_DATA = {
     "trains": "ICE 70",
     "price": 99.99,
     "durH": 5.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     99.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    69.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -9037,7 +13045,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 115.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     115.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:45:00",
@@ -9047,9 +13059,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 105.99,
     "durH": 8.9,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     105.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    145.98,
+    221.98
+   ]
   },
   {
    "origin": "München",
@@ -9064,7 +13084,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1080",
     "price": 131.99,
     "durH": 8.4,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     131.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:45:00",
@@ -9074,9 +13098,17 @@ window.BAHN_DATA = {
     "trains": "ICE 615",
     "price": 105.99,
     "durH": 8.9,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     105.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    119.98,
+    237.98
+   ]
   },
   {
    "origin": "Hamburg",
@@ -9091,7 +13123,11 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 119.99,
     "durH": 8.2,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     119.99
+    ]
    },
    "ret": {
     "dep": "2026-08-02T15:28:00",
@@ -9101,9 +13137,17 @@ window.BAHN_DATA = {
     "trains": "ICE 514",
     "price": 119.99,
     "durH": 8.8,
-    "low": false
+    "low": false,
+    "rng": [
+     59.99,
+     119.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    99.98,
+    239.98
+   ]
   },
   {
    "origin": "München",
@@ -9118,7 +13162,11 @@ window.BAHN_DATA = {
     "trains": "ICE 510",
     "price": 105.99,
     "durH": 4.7,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     105.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T17:54:00",
@@ -9128,9 +13176,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 135.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    59.98,
+    241.98
+   ]
   },
   {
    "origin": "München",
@@ -9145,7 +13201,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 133.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T17:54:00",
@@ -9155,9 +13215,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 115.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     115.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    56.98,
+    249.98
+   ]
   },
   {
    "origin": "München",
@@ -9172,7 +13240,11 @@ window.BAHN_DATA = {
     "trains": "ICE 612",
     "price": 133.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     29.99,
+     133.99
+    ]
    },
    "ret": {
     "dep": "2026-07-26T17:54:00",
@@ -9182,9 +13254,17 @@ window.BAHN_DATA = {
     "trains": "ICE 613",
     "price": 135.99,
     "durH": 4.6,
-    "low": false
+    "low": false,
+    "rng": [
+     6.99,
+     135.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    79.98,
+    269.98
+   ]
   },
   {
    "origin": "München",
@@ -9199,7 +13279,11 @@ window.BAHN_DATA = {
     "trains": "ICE 602",
     "price": 135.99,
     "durH": 6.6,
-    "low": false
+    "low": false,
+    "rng": [
+     39.99,
+     135.99
+    ]
    },
    "ret": {
     "dep": "2026-07-25T22:28:00",
@@ -9209,9 +13293,17 @@ window.BAHN_DATA = {
     "trains": "ICE 1081",
     "price": 135.99,
     "durH": 7.7,
-    "low": false
+    "low": false,
+    "rng": [
+     23.99,
+     135.99
+    ]
    },
-   "lowRt": false
+   "lowRt": false,
+   "rngRt": [
+    80.98,
+    271.98
+   ]
   }
  ]
 };
