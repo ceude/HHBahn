@@ -149,9 +149,9 @@ def is_low(key, price):
     return prev is None or price <= prev + 0.001
 
 def rng_for(key, price):
-    """[gorulen_dip, gorulen_tavan] — bu taramayi da katarak."""
-    lo = min(hist.get(key, price), price)
-    hi = max(hist_hi.get(key, price), price)
+    """[gorulen_dip, gorulen_tavan] — gecmis + bu taramadaki tum fiyatlar."""
+    lo = min(hist.get(key, price), seen_low.get(key, price), price)
+    hi = max(hist_hi.get(key, price), seen_high.get(key, price), price)
     return [round(lo, 2), round(hi, 2)]
 
 for d in deals:
