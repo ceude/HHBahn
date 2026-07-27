@@ -37,75 +37,6 @@ if not deals:
 cheapest = min(d["total"] for d in deals)
 cheapest_str = f"{cheapest:.2f}".replace(".", ",")
 
-def eur(v):
-    return f"{v:.2f}".replace(".", ",")
-
-MONTHS_DE = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun",
-             "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
-DAYS_DE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
-
-def de_date(iso_str):
-    from datetime import datetime
-    dt = datetime.fromisoformat(iso_str)
-    return f"{DAYS_DE[dt.weekday()]} {dt.day}. {MONTHS_DE[dt.month - 1]}"
-
-# Kalkis -> sehir -> en ucuz TEK YON bacak
-ow_best = {}
-for d in deals:
-    o = d.get("origin", "Hamburg")
-    for leg_dir in ("out", "ret"):
-        leg = d.get(leg_dir) or {}
-        p = leg.get("price")
-        if p is None:
-            continue
-        cur = ow_best.setdefault(o, {}).get(d["city"])
-        if cur is None or p < cur["price"]:
-            ow_best[o][d["city"]] = {
-                "price": p, "dep": leg.get("dep"), "low": bool(leg.get("low")),
-            }
-
-order = [o for o in ["Hamburg", "München"] if o in ow_best] + \
-        [o for o in ow_best if o not in ("Hamburg", "München")]
-
-cheapest_ow = min(
-    (i["price"] for c in ow_best.values() for i in c.values()), default=cheapest
-)
-cheapest_ow_str = eur(cheapest_ow)
-
-def top5(o):
-    items = [(city, i) for city, i in ow_best.get(o, {}).items()]
-    items.sort(key=lambda x: x[1]["price"])
-    return items[:5]
-
-def origin_block_html(o):
-    rows = ""
-    for city, i in top5(o):
-        badge = ('<span style="background:#E7F7ED;color:#0A8A3A;font-size:10px;font-weight:bold;'
-                 'padding:2px 6px;border-radius:99px;margin-left:6px">Bestpreis</span>') if i["low"] else ""
-        rows += (
-            '<tr>'
-            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;color:#282D37;font-size:14px">'
-            f'<strong>{city}</strong>{badge}<br>'
-            f'<span style="color:#878C96;font-size:12px">{de_date(i["dep"])}</span></td>'
-            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;text-align:right;'
-            f'color:#EC0016;font-size:15px;font-weight:bold;white-space:nowrap">{eur(i["price"])} &euro;</td>'
-            '</tr>'
-        )
-    return (
-        f'<div style="margin:0 0 18px">'
-        f'<div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;'
-        f'color:#878C96;font-weight:bold;margin-bottom:6px">ab {o}</div>'
-        f'<table style="width:100%;border-collapse:collapse">{rows}</table></div>'
-    )
-
-total_routes = sum(len(v) for v in ow_best.values())
-more_routes = max(0, total_routes - sum(len(top5(o)) for o in order))
-
-origin_lines_html = "".join(origin_block_html(o) for o in order)
-origin_lines_txt = " | ".join(
-    f"ab {o}: " + ", ".join(f"{c} {eur(i['price'])} EUR" for c, i in top5(o))
-    for o in order
-)
 
 # ---- DIP FIYAT: gecmisle karsilastir, bayrakla, data.js'i guncelle ----
 def route_key(origin, city, variant, direction):
@@ -160,6 +91,7 @@ def rng_for(key, price):
     hi = max(hist_hi.get(key, price), seen_high.get(key, price), price)
     return [round(lo, 2), round(hi, 2)]
 
+
 for d in deals:
     o = d.get("origin", "Hamburg")
     k_rt = route_key(o, d["city"], d["variant"], "rt")
@@ -181,6 +113,100 @@ for L in (data.get("legs") or []):
     k_ow = route_key(L.get("o", "Hamburg"), L.get("c"), "ow", L.get("dir", "out"))
     L["low"] = is_low(k_ow, p)
     L["rng"] = rng_for(k_ow, p)
+
+def eur(v):
+    return f"{v:.2f}".replace(".", ",")
+
+MONTHS_DE = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun",
+             "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
+DAYS_DE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+
+def de_date(iso_str):
+    from datetime import datetime
+    dt = datetime.fromisoformat(iso_str)
+    return f"{DAYS_DE[dt.weekday()]} {dt.day}. {MONTHS_DE[dt.month - 1]}"
+
+# Kalkis -> sehir -> en ucuz TEK YON bacak
+ow_best = {}
+for d in deals:
+    o = d.get("origin", "Hamburg")
+    for leg_dir in ("out", "ret"):
+        leg = d.get(leg_dir) or {}
+        p = leg.get("price")
+        if p is None:
+            continue
+        cur = ow_best.setdefault(o, {}).get(d["city"])
+        if cur is None or p < cur["price"]:
+            ow_best[o][d["city"]] = {
+                "price": p, "dep": leg.get("dep"),
+                "rk": route_key(o, d["city"], "ow", leg_dir),
+            }
+
+order = [o for o in ["Hamburg", "München"] if o in ow_best] + \
+        [o for o in ow_best if o not in ("Hamburg", "München")]
+
+for _o in ow_best:
+    for _c, _info in ow_best[_o].items():
+        _info["rng"] = rng_for(_info["rk"], _info["price"])
+        _info["low"] = is_low(_info["rk"], _info["price"])
+
+def deal_score(info):
+    rng = info.get("rng")
+    if not rng or rng[1] - rng[0] < 1:
+        return -1.0
+    return (rng[1] - info["price"]) / (rng[1] - rng[0])
+
+cheapest_ow = min(
+    (i["price"] for c in ow_best.values() for i in c.values()), default=cheapest
+)
+cheapest_ow_str = eur(cheapest_ow)
+
+def top5(o):
+    items = [(city, i) for city, i in ow_best.get(o, {}).items()]
+    # Once gercek firsatlar (skor > 0), tavana uzakligi en yuksek 5;
+    # firsat yoksa en ucuza dus (ilk taramalarda aralik olmayabilir).
+    deals_only = [it for it in items if deal_score(it[1]) > 0]
+    if deals_only:
+        deals_only.sort(key=lambda x: deal_score(x[1]), reverse=True)
+        return deals_only[:5]
+    items.sort(key=lambda x: x[1]["price"])
+    return items[:5]
+
+def origin_block_html(o):
+    rows = ""
+    for city, i in top5(o):
+        badge = ('<span style="background:#E7F7ED;color:#0A8A3A;font-size:10px;font-weight:bold;'
+                 'padding:2px 6px;border-radius:99px;margin-left:6px">Bestpreis</span>') if i.get("low") else ""
+        # tavana gore ne kadar ucuz oldugunu goster: "sonst bis 62,99 €"
+        rng = i.get("rng")
+        usual = ""
+        if rng and rng[1] - i["price"] >= 1:
+            usual = (f'<br><span style="color:#0A8A3A;font-size:11px">'
+                     f'sonst bis {eur(rng[1])} &euro;</span>')
+        rows += (
+            '<tr>'
+            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;color:#282D37;font-size:14px">'
+            f'<strong>{city}</strong>{badge}<br>'
+            f'<span style="color:#878C96;font-size:12px">{de_date(i["dep"])}</span></td>'
+            f'<td style="padding:7px 0;border-bottom:1px solid #EDEFF2;text-align:right;'
+            f'color:#EC0016;font-size:15px;font-weight:bold;white-space:nowrap">{eur(i["price"])} &euro;{usual}</td>'
+            '</tr>'
+        )
+    return (
+        f'<div style="margin:0 0 18px">'
+        f'<div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;'
+        f'color:#878C96;font-weight:bold;margin-bottom:6px">ab {o}</div>'
+        f'<table style="width:100%;border-collapse:collapse">{rows}</table></div>'
+    )
+
+total_routes = sum(len(v) for v in ow_best.values())
+more_routes = max(0, total_routes - sum(len(top5(o)) for o in order))
+
+origin_lines_html = "".join(origin_block_html(o) for o in order)
+origin_lines_txt = " | ".join(
+    f"ab {o}: " + ", ".join(f"{c} {eur(i['price'])} EUR" for c, i in top5(o))
+    for o in order
+)
 
 # Yeni dip degerlerini Supabase'e yaz (upsert)
 upserts = []
@@ -242,8 +268,8 @@ def build_html(email: str) -> str:
   </div>
   <div style="border:1px solid #D7DCE1;border-top:0;border-radius:0 0 8px 8px;padding:20px">
     <p style="color:#282D37;font-size:15px;line-height:1.5;margin:0 0 14px">
-      Die Preisliste wurde aktualisiert. Die g&uuml;nstigsten Direktverbindungen
-      f&uuml;r eine <strong>einfache Fahrt</strong> am Wochenende:
+      Die Preisliste wurde aktualisiert. Die besten <strong>Preis-Schn&auml;ppchen</strong>
+      gerade jetzt (einfache Fahrt, Direktverbindung):
     </p>
     {origin_lines_html}
     <p style="color:#282D37;font-size:14px;line-height:1.5;margin:0 0 12px">
