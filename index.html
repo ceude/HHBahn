@@ -1076,6 +1076,19 @@ function setLang(code){
     '</div>';
   }
 
+  // Bir sehrin kartinda gosterilecek fiyat araligi: TUM kombolarin/seferlerin
+  // gorulen dip-tavanlarini birlestir (en genis kapsam).
+  function cityRange(list, ow){
+    var lo = Infinity, hi = -Infinity, any = false;
+    list.forEach(function(item){
+      var r = ow ? (item.leg && item.leg.rng) : item.rngRt;
+      var price = ow ? (item.leg && item.leg.price) : item.total;
+      if (r && r.length === 2){ lo = Math.min(lo, r[0]); hi = Math.max(hi, r[1]); any = true; }
+      if (typeof price === "number"){ lo = Math.min(lo, price); hi = Math.max(hi, price); any = true; }
+    });
+    return any ? [lo, hi] : null;
+  }
+
   // Fiyat termometresi: [dip, tavan] araliginda mevcut fiyatin yeri
   function thermoHtml(rng, price){
     if (!rng || rng.length !== 2) return "";
@@ -1299,7 +1312,7 @@ function setLang(code){
             '<span class="count"><span class="dot"></span>' + list.length + ' ' + t.offers + '</span>' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>' +
           '</div>' +
-          thermoHtml(oneWay ? list[0].leg.rng : list[0].rngRt, min) +
+          thermoHtml(cityRange(list, oneWay), min) +
         '</div>';
       var btn = card.querySelector(".card-btn");
       function go(){ location.hash = "c/" + encodeURIComponent(city); }
