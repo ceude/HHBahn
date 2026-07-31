@@ -415,6 +415,13 @@
   .ticket-link:hover{transform:translateY(-1px); box-shadow:0 10px 24px rgba(236,0,22,.42)}
   .ticket-link svg{flex:none}
 
+  .hub-notice{
+    display:flex; align-items:flex-start; gap:10px;
+    background:#FFF4E5; border:1px solid #FFD9A0; border-radius:var(--r-md);
+    padding:13px 16px; margin-bottom:18px;
+    font-size:13px; line-height:1.45; color:#8A5A00;
+  }
+  .hub-notice svg{flex:none; margin-top:1px; color:#D98A00}
   .unsub-banner{
     display:flex; align-items:center; gap:10px;
     background:var(--card); border-radius:var(--r-md);
@@ -636,6 +643,7 @@ var I18N = {
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
     metaDirect:"Direkt, 2. Klasse",
+    hubNotice:"Diese Seite scannt nur Verbindungen von und nach Hamburg & München. Da du einen anderen Ort gewählt hast, siehst du nur Tickets nach Hamburg oder München.",
     allDates:"Alle Termine",
     dateLabel:"Termin:",
     cities:"Städte",
@@ -690,6 +698,7 @@ var I18N = {
     standLabel:"Last updated",
     metaFrom:"Departure:",
     metaDirect:"Direct, 2nd class",
+    hubNotice:"This site only scans connections to and from Hamburg & Munich. Since you picked another city, you only see tickets to Hamburg or Munich.",
     allDates:"All dates",
     dateLabel:"Date:",
     cities:"cities",
@@ -744,6 +753,7 @@ var I18N = {
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
     metaDirect:"Direkt seferler, 2. sınıf",
+    hubNotice:"Bu site sadece Münih ve Hamburg kalkışlı ve varışlı tüm seferleri taramaktadır. Münih ve Hamburg harici bir konum seçtiğiniz için sadece Münih ve Hamburg varışlı biletleri görüntülemektesiniz.",
     allDates:"Tüm tarihler",
     dateLabel:"Tarih:",
     cities:"şehir",
@@ -935,7 +945,7 @@ function setLang(code){
     "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover",
     "Bremen":"Bremen","Kiel":"Kiel",
     "Kopenhagen":"Copenhagen","Wien":"Vienna","Salzburg":"Salzburg","Innsbruck":"Innsbruck",
-    "Zürich":"Zurich","Prag":"Prague","Venedig":"Venice","Amsterdam":"Amsterdam"
+    "Zürich":"Zurich","Prag":"Prague","Venedig":"Venice","Amsterdam":"Amsterdam","Paris":"Paris"
   };
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
@@ -959,13 +969,15 @@ function setLang(code){
     "Zürich":   { name:"Zürich HB",            eva:"8503000", lon:8.540211,  lat:47.378177 },
     "Prag":     { name:"Praha hl.n.",          eva:"5400014", lon:14.435458, lat:50.083011 },
     "Venedig":  { name:"Venezia Santa Lucia",  eva:"8300092", lon:12.320688, lat:45.441569 },
-    "Amsterdam":{ name:"Amsterdam Centraal",   eva:"8400058", lon:4.900274,  lat:52.378795 }
+    "Amsterdam":{ name:"Amsterdam Centraal",   eva:"8400058", lon:4.900274,  lat:52.378795 },
+    "Paris":    { name:"Paris Est",            eva:"8700014", lon:2.359060,  lat:48.876965 }
   };
   var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
   var content = document.getElementById("content");
   var currentCity = null;
   var photoCache = {};
   var oneWay = false;
+  var HUBS = ["Hamburg", "München"]; // gercekten taranan kalkislar
   var filterWk = null; // null = tum tarihler; aksi halde "YYYY-MM-DD" (o haftanin Cumasi)
 
   function weekendKey(dep){
@@ -996,11 +1008,16 @@ function setLang(code){
   })();
   function dealOrigin(d){ return d.origin || "Hamburg"; }
   function originsIn(data){
-    if (data.origins && data.origins.length) return data.origins;
+    // Kalkis olarak secilebilecekler: HUB'lar + tum hedef sehirler (tek yon dönüş biletleri icin)
     var set = {};
-    (data.deals || []).forEach(function(d){ set[dealOrigin(d)] = true; });
-    return Object.keys(set);
+    HUBS.forEach(function(h){ set[h] = true; });
+    (data.legs || []).forEach(function(L){ if (L.c) set[L.c] = true; });
+    (data.deals || []).forEach(function(d){ if (d.city) set[d.city] = true; });
+    // HUB'lari basa al, gerisini alfabetik
+    var rest = Object.keys(set).filter(function(k){ return HUBS.indexOf(k) === -1; }).sort();
+    return HUBS.filter(function(h){ return set[h]; }).concat(rest);
   }
+  function isHub(o){ return HUBS.indexOf(o) !== -1; }
 
   function pad(n){return String(n).padStart(2,"0")}
   function hhmm(d){return pad(d.getHours())+":"+pad(d.getMinutes())}
@@ -1132,20 +1149,33 @@ function setLang(code){
   // Tek yon: v9 verisinde TUM seferler (data.legs) var; yoksa kombolardan tureti
   function oneWayFromLegs(legs){
     var map = {};
+    var hub = isHub(origin);
     legs.forEach(function(L){
-      if ((L.o || "Hamburg") !== origin) return;
+      var lo = L.o || "Hamburg";
       if (filterWk && weekendKey(L.dep) !== filterWk) return;
-      (map[L.c] = map[L.c] || []).push({
-        dir: L.dir, city: L.c, origin: L.o,
-        leg: { dep: L.dep, arr: L.arr, from: L.from, to: L.to,
-               trains: L.trains, price: L.price, durH: L.durH,
-               stops: L.stops, low: !!L.low, rng: L.rng }
-      });
+      if (hub){
+        // HUB kalkis: bu HUB'dan cikan seferler, hedef sehre gore grupla
+        if (lo !== origin) return;
+        pushInto(map, L.c, L);
+      } else {
+        // HUB olmayan sehir: o sehirden HUB'a giden seferler (dir=ret, to=HUB)
+        // legs'te dönüş bacagi: o=HUB, c=sehir, dir=ret, from=sehir, to=HUB
+        if (L.c !== origin || L.dir !== "ret") return;
+        pushInto(map, lo, L); // hedef = HUB
+      }
     });
     Object.keys(map).forEach(function(c){
       map[c].sort(function(a,b){ return a.leg.price - b.leg.price; });
     });
     return map;
+  }
+  function pushInto(map, key, L){
+    (map[key] = map[key] || []).push({
+      dir: L.dir, city: L.c, origin: L.o, hubTarget: key,
+      leg: { dep: L.dep, arr: L.arr, from: L.from, to: L.to,
+             trains: L.trains, price: L.price, durH: L.durH,
+             stops: L.stops, low: !!L.low, rng: L.rng }
+    });
   }
 
   // Tek yon: kombolardaki gidis/donus bacaklarini ayristirip tekillestir
@@ -1185,7 +1215,7 @@ function setLang(code){
     var seg = document.getElementById("orgSeg");
     if (!seg) return;
     var opts = originsIn(data);
-    var stName = function(o){ var st = STATION_DATA[o]; return st ? st.name : o; };
+    var stName = function(o){ var st = STATION_DATA[o]; return (st ? st.name : o) + (isHub(o) ? "" : " *"); };
     seg.innerHTML =
       '<span class="org-dd">' +
         '<button class="org-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">' +
@@ -1212,6 +1242,7 @@ function setLang(code){
         try { localStorage.setItem(ORIGIN_KEY, o); } catch(ex){}
         location.hash = "";
         buildOriginSeg(data);
+        syncOwToggle();
         route();
       });
       menu.appendChild(it);
@@ -1279,12 +1310,20 @@ function setLang(code){
   function renderHome(data){
     currentCity = null;
     var t = T();
-    var byCity = oneWay
+    var hub = isHub(origin);
+    var forceOw = !hub || oneWay; // hub degilse daima tek yon
+    var byCity = forceOw
       ? ((data.legs && data.legs.length) ? oneWayFromLegs(data.legs) : oneWayByCity(data.deals || []))
       : groupByCity(data.deals || []);
-    var minOf = function(c){ return oneWay ? byCity[c][0].leg.price : byCity[c][0].total; };
+    var minOf = function(c){ return forceOw ? byCity[c][0].leg.price : byCity[c][0].total; };
     var cities = Object.keys(byCity).sort(function(a,b){ return minOf(a) - minOf(b); });
     document.getElementById("cityCount").textContent = cities.length;
+
+    var noticeHtml = hub ? "" :
+      '<div class="hub-notice">' +
+        '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8 L12 13 M12 16 L12 16.01"/></svg>' +
+        '<span><strong>* </strong>' + t.hubNotice + '</span>' +
+      '</div>';
 
     if (!cities.length){
       content.innerHTML = '<div class="notice"><strong>' + t.noticeNoDealsTitle + '</strong>' + t.noticeNoDealsSub + '</div>';
@@ -1297,7 +1336,7 @@ function setLang(code){
     cities.forEach(function(city){
       var list = byCity[city];
       var min = minOf(city);
-      var isLow = oneWay ? !!list[0].leg.low : !!list[0].lowRt;
+      var isLow = forceOw ? !!list[0].leg.low : !!list[0].lowRt;
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
@@ -1305,14 +1344,14 @@ function setLang(code){
           '<div class="photo" data-city="' + city + '">' +
             '<div class="shade"></div>' +
             (isLow ? '<span class="low-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21 L4 9 L9 9 L9 3 L15 3 L15 9 L20 9 Z"/></svg>' + t.lowBadge + '</span>' : '') +
-            '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (oneWay ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
+            '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (forceOw ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
             '<div class="city">' + cityLabel(city) + '</div>' +
           '</div>' +
           '<div class="card-foot">' +
             '<span class="count"><span class="dot"></span>' + list.length + ' ' + t.offers + '</span>' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>' +
           '</div>' +
-          thermoHtml(cityRange(list, oneWay), min) +
+          thermoHtml(cityRange(list, forceOw), min) +
         '</div>';
       var btn = card.querySelector(".card-btn");
       function go(){ location.hash = "c/" + encodeURIComponent(city); }
@@ -1323,7 +1362,7 @@ function setLang(code){
       grid.appendChild(card);
     });
 
-    content.innerHTML = "";
+    content.innerHTML = noticeHtml;
     content.appendChild(grid);
     loadPhotos();
   }
@@ -1332,12 +1371,14 @@ function setLang(code){
   function renderCity(data, city){
     currentCity = city;
     var t = T();
-    var byCity = oneWay
+    var hub = isHub(origin);
+    var forceOw = !hub || oneWay;
+    var byCity = forceOw
       ? ((data.legs && data.legs.length) ? oneWayFromLegs(data.legs) : oneWayByCity(data.deals || []))
       : groupByCity(data.deals || []);
     var list = byCity[city];
     if (!list){ location.hash = ""; return; }
-    var min = oneWay ? list[0].leg.price : list[0].total;
+    var min = forceOw ? list[0].leg.price : list[0].total;
 
     var root = document.createElement("div");
     root.innerHTML =
@@ -1348,14 +1389,14 @@ function setLang(code){
       '<div class="city-hero">' +
         '<div class="photo" data-city="' + city + '" style="height:100%">' +
           '<div class="shade"></div>' +
-          '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (oneWay ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
+          '<span class="from-pill"><span class="amount">' + eur(min) + ' \u20AC</span><span class="label">' + (forceOw ? t.fromLabelOw : t.fromLabel) + '</span></span>' +
           '<div class="city">' + cityLabel(city) + '</div>' +
         '</div>' +
       '</div>' +
       '<div class="rows"></div>';
 
     var rows = root.querySelector(".rows");
-    if (oneWay){
+    if (forceOw){
       list.forEach(function(item){
         var dep = new Date(item.leg.dep);
         var row = document.createElement("div");
@@ -1484,6 +1525,10 @@ function setLang(code){
     owBtn.setAttribute("aria-checked", oneWay ? "true" : "false");
     route();
   });
+  function syncOwToggle(){
+    // HUB olmayan kalkista site zaten tek yon; toggle'i gizle
+    owBtn.style.display = isHub(origin) ? "" : "none";
+  }
 
   // ---------- ABONELIKTEN CIKIS ----------
   function handleUnsub(){
@@ -1530,6 +1575,7 @@ function setLang(code){
     if (avail.length && avail.indexOf(origin) === -1) origin = avail[0];
     buildOriginSeg(window.BAHN_DATA);
     buildWeekendSeg(window.BAHN_DATA);
+    syncOwToggle();
     route();
   } else {
     var t = T();
