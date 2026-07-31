@@ -1,5 +1,5 @@
 window.BAHN_DATA = {
- "generatedAt": "2026-07-30T07:55:00",
+ "generatedAt": "2026-07-31T08:17:00",
  "priceCap": null,
  "origins": [
   "Hamburg",
@@ -24,11 +24,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -44,18 +39,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -75,38 +60,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-15T18:17:00",
-    "arr": "2026-08-15T19:15:00",
+    "dep": "2026-08-15T21:17:00",
+    "arr": "2026-08-15T22:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2508",
+    "trains": "ICE 516",
     "price": 6.99,
     "durH": 1,
     "stops": [
      [
       "Hamburg-Harburg",
-      "19:02"
+      "22:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -130,11 +100,6 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -150,18 +115,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -181,11 +136,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -201,18 +151,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "18:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -236,38 +176,23 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
-    "dep": "2026-08-29T19:08:00",
-    "arr": "2026-08-29T20:29:00",
+    "dep": "2026-08-29T21:08:00",
+    "arr": "2026-08-29T22:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 576",
+    "trains": "ICE 574",
     "price": 6.99,
     "durH": 1.4,
     "stops": [
      [
       "Celle",
-      "19:27"
+      "21:27"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -287,11 +212,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -307,18 +227,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "18:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -342,11 +252,6 @@ window.BAHN_DATA = {
       "Lüneburg",
       "06:28"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -362,18 +267,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -381,23 +276,18 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 13.98,
    "out": {
-    "dep": "2026-09-04T20:45:00",
-    "arr": "2026-09-04T21:41:00",
+    "dep": "2026-09-04T22:11:00",
+    "arr": "2026-09-04T23:07:00",
     "from": "Hamburg Hbf",
     "to": "Bremen Hbf",
-    "trains": "ICE 209",
+    "trains": "IC 60471",
     "price": 6.99,
     "durH": 0.9,
     "stops": [
      [
       "Hamburg-Harburg",
-      "20:55"
+      "22:21"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -413,18 +303,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -444,11 +324,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -464,18 +339,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -495,11 +360,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -515,18 +375,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -546,11 +396,6 @@ window.BAHN_DATA = {
       "Neumünster",
       "21:20"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     6.99
     ]
    },
    "ret": {
@@ -566,18 +411,8 @@ window.BAHN_DATA = {
       "Neumünster",
       "16:32"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     29.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    13.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -597,11 +432,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -612,18 +442,8 @@ window.BAHN_DATA = {
     "trains": "ICE 601",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -651,11 +471,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -679,18 +494,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -710,11 +515,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -725,18 +525,8 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -760,11 +550,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -775,18 +560,60 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     55.0
+    "stops": []
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 13.98,
+   "out": {
+    "dep": "2026-08-29T06:42:00",
+    "arr": "2026-08-29T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 6.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München-Pasing",
+      "06:50"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:12"
+     ],
+     [
+      "Ulm Hbf",
+      "07:57"
+     ]
     ]
    },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
+   "ret": {
+    "dep": "2026-08-29T21:17:00",
+    "arr": "2026-08-29T23:36:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 2593",
+    "price": 6.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "22:00"
+     ],
+     [
+      "Augsburg Hbf",
+      "22:41"
+     ],
+     [
+      "München-Pasing",
+      "23:27"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -806,33 +633,18 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
-    "dep": "2026-08-29T18:01:00",
-    "arr": "2026-08-29T19:12:00",
+    "dep": "2026-08-29T17:01:00",
+    "arr": "2026-08-29T18:12:00",
     "from": "Nürnberg Hbf",
     "to": "München Hbf",
-    "trains": "ICE 721",
+    "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -860,11 +672,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "08:45"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -888,18 +695,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -919,11 +716,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -934,18 +726,8 @@ window.BAHN_DATA = {
     "trains": "ICE 629",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -969,11 +751,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -984,68 +761,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Gunubirlik",
-   "total": 19.98,
-   "out": {
-    "dep": "2026-08-15T06:04:00",
-    "arr": "2026-08-15T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 6.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "06:15"
-     ],
-     [
-      "Rosenheim",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-15T18:04:00",
-    "arr": "2026-08-15T19:56:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1212",
-    "price": 12.99,
-    "durH": 1.9,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -1069,11 +786,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -1084,18 +796,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 6.99,
     "durH": 1.9,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -1103,23 +805,18 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 24.98,
    "out": {
-    "dep": "2026-08-14T18:45:00",
-    "arr": "2026-08-14T19:41:00",
+    "dep": "2026-08-14T22:45:00",
+    "arr": "2026-08-14T23:41:00",
     "from": "Hamburg Hbf",
     "to": "Bremen Hbf",
-    "trains": "ICE 207",
+    "trains": "ICE 921",
     "price": 6.99,
     "durH": 0.9,
     "stops": [
      [
       "Hamburg-Harburg",
-      "18:55"
+      "22:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -1135,18 +832,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1166,11 +853,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -1186,18 +868,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1217,38 +889,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:21"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-23T15:17:00",
-    "arr": "2026-08-23T16:15:00",
+    "dep": "2026-08-23T16:17:00",
+    "arr": "2026-08-23T17:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 612",
+    "trains": "ICE 200",
     "price": 17.99,
     "durH": 1,
     "stops": [
      [
       "Hamburg-Harburg",
-      "16:02"
+      "17:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1268,38 +925,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-23T15:17:00",
-    "arr": "2026-08-23T16:15:00",
+    "dep": "2026-08-23T16:17:00",
+    "arr": "2026-08-23T17:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 612",
+    "trains": "ICE 200",
     "price": 17.99,
     "durH": 1,
     "stops": [
      [
       "Hamburg-Harburg",
-      "16:02"
+      "17:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1319,11 +961,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:21"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -1339,18 +976,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1370,11 +997,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -1390,18 +1012,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1429,11 +1041,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -1461,18 +1068,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -1500,113 +1097,31 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-15T20:17:00",
-    "arr": "2026-08-15T22:29:00",
+    "dep": "2026-08-15T17:17:00",
+    "arr": "2026-08-15T19:12:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 613",
+    "trains": "ICE 2589",
     "price": 6.99,
-    "durH": 2.2,
+    "durH": 1.9,
     "stops": [
      [
       "Ulm Hbf",
-      "21:13"
+      "18:00"
      ],
      [
       "Augsburg Hbf",
-      "21:56"
+      "18:41"
      ],
      [
       "München-Pasing",
-      "22:20"
+      "19:03"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Gunubirlik",
-   "total": 24.98,
-   "out": {
-    "dep": "2026-08-29T06:42:00",
-    "arr": "2026-08-29T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 17.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München-Pasing",
-      "06:50"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:12"
-     ],
-     [
-      "Ulm Hbf",
-      "07:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-29T18:17:00",
-    "arr": "2026-08-29T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 6.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1626,11 +1141,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -1646,18 +1156,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -1672,12 +1172,7 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -1687,68 +1182,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1509",
     "price": 18.99,
     "durH": 1.1,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Gunubirlik",
-   "total": 25.98,
-   "out": {
-    "dep": "2026-08-08T06:04:00",
-    "arr": "2026-08-08T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 6.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "06:15"
-     ],
-     [
-      "Rosenheim",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T18:04:00",
-    "arr": "2026-08-08T19:56:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1212",
-    "price": 18.99,
-    "durH": 1.9,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -1768,11 +1203,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -1783,18 +1213,43 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
+    "stops": []
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Gunubirlik",
+   "total": 25.98,
+   "out": {
+    "dep": "2026-08-15T06:04:00",
+    "arr": "2026-08-15T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 12.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "06:15"
+     ],
+     [
+      "Rosenheim",
+      "06:55"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
+   "ret": {
+    "dep": "2026-08-15T18:04:00",
+    "arr": "2026-08-15T19:56:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1212",
+    "price": 12.99,
+    "durH": 1.9,
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -1814,11 +1269,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "22:44"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -1829,18 +1279,8 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 18.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -1860,11 +1300,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
@@ -1875,18 +1310,8 @@ window.BAHN_DATA = {
     "trains": "ICE 721",
     "price": 18.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -1901,12 +1326,7 @@ window.BAHN_DATA = {
     "trains": "ICE 728",
     "price": 6.99,
     "durH": 1.2,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-08T21:23:00",
@@ -1921,18 +1341,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "22:30"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -1956,11 +1366,6 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -1971,18 +1376,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 20.99,
     "durH": 1.3,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -2002,11 +1397,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
@@ -2022,18 +1412,72 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cuma",
+   "total": 28.98,
+   "out": {
+    "dep": "2026-08-14T22:51:00",
+    "arr": "2026-08-15T00:49:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJ 1297",
+    "price": 6.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München Ost",
+      "22:59"
+     ],
+     [
+      "Rosenheim",
+      "23:38"
+     ],
+     [
+      "Prien am Chiemsee",
+      "23:59"
+     ],
+     [
+      "Traunstein",
+      "00:20"
+     ],
+     [
+      "Freilassing",
+      "00:39"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T18:00:00",
+    "arr": "2026-08-16T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 21.99,
+    "durH": 1.8,
+    "stops": [
+     [
+      "Freilassing",
+      "18:06"
+     ],
+     [
+      "Traunstein",
+      "18:24"
+     ],
+     [
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -2069,11 +1513,6 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2101,18 +1540,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -2136,11 +1565,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2168,18 +1592,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -2194,12 +1608,7 @@ window.BAHN_DATA = {
     "trains": "ICE 1071",
     "price": 14.99,
     "durH": 1.3,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-15T20:19:00",
@@ -2209,18 +1618,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1070",
     "price": 14.99,
     "durH": 1.5,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -2256,11 +1655,6 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2284,18 +1678,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "16:59"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -2323,11 +1707,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -2351,164 +1730,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cuma",
-   "total": 30.98,
-   "out": {
-    "dep": "2026-08-14T22:51:00",
-    "arr": "2026-08-15T00:49:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJ 1297",
-    "price": 6.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München Ost",
-      "22:59"
-     ],
-     [
-      "Rosenheim",
-      "23:38"
-     ],
-     [
-      "Prien am Chiemsee",
-      "23:59"
-     ],
-     [
-      "Traunstein",
-      "00:20"
-     ],
-     [
-      "Freilassing",
-      "00:39"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T18:00:00",
-    "arr": "2026-08-16T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 23.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cumartesi",
-   "total": 30.98,
-   "out": {
-    "dep": "2026-08-15T06:04:00",
-    "arr": "2026-08-15T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 6.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "06:15"
-     ],
-     [
-      "Rosenheim",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T18:00:00",
-    "arr": "2026-08-16T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 23.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
+   }
   },
   {
    "origin": "München",
@@ -2544,11 +1767,6 @@ window.BAHN_DATA = {
       "Freilassing",
       "20:52"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2576,18 +1794,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -2611,11 +1819,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2643,18 +1846,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "19:01"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -2682,11 +1875,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -2710,24 +1898,396 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Gunubirlik",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-08-08T06:04:00",
+    "arr": "2026-08-08T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 12.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "06:15"
+     ],
+     [
+      "Rosenheim",
+      "06:55"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   "ret": {
+    "dep": "2026-08-08T18:04:00",
+    "arr": "2026-08-08T19:56:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1212",
+    "price": 18.99,
+    "durH": 1.9,
+    "stops": []
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-08-21T22:40:00",
+    "arr": "2026-08-22T00:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 698",
+    "price": 6.99,
+    "durH": 2.1,
+    "stops": [
+     [
+      "München-Pasing",
+      "22:47"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:11"
+     ],
+     [
+      "Ulm Hbf",
+      "23:58"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-23T18:17:00",
+    "arr": "2026-08-23T20:32:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 24.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "19:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "19:56"
+     ],
+     [
+      "München-Pasing",
+      "20:20"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-08-22T06:42:00",
+    "arr": "2026-08-22T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 6.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München-Pasing",
+      "06:50"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:12"
+     ],
+     [
+      "Ulm Hbf",
+      "07:57"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-23T18:17:00",
+    "arr": "2026-08-23T20:32:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 611",
+    "price": 24.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "19:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "19:56"
+     ],
+     [
+      "München-Pasing",
+      "20:20"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cumartesi",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-08-29T06:09:00",
+    "arr": "2026-08-29T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 6.99,
+    "durH": 1.3,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "06:55"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-30T16:01:00",
+    "arr": "2026-08-30T17:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 627",
+    "price": 24.99,
+    "durH": 1.2,
+    "stops": []
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-09-04T18:46:00",
+    "arr": "2026-09-04T20:01:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 500",
+    "price": 6.99,
+    "durH": 1.3,
+    "stops": []
+   },
+   "ret": {
+    "dep": "2026-09-06T15:01:00",
+    "arr": "2026-09-06T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 24.99,
+    "durH": 1.2,
+    "stops": []
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cumartesi",
+   "total": 31.98,
+   "out": {
+    "dep": "2026-09-05T06:09:00",
+    "arr": "2026-09-05T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 6.99,
+    "durH": 1.3,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "06:55"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T15:01:00",
+    "arr": "2026-09-06T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 24.99,
+    "durH": 1.2,
+    "stops": []
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cumartesi",
+   "total": 32.98,
+   "out": {
+    "dep": "2026-08-29T06:29:00",
+    "arr": "2026-08-29T07:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 71",
+    "price": 6.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Uelzen",
+      "07:08"
+     ],
+     [
+      "Celle",
+      "07:31"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-30T16:08:00",
+    "arr": "2026-08-30T17:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 6",
+    "price": 25.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Uelzen",
+      "16:46"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cuma",
+   "total": 32.98,
+   "out": {
+    "dep": "2026-09-04T18:29:00",
+    "arr": "2026-09-04T19:49:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 77",
+    "price": 6.99,
+    "durH": 1.3,
+    "stops": [
+     [
+      "Uelzen",
+      "19:08"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T15:36:00",
+    "arr": "2026-09-06T16:57:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 680",
+    "price": 25.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Lüneburg",
+      "16:25"
+     ],
+     [
+      "Hamburg-Harburg",
+      "16:44"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cumartesi",
+   "total": 32.98,
+   "out": {
+    "dep": "2026-09-05T06:01:00",
+    "arr": "2026-09-05T07:23:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 783",
+    "price": 6.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "06:11"
+     ],
+     [
+      "Lüneburg",
+      "06:28"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T15:36:00",
+    "arr": "2026-09-06T16:57:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 680",
+    "price": 25.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Lüneburg",
+      "16:25"
+     ],
+     [
+      "Hamburg-Harburg",
+      "16:44"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cumartesi",
+   "total": 32.98,
+   "out": {
+    "dep": "2026-08-01T06:09:00",
+    "arr": "2026-08-01T07:29:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 14.99,
+    "durH": 1.3,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "06:55"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T15:01:00",
+    "arr": "2026-08-02T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 17.99,
+    "durH": 1.2,
+    "stops": []
+   }
   },
   {
    "origin": "München",
    "city": "Salzburg",
    "variant": "Cuma",
-   "total": 31.98,
+   "total": 33.98,
    "out": {
     "dep": "2026-08-07T22:51:00",
     "arr": "2026-08-08T00:49:00",
@@ -2757,11 +2317,6 @@ window.BAHN_DATA = {
       "Freilassing",
       "00:39"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -2770,741 +2325,27 @@ window.BAHN_DATA = {
     "from": "Salzburg Hbf",
     "to": "München Hbf",
     "trains": "RJ 112",
-    "price": 24.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cumartesi",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-08-08T06:04:00",
-    "arr": "2026-08-08T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 6.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "06:15"
-     ],
-     [
-      "Rosenheim",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T18:00:00",
-    "arr": "2026-08-09T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 24.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cuma",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-08-21T22:40:00",
-    "arr": "2026-08-22T00:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 698",
-    "price": 6.99,
-    "durH": 2.1,
-    "stops": [
-     [
-      "München-Pasing",
-      "22:47"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:11"
-     ],
-     [
-      "Ulm Hbf",
-      "23:58"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-23T18:17:00",
-    "arr": "2026-08-23T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 24.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-08-22T06:42:00",
-    "arr": "2026-08-22T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 6.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München-Pasing",
-      "06:50"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:12"
-     ],
-     [
-      "Ulm Hbf",
-      "07:57"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-23T18:17:00",
-    "arr": "2026-08-23T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 24.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cumartesi",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-08-29T06:09:00",
-    "arr": "2026-08-29T07:29:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 886",
-    "price": 6.99,
-    "durH": 1.3,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T16:01:00",
-    "arr": "2026-08-30T17:13:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 627",
-    "price": 24.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cuma",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-09-04T20:45:00",
-    "arr": "2026-09-04T22:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 990",
-    "price": 6.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München-Pasing",
-      "20:53"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:15"
-     ],
-     [
-      "Ulm Hbf",
-      "21:58"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T18:17:00",
-    "arr": "2026-09-06T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 24.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-09-05T07:28:00",
-    "arr": "2026-09-05T09:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 612",
-    "price": 6.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "München-Pasing",
-      "07:35"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:59"
-     ],
-     [
-      "Ulm Hbf",
-      "08:45"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T18:17:00",
-    "arr": "2026-09-06T20:32:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 24.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cuma",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-09-04T18:46:00",
-    "arr": "2026-09-04T20:01:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 500",
-    "price": 6.99,
-    "durH": 1.3,
-    "stops": [],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T15:01:00",
-    "arr": "2026-09-06T16:13:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 24.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cumartesi",
-   "total": 31.98,
-   "out": {
-    "dep": "2026-09-05T06:09:00",
-    "arr": "2026-09-05T07:29:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 886",
-    "price": 6.99,
-    "durH": 1.3,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "06:55"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T15:01:00",
-    "arr": "2026-09-06T16:13:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 24.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cumartesi",
-   "total": 32.98,
-   "out": {
-    "dep": "2026-08-29T06:29:00",
-    "arr": "2026-08-29T07:51:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 71",
-    "price": 6.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "07:08"
-     ],
-     [
-      "Celle",
-      "07:31"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T16:08:00",
-    "arr": "2026-08-30T17:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 6",
-    "price": 25.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "16:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cuma",
-   "total": 32.98,
-   "out": {
-    "dep": "2026-09-04T18:29:00",
-    "arr": "2026-09-04T19:49:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 77",
-    "price": 6.99,
-    "durH": 1.3,
-    "stops": [
-     [
-      "Uelzen",
-      "19:08"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T15:36:00",
-    "arr": "2026-09-06T16:57:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 680",
-    "price": 25.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Lüneburg",
-      "16:25"
-     ],
-     [
-      "Hamburg-Harburg",
-      "16:44"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cumartesi",
-   "total": 32.98,
-   "out": {
-    "dep": "2026-09-05T06:01:00",
-    "arr": "2026-09-05T07:23:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 783",
-    "price": 6.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "06:11"
-     ],
-     [
-      "Lüneburg",
-      "06:28"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T15:36:00",
-    "arr": "2026-09-06T16:57:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 680",
-    "price": 25.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Lüneburg",
-      "16:25"
-     ],
-     [
-      "Hamburg-Harburg",
-      "16:44"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Münster",
-   "variant": "Gunubirlik",
-   "total": 33.98,
-   "out": {
-    "dep": "2026-08-29T06:45:00",
-    "arr": "2026-08-29T09:00:00",
-    "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 105",
     "price": 26.99,
-    "durH": 2.3,
+    "durH": 1.8,
     "stops": [
      [
-      "Hamburg-Harburg",
-      "06:55"
+      "Freilassing",
+      "18:06"
      ],
      [
-      "Bremen Hbf",
-      "07:41"
+      "Traunstein",
+      "18:24"
      ],
      [
-      "Osnabrück Hbf",
-      "08:34"
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
-   },
-   "ret": {
-    "dep": "2026-08-29T17:56:00",
-    "arr": "2026-08-29T20:15:00",
-    "from": "Münster (Westf) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 518",
-    "price": 6.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Osnabrück Hbf",
-      "18:21"
-     ],
-     [
-      "Bremen Hbf",
-      "19:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "20:02"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -3528,38 +2369,27 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:08:00",
-    "arr": "2026-08-09T20:29:00",
+    "dep": "2026-08-09T17:08:00",
+    "arr": "2026-08-09T18:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 576",
+    "trains": "ICE 578",
     "price": 27.99,
     "durH": 1.4,
     "stops": [
      [
       "Celle",
-      "19:27"
+      "17:27"
+     ],
+     [
+      "Uelzen",
+      "17:49"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -3583,11 +2413,6 @@ window.BAHN_DATA = {
       "Celle",
       "07:31"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -3603,18 +2428,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -3646,11 +2461,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:35"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -3674,18 +2484,164 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cumartesi",
+   "total": 34.98,
+   "out": {
+    "dep": "2026-08-15T06:04:00",
+    "arr": "2026-08-15T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 12.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "06:15"
+     ],
+     [
+      "Rosenheim",
+      "06:55"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T18:00:00",
+    "arr": "2026-08-16T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 21.99,
+    "durH": 1.8,
+    "stops": [
+     [
+      "Freilassing",
+      "18:06"
+     ],
+     [
+      "Traunstein",
+      "18:24"
+     ],
+     [
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 34.98,
+   "out": {
+    "dep": "2026-09-04T20:45:00",
+    "arr": "2026-09-04T22:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 990",
+    "price": 6.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München-Pasing",
+      "20:53"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:15"
+     ],
+     [
+      "Ulm Hbf",
+      "21:58"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T15:17:00",
+    "arr": "2026-09-06T17:16:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 597",
+    "price": 27.99,
+    "durH": 2,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "16:00"
+     ],
+     [
+      "Augsburg Hbf",
+      "16:41"
+     ],
+     [
+      "München-Pasing",
+      "17:06"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 34.98,
+   "out": {
+    "dep": "2026-09-05T07:28:00",
+    "arr": "2026-09-05T09:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 612",
+    "price": 6.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "München-Pasing",
+      "07:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:59"
+     ],
+     [
+      "Ulm Hbf",
+      "08:45"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T15:17:00",
+    "arr": "2026-09-06T17:16:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 597",
+    "price": 27.99,
+    "durH": 2,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "16:00"
+     ],
+     [
+      "Augsburg Hbf",
+      "16:41"
+     ],
+     [
+      "München-Pasing",
+      "17:06"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -3705,38 +2661,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-01T18:17:00",
-    "arr": "2026-08-01T19:15:00",
+    "dep": "2026-08-01T22:20:00",
+    "arr": "2026-08-01T23:16:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 108",
+    "trains": "ICE 104",
     "price": 17.99,
-    "durH": 1,
+    "durH": 0.9,
     "stops": [
      [
       "Hamburg-Harburg",
-      "19:02"
+      "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    35.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -3764,11 +2705,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -3796,18 +2732,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -3831,11 +2757,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -3859,18 +2780,39 @@ window.BAHN_DATA = {
       "Rosenheim",
       "16:59"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
     ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Gunubirlik",
+   "total": 36.98,
+   "out": {
+    "dep": "2026-08-01T06:23:00",
+    "arr": "2026-08-01T07:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 1071",
+    "price": 14.99,
+    "durH": 1.3,
+    "stops": []
    },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
+   "ret": {
+    "dep": "2026-08-01T22:08:00",
+    "arr": "2026-08-01T23:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 70",
+    "price": 21.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Uelzen",
+      "22:46"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -3885,12 +2827,7 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 17.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-09T18:17:00",
@@ -3900,18 +2837,8 @@ window.BAHN_DATA = {
     "trains": "ICE 1509",
     "price": 18.99,
     "durH": 1.1,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -3939,11 +2866,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
-    ],
-    "low": true,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -3967,18 +2889,60 @@ window.BAHN_DATA = {
       "München-Pasing",
       "17:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 36.98,
+   "out": {
+    "dep": "2026-08-29T06:42:00",
+    "arr": "2026-08-29T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 6.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München-Pasing",
+      "06:50"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:12"
+     ],
+     [
+      "Ulm Hbf",
+      "07:57"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
+   "ret": {
+    "dep": "2026-08-30T15:17:00",
+    "arr": "2026-08-30T17:16:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 2587",
+    "price": 29.99,
+    "durH": 2,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "16:00"
+     ],
+     [
+      "Augsburg Hbf",
+      "16:41"
+     ],
+     [
+      "München-Pasing",
+      "17:06"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4006,11 +2970,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -4034,18 +2993,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4073,11 +3022,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -4101,18 +3045,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4127,12 +3061,7 @@ window.BAHN_DATA = {
     "trains": "ICE 582",
     "price": 18.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-16T15:01:00",
@@ -4142,18 +3071,8 @@ window.BAHN_DATA = {
     "trains": "ICE 625",
     "price": 18.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -4173,38 +3092,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "19:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T19:17:00",
-    "arr": "2026-08-02T20:15:00",
+    "dep": "2026-08-02T18:17:00",
+    "arr": "2026-08-02T19:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 108",
     "price": 21.99,
     "durH": 1,
     "stops": [
      [
       "Hamburg-Harburg",
-      "20:02"
+      "19:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4224,38 +3128,75 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     39.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T19:17:00",
-    "arr": "2026-08-02T20:15:00",
+    "dep": "2026-08-02T18:17:00",
+    "arr": "2026-08-02T19:15:00",
     "from": "Bremen Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 518",
+    "trains": "ICE 108",
     "price": 21.99,
     "durH": 1,
     "stops": [
      [
       "Hamburg-Harburg",
-      "20:02"
+      "19:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     33.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cumartesi",
+   "total": 39.98,
+   "out": {
+    "dep": "2026-08-08T06:04:00",
+    "arr": "2026-08-08T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 12.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "06:15"
+     ],
+     [
+      "Rosenheim",
+      "06:55"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    39.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T18:00:00",
+    "arr": "2026-08-09T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 26.99,
+    "durH": 1.8,
+    "stops": [
+     [
+      "Freilassing",
+      "18:06"
+     ],
+     [
+      "Traunstein",
+      "18:24"
+     ],
+     [
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -4295,11 +3236,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -4339,18 +3275,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4390,11 +3316,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -4434,18 +3355,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4485,11 +3396,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -4529,18 +3435,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4568,11 +3464,6 @@ window.BAHN_DATA = {
       "Celle",
       "22:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -4588,97 +3479,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "16:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cuma",
-   "total": 41.98,
-   "out": {
-    "dep": "2026-07-31T19:12:00",
-    "arr": "2026-07-31T21:01:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJ 1293",
-    "price": 14.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "München Ost",
-      "19:22"
-     ],
-     [
-      "Rosenheim",
-      "19:57"
-     ],
-     [
-      "Prien am Chiemsee",
-      "20:15"
-     ],
-     [
-      "Traunstein",
-      "20:34"
-     ],
-     [
-      "Freilassing",
-      "20:52"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T18:00:00",
-    "arr": "2026-08-02T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 26.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    19.98,
-    64.0
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4710,11 +3512,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:35"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -4738,18 +3535,83 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cuma",
+   "total": 42.98,
+   "out": {
+    "dep": "2026-08-14T21:28:00",
+    "arr": "2026-08-14T22:53:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 1687",
+    "price": 14.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Lüneburg",
+      "21:52"
+     ],
+     [
+      "Uelzen",
+      "22:09"
+     ],
+     [
+      "Celle",
+      "22:32"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T19:08:00",
+    "arr": "2026-08-16T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 27.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Celle",
+      "19:27"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Hannover",
+   "variant": "Cumartesi",
+   "total": 42.98,
+   "out": {
+    "dep": "2026-08-15T06:23:00",
+    "arr": "2026-08-15T07:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Hannover Hbf",
+    "trains": "ICE 1071",
+    "price": 14.99,
+    "durH": 1.3,
+    "stops": []
+   },
+   "ret": {
+    "dep": "2026-08-16T19:08:00",
+    "arr": "2026-08-16T20:29:00",
+    "from": "Hannover Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 27.99,
+    "durH": 1.4,
+    "stops": [
+     [
+      "Celle",
+      "19:27"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -4777,11 +3639,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "00:36"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -4805,18 +3662,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4844,11 +3691,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -4872,18 +3714,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4911,46 +3743,31 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "21:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T18:17:00",
-    "arr": "2026-08-16T20:32:00",
+    "dep": "2026-08-16T15:17:00",
+    "arr": "2026-08-16T17:16:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 611",
+    "trains": "ICE 2587",
     "price": 24.99,
-    "durH": 2.3,
+    "durH": 2,
     "stops": [
      [
       "Ulm Hbf",
-      "19:13"
+      "16:00"
      ],
      [
       "Augsburg Hbf",
-      "19:56"
+      "16:41"
      ],
      [
       "München-Pasing",
-      "20:20"
+      "17:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -4978,92 +3795,31 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T18:17:00",
-    "arr": "2026-08-16T20:32:00",
+    "dep": "2026-08-16T15:17:00",
+    "arr": "2026-08-16T17:16:00",
     "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 611",
+    "trains": "ICE 2587",
     "price": 24.99,
-    "durH": 2.3,
+    "durH": 2,
     "stops": [
      [
       "Ulm Hbf",
-      "19:13"
+      "16:00"
      ],
      [
       "Augsburg Hbf",
-      "19:56"
+      "16:41"
      ],
      [
       "München-Pasing",
-      "20:20"
+      "17:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Gunubirlik",
-   "total": 43.98,
-   "out": {
-    "dep": "2026-08-01T06:23:00",
-    "arr": "2026-08-01T07:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 1071",
-    "price": 21.99,
-    "durH": 1.3,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-01T22:08:00",
-    "arr": "2026-08-01T23:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 21.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "22:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    49.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -5078,12 +3834,7 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 21.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-09-05T20:09:00",
@@ -5106,123 +3857,8 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cuma",
-   "total": 44.98,
-   "out": {
-    "dep": "2026-08-14T21:28:00",
-    "arr": "2026-08-14T22:53:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 1687",
-    "price": 14.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Lüneburg",
-      "21:52"
-     ],
-     [
-      "Uelzen",
-      "22:09"
-     ],
-     [
-      "Celle",
-      "22:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T18:08:00",
-    "arr": "2026-08-16T19:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ECE 72",
-    "price": 29.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "18:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cumartesi",
-   "total": 44.98,
-   "out": {
-    "dep": "2026-08-15T06:23:00",
-    "arr": "2026-08-15T07:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 1071",
-    "price": 14.99,
-    "durH": 1.3,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T18:08:00",
-    "arr": "2026-08-16T19:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ECE 72",
-    "price": 29.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "18:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -5250,11 +3886,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -5278,18 +3909,72 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cuma",
+   "total": 44.98,
+   "out": {
+    "dep": "2026-07-31T22:51:00",
+    "arr": "2026-08-01T00:49:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJ 1297",
+    "price": 14.99,
+    "durH": 2,
+    "stops": [
+     [
+      "München Ost",
+      "22:59"
+     ],
+     [
+      "Rosenheim",
+      "23:38"
+     ],
+     [
+      "Prien am Chiemsee",
+      "23:59"
+     ],
+     [
+      "Traunstein",
+      "00:20"
+     ],
+     [
+      "Freilassing",
+      "00:39"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T18:00:00",
+    "arr": "2026-08-02T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 29.99,
+    "durH": 1.8,
+    "stops": [
+     [
+      "Freilassing",
+      "18:06"
+     ],
+     [
+      "Traunstein",
+      "18:24"
+     ],
+     [
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -5304,12 +3989,7 @@ window.BAHN_DATA = {
     "trains": "ICE 524",
     "price": 19.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-30T16:01:00",
@@ -5319,18 +3999,8 @@ window.BAHN_DATA = {
     "trains": "ICE 627",
     "price": 24.99,
     "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -5362,38 +4032,27 @@ window.BAHN_DATA = {
       "Celle",
       "23:39"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:08:00",
-    "arr": "2026-08-09T20:29:00",
+    "dep": "2026-08-09T17:08:00",
+    "arr": "2026-08-09T18:29:00",
     "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 576",
+    "trains": "ICE 578",
     "price": 27.99,
     "durH": 1.4,
     "stops": [
      [
       "Celle",
-      "19:27"
+      "17:27"
+     ],
+     [
+      "Uelzen",
+      "17:49"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -5417,11 +4076,6 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
     ]
    },
    "ret": {
@@ -5437,18 +4091,88 @@ window.BAHN_DATA = {
       "Uelzen",
       "18:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Gunubirlik",
+   "total": 45.98,
+   "out": {
+    "dep": "2026-09-05T06:45:00",
+    "arr": "2026-09-05T10:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 105",
+    "price": 22.99,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "06:55"
+     ],
+     [
+      "Bremen Hbf",
+      "07:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "08:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "09:00"
+     ],
+     [
+      "Gelsenkirchen Hbf",
+      "09:41"
+     ],
+     [
+      "Oberhausen Hbf",
+      "09:59"
+     ],
+     [
+      "Duisburg Hbf",
+      "10:07"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
+   "ret": {
+    "dep": "2026-09-05T17:34:00",
+    "arr": "2026-09-05T21:15:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 106",
+    "price": 22.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Duisburg Hbf",
+      "17:45"
+     ],
+     [
+      "Gelsenkirchen Hbf",
+      "18:05"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "19:21"
+     ],
+     [
+      "Bremen Hbf",
+      "20:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "21:02"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -5472,11 +4196,6 @@ window.BAHN_DATA = {
       "Rosenheim",
       "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.1
     ]
    },
    "ret": {
@@ -5487,85 +4206,120 @@ window.BAHN_DATA = {
     "trains": "ICE 1212",
     "price": 19.99,
     "durH": 1.9,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    47.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "München",
-   "city": "Stuttgart",
+   "city": "Nürnberg",
    "variant": "Gunubirlik",
-   "total": 46.98,
+   "total": 45.99,
    "out": {
-    "dep": "2026-08-01T06:42:00",
-    "arr": "2026-08-01T08:43:00",
+    "dep": "2026-08-01T06:09:00",
+    "arr": "2026-08-01T07:29:00",
     "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 26.99,
-    "durH": 2,
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 886",
+    "price": 14.99,
+    "durH": 1.3,
     "stops": [
      [
-      "München-Pasing",
-      "06:50"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:12"
-     ],
-     [
-      "Ulm Hbf",
-      "07:57"
+      "Ingolstadt Hbf",
+      "06:55"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-01T22:17:00",
-    "arr": "2026-08-02T00:29:00",
-    "from": "Stuttgart Hbf",
+    "dep": "2026-08-01T20:07:00",
+    "arr": "2026-08-01T21:56:00",
+    "from": "Nürnberg Hbf",
     "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 19.99,
-    "durH": 2.2,
+    "trains": "4039",
+    "price": 31,
+    "durH": 1.8,
     "stops": [
      [
-      "Ulm Hbf",
-      "23:13"
+      "Allersberg(Rothsee)",
+      "20:20"
      ],
      [
-      "Augsburg Hbf",
-      "23:55"
+      "Kinding(Altmühltal)",
+      "20:35"
      ],
      [
-      "München-Pasing",
-      "00:19"
+      "Ingolstadt Nord",
+      "20:48"
+     ],
+     [
+      "Ingolstadt Hbf",
+      "20:53"
+     ],
+     [
+      "Rohrbach(Ilm)",
+      "21:22"
+     ],
+     [
+      "Pfaffenhofen(Ilm)",
+      "21:29"
+     ],
+     [
+      "Petershausen(Obb)",
+      "21:37"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Gunubirlik",
+   "total": 46.98,
+   "out": {
+    "dep": "2026-08-29T06:45:00",
+    "arr": "2026-08-29T09:00:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 105",
+    "price": 26.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "06:55"
+     ],
+     [
+      "Bremen Hbf",
+      "07:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "08:34"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   "ret": {
+    "dep": "2026-08-29T17:56:00",
+    "arr": "2026-08-29T20:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 518",
+    "price": 19.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Osnabrück Hbf",
+      "18:21"
+     ],
+     [
+      "Bremen Hbf",
+      "19:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "20:02"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -5617,11 +4371,6 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:22"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -5665,109 +4414,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Gunubirlik",
-   "total": 47.98,
-   "out": {
-    "dep": "2026-09-05T07:29:00",
-    "arr": "2026-09-05T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 29.99,
-    "durH": 5.2,
-    "stops": [
-     [
-      "Celle",
-      "08:27"
-     ],
-     [
-      "Hannover Hbf",
-      "08:48"
-     ],
-     [
-      "Göttingen",
-      "09:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Süd",
-      "11:08"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-05T19:23:00",
-    "arr": "2026-09-06T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 17.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "20:00"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
-     ],
-     [
-      "Hannover Hbf",
-      "23:05"
-     ],
-     [
-      "Celle",
-      "23:27"
-     ],
-     [
-      "Lüneburg",
-      "00:03"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -5803,11 +4451,6 @@ window.BAHN_DATA = {
       "Oberhausen Hbf",
       "23:27"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -5847,85 +4490,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    40.98,
-    127.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 47.98,
-   "out": {
-    "dep": "2026-08-29T06:42:00",
-    "arr": "2026-08-29T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 17.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München-Pasing",
-      "06:50"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:12"
-     ],
-     [
-      "Ulm Hbf",
-      "07:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T15:17:00",
-    "arr": "2026-08-30T17:16:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 2587",
-    "price": 29.99,
-    "durH": 2,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "16:00"
-     ],
-     [
-      "Augsburg Hbf",
-      "16:41"
-     ],
-     [
-      "München-Pasing",
-      "17:06"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -5969,11 +4535,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -6013,18 +4574,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -6064,11 +4615,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -6108,18 +4654,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -6163,11 +4699,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -6207,18 +4738,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -6258,11 +4779,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -6302,18 +4818,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -6345,11 +4851,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "22:35"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -6373,80 +4874,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cuma",
-   "total": 48.99,
-   "out": {
-    "dep": "2026-07-31T21:04:00",
-    "arr": "2026-07-31T23:10:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "4044",
-    "price": 31,
-    "durH": 2.1,
-    "stops": [
-     [
-      "Petershausen(Obb)",
-      "21:22"
-     ],
-     [
-      "Pfaffenhofen(Ilm)",
-      "21:31"
-     ],
-     [
-      "Rohrbach(Ilm)",
-      "21:38"
-     ],
-     [
-      "Ingolstadt Hbf",
-      "21:50"
-     ],
-     [
-      "Ingolstadt Nord",
-      "21:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T15:01:00",
-    "arr": "2026-08-02T16:13:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 17.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    48.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -6474,11 +4903,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -6502,127 +4926,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 49.98,
-   "out": {
-    "dep": "2026-08-22T06:34:00",
-    "arr": "2026-08-22T08:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 21.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-22T18:33:00",
-    "arr": "2026-08-22T20:44:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2588",
-    "price": 27.99,
-    "durH": 2.2,
-    "stops": [
-     [
-      "Wittenberge",
-      "19:24"
-     ],
-     [
-      "Ludwigslust",
-      "19:48"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 49.98,
-   "out": {
-    "dep": "2026-08-29T07:13:00",
-    "arr": "2026-08-29T09:23:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 2587",
-    "price": 27.99,
-    "durH": 2.2,
-    "stops": [
-     [
-      "Ludwigslust",
-      "08:08"
-     ],
-     [
-      "Wittenberge",
-      "08:31"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-29T18:33:00",
-    "arr": "2026-08-29T20:44:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2588",
-    "price": 21.99,
-    "durH": 2.2,
-    "stops": [
-     [
-      "Wittenberge",
-      "19:24"
-     ],
-     [
-      "Ludwigslust",
-      "19:48"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -6650,46 +4955,31 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:56:00",
-    "arr": "2026-08-09T22:15:00",
+    "dep": "2026-08-09T17:56:00",
+    "arr": "2026-08-09T20:15:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 518",
     "price": 33.99,
     "durH": 2.3,
     "stops": [
      [
       "Osnabrück Hbf",
-      "20:21"
+      "18:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "19:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -6717,11 +5007,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -6745,18 +5030,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -6804,66 +5079,47 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-09-05T18:11:00",
-    "arr": "2026-09-05T22:15:00",
+    "dep": "2026-09-05T17:11:00",
+    "arr": "2026-09-05T21:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 106",
     "price": 22.99,
     "durH": 4.1,
     "stops": [
      [
-      "Solingen Hbf",
-      "18:29"
+      "Düsseldorf Hbf",
+      "17:32"
      ],
      [
-      "Wuppertal Hbf",
-      "18:41"
+      "Duisburg Hbf",
+      "17:45"
      ],
      [
-      "Hagen Hbf",
-      "18:58"
-     ],
-     [
-      "Dortmund Hbf",
-      "19:21"
+      "Gelsenkirchen Hbf",
+      "18:05"
      ],
      [
       "Münster(Westf)Hbf",
-      "19:54"
+      "18:54"
      ],
      [
       "Osnabrück Hbf",
-      "20:21"
+      "19:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "20:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "21:02"
      ]
-    ],
-    "low": true,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -6907,11 +5163,6 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:07"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -6951,113 +5202,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Gunubirlik",
-   "total": 52.98,
-   "out": {
-    "dep": "2026-09-05T06:45:00",
-    "arr": "2026-09-05T10:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
-    "price": 22.99,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "06:55"
-     ],
-     [
-      "Bremen Hbf",
-      "07:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "08:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "09:00"
-     ],
-     [
-      "Gelsenkirchen Hbf",
-      "09:41"
-     ],
-     [
-      "Oberhausen Hbf",
-      "09:59"
-     ],
-     [
-      "Duisburg Hbf",
-      "10:07"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-05T17:34:00",
-    "arr": "2026-09-05T21:15:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 106",
-    "price": 29.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Duisburg Hbf",
-      "17:45"
-     ],
-     [
-      "Gelsenkirchen Hbf",
-      "18:05"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "19:21"
-     ],
-     [
-      "Bremen Hbf",
-      "20:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "21:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    141.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7089,11 +5235,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -7129,85 +5270,8 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Salzburg",
-   "variant": "Cumartesi",
-   "total": 52.98,
-   "out": {
-    "dep": "2026-08-01T06:04:00",
-    "arr": "2026-08-01T07:58:00",
-    "from": "München Hbf",
-    "to": "Salzburg Hbf",
-    "trains": "RJX 265",
-    "price": 25.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "06:15"
-     ],
-     [
-      "Rosenheim",
-      "06:55"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     51.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T18:00:00",
-    "arr": "2026-08-02T19:46:00",
-    "from": "Salzburg Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 112",
-    "price": 26.99,
-    "durH": 1.8,
-    "stops": [
-     [
-      "Freilassing",
-      "18:06"
-     ],
-     [
-      "Traunstein",
-      "18:24"
-     ],
-     [
-      "Prien am Chiemsee",
-      "18:43"
-     ],
-     [
-      "Rosenheim",
-      "19:01"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     55.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    27.98,
-    55.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7235,46 +5299,31 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "21:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:56:00",
-    "arr": "2026-08-09T22:15:00",
+    "dep": "2026-08-09T17:56:00",
+    "arr": "2026-08-09T20:15:00",
     "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 518",
     "price": 33.99,
     "durH": 2.3,
     "stops": [
      [
       "Osnabrück Hbf",
-      "20:21"
+      "18:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "19:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7334,11 +5383,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "02:23"
      ]
-    ],
-    "low": true,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -7374,18 +5418,8 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7429,11 +5463,6 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
     ]
    },
    "ret": {
@@ -7473,18 +5502,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:44"
      ]
-    ],
-    "low": true,
-    "rng": [
-     29.99,
-     135.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    53.98,
-    255.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -7512,11 +5531,6 @@ window.BAHN_DATA = {
       "Ulm Hbf",
       "23:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
     ]
    },
    "ret": {
@@ -7540,64 +5554,60 @@ window.BAHN_DATA = {
       "München-Pasing",
       "18:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    79.98
-   ]
+   }
   },
   {
    "origin": "München",
-   "city": "Nürnberg",
-   "variant": "Cumartesi",
-   "total": 53.98,
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 54.98,
    "out": {
-    "dep": "2026-08-01T06:09:00",
-    "arr": "2026-08-01T07:29:00",
+    "dep": "2026-08-01T06:42:00",
+    "arr": "2026-08-01T08:43:00",
     "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 886",
-    "price": 35.99,
-    "durH": 1.3,
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
+    "price": 29.99,
+    "durH": 2,
     "stops": [
      [
-      "Ingolstadt Hbf",
-      "06:55"
+      "München-Pasing",
+      "06:50"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:12"
+     ],
+     [
+      "Ulm Hbf",
+      "07:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T15:01:00",
-    "arr": "2026-08-02T16:13:00",
-    "from": "Nürnberg Hbf",
+    "dep": "2026-08-01T21:23:00",
+    "arr": "2026-08-01T23:21:00",
+    "from": "Stuttgart Hbf",
     "to": "München Hbf",
-    "trains": "ICE 625",
-    "price": 17.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
+    "trains": "ICE 2593",
+    "price": 24.99,
+    "durH": 2,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "22:06"
+     ],
+     [
+      "Augsburg Hbf",
+      "22:47"
+     ],
+     [
+      "München-Pasing",
+      "23:12"
+     ]
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    24.98,
-    59.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7612,12 +5622,7 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-08T22:53:00",
@@ -7640,18 +5645,8 @@ window.BAHN_DATA = {
       "Büchen",
       "00:42"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7666,12 +5661,7 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-15T18:33:00",
@@ -7690,64 +5680,139 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
+   }
   },
   {
-   "origin": "München",
-   "city": "Nürnberg",
+   "origin": "Hamburg",
+   "city": "Berlin",
    "variant": "Gunubirlik",
    "total": 55.98,
    "out": {
-    "dep": "2026-08-01T06:09:00",
-    "arr": "2026-08-01T07:29:00",
-    "from": "München Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 886",
-    "price": 35.99,
-    "durH": 1.3,
+    "dep": "2026-08-22T06:34:00",
+    "arr": "2026-08-22T08:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
+    "price": 27.99,
+    "durH": 1.8,
+    "stops": []
+   },
+   "ret": {
+    "dep": "2026-08-22T18:33:00",
+    "arr": "2026-08-22T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 27.99,
+    "durH": 2.2,
     "stops": [
      [
-      "Ingolstadt Hbf",
-      "06:55"
+      "Wittenberge",
+      "19:24"
+     ],
+     [
+      "Ludwigslust",
+      "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 55.98,
+   "out": {
+    "dep": "2026-08-29T07:13:00",
+    "arr": "2026-08-29T09:23:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 2587",
+    "price": 27.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "Ludwigslust",
+      "08:08"
+     ],
+     [
+      "Wittenberge",
+      "08:31"
+     ]
     ]
    },
    "ret": {
-    "dep": "2026-08-01T18:01:00",
-    "arr": "2026-08-01T19:12:00",
-    "from": "Nürnberg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 721",
-    "price": 19.99,
-    "durH": 1.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     51.99
+    "dep": "2026-08-29T18:33:00",
+    "arr": "2026-08-29T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 27.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "Wittenberge",
+      "19:24"
+     ],
+     [
+      "Ludwigslust",
+      "19:48"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Salzburg",
+   "variant": "Cumartesi",
+   "total": 55.98,
+   "out": {
+    "dep": "2026-08-01T06:04:00",
+    "arr": "2026-08-01T07:58:00",
+    "from": "München Hbf",
+    "to": "Salzburg Hbf",
+    "trains": "RJX 265",
+    "price": 25.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "06:15"
+     ],
+     [
+      "Rosenheim",
+      "06:55"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    61.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T18:00:00",
+    "arr": "2026-08-02T19:46:00",
+    "from": "Salzburg Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 112",
+    "price": 29.99,
+    "durH": 1.8,
+    "stops": [
+     [
+      "Freilassing",
+      "18:06"
+     ],
+     [
+      "Traunstein",
+      "18:24"
+     ],
+     [
+      "Prien am Chiemsee",
+      "18:43"
+     ],
+     [
+      "Rosenheim",
+      "19:01"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7762,12 +5827,7 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 21.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-09-06T19:37:00",
@@ -7777,18 +5837,8 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 34.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -7816,11 +5866,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -7844,18 +5889,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -7883,11 +5918,6 @@ window.BAHN_DATA = {
       "Wittenberge",
       "20:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
     ]
    },
    "ret": {
@@ -7898,18 +5928,115 @@ window.BAHN_DATA = {
     "trains": "ICE 504",
     "price": 34.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
+    "stops": []
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-09-05T07:29:00",
+    "arr": "2026-09-05T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 39.99,
+    "durH": 5.2,
+    "stops": [
+     [
+      "Celle",
+      "08:27"
+     ],
+     [
+      "Hannover Hbf",
+      "08:48"
+     ],
+     [
+      "Göttingen",
+      "09:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "09:46"
+     ],
+     [
+      "Frankfurt(Main)Süd",
+      "11:08"
+     ],
+     [
+      "Mannheim Hbf",
+      "11:57"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
+   "ret": {
+    "dep": "2026-09-05T19:23:00",
+    "arr": "2026-09-06T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 17.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 57.98,
+   "out": {
+    "dep": "2026-07-31T22:17:00",
+    "arr": "2026-08-01T00:13:00",
+    "from": "München Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1080",
+    "price": 39.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "22:51"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T15:01:00",
+    "arr": "2026-08-02T16:13:00",
+    "from": "Nürnberg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 625",
+    "price": 17.99,
+    "durH": 1.2,
+    "stops": []
+   }
   },
   {
    "origin": "München",
@@ -7949,11 +6076,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -7993,18 +6115,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -8040,11 +6152,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
@@ -8068,196 +6175,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "17:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 57.98,
-   "out": {
-    "dep": "2026-08-28T20:45:00",
-    "arr": "2026-08-29T00:09:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 990",
-    "price": 17.99,
-    "durH": 3.4,
-    "stops": [
-     [
-      "München-Pasing",
-      "20:53"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:15"
-     ],
-     [
-      "Ulm Hbf",
-      "21:58"
-     ],
-     [
-      "Stuttgart Hbf",
-      "22:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "23:26"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T16:10:00",
-    "arr": "2026-08-30T20:10:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1291",
-    "price": 39.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Darmstadt Hbf",
-      "16:28"
-     ],
-     [
-      "Bensheim",
-      "16:43"
-     ],
-     [
-      "Weinheim(Bergstr)Hbf",
-      "16:55"
-     ],
-     [
-      "Heidelberg Hbf",
-      "17:11"
-     ],
-     [
-      "Esslingen(Neckar)",
-      "17:58"
-     ],
-     [
-      "Ulm Hbf",
-      "18:55"
-     ],
-     [
-      "Günzburg",
-      "19:09"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:40"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Gunubirlik",
-   "total": 58.98,
-   "out": {
-    "dep": "2026-08-29T06:34:00",
-    "arr": "2026-08-29T09:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 505",
-    "price": 35.99,
-    "durH": 3.2,
-    "stops": [
-     [
-      "Berlin Hbf",
-      "08:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "08:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "09:10"
-     ],
-     [
-      "Bitterfeld",
-      "09:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-29T21:16:00",
-    "arr": "2026-08-30T00:44:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2584",
-    "price": 22.99,
-    "durH": 3.5,
-    "stops": [
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "21:46"
-     ],
-     [
-      "Berlin Südkreuz",
-      "22:22"
-     ],
-     [
-      "Berlin Hbf",
-      "22:30"
-     ],
-     [
-      "Wittenberge",
-      "23:24"
-     ],
-     [
-      "Ludwigslust",
-      "23:48"
-     ],
-     [
-      "Büchen",
-      "00:22"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -8309,11 +6228,6 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "23:33"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -8357,18 +6271,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -8416,11 +6320,6 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -8464,109 +6363,76 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
+   "city": "Kopenhagen",
+   "variant": "Gunubirlik",
    "total": 59.98,
    "out": {
-    "dep": "2026-09-05T07:29:00",
-    "arr": "2026-09-05T12:38:00",
+    "dep": "2026-09-05T07:04:00",
+    "arr": "2026-09-05T11:38:00",
     "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
+    "to": "København H",
+    "trains": "ECE 1198",
     "price": 29.99,
-    "durH": 5.2,
+    "durH": 4.6,
     "stops": [
      [
-      "Celle",
+      "Schleswig",
       "08:27"
      ],
      [
-      "Hannover Hbf",
-      "08:48"
+      "Padborg st",
+      "08:54"
      ],
      [
-      "Göttingen",
-      "09:25"
+      "Kolding st",
+      "09:44"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
+      "Odense st",
+      "10:24"
      ],
      [
-      "Frankfurt(Main)Süd",
-      "11:08"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
+      "Ringsted st",
+      "11:07"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
-    "dep": "2026-09-06T19:23:00",
-    "arr": "2026-09-07T00:30:00",
-    "from": "Stuttgart Hbf",
+    "dep": "2026-09-05T18:22:00",
+    "arr": "2026-09-05T22:56:00",
+    "from": "København H",
     "to": "Hamburg Hbf",
-    "trains": "ICE 572",
+    "trains": "ECE 1199",
     "price": 29.99,
-    "durH": 5.1,
+    "durH": 4.6,
     "stops": [
      [
-      "Mannheim Hbf",
-      "20:00"
+      "Ringsted st",
+      "18:50"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
+      "Odense st",
+      "19:33"
      ],
      [
-      "Göttingen",
-      "22:31"
+      "Kolding st",
+      "20:12"
      ],
      [
-      "Hannover Hbf",
-      "23:05"
+      "Padborg st",
+      "20:57"
      ],
      [
-      "Celle",
-      "23:27"
-     ],
-     [
-      "Lüneburg",
-      "00:03"
+      "Schleswig",
+      "21:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -8622,66 +6488,51 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "00:30"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T18:11:00",
-    "arr": "2026-08-16T22:15:00",
+    "dep": "2026-08-16T16:11:00",
+    "arr": "2026-08-16T20:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 518",
     "price": 43.99,
     "durH": 4.1,
     "stops": [
      [
       "Solingen Hbf",
-      "18:29"
+      "16:29"
      ],
      [
       "Wuppertal Hbf",
-      "18:41"
+      "16:41"
      ],
      [
       "Hagen Hbf",
-      "18:58"
+      "16:58"
      ],
      [
       "Dortmund Hbf",
-      "19:21"
+      "17:21"
      ],
      [
       "Münster(Westf)Hbf",
-      "19:54"
+      "17:54"
      ],
      [
       "Osnabrück Hbf",
-      "20:21"
+      "18:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "19:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -8733,11 +6584,6 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "00:10"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -8785,68 +6631,76 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    40.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cumartesi",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
    "total": 61.98,
    "out": {
-    "dep": "2026-08-22T06:34:00",
-    "arr": "2026-08-22T08:22:00",
+    "dep": "2026-08-29T06:34:00",
+    "arr": "2026-08-29T09:46:00",
     "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
+    "to": "Leipzig Hbf",
     "trains": "ICE 505",
-    "price": 21.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
+    "price": 43.99,
+    "durH": 3.2,
+    "stops": [
+     [
+      "Berlin Hbf",
+      "08:22"
+     ],
+     [
+      "Berlin Südkreuz",
+      "08:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "09:10"
+     ],
+     [
+      "Bitterfeld",
+      "09:27"
+     ]
     ]
    },
    "ret": {
-    "dep": "2026-08-23T18:33:00",
-    "arr": "2026-08-23T20:44:00",
-    "from": "Berlin Hbf",
+    "dep": "2026-08-29T21:16:00",
+    "arr": "2026-08-30T00:44:00",
+    "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2588",
-    "price": 39.99,
-    "durH": 2.2,
+    "trains": "ICE 2584",
+    "price": 17.99,
+    "durH": 3.5,
     "stops": [
      [
+      "Lutherstadt Wittenberg Hbf",
+      "21:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "22:22"
+     ],
+     [
+      "Berlin Hbf",
+      "22:30"
+     ],
+     [
       "Wittenberge",
-      "19:24"
+      "23:24"
      ],
      [
       "Ludwigslust",
-      "19:48"
+      "23:48"
+     ],
+     [
+      "Büchen",
+      "00:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -8870,11 +6724,6 @@ window.BAHN_DATA = {
       "Wittenberge",
       "08:31"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
     ]
    },
    "ret": {
@@ -8894,283 +6743,8 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 62.98,
-   "out": {
-    "dep": "2026-08-01T06:42:00",
-    "arr": "2026-08-01T08:43:00",
-    "from": "München Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 2592",
-    "price": 26.99,
-    "durH": 2,
-    "stops": [
-     [
-      "München-Pasing",
-      "06:50"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:12"
-     ],
-     [
-      "Ulm Hbf",
-      "07:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T16:17:00",
-    "arr": "2026-08-02T18:29:00",
-    "from": "Stuttgart Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 519",
-    "price": 35.99,
-    "durH": 2.2,
-    "stops": [
-     [
-      "Ulm Hbf",
-      "17:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "17:56"
-     ],
-     [
-      "München-Pasing",
-      "18:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     59.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    31.98,
-    93.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "München",
-   "variant": "Cuma",
-   "total": 63.98,
-   "out": {
-    "dep": "2026-09-04T22:28:00",
-    "arr": "2026-09-05T06:09:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1081",
-    "price": 23.99,
-    "durH": 7.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "22:38"
-     ],
-     [
-      "Lüneburg",
-      "22:57"
-     ],
-     [
-      "Uelzen",
-      "23:14"
-     ],
-     [
-      "Celle",
-      "23:39"
-     ],
-     [
-      "Hannover Hbf",
-      "00:00"
-     ],
-     [
-      "Göttingen",
-      "01:08"
-     ],
-     [
-      "Würzburg Hbf",
-      "03:52"
-     ],
-     [
-      "Nürnberg Hbf",
-      "04:48"
-     ],
-     [
-      "Ingolstadt Hbf",
-      "05:23"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T18:11:00",
-    "arr": "2026-09-06T23:57:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 782",
-    "price": 39.99,
-    "durH": 5.8,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "18:54"
-     ],
-     [
-      "Nürnberg Hbf",
-      "19:25"
-     ],
-     [
-      "Würzburg Hbf",
-      "20:20"
-     ],
-     [
-      "Fulda",
-      "21:02"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "21:34"
-     ],
-     [
-      "Göttingen",
-      "21:54"
-     ],
-     [
-      "Hannover Hbf",
-      "22:32"
-     ],
-     [
-      "Lüneburg",
-      "23:25"
-     ],
-     [
-      "Hamburg-Harburg",
-      "23:44"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Kopenhagen",
-   "variant": "Gunubirlik",
-   "total": 63.98,
-   "out": {
-    "dep": "2026-09-05T07:04:00",
-    "arr": "2026-09-05T11:38:00",
-    "from": "Hamburg Hbf",
-    "to": "København H",
-    "trains": "ECE 1198",
-    "price": 33.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Schleswig",
-      "08:27"
-     ],
-     [
-      "Padborg st",
-      "08:54"
-     ],
-     [
-      "Kolding st",
-      "09:44"
-     ],
-     [
-      "Odense st",
-      "10:24"
-     ],
-     [
-      "Ringsted st",
-      "11:07"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     133.1
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-05T18:22:00",
-    "arr": "2026-09-05T22:56:00",
-    "from": "København H",
-    "to": "Hamburg Hbf",
-    "trains": "ECE 1199",
-    "price": 29.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Ringsted st",
-      "18:50"
-     ],
-     [
-      "Odense st",
-      "19:33"
-     ],
-     [
-      "Kolding st",
-      "20:12"
-     ],
-     [
-      "Padborg st",
-      "20:57"
-     ],
-     [
-      "Schleswig",
-      "21:29"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     29.99,
-     57.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    67.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -9202,11 +6776,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
-    ],
-    "low": true,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -9238,18 +6807,8 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "23:56"
      ]
-    ],
-    "low": true,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -9257,55 +6816,46 @@ window.BAHN_DATA = {
    "variant": "Gunubirlik",
    "total": 64.98,
    "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:48:00",
+    "dep": "2026-08-15T07:45:00",
+    "arr": "2026-08-15T11:46:00",
     "from": "Hamburg Hbf",
     "to": "Köln Hbf",
-    "trains": "ICE 2505",
+    "trains": "ICE 517",
     "price": 34.99,
-    "durH": 4.1,
+    "durH": 4,
     "stops": [
      [
       "Hamburg-Harburg",
-      "06:55"
+      "07:55"
      ],
      [
       "Bremen Hbf",
-      "07:41"
+      "08:41"
      ],
      [
       "Osnabrück Hbf",
-      "08:34"
+      "09:34"
      ],
      [
       "Münster(Westf)Hbf",
-      "09:00"
+      "10:00"
      ],
      [
       "Dortmund Hbf",
-      "09:32"
+      "10:32"
      ],
      [
-      "Bochum Hbf",
-      "09:47"
+      "Hagen Hbf",
+      "10:56"
      ],
      [
-      "Essen Hbf",
-      "09:58"
+      "Wuppertal Hbf",
+      "11:13"
      ],
      [
-      "Duisburg Hbf",
-      "10:11"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "10:25"
+      "Solingen Hbf",
+      "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -9349,275 +6899,60 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
+   }
   },
   {
-   "origin": "Hamburg",
-   "city": "Münster",
-   "variant": "Cuma",
+   "origin": "München",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
    "total": 65.98,
    "out": {
-    "dep": "2026-07-31T22:45:00",
-    "arr": "2026-08-01T01:02:00",
-    "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 921",
-    "price": 25.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "22:55"
-     ],
-     [
-      "Bremen Hbf",
-      "23:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "00:36"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T19:56:00",
-    "arr": "2026-08-02T22:15:00",
-    "from": "Münster (Westf) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 516",
-    "price": 39.99,
-    "durH": 2.3,
-    "stops": [
-     [
-      "Osnabrück Hbf",
-      "20:21"
-     ],
-     [
-      "Bremen Hbf",
-      "21:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "22:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    87.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Gunubirlik",
-   "total": 65.98,
-   "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 2505",
-    "price": 32.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "06:55"
-     ],
-     [
-      "Bremen Hbf",
-      "07:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "08:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "09:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "09:32"
-     ],
-     [
-      "Bochum Hbf",
-      "09:47"
-     ],
-     [
-      "Essen Hbf",
-      "09:58"
-     ],
-     [
-      "Duisburg Hbf",
-      "10:11"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-15T17:34:00",
-    "arr": "2026-08-15T21:15:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 32.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Duisburg Hbf",
-      "17:45"
-     ],
-     [
-      "Essen Hbf",
-      "17:58"
-     ],
-     [
-      "Bochum Hbf",
-      "18:09"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "19:21"
-     ],
-     [
-      "Bremen Hbf",
-      "20:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "21:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    141.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Gunubirlik",
-   "total": 65.98,
-   "out": {
-    "dep": "2026-08-15T06:34:00",
-    "arr": "2026-08-15T09:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 505",
-    "price": 35.99,
-    "durH": 3.2,
-    "stops": [
-     [
-      "Berlin Hbf",
-      "08:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "08:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "09:10"
-     ],
-     [
-      "Bitterfeld",
-      "09:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-15T21:16:00",
-    "arr": "2026-08-16T00:44:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2584",
+    "dep": "2026-08-01T06:42:00",
+    "arr": "2026-08-01T08:43:00",
+    "from": "München Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 2592",
     "price": 29.99,
-    "durH": 3.5,
+    "durH": 2,
     "stops": [
      [
-      "Lutherstadt Wittenberg Hbf",
-      "21:46"
+      "München-Pasing",
+      "06:50"
      ],
      [
-      "Berlin Südkreuz",
-      "22:22"
+      "Augsburg Hbf",
+      "07:12"
      ],
      [
-      "Berlin Hbf",
-      "22:30"
-     ],
-     [
-      "Wittenberge",
-      "23:24"
-     ],
-     [
-      "Ludwigslust",
-      "23:48"
-     ],
-     [
-      "Büchen",
-      "00:22"
+      "Ulm Hbf",
+      "07:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T16:17:00",
+    "arr": "2026-08-02T18:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 519",
+    "price": 35.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "Ulm Hbf",
+      "17:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "17:56"
+     ],
+     [
+      "München-Pasing",
+      "18:20"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -9653,16 +6988,95 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T16:10:00",
-    "arr": "2026-08-16T20:10:00",
+    "dep": "2026-08-16T18:11:00",
+    "arr": "2026-08-16T22:13:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1097",
+    "price": 47.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Darmstadt Hbf",
+      "18:28"
+     ],
+     [
+      "Bensheim",
+      "18:43"
+     ],
+     [
+      "Weinheim(Bergstr)Hbf",
+      "18:55"
+     ],
+     [
+      "Heidelberg Hbf",
+      "19:11"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "19:58"
+     ],
+     [
+      "Ulm Hbf",
+      "20:54"
+     ],
+     [
+      "Günzburg",
+      "21:09"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:40"
+     ],
+     [
+      "München-Pasing",
+      "22:03"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 65.98,
+   "out": {
+    "dep": "2026-08-28T20:45:00",
+    "arr": "2026-08-29T00:09:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 990",
+    "price": 17.99,
+    "durH": 3.4,
+    "stops": [
+     [
+      "München-Pasing",
+      "20:53"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:15"
+     ],
+     [
+      "Ulm Hbf",
+      "21:58"
+     ],
+     [
+      "Stuttgart Hbf",
+      "22:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "23:26"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-30T16:10:00",
+    "arr": "2026-08-30T20:10:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
     "trains": "ICE 1291",
@@ -9701,18 +7115,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "19:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -9740,11 +7144,6 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "10:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
@@ -9768,18 +7167,100 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cuma",
+   "total": 67.98,
+   "out": {
+    "dep": "2026-08-07T20:15:00",
+    "arr": "2026-08-08T01:37:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 209",
+    "price": 17.99,
+    "durH": 5.4,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "20:24"
+     ],
+     [
+      "Bremen Hbf",
+      "21:05"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:04"
+     ],
+     [
+      "Dortmund Hbf",
+      "23:33"
+     ],
+     [
+      "Bochum Hbf",
+      "23:46"
+     ],
+     [
+      "Essen Hbf",
+      "23:57"
+     ],
+     [
+      "Duisburg Hbf",
+      "00:10"
+     ],
+     [
+      "Düsseldorf Hbf",
+      "00:29"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    127.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T18:11:00",
+    "arr": "2026-08-09T22:15:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
+    "price": 49.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Solingen Hbf",
+      "18:29"
+     ],
+     [
+      "Wuppertal Hbf",
+      "18:41"
+     ],
+     [
+      "Hagen Hbf",
+      "18:58"
+     ],
+     [
+      "Dortmund Hbf",
+      "19:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "19:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "20:21"
+     ],
+     [
+      "Bremen Hbf",
+      "21:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "22:02"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -9823,11 +7304,6 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "00:10"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -9875,18 +7351,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    40.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -9901,12 +7367,7 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -9925,18 +7386,8 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -9944,25 +7395,25 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 67.98,
    "out": {
-    "dep": "2026-08-21T19:52:00",
-    "arr": "2026-08-22T01:04:00",
+    "dep": "2026-08-14T20:29:00",
+    "arr": "2026-08-15T01:05:00",
     "from": "Hamburg Hbf",
     "to": "Frankfurt (Main) Hbf",
     "trains": "ICE 79",
     "price": 17.99,
-    "durH": 5.2,
+    "durH": 4.6,
     "stops": [
      [
       "Lüneburg",
-      "20:16"
+      "20:53"
      ],
      [
       "Uelzen",
-      "20:38"
+      "21:09"
      ],
      [
       "Hannover Hbf",
-      "21:38"
+      "21:51"
      ],
      [
       "Göttingen",
@@ -9972,50 +7423,70 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "22:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-23T19:46:00",
-    "arr": "2026-08-23T23:29:00",
+    "dep": "2026-08-16T17:46:00",
+    "arr": "2026-08-16T21:29:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 70",
+    "trains": "ICE 4",
     "price": 49.99,
     "durH": 3.7,
     "stops": [
      [
       "Kassel-Wilhelmshöhe",
-      "21:11"
+      "19:11"
      ],
      [
       "Göttingen",
-      "21:31"
+      "19:31"
      ],
      [
       "Hannover Hbf",
-      "22:05"
+      "20:05"
      ],
      [
       "Uelzen",
-      "22:46"
+      "20:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 67.98,
+   "out": {
+    "dep": "2026-08-22T06:34:00",
+    "arr": "2026-08-22T08:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
+    "price": 27.99,
+    "durH": 1.8,
+    "stops": []
    },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
+   "ret": {
+    "dep": "2026-08-23T18:33:00",
+    "arr": "2026-08-23T20:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 39.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "Wittenberge",
+      "19:24"
+     ],
+     [
+      "Ludwigslust",
+      "19:48"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -10059,11 +7530,6 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "02:29"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -10103,18 +7569,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -10166,11 +7622,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "11:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
@@ -10218,51 +7669,23 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "07:06"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     195.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    57.98,
-    221.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Hannover",
-   "variant": "Cuma",
+   "variant": "Cumartesi",
    "total": 68.98,
    "out": {
-    "dep": "2026-07-31T21:28:00",
-    "arr": "2026-07-31T22:53:00",
+    "dep": "2026-08-01T06:23:00",
+    "arr": "2026-08-01T07:38:00",
     "from": "Hamburg Hbf",
     "to": "Hannover Hbf",
-    "trains": "ICE 1687",
+    "trains": "ICE 1071",
     "price": 14.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Lüneburg",
-      "21:52"
-     ],
-     [
-      "Uelzen",
-      "22:09"
-     ],
-     [
-      "Celle",
-      "22:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
+    "durH": 1.3,
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-02T16:08:00",
@@ -10277,32 +7700,22 @@ window.BAHN_DATA = {
       "Uelzen",
       "16:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    68.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Münster",
+   "city": "Düsseldorf",
    "variant": "Gunubirlik",
    "total": 69.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T09:00:00",
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:25:00",
     "from": "Hamburg Hbf",
-    "to": "Münster (Westf) Hbf",
-    "trains": "ICE 105",
-    "price": 33.99,
-    "durH": 2.3,
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 2505",
+    "price": 36.99,
+    "durH": 3.7,
     "stops": [
      [
       "Hamburg-Harburg",
@@ -10315,23 +7728,58 @@ window.BAHN_DATA = {
      [
       "Osnabrück Hbf",
       "08:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "09:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "09:32"
+     ],
+     [
+      "Bochum Hbf",
+      "09:47"
+     ],
+     [
+      "Essen Hbf",
+      "09:58"
+     ],
+     [
+      "Duisburg Hbf",
+      "10:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
-    "dep": "2026-08-01T18:56:00",
-    "arr": "2026-08-01T21:15:00",
-    "from": "Münster (Westf) Hbf",
+    "dep": "2026-08-15T17:34:00",
+    "arr": "2026-08-15T21:15:00",
+    "from": "Düsseldorf Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 106",
-    "price": 35.99,
-    "durH": 2.3,
+    "trains": "ICE 2506",
+    "price": 32.99,
+    "durH": 3.7,
     "stops": [
+     [
+      "Duisburg Hbf",
+      "17:45"
+     ],
+     [
+      "Essen Hbf",
+      "17:58"
+     ],
+     [
+      "Bochum Hbf",
+      "18:09"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:54"
+     ],
      [
       "Osnabrück Hbf",
       "19:21"
@@ -10344,18 +7792,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    13.98,
-    75.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -10395,11 +7833,6 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "10:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -10439,18 +7872,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -10465,12 +7888,7 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-30T18:33:00",
@@ -10489,27 +7907,17 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Stuttgart",
-   "variant": "Gunubirlik",
+   "variant": "Cumartesi",
    "total": 69.98,
    "out": {
-    "dep": "2026-08-29T07:29:00",
-    "arr": "2026-08-29T12:38:00",
+    "dep": "2026-09-05T07:29:00",
+    "arr": "2026-09-05T12:38:00",
     "from": "Hamburg Hbf",
     "to": "Stuttgart Hbf",
     "trains": "ICE 575",
@@ -10534,64 +7942,117 @@ window.BAHN_DATA = {
      ],
      [
       "Frankfurt(Main)Süd",
-      "11:10"
+      "11:08"
      ],
      [
       "Mannheim Hbf",
       "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
-    "dep": "2026-08-29T17:23:00",
-    "arr": "2026-08-29T22:29:00",
+    "dep": "2026-09-06T19:23:00",
+    "arr": "2026-09-07T00:30:00",
     "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 574",
+    "trains": "ICE 572",
     "price": 29.99,
     "durH": 5.1,
     "stops": [
      [
       "Mannheim Hbf",
-      "18:00"
-     ],
-     [
-      "Frankfurt(Main)Süd",
-      "18:45"
+      "20:00"
      ],
      [
       "Kassel-Wilhelmshöhe",
-      "20:11"
+      "22:11"
      ],
      [
       "Göttingen",
-      "20:31"
+      "22:31"
      ],
      [
       "Hannover Hbf",
-      "21:05"
+      "23:05"
      ],
      [
       "Celle",
-      "21:27"
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Kopenhagen",
+   "variant": "Cumartesi",
+   "total": 69.98,
+   "out": {
+    "dep": "2026-09-05T07:04:00",
+    "arr": "2026-09-05T11:38:00",
+    "from": "Hamburg Hbf",
+    "to": "København H",
+    "trains": "ECE 1198",
+    "price": 29.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Schleswig",
+      "08:27"
+     ],
+     [
+      "Padborg st",
+      "08:54"
+     ],
+     [
+      "Kolding st",
+      "09:44"
+     ],
+     [
+      "Odense st",
+      "10:24"
+     ],
+     [
+      "Ringsted st",
+      "11:07"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
+   "ret": {
+    "dep": "2026-09-06T16:22:00",
+    "arr": "2026-09-06T21:01:00",
+    "from": "København H",
+    "to": "Hamburg Hbf",
+    "trains": "ECE 399",
+    "price": 39.99,
+    "durH": 4.7,
+    "stops": [
+     [
+      "Ringsted st",
+      "16:50"
+     ],
+     [
+      "Odense st",
+      "17:33"
+     ],
+     [
+      "Kolding st",
+      "18:12"
+     ],
+     [
+      "Padborg st",
+      "18:57"
+     ],
+     [
+      "Schleswig",
+      "19:29"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -10631,11 +8092,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -10675,18 +8131,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -10722,11 +8168,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -10754,18 +8195,8 @@ window.BAHN_DATA = {
       "Rosenheim",
       "21:46"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -10801,11 +8232,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -10837,18 +8263,132 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     62.2
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Münster",
+   "variant": "Cuma",
+   "total": 71.98,
+   "out": {
+    "dep": "2026-07-31T20:43:00",
+    "arr": "2026-07-31T23:01:00",
+    "from": "Hamburg Hbf",
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 209",
+    "price": 31.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "20:53"
+     ],
+     [
+      "Bremen Hbf",
+      "21:39"
+     ],
+     [
+      "Diepholz",
+      "22:09"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:33"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T19:56:00",
+    "arr": "2026-08-02T22:15:00",
+    "from": "Münster (Westf) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 516",
+    "price": 39.99,
+    "durH": 2.3,
+    "stops": [
+     [
+      "Osnabrück Hbf",
+      "20:21"
+     ],
+     [
+      "Bremen Hbf",
+      "21:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "22:02"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
+   "total": 71.98,
+   "out": {
+    "dep": "2026-08-15T06:34:00",
+    "arr": "2026-08-15T09:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 41.99,
+    "durH": 3.2,
+    "stops": [
+     [
+      "Berlin Hbf",
+      "08:22"
+     ],
+     [
+      "Berlin Südkreuz",
+      "08:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "09:10"
+     ],
+     [
+      "Bitterfeld",
+      "09:27"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-15T21:16:00",
+    "arr": "2026-08-16T00:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2584",
+    "price": 29.99,
+    "durH": 3.5,
+    "stops": [
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "21:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "22:22"
+     ],
+     [
+      "Berlin Hbf",
+      "22:30"
+     ],
+     [
+      "Wittenberge",
+      "23:24"
+     ],
+     [
+      "Ludwigslust",
+      "23:48"
+     ],
+     [
+      "Büchen",
+      "00:22"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -10856,39 +8396,34 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 71.98,
    "out": {
-    "dep": "2026-08-14T19:24:00",
-    "arr": "2026-08-14T21:29:00",
+    "dep": "2026-08-14T20:19:00",
+    "arr": "2026-08-14T22:29:00",
     "from": "München Hbf",
     "to": "Innsbruck Hbf",
-    "trains": "ICE 1205",
+    "trains": "RJ 289",
     "price": 19.99,
-    "durH": 2.1,
+    "durH": 2.2,
     "stops": [
      [
       "München Ost",
-      "19:32"
+      "20:28"
      ],
      [
       "Rosenheim",
-      "20:12"
+      "21:05"
      ],
      [
       "Kufstein",
-      "20:34"
+      "21:26"
      ],
      [
       "Wörgl Hbf",
-      "20:44"
+      "21:36"
      ],
      [
       "Jenbach",
-      "20:58"
+      "21:53"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -10920,18 +8455,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -10967,11 +8492,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -11003,18 +8523,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -11050,11 +8560,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -11086,18 +8591,8 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -11133,11 +8628,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -11169,18 +8659,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -11208,11 +8688,6 @@ window.BAHN_DATA = {
       "Osnabrück Hbf",
       "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     79.99
     ]
    },
    "ret": {
@@ -11236,97 +8711,60 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    26.98,
-    99.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cuma",
+   "city": "Münster",
+   "variant": "Gunubirlik",
    "total": 73.98,
    "out": {
-    "dep": "2026-08-07T20:29:00",
-    "arr": "2026-08-08T01:01:00",
+    "dep": "2026-08-01T06:45:00",
+    "arr": "2026-08-01T09:00:00",
     "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 79",
-    "price": 23.99,
-    "durH": 4.5,
+    "to": "Münster (Westf) Hbf",
+    "trains": "ICE 105",
+    "price": 33.99,
+    "durH": 2.3,
     "stops": [
      [
-      "Lüneburg",
-      "20:53"
+      "Hamburg-Harburg",
+      "06:55"
      ],
      [
-      "Uelzen",
-      "21:09"
+      "Bremen Hbf",
+      "07:41"
      ],
      [
-      "Hannover Hbf",
-      "21:51"
-     ],
-     [
-      "Göttingen",
-      "22:27"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:47"
+      "Osnabrück Hbf",
+      "08:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:46:00",
-    "arr": "2026-08-09T23:29:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-01T18:56:00",
+    "arr": "2026-08-01T21:15:00",
+    "from": "Münster (Westf) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 49.99,
-    "durH": 3.7,
+    "trains": "ICE 106",
+    "price": 39.99,
+    "durH": 2.3,
     "stops": [
      [
-      "Kassel-Wilhelmshöhe",
-      "21:11"
+      "Osnabrück Hbf",
+      "19:21"
      ],
      [
-      "Göttingen",
-      "21:31"
+      "Bremen Hbf",
+      "20:14"
      ],
      [
-      "Hannover Hbf",
-      "22:05"
-     ],
-     [
-      "Uelzen",
-      "22:46"
+      "Hamburg-Harburg",
+      "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -11358,11 +8796,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -11398,101 +8831,104 @@ window.BAHN_DATA = {
       "Büchen",
       "00:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Kopenhagen",
-   "variant": "Cumartesi",
+   "city": "München",
+   "variant": "Cuma",
    "total": 73.98,
    "out": {
-    "dep": "2026-09-05T07:04:00",
-    "arr": "2026-09-05T11:38:00",
+    "dep": "2026-09-04T22:28:00",
+    "arr": "2026-09-05T06:09:00",
     "from": "Hamburg Hbf",
-    "to": "København H",
-    "trains": "ECE 1198",
-    "price": 33.99,
-    "durH": 4.6,
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 23.99,
+    "durH": 7.7,
     "stops": [
      [
-      "Schleswig",
-      "08:27"
+      "Hamburg-Harburg",
+      "22:38"
      ],
      [
-      "Padborg st",
-      "08:54"
+      "Lüneburg",
+      "22:57"
      ],
      [
-      "Kolding st",
-      "09:44"
+      "Uelzen",
+      "23:14"
      ],
      [
-      "Odense st",
-      "10:24"
+      "Celle",
+      "23:39"
      ],
      [
-      "Ringsted st",
-      "11:07"
+      "Hannover Hbf",
+      "00:00"
+     ],
+     [
+      "Göttingen",
+      "01:08"
+     ],
+     [
+      "Würzburg Hbf",
+      "03:52"
+     ],
+     [
+      "Nürnberg Hbf",
+      "04:48"
+     ],
+     [
+      "Ingolstadt Hbf",
+      "05:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     133.1
     ]
    },
    "ret": {
-    "dep": "2026-09-06T16:22:00",
-    "arr": "2026-09-06T21:01:00",
-    "from": "København H",
+    "dep": "2026-09-06T17:10:00",
+    "arr": "2026-09-06T22:57:00",
+    "from": "München Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ECE 399",
-    "price": 39.99,
-    "durH": 4.7,
+    "trains": "ICE 584",
+    "price": 49.99,
+    "durH": 5.8,
     "stops": [
      [
-      "Ringsted st",
-      "16:50"
+      "Nürnberg Hbf",
+      "18:26"
      ],
      [
-      "Odense st",
-      "17:33"
+      "Würzburg Hbf",
+      "19:25"
      ],
      [
-      "Kolding st",
-      "18:12"
+      "Fulda",
+      "20:02"
      ],
      [
-      "Padborg st",
-      "18:57"
+      "Kassel-Wilhelmshöhe",
+      "20:34"
      ],
      [
-      "Schleswig",
-      "19:29"
+      "Göttingen",
+      "20:54"
+     ],
+     [
+      "Hannover Hbf",
+      "21:32"
+     ],
+     [
+      "Lüneburg",
+      "22:25"
+     ],
+     [
+      "Hamburg-Harburg",
+      "22:44"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     57.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -11528,11 +8964,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -11564,18 +8995,8 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -11627,11 +9048,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "11:44"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -11679,125 +9095,8 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:38"
      ]
-    ],
-    "low": true,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Gunubirlik",
-   "total": 74.98,
-   "out": {
-    "dep": "2026-08-08T07:45:00",
-    "arr": "2026-08-08T11:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 517",
-    "price": 39.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "07:55"
-     ],
-     [
-      "Bremen Hbf",
-      "08:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "09:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "10:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "10:32"
-     ],
-     [
-      "Hagen Hbf",
-      "10:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "11:13"
-     ],
-     [
-      "Solingen Hbf",
-      "11:26"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T20:11:00",
-    "arr": "2026-08-09T00:15:00",
-    "from": "Köln Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 514",
-    "price": 34.99,
-    "durH": 4.1,
-    "stops": [
-     [
-      "Solingen Hbf",
-      "20:29"
-     ],
-     [
-      "Wuppertal Hbf",
-      "20:42"
-     ],
-     [
-      "Hagen Hbf",
-      "20:59"
-     ],
-     [
-      "Dortmund Hbf",
-      "21:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "21:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "22:21"
-     ],
-     [
-      "Bremen Hbf",
-      "23:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "00:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -11812,12 +9111,7 @@ window.BAHN_DATA = {
     "trains": "ICE 609",
     "price": 34.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-23T18:33:00",
@@ -11836,18 +9130,8 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -11895,66 +9179,43 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-29T18:11:00",
-    "arr": "2026-08-29T22:15:00",
+    "dep": "2026-08-29T17:11:00",
+    "arr": "2026-08-29T21:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 106",
     "price": 34.99,
     "durH": 4.1,
     "stops": [
      [
       "Solingen Hbf",
-      "18:29"
-     ],
-     [
-      "Wuppertal Hbf",
-      "18:41"
-     ],
-     [
-      "Hagen Hbf",
-      "18:58"
+      "17:32"
      ],
      [
       "Dortmund Hbf",
-      "19:21"
+      "18:21"
      ],
      [
       "Münster(Westf)Hbf",
-      "19:54"
+      "18:54"
      ],
      [
       "Osnabrück Hbf",
-      "20:21"
+      "19:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "20:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -11994,11 +9255,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -12038,175 +9294,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Hannover",
-   "variant": "Cumartesi",
-   "total": 75.98,
-   "out": {
-    "dep": "2026-08-01T06:23:00",
-    "arr": "2026-08-01T07:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Hannover Hbf",
-    "trains": "ICE 1071",
-    "price": 21.99,
-    "durH": 1.3,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     61.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T16:08:00",
-    "arr": "2026-08-02T17:29:00",
-    "from": "Hannover Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 6",
-    "price": 53.99,
-    "durH": 1.4,
-    "stops": [
-     [
-      "Uelzen",
-      "16:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     69.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    75.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cumartesi",
-   "total": 76.98,
-   "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:25:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 2505",
-    "price": 32.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "06:55"
-     ],
-     [
-      "Bremen Hbf",
-      "07:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "08:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "09:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "09:32"
-     ],
-     [
-      "Bochum Hbf",
-      "09:47"
-     ],
-     [
-      "Essen Hbf",
-      "09:58"
-     ],
-     [
-      "Duisburg Hbf",
-      "10:11"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T19:34:00",
-    "arr": "2026-08-16T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2504",
-    "price": 43.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Duisburg Hbf",
-      "19:45"
-     ],
-     [
-      "Essen Hbf",
-      "19:58"
-     ],
-     [
-      "Bochum Hbf",
-      "20:09"
-     ],
-     [
-      "Dortmund Hbf",
-      "20:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "20:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "21:21"
-     ],
-     [
-      "Diepholz",
-      "21:46"
-     ],
-     [
-      "Bremen Hbf",
-      "22:17"
-     ],
-     [
-      "Hamburg-Harburg",
-      "23:04"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -12246,11 +9335,6 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "10:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -12294,18 +9378,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -12341,11 +9415,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "20:58"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -12377,18 +9446,8 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -12436,11 +9495,6 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -12484,18 +9538,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    141.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -12527,11 +9571,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -12567,18 +9606,8 @@ window.BAHN_DATA = {
       "Büchen",
       "00:42"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -12610,11 +9639,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -12642,18 +9666,8 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -12685,11 +9699,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -12717,18 +9726,8 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -12764,137 +9763,51 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T18:11:00",
-    "arr": "2026-08-09T22:13:00",
+    "dep": "2026-08-09T16:10:00",
+    "arr": "2026-08-09T20:10:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1097",
+    "trains": "ICE 1291",
     "price": 53.99,
     "durH": 4,
     "stops": [
      [
       "Darmstadt Hbf",
-      "18:28"
+      "16:28"
      ],
      [
       "Bensheim",
-      "18:43"
+      "16:43"
      ],
      [
       "Weinheim(Bergstr)Hbf",
-      "18:55"
+      "16:55"
      ],
      [
       "Heidelberg Hbf",
-      "19:11"
+      "17:11"
      ],
      [
       "Esslingen(Neckar)",
-      "19:58"
+      "17:58"
      ],
      [
       "Ulm Hbf",
-      "20:54"
+      "18:55"
      ],
      [
       "Günzburg",
-      "21:09"
+      "19:09"
      ],
      [
       "Augsburg Hbf",
-      "21:40"
-     ],
-     [
-      "München-Pasing",
-      "22:03"
+      "19:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Gunubirlik",
-   "total": 77.98,
-   "out": {
-    "dep": "2026-08-08T06:44:00",
-    "arr": "2026-08-08T10:02:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 47.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:56"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "09:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T19:57:00",
-    "arr": "2026-08-08T23:53:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 729",
-    "price": 29.99,
-    "durH": 3.9,
-    "stops": [
-     [
-      "Aschaffenburg Hbf",
-      "20:24"
-     ],
-     [
-      "Würzburg Hbf",
-      "21:03"
-     ],
-     [
-      "Nürnberg Hbf",
-      "21:58"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -12922,54 +9835,31 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "09:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
-    "dep": "2026-08-15T17:50:00",
-    "arr": "2026-08-15T21:15:00",
+    "dep": "2026-08-15T17:57:00",
+    "arr": "2026-08-15T21:16:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 2591",
+    "trains": "ICE 725",
     "price": 35.99,
-    "durH": 3.4,
+    "durH": 3.3,
     "stops": [
      [
-      "Mannheim Hbf",
-      "18:30"
+      "Aschaffenburg Hbf",
+      "18:24"
      ],
      [
-      "Stuttgart Hbf",
-      "19:11"
+      "Würzburg Hbf",
+      "19:03"
      ],
      [
-      "Ulm Hbf",
-      "20:00"
-     ],
-     [
-      "Augsburg Hbf",
-      "20:41"
-     ],
-     [
-      "München-Pasing",
-      "21:06"
+      "Nürnberg Hbf",
+      "19:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -13013,11 +9903,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -13057,18 +9942,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -13112,11 +9987,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "22:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -13156,18 +10026,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13175,110 +10035,91 @@ window.BAHN_DATA = {
    "variant": "Cumartesi",
    "total": 78.98,
    "out": {
-    "dep": "2026-08-15T06:45:00",
-    "arr": "2026-08-15T10:48:00",
+    "dep": "2026-08-15T07:45:00",
+    "arr": "2026-08-15T11:46:00",
     "from": "Hamburg Hbf",
     "to": "Köln Hbf",
-    "trains": "ICE 2505",
+    "trains": "ICE 517",
     "price": 34.99,
-    "durH": 4.1,
+    "durH": 4,
     "stops": [
      [
       "Hamburg-Harburg",
-      "06:55"
+      "07:55"
      ],
      [
       "Bremen Hbf",
-      "07:41"
+      "08:41"
      ],
      [
       "Osnabrück Hbf",
-      "08:34"
+      "09:34"
      ],
      [
       "Münster(Westf)Hbf",
-      "09:00"
+      "10:00"
      ],
      [
       "Dortmund Hbf",
-      "09:32"
+      "10:32"
      ],
      [
-      "Bochum Hbf",
-      "09:47"
+      "Hagen Hbf",
+      "10:56"
      ],
      [
-      "Essen Hbf",
-      "09:58"
+      "Wuppertal Hbf",
+      "11:13"
      ],
      [
-      "Duisburg Hbf",
-      "10:11"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "10:25"
+      "Solingen Hbf",
+      "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T18:11:00",
-    "arr": "2026-08-16T22:15:00",
+    "dep": "2026-08-16T16:11:00",
+    "arr": "2026-08-16T20:15:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 516",
+    "trains": "ICE 518",
     "price": 43.99,
     "durH": 4.1,
     "stops": [
      [
       "Solingen Hbf",
-      "18:29"
+      "16:29"
      ],
      [
       "Wuppertal Hbf",
-      "18:41"
+      "16:41"
      ],
      [
       "Hagen Hbf",
-      "18:58"
+      "16:58"
      ],
      [
       "Dortmund Hbf",
-      "19:21"
+      "17:21"
      ],
      [
       "Münster(Westf)Hbf",
-      "19:54"
+      "17:54"
      ],
      [
       "Osnabrück Hbf",
-      "20:21"
+      "18:21"
      ],
      [
       "Bremen Hbf",
-      "21:14"
+      "19:14"
      ],
      [
       "Hamburg-Harburg",
-      "22:02"
+      "20:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -13314,11 +10155,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "21:53"
      ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -13350,18 +10186,100 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 79.98,
+   "out": {
+    "dep": "2026-08-08T07:45:00",
+    "arr": "2026-08-08T11:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 517",
+    "price": 39.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "07:55"
+     ],
+     [
+      "Bremen Hbf",
+      "08:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "09:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "10:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   "ret": {
+    "dep": "2026-08-08T20:11:00",
+    "arr": "2026-08-09T00:15:00",
+    "from": "Köln Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 514",
+    "price": 39.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Solingen Hbf",
+      "20:29"
+     ],
+     [
+      "Wuppertal Hbf",
+      "20:42"
+     ],
+     [
+      "Hagen Hbf",
+      "20:59"
+     ],
+     [
+      "Dortmund Hbf",
+      "21:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "21:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:21"
+     ],
+     [
+      "Bremen Hbf",
+      "23:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "00:02"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13376,12 +10294,7 @@ window.BAHN_DATA = {
     "trains": "ICE 873",
     "price": 39.99,
     "durH": 2.2,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
     "dep": "2026-08-16T18:33:00",
@@ -13400,93 +10313,8 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 79.98,
-   "out": {
-    "dep": "2026-08-14T20:29:00",
-    "arr": "2026-08-15T01:05:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 79",
-    "price": 29.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Lüneburg",
-      "20:53"
-     ],
-     [
-      "Uelzen",
-      "21:09"
-     ],
-     [
-      "Hannover Hbf",
-      "21:51"
-     ],
-     [
-      "Göttingen",
-      "22:27"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:47"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T19:46:00",
-    "arr": "2026-08-16T23:36:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 70",
-    "price": 49.99,
-    "durH": 3.8,
-    "stops": [
-     [
-      "Kassel-Wilhelmshöhe",
-      "21:11"
-     ],
-     [
-      "Göttingen",
-      "21:31"
-     ],
-     [
-      "Hannover Hbf",
-      "22:05"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13522,11 +10350,6 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
@@ -13554,18 +10377,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13573,79 +10386,42 @@ window.BAHN_DATA = {
    "variant": "Cuma",
    "total": 79.98,
    "out": {
-    "dep": "2026-08-14T19:45:00",
-    "arr": "2026-08-15T03:33:00",
+    "dep": "2026-08-14T19:29:00",
+    "arr": "2026-08-15T01:19:00",
     "from": "Hamburg Hbf",
     "to": "Stuttgart Hbf",
-    "trains": "ICE 619",
-    "price": 29.99,
-    "durH": 7.8,
+    "trains": "ICE 777",
+    "price": 39.99,
+    "durH": 5.8,
     "stops": [
      [
-      "Hamburg-Harburg",
-      "19:55"
+      "Celle",
+      "20:27"
      ],
      [
-      "Bremen Hbf",
-      "20:41"
+      "Hannover Hbf",
+      "20:48"
      ],
      [
-      "Osnabrück Hbf",
-      "21:34"
+      "Göttingen",
+      "21:25"
      ],
      [
-      "Münster(Westf)Hbf",
-      "22:00"
+      "Kassel-Wilhelmshöhe",
+      "21:46"
      ],
      [
-      "Dortmund Hbf",
-      "22:32"
-     ],
-     [
-      "Bochum Hbf",
-      "22:47"
-     ],
-     [
-      "Essen Hbf",
-      "22:58"
-     ],
-     [
-      "Duisburg Hbf",
-      "23:13"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "23:26"
-     ],
-     [
-      "Köln Hbf",
-      "23:49"
-     ],
-     [
-      "Siegburg/Bonn",
-      "00:08"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "00:53"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "01:06"
+      "Frankfurt(Main)Süd",
+      "23:35"
      ],
      [
       "Mannheim Hbf",
-      "02:01"
+      "00:22"
      ],
      [
       "Heidelberg Hbf",
-      "02:17"
+      "00:36"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -13654,7 +10430,7 @@ window.BAHN_DATA = {
     "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 572",
-    "price": 49.99,
+    "price": 39.99,
     "durH": 5.3,
     "stops": [
      [
@@ -13677,149 +10453,72 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
+   "city": "Frankfurt",
    "variant": "Cuma",
    "total": 79.98,
    "out": {
-    "dep": "2026-08-21T19:45:00",
-    "arr": "2026-08-22T03:53:00",
+    "dep": "2026-08-21T19:52:00",
+    "arr": "2026-08-22T01:04:00",
     "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 619",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 79",
     "price": 29.99,
-    "durH": 8.1,
+    "durH": 5.2,
     "stops": [
      [
-      "Hamburg-Harburg",
-      "19:55"
+      "Lüneburg",
+      "20:16"
      ],
      [
-      "Bremen Hbf",
-      "20:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "21:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "22:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "22:32"
-     ],
-     [
-      "Bochum Hbf",
-      "22:47"
-     ],
-     [
-      "Essen Hbf",
-      "22:58"
-     ],
-     [
-      "Duisburg Hbf",
-      "23:13"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "23:33"
-     ],
-     [
-      "Köln Hbf",
-      "00:06"
-     ],
-     [
-      "Siegburg/Bonn",
-      "00:24"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "01:08"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "01:21"
-     ],
-     [
-      "Mannheim Hbf",
-      "02:20"
-     ],
-     [
-      "Heidelberg Hbf",
-      "02:36"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-23T19:23:00",
-    "arr": "2026-08-24T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 49.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "20:00"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "20:40"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
+      "Uelzen",
+      "20:38"
      ],
      [
       "Hannover Hbf",
-      "23:05"
+      "21:38"
      ],
      [
-      "Celle",
-      "23:27"
+      "Göttingen",
+      "22:27"
      ],
      [
-      "Lüneburg",
-      "00:03"
+      "Kassel-Wilhelmshöhe",
+      "22:47"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   "ret": {
+    "dep": "2026-08-23T19:46:00",
+    "arr": "2026-08-23T23:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 70",
+    "price": 49.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Kassel-Wilhelmshöhe",
+      "21:11"
+     ],
+     [
+      "Göttingen",
+      "21:31"
+     ],
+     [
+      "Hannover Hbf",
+      "22:05"
+     ],
+     [
+      "Uelzen",
+      "22:46"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13883,11 +10582,6 @@ window.BAHN_DATA = {
       "Heidelberg Hbf",
       "02:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -13923,18 +10617,8 @@ window.BAHN_DATA = {
       "Celle",
       "19:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -13978,11 +10662,6 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "09:28"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
     ]
    },
    "ret": {
@@ -14022,18 +10701,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:44"
      ]
-    ],
-    "low": true,
-    "rng": [
-     29.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    99.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -14069,11 +10738,6 @@ window.BAHN_DATA = {
       "Ringsted st",
       "23:07"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     133.1
     ]
    },
    "ret": {
@@ -14105,18 +10769,8 @@ window.BAHN_DATA = {
       "Schleswig",
       "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     57.99
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    79.98,
-    89.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -14156,11 +10810,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -14200,18 +10849,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -14255,11 +10894,6 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -14291,97 +10925,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 79.98,
-   "out": {
-    "dep": "2026-09-04T20:45:00",
-    "arr": "2026-09-05T00:03:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 520",
-    "price": 17.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "21:27"
-     ],
-     [
-      "Nürnberg Hbf",
-      "21:57"
-     ],
-     [
-      "Würzburg Hbf",
-      "22:54"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "23:34"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T17:50:00",
-    "arr": "2026-09-06T21:15:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 691",
-    "price": 61.99,
-    "durH": 3.4,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "18:30"
-     ],
-     [
-      "Stuttgart Hbf",
-      "19:11"
-     ],
-     [
-      "Ulm Hbf",
-      "20:00"
-     ],
-     [
-      "Augsburg Hbf",
-      "20:41"
-     ],
-     [
-      "München-Pasing",
-      "21:06"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -14417,11 +10962,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -14453,212 +10993,204 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Köln",
+   "city": "Hannover",
    "variant": "Cuma",
    "total": 80.98,
    "out": {
-    "dep": "2026-08-07T20:15:00",
-    "arr": "2026-08-08T01:37:00",
+    "dep": "2026-07-31T22:28:00",
+    "arr": "2026-08-01T00:00:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 209",
-    "price": 17.99,
-    "durH": 5.4,
+    "to": "Hannover Hbf",
+    "trains": "ICE 1081",
+    "price": 26.99,
+    "durH": 1.5,
     "stops": [
      [
       "Hamburg-Harburg",
-      "20:24"
+      "22:38"
      ],
      [
-      "Bremen Hbf",
-      "21:05"
+      "Lüneburg",
+      "22:57"
      ],
      [
-      "Osnabrück Hbf",
-      "22:04"
+      "Uelzen",
+      "23:14"
      ],
      [
-      "Dortmund Hbf",
-      "23:33"
-     ],
-     [
-      "Bochum Hbf",
-      "23:46"
-     ],
-     [
-      "Essen Hbf",
-      "23:57"
-     ],
-     [
-      "Duisburg Hbf",
-      "00:10"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "00:29"
+      "Celle",
+      "23:39"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T17:11:00",
-    "arr": "2026-08-09T21:15:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-02T16:08:00",
+    "arr": "2026-08-02T17:29:00",
+    "from": "Hannover Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 62.99,
-    "durH": 4.1,
+    "trains": "ICE 6",
+    "price": 53.99,
+    "durH": 1.4,
     "stops": [
      [
-      "Düsseldorf Hbf",
-      "17:32"
+      "Uelzen",
+      "16:46"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Düsseldorf",
+   "variant": "Cumartesi",
+   "total": 80.98,
+   "out": {
+    "dep": "2026-08-15T06:45:00",
+    "arr": "2026-08-15T10:25:00",
+    "from": "Hamburg Hbf",
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 2505",
+    "price": 36.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "06:55"
      ],
      [
-      "Duisburg Hbf",
-      "17:45"
+      "Bremen Hbf",
+      "07:41"
      ],
      [
-      "Essen Hbf",
-      "17:58"
-     ],
-     [
-      "Bochum Hbf",
-      "18:09"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:21"
+      "Osnabrück Hbf",
+      "08:34"
      ],
      [
       "Münster(Westf)Hbf",
-      "18:54"
+      "09:00"
      ],
      [
-      "Osnabrück Hbf",
-      "19:21"
+      "Dortmund Hbf",
+      "09:32"
      ],
      [
-      "Bremen Hbf",
-      "20:14"
+      "Bochum Hbf",
+      "09:47"
      ],
      [
-      "Hamburg-Harburg",
-      "21:02"
+      "Essen Hbf",
+      "09:58"
+     ],
+     [
+      "Duisburg Hbf",
+      "10:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Cuma",
-   "total": 82.19,
-   "out": {
-    "dep": "2026-07-31T20:19:00",
-    "arr": "2026-07-31T22:29:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 289",
-    "price": 19.99,
-    "durH": 2.2,
-    "stops": [
-     [
-      "München Ost",
-      "20:28"
-     ],
-     [
-      "Rosenheim",
-      "21:05"
-     ],
-     [
-      "Kufstein",
-      "21:26"
-     ],
-     [
-      "Wörgl Hbf",
-      "21:36"
-     ],
-     [
-      "Jenbach",
-      "21:53"
-     ]
-    ],
-    "low": true,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T16:42:00",
-    "arr": "2026-08-02T18:38:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 84",
-    "price": 62.2,
-    "durH": 1.9,
+    "dep": "2026-08-16T19:34:00",
+    "arr": "2026-08-16T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2504",
+    "price": 43.99,
+    "durH": 3.7,
     "stops": [
      [
-      "Jenbach",
-      "17:00"
+      "Duisburg Hbf",
+      "19:45"
      ],
      [
-      "Wörgl Hbf",
-      "17:14"
+      "Essen Hbf",
+      "19:58"
      ],
      [
-      "Kufstein",
-      "17:24"
+      "Bochum Hbf",
+      "20:09"
      ],
      [
-      "Rosenheim",
-      "17:46"
+      "Dortmund Hbf",
+      "20:21"
      ],
      [
-      "München Ost",
-      "18:26"
+      "Münster(Westf)Hbf",
+      "20:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "21:21"
+     ],
+     [
+      "Diepholz",
+      "21:46"
+     ],
+     [
+      "Bremen Hbf",
+      "22:17"
+     ],
+     [
+      "Hamburg-Harburg",
+      "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 81.98,
+   "out": {
+    "dep": "2026-08-08T06:44:00",
+    "arr": "2026-08-08T10:02:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 728",
+    "price": 51.99,
+    "durH": 3.3,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:56"
+     ],
+     [
+      "Würzburg Hbf",
+      "08:52"
+     ],
+     [
+      "Aschaffenburg Hbf",
+      "09:32"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    54.98,
-    85.98
-   ]
+   "ret": {
+    "dep": "2026-08-08T19:57:00",
+    "arr": "2026-08-08T23:53:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 729",
+    "price": 29.99,
+    "durH": 3.9,
+    "stops": [
+     [
+      "Aschaffenburg Hbf",
+      "20:24"
+     ],
+     [
+      "Würzburg Hbf",
+      "21:03"
+     ],
+     [
+      "Nürnberg Hbf",
+      "21:58"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -14673,195 +11205,27 @@ window.BAHN_DATA = {
     "trains": "ICE 505",
     "price": 27.99,
     "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
+    "stops": []
    },
    "ret": {
-    "dep": "2026-08-09T17:37:00",
-    "arr": "2026-08-09T19:25:00",
+    "dep": "2026-08-09T16:34:00",
+    "arr": "2026-08-09T18:44:00",
     "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 2590",
     "price": 54.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
-   "total": 83.98,
-   "out": {
-    "dep": "2026-08-29T06:34:00",
-    "arr": "2026-08-29T09:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 505",
-    "price": 35.99,
-    "durH": 3.2,
+    "durH": 2.2,
     "stops": [
-     [
-      "Berlin Hbf",
-      "08:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "08:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "09:10"
-     ],
-     [
-      "Bitterfeld",
-      "09:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T17:16:00",
-    "arr": "2026-08-30T20:44:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2588",
-    "price": 47.99,
-    "durH": 3.5,
-    "stops": [
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "17:46"
-     ],
-     [
-      "Berlin Südkreuz",
-      "18:23"
-     ],
-     [
-      "Berlin Hbf",
-      "18:30"
-     ],
      [
       "Wittenberge",
-      "19:24"
+      "17:24"
      ],
      [
       "Ludwigslust",
-      "19:48"
+      "17:42"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Gunubirlik",
-   "total": 83.98,
-   "out": {
-    "dep": "2026-08-08T07:23:00",
-    "arr": "2026-08-08T09:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1281",
-    "price": 43.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "07:32"
-     ],
-     [
-      "Rosenheim",
-      "08:10"
-     ],
-     [
-      "Kufstein",
-      "08:34"
-     ],
-     [
-      "Wörgl Hbf",
-      "08:44"
-     ],
-     [
-      "Jenbach",
-      "08:58"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T20:42:00",
-    "arr": "2026-08-08T22:36:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 80",
-    "price": 39.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "Jenbach",
-      "21:00"
-     ],
-     [
-      "Wörgl Hbf",
-      "21:14"
-     ],
-     [
-      "Kufstein",
-      "21:24"
-     ],
-     [
-      "Rosenheim",
-      "21:46"
-     ],
-     [
-      "München Ost",
-      "22:24"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    50.98,
-    83.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -14889,11 +11253,6 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "10:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
@@ -14917,68 +11276,72 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "17:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
-   "origin": "Hamburg",
-   "city": "Berlin",
+   "origin": "München",
+   "city": "Frankfurt",
    "variant": "Cuma",
-   "total": 84.98,
+   "total": 85.98,
    "out": {
-    "dep": "2026-08-07T19:51:00",
-    "arr": "2026-08-07T21:59:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 873",
-    "price": 29.99,
-    "durH": 2.1,
+    "dep": "2026-09-04T20:45:00",
+    "arr": "2026-09-05T00:03:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 520",
+    "price": 17.99,
+    "durH": 3.3,
     "stops": [
      [
-      "Ludwigslust",
-      "20:41"
+      "Ingolstadt Hbf",
+      "21:27"
      ],
      [
-      "Wittenberge",
-      "20:58"
+      "Nürnberg Hbf",
+      "21:57"
+     ],
+     [
+      "Würzburg Hbf",
+      "22:54"
+     ],
+     [
+      "Aschaffenburg Hbf",
+      "23:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
     ]
    },
    "ret": {
-    "dep": "2026-08-09T17:37:00",
-    "arr": "2026-08-09T19:25:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 506",
-    "price": 54.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
+    "dep": "2026-09-06T17:50:00",
+    "arr": "2026-09-06T21:15:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 691",
+    "price": 67.99,
+    "durH": 3.4,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "18:30"
+     ],
+     [
+      "Stuttgart Hbf",
+      "19:11"
+     ],
+     [
+      "Ulm Hbf",
+      "20:00"
+     ],
+     [
+      "Augsburg Hbf",
+      "20:41"
+     ],
+     [
+      "München-Pasing",
+      "21:06"
+     ]
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15026,11 +11389,6 @@ window.BAHN_DATA = {
       "Duisburg Hbf",
       "10:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
@@ -15078,18 +11436,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15125,11 +11473,6 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
@@ -15157,18 +11500,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15188,11 +11521,6 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
@@ -15220,18 +11548,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "20:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15263,11 +11581,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -15299,18 +11612,8 @@ window.BAHN_DATA = {
       "Ludwigslust",
       "19:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -15346,11 +11649,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
@@ -15382,192 +11680,100 @@ window.BAHN_DATA = {
       "München-Pasing",
       "21:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Frankfurt",
+   "city": "Köln",
    "variant": "Cumartesi",
    "total": 89.98,
    "out": {
-    "dep": "2026-08-08T06:29:00",
-    "arr": "2026-08-08T10:14:00",
+    "dep": "2026-08-08T07:45:00",
+    "arr": "2026-08-08T11:46:00",
     "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 71",
+    "to": "Köln Hbf",
+    "trains": "ICE 517",
     "price": 39.99,
-    "durH": 3.8,
+    "durH": 4,
     "stops": [
      [
-      "Uelzen",
-      "07:08"
+      "Hamburg-Harburg",
+      "07:55"
      ],
      [
-      "Celle",
-      "07:31"
+      "Bremen Hbf",
+      "08:41"
      ],
      [
-      "Hannover Hbf",
-      "07:51"
+      "Osnabrück Hbf",
+      "09:34"
      ],
      [
-      "Göttingen",
-      "08:26"
+      "Münster(Westf)Hbf",
+      "10:00"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "08:46"
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:46:00",
-    "arr": "2026-08-09T23:29:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-09T18:11:00",
+    "arr": "2026-08-09T22:15:00",
+    "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 70",
+    "trains": "ICE 516",
     "price": 49.99,
-    "durH": 3.7,
+    "durH": 4.1,
     "stops": [
      [
-      "Kassel-Wilhelmshöhe",
-      "21:11"
+      "Solingen Hbf",
+      "18:29"
      ],
      [
-      "Göttingen",
-      "21:31"
+      "Wuppertal Hbf",
+      "18:41"
      ],
      [
-      "Hannover Hbf",
-      "22:05"
+      "Hagen Hbf",
+      "18:58"
      ],
      [
-      "Uelzen",
-      "22:46"
+      "Dortmund Hbf",
+      "19:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "19:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "20:21"
+     ],
+     [
+      "Bremen Hbf",
+      "21:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "22:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cuma",
-   "total": 89.98,
-   "out": {
-    "dep": "2026-08-07T19:29:00",
-    "arr": "2026-08-08T00:50:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 777",
-    "price": 39.99,
-    "durH": 5.4,
-    "stops": [
-     [
-      "Celle",
-      "20:27"
-     ],
-     [
-      "Hannover Hbf",
-      "20:48"
-     ],
-     [
-      "Göttingen",
-      "21:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "21:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "23:14"
-     ],
-     [
-      "Mannheim Hbf",
-      "23:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T19:23:00",
-    "arr": "2026-08-10T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 49.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "20:00"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "20:40"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
-     ],
-     [
-      "Hannover Hbf",
-      "23:05"
-     ],
-     [
-      "Celle",
-      "23:27"
-     ],
-     [
-      "Lüneburg",
-      "00:03"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15603,46 +11809,107 @@ window.BAHN_DATA = {
       "Kassel-Wilhelmshöhe",
       "08:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-16T19:46:00",
-    "arr": "2026-08-16T23:36:00",
+    "dep": "2026-08-16T17:46:00",
+    "arr": "2026-08-16T21:29:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 70",
+    "trains": "ICE 4",
     "price": 49.99,
-    "durH": 3.8,
+    "durH": 3.7,
     "stops": [
      [
       "Kassel-Wilhelmshöhe",
-      "21:11"
+      "19:11"
      ],
      [
       "Göttingen",
-      "21:31"
+      "19:31"
      ],
      [
       "Hannover Hbf",
-      "22:05"
+      "20:05"
+     ],
+     [
+      "Uelzen",
+      "20:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 89.98,
+   "out": {
+    "dep": "2026-08-15T07:29:00",
+    "arr": "2026-08-15T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 49.99,
+    "durH": 5.2,
+    "stops": [
+     [
+      "Celle",
+      "08:27"
+     ],
+     [
+      "Hannover Hbf",
+      "08:48"
+     ],
+     [
+      "Göttingen",
+      "09:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "09:46"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "11:14"
+     ],
+     [
+      "Mannheim Hbf",
+      "11:57"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T19:23:00",
+    "arr": "2026-08-17T00:39:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 39.99,
+    "durH": 5.3,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15682,11 +11949,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -15718,18 +11980,88 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "23:05"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cuma",
+   "total": 89.98,
+   "out": {
+    "dep": "2026-08-21T19:29:00",
+    "arr": "2026-08-22T00:57:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 777",
+    "price": 39.99,
+    "durH": 5.5,
+    "stops": [
+     [
+      "Celle",
+      "20:27"
+     ],
+     [
+      "Hannover Hbf",
+      "20:48"
+     ],
+     [
+      "Göttingen",
+      "21:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "21:46"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "23:14"
+     ],
+     [
+      "Heidelberg Hbf",
+      "00:15"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
+   "ret": {
+    "dep": "2026-08-23T19:23:00",
+    "arr": "2026-08-24T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 49.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -15777,11 +12109,6 @@ window.BAHN_DATA = {
       "Solingen Hbf",
       "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -15821,224 +12148,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 89.98,
-   "out": {
-    "dep": "2026-08-29T07:29:00",
-    "arr": "2026-08-29T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 39.99,
-    "durH": 5.2,
-    "stops": [
-     [
-      "Celle",
-      "08:27"
-     ],
-     [
-      "Hannover Hbf",
-      "08:48"
-     ],
-     [
-      "Göttingen",
-      "09:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Süd",
-      "11:10"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T15:22:00",
-    "arr": "2026-08-30T20:29:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 576",
-    "price": 49.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "16:00"
-     ],
-     [
-      "Frankfurt(Main)Süd",
-      "16:45"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "18:11"
-     ],
-     [
-      "Göttingen",
-      "18:31"
-     ],
-     [
-      "Hannover Hbf",
-      "19:05"
-     ],
-     [
-      "Celle",
-      "19:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "München",
-   "variant": "Cumartesi",
-   "total": 89.98,
-   "out": {
-    "dep": "2026-09-05T06:01:00",
-    "arr": "2026-09-05T11:50:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 783",
-    "price": 49.99,
-    "durH": 5.8,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "06:11"
-     ],
-     [
-      "Lüneburg",
-      "06:28"
-     ],
-     [
-      "Hannover Hbf",
-      "07:23"
-     ],
-     [
-      "Göttingen",
-      "07:59"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "08:21"
-     ],
-     [
-      "Fulda",
-      "08:54"
-     ],
-     [
-      "Würzburg Hbf",
-      "09:28"
-     ],
-     [
-      "Nürnberg Hbf",
-      "10:25"
-     ],
-     [
-      "Ingolstadt Hbf",
-      "11:03"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T18:11:00",
-    "arr": "2026-09-06T23:57:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 782",
-    "price": 39.99,
-    "durH": 5.8,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "18:54"
-     ],
-     [
-      "Nürnberg Hbf",
-      "19:25"
-     ],
-     [
-      "Würzburg Hbf",
-      "20:20"
-     ],
-     [
-      "Fulda",
-      "21:02"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "21:34"
-     ],
-     [
-      "Göttingen",
-      "21:54"
-     ],
-     [
-      "Hannover Hbf",
-      "22:32"
-     ],
-     [
-      "Lüneburg",
-      "23:25"
-     ],
-     [
-      "Hamburg-Harburg",
-      "23:44"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    211.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -16082,11 +12193,6 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "09:28"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
     ]
    },
    "ret": {
@@ -16126,18 +12232,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "21:44"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    89.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -16165,66 +12261,55 @@ window.BAHN_DATA = {
       "Aschaffenburg Hbf",
       "09:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T16:10:00",
-    "arr": "2026-08-16T20:10:00",
+    "dep": "2026-08-16T18:11:00",
+    "arr": "2026-08-16T22:13:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 1291",
+    "trains": "ICE 1097",
     "price": 47.99,
     "durH": 4,
     "stops": [
      [
       "Darmstadt Hbf",
-      "16:28"
+      "18:28"
      ],
      [
       "Bensheim",
-      "16:43"
+      "18:43"
      ],
      [
       "Weinheim(Bergstr)Hbf",
-      "16:55"
-     ],
-     [
-      "Heidelberg Hbf",
-      "17:11"
-     ],
-     [
-      "Esslingen(Neckar)",
-      "17:58"
-     ],
-     [
-      "Ulm Hbf",
       "18:55"
      ],
      [
+      "Heidelberg Hbf",
+      "19:11"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "19:58"
+     ],
+     [
+      "Ulm Hbf",
+      "20:54"
+     ],
+     [
       "Günzburg",
-      "19:09"
+      "21:09"
      ],
      [
       "Augsburg Hbf",
-      "19:40"
+      "21:40"
+     ],
+     [
+      "München-Pasing",
+      "22:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -16268,11 +12353,6 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "23:54"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -16308,18 +12388,175 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "18:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cumartesi",
+   "total": 91.98,
+   "out": {
+    "dep": "2026-08-29T06:34:00",
+    "arr": "2026-08-29T09:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 43.99,
+    "durH": 3.2,
+    "stops": [
+     [
+      "Berlin Hbf",
+      "08:22"
+     ],
+     [
+      "Berlin Südkreuz",
+      "08:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "09:10"
+     ],
+     [
+      "Bitterfeld",
+      "09:27"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
+   "ret": {
+    "dep": "2026-08-30T17:16:00",
+    "arr": "2026-08-30T20:44:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2588",
+    "price": 47.99,
+    "durH": 3.5,
+    "stops": [
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "17:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "18:23"
+     ],
+     [
+      "Berlin Hbf",
+      "18:30"
+     ],
+     [
+      "Wittenberge",
+      "19:24"
+     ],
+     [
+      "Ludwigslust",
+      "19:48"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Gunubirlik",
+   "total": 92.89,
+   "out": {
+    "dep": "2026-08-08T07:23:00",
+    "arr": "2026-08-08T09:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1281",
+    "price": 52.9,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "07:32"
+     ],
+     [
+      "Rosenheim",
+      "08:10"
+     ],
+     [
+      "Kufstein",
+      "08:34"
+     ],
+     [
+      "Wörgl Hbf",
+      "08:44"
+     ],
+     [
+      "Jenbach",
+      "08:58"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-08T20:42:00",
+    "arr": "2026-08-08T22:36:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 80",
+    "price": 39.99,
+    "durH": 1.9,
+    "stops": [
+     [
+      "Jenbach",
+      "21:00"
+     ],
+     [
+      "Wörgl Hbf",
+      "21:14"
+     ],
+     [
+      "Kufstein",
+      "21:24"
+     ],
+     [
+      "Rosenheim",
+      "21:46"
+     ],
+     [
+      "München Ost",
+      "22:24"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 94.98,
+   "out": {
+    "dep": "2026-08-07T20:34:00",
+    "arr": "2026-08-07T22:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 609",
+    "price": 39.99,
+    "durH": 1.8,
+    "stops": []
+   },
+   "ret": {
+    "dep": "2026-08-09T16:34:00",
+    "arr": "2026-08-09T18:44:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 54.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "Wittenberge",
+      "17:24"
+     ],
+     [
+      "Ludwigslust",
+      "17:42"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -16359,11 +12596,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -16403,129 +12635,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Düsseldorf",
-   "variant": "Cuma",
-   "total": 95.98,
-   "out": {
-    "dep": "2026-07-31T20:43:00",
-    "arr": "2026-08-01T00:30:00",
-    "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 209",
-    "price": 35.99,
-    "durH": 3.8,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "20:53"
-     ],
-     [
-      "Bremen Hbf",
-      "21:39"
-     ],
-     [
-      "Diepholz",
-      "22:09"
-     ],
-     [
-      "Osnabrück Hbf",
-      "22:33"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "23:01"
-     ],
-     [
-      "Dortmund Hbf",
-      "23:36"
-     ],
-     [
-      "Essen Hbf",
-      "00:04"
-     ],
-     [
-      "Duisburg Hbf",
-      "00:17"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T19:34:00",
-    "arr": "2026-08-02T23:16:00",
-    "from": "Düsseldorf Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 59.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Duisburg Hbf",
-      "19:45"
-     ],
-     [
-      "Essen Hbf",
-      "19:58"
-     ],
-     [
-      "Bochum Hbf",
-      "20:09"
-     ],
-     [
-      "Dortmund Hbf",
-      "20:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "20:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "21:21"
-     ],
-     [
-      "Diepholz",
-      "21:46"
-     ],
-     [
-      "Bremen Hbf",
-      "22:17"
-     ],
-     [
-      "Hamburg-Harburg",
-      "23:04"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    40.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -16561,11 +12672,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -16597,18 +12703,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
+   }
   },
   {
    "origin": "München",
@@ -16660,11 +12756,6 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -16712,18 +12803,8 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -16763,11 +12844,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -16803,18 +12879,84 @@ window.BAHN_DATA = {
       "Celle",
       "21:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 96.98,
+   "out": {
+    "dep": "2026-08-29T07:29:00",
+    "arr": "2026-08-29T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 56.99,
+    "durH": 5.2,
+    "stops": [
+     [
+      "Celle",
+      "08:27"
+     ],
+     [
+      "Hannover Hbf",
+      "08:48"
+     ],
+     [
+      "Göttingen",
+      "09:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "09:46"
+     ],
+     [
+      "Frankfurt(Main)Süd",
+      "11:10"
+     ],
+     [
+      "Mannheim Hbf",
+      "11:57"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
+   "ret": {
+    "dep": "2026-08-29T17:23:00",
+    "arr": "2026-08-29T22:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 574",
+    "price": 39.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "18:00"
+     ],
+     [
+      "Frankfurt(Main)Süd",
+      "18:45"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "20:11"
+     ],
+     [
+      "Göttingen",
+      "20:31"
+     ],
+     [
+      "Hannover Hbf",
+      "21:05"
+     ],
+     [
+      "Celle",
+      "21:27"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -16850,11 +12992,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -16886,18 +13023,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -16933,11 +13060,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -16973,101 +13095,34 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "21:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
    "total": 97.98,
    "out": {
-    "dep": "2026-08-15T06:34:00",
-    "arr": "2026-08-15T09:46:00",
+    "dep": "2026-08-01T06:34:00",
+    "arr": "2026-08-01T08:22:00",
     "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
+    "to": "Berlin Hbf",
     "trains": "ICE 505",
-    "price": 35.99,
-    "durH": 3.2,
-    "stops": [
-     [
-      "Berlin Hbf",
-      "08:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "08:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "09:10"
-     ],
-     [
-      "Bitterfeld",
-      "09:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
-    ]
+    "price": 37.99,
+    "durH": 1.8,
+    "stops": []
    },
    "ret": {
-    "dep": "2026-08-16T18:51:00",
-    "arr": "2026-08-16T22:10:00",
-    "from": "Leipzig Hbf",
+    "dep": "2026-08-01T19:37:00",
+    "arr": "2026-08-01T21:24:00",
+    "from": "Berlin Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 90",
-    "price": 61.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "19:21"
-     ],
-     [
-      "Berlin Südkreuz",
-      "19:57"
-     ],
-     [
-      "Berlin Hbf",
-      "20:05"
-     ],
-     [
-      "Wittenberge",
-      "20:59"
-     ],
-     [
-      "Ludwigslust",
-      "21:16"
-     ],
-     [
-      "Büchen",
-      "21:45"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
+    "trains": "ICE 504",
+    "price": 59.99,
+    "durH": 1.8,
+    "stops": []
+   }
   },
   {
    "origin": "Hamburg",
@@ -17087,11 +13142,6 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
@@ -17119,253 +13169,8 @@ window.BAHN_DATA = {
       "Uelzen",
       "22:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 98.98,
-   "out": {
-    "dep": "2026-08-01T06:34:00",
-    "arr": "2026-08-01T08:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 31.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-01T17:37:00",
-    "arr": "2026-08-01T19:25:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 506",
-    "price": 66.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    28.98,
-    98.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 99.98,
-   "out": {
-    "dep": "2026-08-15T07:29:00",
-    "arr": "2026-08-15T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 49.99,
-    "durH": 5.2,
-    "stops": [
-     [
-      "Celle",
-      "08:27"
-     ],
-     [
-      "Hannover Hbf",
-      "08:48"
-     ],
-     [
-      "Göttingen",
-      "09:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "11:14"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T19:23:00",
-    "arr": "2026-08-17T00:39:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 49.99,
-    "durH": 5.3,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "20:00"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "20:40"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
-     ],
-     [
-      "Hannover Hbf",
-      "23:05"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Nürnberg",
-   "variant": "Cuma",
-   "total": 99.98,
-   "out": {
-    "dep": "2026-08-14T22:19:00",
-    "arr": "2026-08-15T05:07:00",
-    "from": "Hamburg Hbf",
-    "to": "Nürnberg Hbf",
-    "trains": "ICE 1081",
-    "price": 29.99,
-    "durH": 6.8,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "22:29"
-     ],
-     [
-      "Lüneburg",
-      "22:48"
-     ],
-     [
-      "Uelzen",
-      "23:05"
-     ],
-     [
-      "Celle",
-      "23:30"
-     ],
-     [
-      "Hannover Hbf",
-      "23:51"
-     ],
-     [
-      "Göttingen",
-      "00:59"
-     ],
-     [
-      "Würzburg Hbf",
-      "03:52"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T16:26:00",
-    "arr": "2026-08-16T22:10:00",
-    "from": "Nürnberg Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 90",
-    "price": 69.99,
-    "durH": 5.7,
-    "stops": [
-     [
-      "Coburg",
-      "17:23"
-     ],
-     [
-      "Erfurt Hbf",
-      "18:00"
-     ],
-     [
-      "Leipzig Hbf",
-      "18:45"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "19:21"
-     ],
-     [
-      "Berlin Südkreuz",
-      "19:57"
-     ],
-     [
-      "Berlin Hbf",
-      "20:05"
-     ],
-     [
-      "Wittenberge",
-      "20:59"
-     ],
-     [
-      "Ludwigslust",
-      "21:16"
-     ],
-     [
-      "Büchen",
-      "21:45"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    255.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -17417,11 +13222,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "06:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
@@ -17493,18 +13293,104 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "München",
+   "variant": "Cumartesi",
+   "total": 99.98,
+   "out": {
+    "dep": "2026-09-05T06:01:00",
+    "arr": "2026-09-05T11:50:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 783",
+    "price": 49.99,
+    "durH": 5.8,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "06:11"
+     ],
+     [
+      "Lüneburg",
+      "06:28"
+     ],
+     [
+      "Hannover Hbf",
+      "07:23"
+     ],
+     [
+      "Göttingen",
+      "07:59"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "08:21"
+     ],
+     [
+      "Fulda",
+      "08:54"
+     ],
+     [
+      "Würzburg Hbf",
+      "09:28"
+     ],
+     [
+      "Nürnberg Hbf",
+      "10:25"
+     ],
+     [
+      "Ingolstadt Hbf",
+      "11:03"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
+   "ret": {
+    "dep": "2026-09-06T17:10:00",
+    "arr": "2026-09-06T22:57:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 584",
+    "price": 49.99,
+    "durH": 5.8,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "18:26"
+     ],
+     [
+      "Würzburg Hbf",
+      "19:25"
+     ],
+     [
+      "Fulda",
+      "20:02"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "20:34"
+     ],
+     [
+      "Göttingen",
+      "20:54"
+     ],
+     [
+      "Hannover Hbf",
+      "21:32"
+     ],
+     [
+      "Lüneburg",
+      "22:25"
+     ],
+     [
+      "Hamburg-Harburg",
+      "22:44"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -17556,11 +13442,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:45"
      ]
-    ],
-    "low": true,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -17604,18 +13485,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    315.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -17647,11 +13518,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
-    ],
-    "low": true,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -17679,18 +13545,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "20:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -17722,11 +13578,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
-    ],
-    "low": true,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -17754,18 +13605,76 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "20:22"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cuma",
+   "total": 101.19,
+   "out": {
+    "dep": "2026-07-31T20:19:00",
+    "arr": "2026-07-31T22:29:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 289",
+    "price": 38.99,
+    "durH": 2.2,
+    "stops": [
+     [
+      "München Ost",
+      "20:28"
+     ],
+     [
+      "Rosenheim",
+      "21:05"
+     ],
+     [
+      "Kufstein",
+      "21:26"
+     ],
+     [
+      "Wörgl Hbf",
+      "21:36"
+     ],
+     [
+      "Jenbach",
+      "21:53"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T16:42:00",
+    "arr": "2026-08-02T18:38:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 84",
+    "price": 62.2,
+    "durH": 1.9,
+    "stops": [
+     [
+      "Jenbach",
+      "17:00"
+     ],
+     [
+      "Wörgl Hbf",
+      "17:14"
+     ],
+     [
+      "Kufstein",
+      "17:24"
+     ],
+     [
+      "Rosenheim",
+      "17:46"
+     ],
+     [
+      "München Ost",
+      "18:26"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -17797,11 +13706,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:41"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -17829,109 +13733,8 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 101.98,
-   "out": {
-    "dep": "2026-08-08T06:44:00",
-    "arr": "2026-08-08T10:02:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 47.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:56"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "09:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T18:11:00",
-    "arr": "2026-08-09T22:13:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1097",
-    "price": 53.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Darmstadt Hbf",
-      "18:28"
-     ],
-     [
-      "Bensheim",
-      "18:43"
-     ],
-     [
-      "Weinheim(Bergstr)Hbf",
-      "18:55"
-     ],
-     [
-      "Heidelberg Hbf",
-      "19:11"
-     ],
-     [
-      "Esslingen(Neckar)",
-      "19:58"
-     ],
-     [
-      "Ulm Hbf",
-      "20:54"
-     ],
-     [
-      "Günzburg",
-      "21:09"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:40"
-     ],
-     [
-      "München-Pasing",
-      "22:03"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -17967,11 +13770,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -18003,18 +13801,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
+   }
   },
   {
    "origin": "München",
@@ -18050,11 +13838,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -18086,212 +13869,8 @@ window.BAHN_DATA = {
       "München Ost",
       "20:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Cumartesi",
-   "total": 102.98,
-   "out": {
-    "dep": "2026-08-08T07:45:00",
-    "arr": "2026-08-08T11:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 517",
-    "price": 39.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "07:55"
-     ],
-     [
-      "Bremen Hbf",
-      "08:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "09:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "10:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "10:32"
-     ],
-     [
-      "Hagen Hbf",
-      "10:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "11:13"
-     ],
-     [
-      "Solingen Hbf",
-      "11:26"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T17:11:00",
-    "arr": "2026-08-09T21:15:00",
-    "from": "Köln Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2506",
-    "price": 62.99,
-    "durH": 4.1,
-    "stops": [
-     [
-      "Düsseldorf Hbf",
-      "17:32"
-     ],
-     [
-      "Duisburg Hbf",
-      "17:45"
-     ],
-     [
-      "Essen Hbf",
-      "17:58"
-     ],
-     [
-      "Bochum Hbf",
-      "18:09"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "19:21"
-     ],
-     [
-      "Bremen Hbf",
-      "20:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "21:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Innsbruck",
-   "variant": "Cumartesi",
-   "total": 103.89,
-   "out": {
-    "dep": "2026-08-08T07:23:00",
-    "arr": "2026-08-08T09:18:00",
-    "from": "München Hbf",
-    "to": "Innsbruck Hbf",
-    "trains": "RJ 1281",
-    "price": 43.99,
-    "durH": 1.9,
-    "stops": [
-     [
-      "München Ost",
-      "07:32"
-     ],
-     [
-      "Rosenheim",
-      "08:10"
-     ],
-     [
-      "Kufstein",
-      "08:34"
-     ],
-     [
-      "Wörgl Hbf",
-      "08:44"
-     ],
-     [
-      "Jenbach",
-      "08:58"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T16:42:00",
-    "arr": "2026-08-09T18:38:00",
-    "from": "Innsbruck Hbf",
-    "to": "München Hbf",
-    "trains": "RJ 84",
-    "price": 59.9,
-    "durH": 1.9,
-    "stops": [
-     [
-      "Jenbach",
-      "17:00"
-     ],
-     [
-      "Wörgl Hbf",
-      "17:14"
-     ],
-     [
-      "Kufstein",
-      "17:24"
-     ],
-     [
-      "Rosenheim",
-      "17:46"
-     ],
-     [
-      "München Ost",
-      "18:26"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -18323,161 +13902,223 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
-    "dep": "2026-08-09T16:12:00",
-    "arr": "2026-08-09T19:25:00",
+    "dep": "2026-08-09T18:12:00",
+    "arr": "2026-08-09T21:24:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 504",
     "price": 67.99,
     "durH": 3.2,
     "stops": [
      [
       "Bitterfeld",
-      "16:29"
+      "18:29"
      ],
      [
       "Lutherstadt Wittenberg Hbf",
-      "16:46"
+      "18:46"
      ],
      [
       "Berlin Südkreuz",
-      "17:22"
+      "19:22"
      ],
      [
       "Berlin Hbf",
-      "17:29"
+      "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Düsseldorf",
+   "city": "Leipzig",
    "variant": "Cumartesi",
-   "total": 105.98,
+   "total": 103.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T10:25:00",
+    "dep": "2026-08-15T06:34:00",
+    "arr": "2026-08-15T09:46:00",
     "from": "Hamburg Hbf",
-    "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
-    "price": 45.99,
-    "durH": 3.7,
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 41.99,
+    "durH": 3.2,
     "stops": [
      [
-      "Hamburg-Harburg",
-      "06:55"
+      "Berlin Hbf",
+      "08:22"
      ],
      [
-      "Bremen Hbf",
-      "07:41"
+      "Berlin Südkreuz",
+      "08:33"
      ],
      [
-      "Osnabrück Hbf",
-      "08:34"
+      "Lutherstadt Wittenberg Hbf",
+      "09:10"
      ],
      [
-      "Münster(Westf)Hbf",
-      "09:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "09:32"
-     ],
-     [
-      "Bochum Hbf",
-      "09:47"
-     ],
-     [
-      "Essen Hbf",
-      "09:58"
-     ],
-     [
-      "Duisburg Hbf",
-      "10:11"
+      "Bitterfeld",
+      "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T19:34:00",
-    "arr": "2026-08-02T23:16:00",
-    "from": "Düsseldorf Hbf",
+    "dep": "2026-08-16T18:12:00",
+    "arr": "2026-08-16T21:24:00",
+    "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 104",
-    "price": 59.99,
+    "trains": "ICE 504",
+    "price": 61.99,
+    "durH": 3.2,
+    "stops": [
+     [
+      "Bitterfeld",
+      "18:29"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "18:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "19:22"
+     ],
+     [
+      "Berlin Hbf",
+      "19:29"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 105.98,
+   "out": {
+    "dep": "2026-08-07T20:29:00",
+    "arr": "2026-08-08T01:01:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 79",
+    "price": 39.99,
+    "durH": 4.5,
+    "stops": [
+     [
+      "Lüneburg",
+      "20:53"
+     ],
+     [
+      "Uelzen",
+      "21:09"
+     ],
+     [
+      "Hannover Hbf",
+      "21:51"
+     ],
+     [
+      "Göttingen",
+      "22:27"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:47"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-09T19:46:00",
+    "arr": "2026-08-09T23:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 70",
+    "price": 65.99,
     "durH": 3.7,
     "stops": [
      [
-      "Duisburg Hbf",
-      "19:45"
+      "Kassel-Wilhelmshöhe",
+      "21:11"
      ],
      [
-      "Essen Hbf",
-      "19:58"
+      "Göttingen",
+      "21:31"
      ],
      [
-      "Bochum Hbf",
-      "20:09"
+      "Hannover Hbf",
+      "22:05"
      ],
      [
-      "Dortmund Hbf",
-      "20:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "20:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "21:21"
-     ],
-     [
-      "Diepholz",
-      "21:46"
-     ],
-     [
-      "Bremen Hbf",
-      "22:17"
-     ],
-     [
-      "Hamburg-Harburg",
-      "23:04"
+      "Uelzen",
+      "22:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 105.98,
+   "out": {
+    "dep": "2026-08-08T06:29:00",
+    "arr": "2026-08-08T10:14:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 71",
+    "price": 39.99,
+    "durH": 3.8,
+    "stops": [
+     [
+      "Uelzen",
+      "07:08"
+     ],
+     [
+      "Celle",
+      "07:31"
+     ],
+     [
+      "Hannover Hbf",
+      "07:51"
+     ],
+     [
+      "Göttingen",
+      "08:26"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "08:46"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T19:46:00",
+    "arr": "2026-08-09T23:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 70",
+    "price": 65.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Kassel-Wilhelmshöhe",
+      "21:11"
+     ],
+     [
+      "Göttingen",
+      "21:31"
+     ],
+     [
+      "Hannover Hbf",
+      "22:05"
+     ],
+     [
+      "Uelzen",
+      "22:46"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -18509,11 +14150,6 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
@@ -18541,287 +14177,8 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 105.98,
-   "out": {
-    "dep": "2026-08-08T06:39:00",
-    "arr": "2026-08-08T12:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1602",
-    "price": 57.99,
-    "durH": 5.7,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:43"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:45"
-     ],
-     [
-      "Erfurt Hbf",
-      "10:38"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "11:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "12:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T19:37:00",
-    "arr": "2026-08-09T02:25:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 47.99,
-    "durH": 6.8,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "19:41"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "20:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "21:44"
-     ],
-     [
-      "Würzburg Hbf",
-      "23:49"
-     ],
-     [
-      "Nürnberg Hbf",
-      "00:45"
-     ],
-     [
-      "Augsburg Hbf",
-      "01:58"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Hamburg",
-   "variant": "Gunubirlik",
-   "total": 105.98,
-   "out": {
-    "dep": "2026-08-22T06:49:00",
-    "arr": "2026-08-22T13:24:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 602",
-    "price": 65.99,
-    "durH": 6.6,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "08:02"
-     ],
-     [
-      "Erlangen",
-      "08:17"
-     ],
-     [
-      "Bamberg",
-      "08:40"
-     ],
-     [
-      "Erfurt Hbf",
-      "09:23"
-     ],
-     [
-      "Leipzig Hbf",
-      "10:04"
-     ],
-     [
-      "Bitterfeld",
-      "10:29"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "10:46"
-     ],
-     [
-      "Berlin Südkreuz",
-      "11:22"
-     ],
-     [
-      "Berlin Hbf",
-      "11:29"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-22T22:28:00",
-    "arr": "2026-08-23T06:17:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1081",
-    "price": 39.99,
-    "durH": 7.8,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "22:38"
-     ],
-     [
-      "Hannover Hbf",
-      "00:01"
-     ],
-     [
-      "Göttingen",
-      "01:08"
-     ],
-     [
-      "Würzburg Hbf",
-      "04:00"
-     ],
-     [
-      "Nürnberg Hbf",
-      "04:56"
-     ],
-     [
-      "Ingolstadt Hbf",
-      "05:31"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 105.98,
-   "out": {
-    "dep": "2026-08-29T06:19:00",
-    "arr": "2026-08-29T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 49.99,
-    "durH": 4.1,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "08:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "09:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "10:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-29T19:36:00",
-    "arr": "2026-08-30T00:12:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 55.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "19:40"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "20:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "21:12"
-     ],
-     [
-      "Nürnberg Hbf",
-      "22:22"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:40"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -18829,82 +14186,71 @@ window.BAHN_DATA = {
    "variant": "Cumartesi",
    "total": 105.98,
    "out": {
-    "dep": "2026-09-05T08:45:00",
-    "arr": "2026-09-05T12:09:00",
+    "dep": "2026-08-08T06:44:00",
+    "arr": "2026-08-08T10:02:00",
     "from": "München Hbf",
     "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 690",
-    "price": 43.99,
-    "durH": 3.4,
+    "trains": "ICE 728",
+    "price": 51.99,
+    "durH": 3.3,
     "stops": [
      [
-      "München-Pasing",
-      "08:53"
+      "Nürnberg Hbf",
+      "07:56"
      ],
      [
-      "Augsburg Hbf",
-      "09:15"
+      "Würzburg Hbf",
+      "08:52"
      ],
      [
-      "Ulm Hbf",
-      "09:58"
-     ],
-     [
-      "Stuttgart Hbf",
-      "10:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:26"
+      "Aschaffenburg Hbf",
+      "09:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
-    "dep": "2026-09-06T17:50:00",
-    "arr": "2026-09-06T21:15:00",
+    "dep": "2026-08-09T16:10:00",
+    "arr": "2026-08-09T20:10:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "München Hbf",
-    "trains": "ICE 691",
-    "price": 61.99,
-    "durH": 3.4,
+    "trains": "ICE 1291",
+    "price": 53.99,
+    "durH": 4,
     "stops": [
      [
-      "Mannheim Hbf",
-      "18:30"
+      "Darmstadt Hbf",
+      "16:28"
      ],
      [
-      "Stuttgart Hbf",
-      "19:11"
+      "Bensheim",
+      "16:43"
+     ],
+     [
+      "Weinheim(Bergstr)Hbf",
+      "16:55"
+     ],
+     [
+      "Heidelberg Hbf",
+      "17:11"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "17:58"
      ],
      [
       "Ulm Hbf",
-      "20:00"
+      "18:55"
+     ],
+     [
+      "Günzburg",
+      "19:09"
      ],
      [
       "Augsburg Hbf",
-      "20:41"
-     ],
-     [
-      "München-Pasing",
-      "21:06"
+      "19:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -18944,11 +14290,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -18988,18 +14329,84 @@ window.BAHN_DATA = {
       "Lüneburg",
       "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 106.98,
+   "out": {
+    "dep": "2026-08-29T07:29:00",
+    "arr": "2026-08-29T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 56.99,
+    "durH": 5.2,
+    "stops": [
+     [
+      "Celle",
+      "08:27"
+     ],
+     [
+      "Hannover Hbf",
+      "08:48"
+     ],
+     [
+      "Göttingen",
+      "09:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "09:46"
+     ],
+     [
+      "Frankfurt(Main)Süd",
+      "11:10"
+     ],
+     [
+      "Mannheim Hbf",
+      "11:57"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
+   "ret": {
+    "dep": "2026-08-30T15:22:00",
+    "arr": "2026-08-30T20:29:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 576",
+    "price": 49.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "16:00"
+     ],
+     [
+      "Frankfurt(Main)Süd",
+      "16:45"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "18:11"
+     ],
+     [
+      "Göttingen",
+      "18:31"
+     ],
+     [
+      "Hannover Hbf",
+      "19:05"
+     ],
+     [
+      "Celle",
+      "19:27"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -19035,11 +14442,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -19075,18 +14477,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "21:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
+   }
   },
   {
    "origin": "München",
@@ -19122,11 +14514,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "08:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -19158,125 +14545,176 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 107.98,
+   "out": {
+    "dep": "2026-08-08T06:39:00",
+    "arr": "2026-08-08T12:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1602",
+    "price": 58.99,
+    "durH": 5.7,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:43"
+     ],
+     [
+      "Würzburg Hbf",
+      "08:45"
+     ],
+     [
+      "Erfurt Hbf",
+      "10:38"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "11:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "12:15"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
+   "ret": {
+    "dep": "2026-08-08T19:37:00",
+    "arr": "2026-08-09T02:25:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 48.99,
+    "durH": 6.8,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:44"
+     ],
+     [
+      "Würzburg Hbf",
+      "23:49"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:45"
+     ],
+     [
+      "Augsburg Hbf",
+      "01:58"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Düsseldorf",
-   "variant": "Gunubirlik",
-   "total": 107.98,
+   "variant": "Cuma",
+   "total": 108.98,
    "out": {
-    "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T10:25:00",
+    "dep": "2026-07-31T20:43:00",
+    "arr": "2026-08-01T00:30:00",
     "from": "Hamburg Hbf",
     "to": "Düsseldorf Hbf",
-    "trains": "ICE 105",
-    "price": 45.99,
-    "durH": 3.7,
+    "trains": "ICE 209",
+    "price": 43.99,
+    "durH": 3.8,
     "stops": [
      [
       "Hamburg-Harburg",
-      "06:55"
+      "20:53"
      ],
      [
       "Bremen Hbf",
-      "07:41"
+      "21:39"
+     ],
+     [
+      "Diepholz",
+      "22:09"
      ],
      [
       "Osnabrück Hbf",
-      "08:34"
+      "22:33"
      ],
      [
       "Münster(Westf)Hbf",
-      "09:00"
+      "23:01"
      ],
      [
       "Dortmund Hbf",
-      "09:32"
-     ],
-     [
-      "Bochum Hbf",
-      "09:47"
+      "23:36"
      ],
      [
       "Essen Hbf",
-      "09:58"
+      "00:04"
      ],
      [
       "Duisburg Hbf",
-      "10:11"
+      "00:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     107.99
     ]
    },
    "ret": {
-    "dep": "2026-08-01T17:34:00",
-    "arr": "2026-08-01T21:15:00",
+    "dep": "2026-08-02T19:34:00",
+    "arr": "2026-08-02T23:16:00",
     "from": "Düsseldorf Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 106",
-    "price": 61.99,
+    "trains": "ICE 104",
+    "price": 64.99,
     "durH": 3.7,
     "stops": [
      [
       "Duisburg Hbf",
-      "17:45"
+      "19:45"
      ],
      [
       "Essen Hbf",
-      "17:58"
+      "19:58"
      ],
      [
       "Bochum Hbf",
-      "18:09"
+      "20:09"
      ],
      [
       "Dortmund Hbf",
-      "18:21"
+      "20:21"
      ],
      [
       "Münster(Westf)Hbf",
-      "18:54"
+      "20:54"
      ],
      [
       "Osnabrück Hbf",
-      "19:21"
+      "21:21"
+     ],
+     [
+      "Diepholz",
+      "21:46"
      ],
      [
       "Bremen Hbf",
-      "20:14"
+      "22:17"
      ],
      [
       "Hamburg-Harburg",
-      "21:02"
+      "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     93.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    141.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -19308,58 +14746,35 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
-    "dep": "2026-08-16T18:51:00",
-    "arr": "2026-08-16T22:10:00",
+    "dep": "2026-08-16T18:12:00",
+    "arr": "2026-08-16T21:24:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 90",
+    "trains": "ICE 504",
     "price": 61.99,
-    "durH": 3.3,
+    "durH": 3.2,
     "stops": [
      [
+      "Bitterfeld",
+      "18:29"
+     ],
+     [
       "Lutherstadt Wittenberg Hbf",
-      "19:21"
+      "18:46"
      ],
      [
       "Berlin Südkreuz",
-      "19:57"
+      "19:22"
      ],
      [
       "Berlin Hbf",
-      "20:05"
-     ],
-     [
-      "Wittenberge",
-      "20:59"
-     ],
-     [
-      "Ludwigslust",
-      "21:16"
-     ],
-     [
-      "Büchen",
-      "21:45"
+      "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -19403,11 +14818,6 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
     ]
    },
    "ret": {
@@ -19455,18 +14865,152 @@ window.BAHN_DATA = {
       "Büchen",
       "21:45"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cuma",
+   "total": 109.98,
+   "out": {
+    "dep": "2026-08-14T19:28:00",
+    "arr": "2026-08-15T00:10:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 510",
+    "price": 49.99,
+    "durH": 4.7,
+    "stops": [
+     [
+      "München-Pasing",
+      "19:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "19:59"
+     ],
+     [
+      "Ulm Hbf",
+      "20:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "21:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "22:26"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "23:08"
+     ],
+     [
+      "Siegburg/Bonn",
+      "23:54"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    255.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T17:54:00",
+    "arr": "2026-08-16T22:29:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 59.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "18:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "19:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "20:11"
+     ],
+     [
+      "Ulm Hbf",
+      "21:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:56"
+     ],
+     [
+      "München-Pasing",
+      "22:20"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 109.98,
+   "out": {
+    "dep": "2026-08-29T06:19:00",
+    "arr": "2026-08-29T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 51.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "08:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "09:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "10:15"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-29T19:36:00",
+    "arr": "2026-08-30T00:12:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 57.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:40"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Nürnberg Hbf",
+      "22:22"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:40"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -19502,11 +15046,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "10:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -19542,18 +15081,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "18:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -19605,11 +15134,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "11:44"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -19653,18 +15177,8 @@ window.BAHN_DATA = {
       "Nürnberg Hbf",
       "19:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -19720,11 +15234,6 @@ window.BAHN_DATA = {
       "Siegburg/Bonn",
       "00:16"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -19760,18 +15269,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -19827,11 +15326,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -19883,18 +15377,8 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -19950,11 +15434,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -20010,18 +15489,8 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -20077,11 +15546,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -20133,18 +15597,8 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -20200,11 +15654,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -20260,18 +15709,8 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -20327,11 +15766,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -20383,18 +15817,8 @@ window.BAHN_DATA = {
       "Freising",
       "20:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
+   }
   },
   {
    "origin": "München",
@@ -20450,11 +15874,6 @@ window.BAHN_DATA = {
       "Plzen hl.n.",
       "10:47"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
    },
    "ret": {
@@ -20510,147 +15929,8 @@ window.BAHN_DATA = {
       "Freising",
       "22:50"
      ]
-    ],
-    "low": true,
-    "rng": [
-     55.0,
-     55.0
     ]
-   },
-   "lowRt": true,
-   "rngRt": [
-    110.0,
-    110.0
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 110.98,
-   "out": {
-    "dep": "2026-08-29T06:19:00",
-    "arr": "2026-08-29T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 49.99,
-    "durH": 4.1,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "08:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "09:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "10:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T19:36:00",
-    "arr": "2026-08-31T00:12:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 60.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "19:40"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "20:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "21:12"
-     ],
-     [
-      "Nürnberg Hbf",
-      "22:22"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:40"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 111.98,
-   "out": {
-    "dep": "2026-08-01T06:34:00",
-    "arr": "2026-08-01T08:22:00",
-    "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 505",
-    "price": 31.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T16:34:00",
-    "arr": "2026-08-02T18:41:00",
-    "from": "Berlin Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 2590",
-    "price": 79.99,
-    "durH": 2.1,
-    "stops": [
-     [
-      "Wittenberge",
-      "17:21"
-     ],
-     [
-      "Ludwigslust",
-      "17:39"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    131.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -20690,11 +15970,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -20734,113 +16009,208 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    39.98,
-    111.98
-   ]
+   }
   },
   {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
+   "origin": "München",
+   "city": "Frankfurt",
    "variant": "Cumartesi",
-   "total": 114.98,
+   "total": 111.98,
    "out": {
-    "dep": "2026-08-08T07:29:00",
-    "arr": "2026-08-08T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 64.99,
-    "durH": 5.2,
+    "dep": "2026-09-05T08:45:00",
+    "arr": "2026-09-05T12:09:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 690",
+    "price": 43.99,
+    "durH": 3.4,
     "stops": [
      [
-      "Celle",
-      "08:27"
+      "München-Pasing",
+      "08:53"
      ],
      [
-      "Hannover Hbf",
-      "08:48"
+      "Augsburg Hbf",
+      "09:15"
      ],
      [
-      "Göttingen",
-      "09:25"
+      "Ulm Hbf",
+      "09:58"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "11:14"
+      "Stuttgart Hbf",
+      "10:43"
      ],
      [
       "Mannheim Hbf",
-      "11:57"
+      "11:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T19:23:00",
-    "arr": "2026-08-10T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 49.99,
-    "durH": 5.1,
+    "dep": "2026-09-06T17:50:00",
+    "arr": "2026-09-06T21:15:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 691",
+    "price": 67.99,
+    "durH": 3.4,
     "stops": [
      [
       "Mannheim Hbf",
+      "18:30"
+     ],
+     [
+      "Stuttgart Hbf",
+      "19:11"
+     ],
+     [
+      "Ulm Hbf",
       "20:00"
      ],
      [
-      "Frankfurt(Main)Hbf",
-      "20:40"
+      "Augsburg Hbf",
+      "20:41"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
-     ],
-     [
-      "Hannover Hbf",
-      "23:05"
-     ],
-     [
-      "Celle",
-      "23:27"
-     ],
-     [
-      "Lüneburg",
-      "00:03"
+      "München-Pasing",
+      "21:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Innsbruck",
+   "variant": "Cumartesi",
+   "total": 112.8,
+   "out": {
+    "dep": "2026-08-08T07:23:00",
+    "arr": "2026-08-08T09:18:00",
+    "from": "München Hbf",
+    "to": "Innsbruck Hbf",
+    "trains": "RJ 1281",
+    "price": 52.9,
+    "durH": 1.9,
+    "stops": [
+     [
+      "München Ost",
+      "07:32"
+     ],
+     [
+      "Rosenheim",
+      "08:10"
+     ],
+     [
+      "Kufstein",
+      "08:34"
+     ],
+     [
+      "Wörgl Hbf",
+      "08:44"
+     ],
+     [
+      "Jenbach",
+      "08:58"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T16:42:00",
+    "arr": "2026-08-09T18:38:00",
+    "from": "Innsbruck Hbf",
+    "to": "München Hbf",
+    "trains": "RJ 84",
+    "price": 59.9,
+    "durH": 1.9,
+    "stops": [
+     [
+      "Jenbach",
+      "17:00"
+     ],
+     [
+      "Wörgl Hbf",
+      "17:14"
+     ],
+     [
+      "Kufstein",
+      "17:24"
+     ],
+     [
+      "Rosenheim",
+      "17:46"
+     ],
+     [
+      "München Ost",
+      "18:26"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 112.98,
+   "out": {
+    "dep": "2026-08-29T06:19:00",
+    "arr": "2026-08-29T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 51.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "08:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "09:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "10:15"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-30T19:36:00",
+    "arr": "2026-08-31T00:12:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 60.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:40"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Nürnberg Hbf",
+      "22:22"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:40"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -20880,11 +16250,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
@@ -20920,117 +16285,8 @@ window.BAHN_DATA = {
       "Celle",
       "21:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Wien",
-   "variant": "Cuma",
-   "total": 114.98,
-   "out": {
-    "dep": "2026-08-07T18:21:00",
-    "arr": "2026-08-07T22:47:00",
-    "from": "München Hbf",
-    "to": "Wien Hbf",
-    "trains": "EC 1219",
-    "price": 54.99,
-    "durH": 4.4,
-    "stops": [
-     [
-      "München Ost",
-      "18:29"
-     ],
-     [
-      "Mühldorf(Oberbay)",
-      "19:23"
-     ],
-     [
-      "Simbach(Inn)",
-      "19:48"
-     ],
-     [
-      "Wels Hbf",
-      "20:57"
-     ],
-     [
-      "Linz/Donau Hbf",
-      "21:26"
-     ],
-     [
-      "St.Pölten Hbf",
-      "22:14"
-     ],
-     [
-      "Wien Meidling",
-      "22:40"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T17:13:00",
-    "arr": "2026-08-09T21:59:00",
-    "from": "Wien Hbf",
-    "to": "München Hbf",
-    "trains": "EC 1210",
-    "price": 59.99,
-    "durH": 4.8,
-    "stops": [
-     [
-      "Wien Meidling",
-      "17:18"
-     ],
-     [
-      "St.Pölten Hbf",
-      "17:44"
-     ],
-     [
-      "Linz/Donau Hbf",
-      "18:32"
-     ],
-     [
-      "Wels Hbf",
-      "18:49"
-     ],
-     [
-      "Simbach(Inn)",
-      "20:11"
-     ],
-     [
-      "Mühldorf(Oberbay)",
-      "20:49"
-     ],
-     [
-      "München Ost",
-      "21:48"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -21062,50 +16318,35 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "23:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
-    "dep": "2026-08-09T16:12:00",
-    "arr": "2026-08-09T19:25:00",
+    "dep": "2026-08-09T18:12:00",
+    "arr": "2026-08-09T21:24:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 506",
+    "trains": "ICE 504",
     "price": 67.99,
     "durH": 3.2,
     "stops": [
      [
       "Bitterfeld",
-      "16:29"
+      "18:29"
      ],
      [
       "Lutherstadt Wittenberg Hbf",
-      "16:46"
+      "18:46"
      ],
      [
       "Berlin Südkreuz",
-      "17:22"
+      "19:22"
      ],
      [
       "Berlin Hbf",
-      "17:29"
+      "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -21153,11 +16394,6 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "00:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
     ]
    },
    "ret": {
@@ -21201,18 +16437,8 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    97.98,
-    159.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -21264,11 +16490,6 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -21316,18 +16537,96 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Gunubirlik",
+   "total": 115.98,
+   "out": {
+    "dep": "2026-08-22T06:49:00",
+    "arr": "2026-08-22T13:24:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 602",
+    "price": 75.99,
+    "durH": 6.6,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "08:02"
+     ],
+     [
+      "Erlangen",
+      "08:17"
+     ],
+     [
+      "Bamberg",
+      "08:40"
+     ],
+     [
+      "Erfurt Hbf",
+      "09:23"
+     ],
+     [
+      "Leipzig Hbf",
+      "10:04"
+     ],
+     [
+      "Bitterfeld",
+      "10:29"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "10:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "11:22"
+     ],
+     [
+      "Berlin Hbf",
+      "11:29"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
+   "ret": {
+    "dep": "2026-08-22T22:28:00",
+    "arr": "2026-08-23T06:17:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 39.99,
+    "durH": 7.8,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "22:38"
+     ],
+     [
+      "Hannover Hbf",
+      "00:01"
+     ],
+     [
+      "Göttingen",
+      "01:08"
+     ],
+     [
+      "Würzburg Hbf",
+      "04:00"
+     ],
+     [
+      "Nürnberg Hbf",
+      "04:56"
+     ],
+     [
+      "Ingolstadt Hbf",
+      "05:31"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -21363,11 +16662,6 @@ window.BAHN_DATA = {
       "Jenbach",
       "10:58"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     57.99
     ]
    },
    "ret": {
@@ -21399,18 +16693,135 @@ window.BAHN_DATA = {
       "München Ost",
       "18:26"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     62.2
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 117.98,
+   "out": {
+    "dep": "2026-08-01T06:34:00",
+    "arr": "2026-08-01T08:22:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 505",
+    "price": 37.99,
+    "durH": 1.8,
+    "stops": []
+   },
+   "ret": {
+    "dep": "2026-08-02T16:34:00",
+    "arr": "2026-08-02T18:41:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 79.99,
+    "durH": 2.1,
+    "stops": [
+     [
+      "Wittenberge",
+      "17:21"
+     ],
+     [
+      "Ludwigslust",
+      "17:39"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Nürnberg",
+   "variant": "Cuma",
+   "total": 119.98,
+   "out": {
+    "dep": "2026-08-14T22:19:00",
+    "arr": "2026-08-15T05:07:00",
+    "from": "Hamburg Hbf",
+    "to": "Nürnberg Hbf",
+    "trains": "ICE 1081",
+    "price": 29.99,
+    "durH": 6.8,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "22:29"
+     ],
+     [
+      "Lüneburg",
+      "22:48"
+     ],
+     [
+      "Uelzen",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:30"
+     ],
+     [
+      "Hannover Hbf",
+      "23:51"
+     ],
+     [
+      "Göttingen",
+      "00:59"
+     ],
+     [
+      "Würzburg Hbf",
+      "03:52"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    58.98,
-    117.8
-   ]
+   "ret": {
+    "dep": "2026-08-16T16:26:00",
+    "arr": "2026-08-16T22:10:00",
+    "from": "Nürnberg Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 90",
+    "price": 89.99,
+    "durH": 5.7,
+    "stops": [
+     [
+      "Coburg",
+      "17:23"
+     ],
+     [
+      "Erfurt Hbf",
+      "18:00"
+     ],
+     [
+      "Leipzig Hbf",
+      "18:45"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "19:21"
+     ],
+     [
+      "Berlin Südkreuz",
+      "19:57"
+     ],
+     [
+      "Berlin Hbf",
+      "20:05"
+     ],
+     [
+      "Wittenberge",
+      "20:59"
+     ],
+     [
+      "Ludwigslust",
+      "21:16"
+     ],
+     [
+      "Büchen",
+      "21:45"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -21450,11 +16861,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
@@ -21526,18 +16932,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -21569,80 +16965,153 @@ window.BAHN_DATA = {
       "Würzburg Hbf",
       "03:52"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     119.99
     ]
    },
    "ret": {
-    "dep": "2026-08-23T16:05:00",
-    "arr": "2026-08-23T21:24:00",
+    "dep": "2026-08-23T16:26:00",
+    "arr": "2026-08-23T22:10:00",
     "from": "Nürnberg Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 504",
+    "trains": "ICE 90",
     "price": 79.99,
-    "durH": 5.3,
+    "durH": 5.7,
     "stops": [
      [
-      "Erlangen",
-      "16:17"
-     ],
-     [
-      "Bamberg",
-      "16:40"
-     ],
-     [
-      "Erfurt Hbf",
+      "Coburg",
       "17:23"
      ],
      [
-      "Leipzig Hbf",
-      "18:04"
+      "Erfurt Hbf",
+      "18:00"
      ],
      [
-      "Bitterfeld",
-      "18:29"
+      "Leipzig Hbf",
+      "18:45"
      ],
      [
       "Lutherstadt Wittenberg Hbf",
-      "18:46"
+      "19:21"
      ],
      [
       "Berlin Südkreuz",
-      "19:22"
+      "19:57"
      ],
      [
       "Berlin Hbf",
-      "19:29"
+      "20:05"
+     ],
+     [
+      "Wittenberge",
+      "20:59"
+     ],
+     [
+      "Ludwigslust",
+      "21:16"
+     ],
+     [
+      "Büchen",
+      "21:45"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Wien",
+   "variant": "Cuma",
+   "total": 119.98,
+   "out": {
+    "dep": "2026-08-07T18:21:00",
+    "arr": "2026-08-07T22:47:00",
+    "from": "München Hbf",
+    "to": "Wien Hbf",
+    "trains": "EC 1219",
+    "price": 59.99,
+    "durH": 4.4,
+    "stops": [
+     [
+      "München Ost",
+      "18:29"
+     ],
+     [
+      "Mühldorf(Oberbay)",
+      "19:23"
+     ],
+     [
+      "Simbach(Inn)",
+      "19:48"
+     ],
+     [
+      "Wels Hbf",
+      "20:57"
+     ],
+     [
+      "Linz/Donau Hbf",
+      "21:26"
+     ],
+     [
+      "St.Pölten Hbf",
+      "22:14"
+     ],
+     [
+      "Wien Meidling",
+      "22:40"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    255.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T17:13:00",
+    "arr": "2026-08-09T21:59:00",
+    "from": "Wien Hbf",
+    "to": "München Hbf",
+    "trains": "EC 1210",
+    "price": 59.99,
+    "durH": 4.8,
+    "stops": [
+     [
+      "Wien Meidling",
+      "17:18"
+     ],
+     [
+      "St.Pölten Hbf",
+      "17:44"
+     ],
+     [
+      "Linz/Donau Hbf",
+      "18:32"
+     ],
+     [
+      "Wels Hbf",
+      "18:49"
+     ],
+     [
+      "Simbach(Inn)",
+      "20:11"
+     ],
+     [
+      "Mühldorf(Oberbay)",
+      "20:49"
+     ],
+     [
+      "München Ost",
+      "21:48"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Gunubirlik",
+   "city": "Düsseldorf",
+   "variant": "Cumartesi",
    "total": 120.98,
    "out": {
     "dep": "2026-08-01T06:45:00",
-    "arr": "2026-08-01T10:48:00",
+    "arr": "2026-08-01T10:25:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
+    "to": "Düsseldorf Hbf",
     "trains": "ICE 105",
-    "price": 54.99,
-    "durH": 4.1,
+    "price": 55.99,
+    "durH": 3.7,
     "stops": [
      [
       "Hamburg-Harburg",
@@ -21675,25 +17144,116 @@ window.BAHN_DATA = {
      [
       "Duisburg Hbf",
       "10:11"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-01T19:11:00",
-    "arr": "2026-08-01T23:16:00",
+    "dep": "2026-08-02T19:34:00",
+    "arr": "2026-08-02T23:16:00",
+    "from": "Düsseldorf Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 104",
+    "price": 64.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Duisburg Hbf",
+      "19:45"
+     ],
+     [
+      "Essen Hbf",
+      "19:58"
+     ],
+     [
+      "Bochum Hbf",
+      "20:09"
+     ],
+     [
+      "Dortmund Hbf",
+      "20:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "20:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "21:21"
+     ],
+     [
+      "Diepholz",
+      "21:46"
+     ],
+     [
+      "Bremen Hbf",
+      "22:17"
+     ],
+     [
+      "Hamburg-Harburg",
+      "23:04"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Köln",
+   "variant": "Cuma",
+   "total": 123.98,
+   "out": {
+    "dep": "2026-07-31T20:43:00",
+    "arr": "2026-08-01T00:58:00",
+    "from": "Hamburg Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 209",
+    "price": 43.99,
+    "durH": 4.3,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "20:53"
+     ],
+     [
+      "Bremen Hbf",
+      "21:39"
+     ],
+     [
+      "Diepholz",
+      "22:09"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:33"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "23:01"
+     ],
+     [
+      "Dortmund Hbf",
+      "23:36"
+     ],
+     [
+      "Essen Hbf",
+      "00:04"
+     ],
+     [
+      "Duisburg Hbf",
+      "00:17"
+     ],
+     [
+      "Düsseldorf Hbf",
+      "00:30"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T19:11:00",
+    "arr": "2026-08-02T23:16:00",
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
-    "price": 65.99,
+    "price": 79.99,
     "durH": 4.1,
     "stops": [
      [
@@ -21736,101 +17296,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    152.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 122.98,
-   "out": {
-    "dep": "2026-08-01T06:19:00",
-    "arr": "2026-08-01T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 76.99,
-    "durH": 4.1,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "08:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "09:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "10:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-01T19:37:00",
-    "arr": "2026-08-02T02:06:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 45.99,
-    "durH": 6.5,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "19:41"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "20:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "21:12"
-     ],
-     [
-      "Würzburg Hbf",
-      "23:34"
-     ],
-     [
-      "Nürnberg Hbf",
-      "00:26"
-     ],
-     [
-      "Augsburg Hbf",
-      "01:39"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -21862,11 +17329,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -21898,18 +17360,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -21945,11 +17397,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "23:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -21981,18 +17428,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -22028,11 +17465,6 @@ window.BAHN_DATA = {
       "Mannheim Hbf",
       "23:34"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
     ]
    },
    "ret": {
@@ -22076,18 +17508,8 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "19:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    125.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -22135,11 +17557,6 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
     ]
    },
    "ret": {
@@ -22183,24 +17600,14 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    101.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Berlin",
    "variant": "Gunubirlik",
-   "total": 125.98,
+   "total": 126.98,
    "out": {
     "dep": "2026-08-22T06:19:00",
     "arr": "2026-08-22T10:23:00",
@@ -22226,11 +17633,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -22239,7 +17641,7 @@ window.BAHN_DATA = {
     "from": "Berlin Hbf",
     "to": "München Hbf",
     "trains": "ICE 1605",
-    "price": 61.99,
+    "price": 62.99,
     "durH": 4.6,
     "stops": [
      [
@@ -22262,89 +17664,66 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Köln",
-   "variant": "Cuma",
-   "total": 126.98,
+   "city": "Düsseldorf",
+   "variant": "Gunubirlik",
+   "total": 127.98,
    "out": {
-    "dep": "2026-07-31T20:43:00",
-    "arr": "2026-08-01T00:58:00",
+    "dep": "2026-08-01T06:45:00",
+    "arr": "2026-08-01T10:25:00",
     "from": "Hamburg Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 209",
-    "price": 36.99,
-    "durH": 4.3,
+    "to": "Düsseldorf Hbf",
+    "trains": "ICE 105",
+    "price": 55.99,
+    "durH": 3.7,
     "stops": [
      [
       "Hamburg-Harburg",
-      "20:53"
+      "06:55"
      ],
      [
       "Bremen Hbf",
-      "21:39"
-     ],
-     [
-      "Diepholz",
-      "22:09"
+      "07:41"
      ],
      [
       "Osnabrück Hbf",
-      "22:33"
+      "08:34"
      ],
      [
       "Münster(Westf)Hbf",
-      "23:01"
+      "09:00"
      ],
      [
       "Dortmund Hbf",
-      "23:36"
+      "09:32"
+     ],
+     [
+      "Bochum Hbf",
+      "09:47"
      ],
      [
       "Essen Hbf",
-      "00:04"
+      "09:58"
      ],
      [
       "Duisburg Hbf",
-      "00:17"
-     ],
-     [
-      "Düsseldorf Hbf",
-      "00:30"
+      "10:11"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T19:11:00",
-    "arr": "2026-08-02T23:16:00",
-    "from": "Köln Hbf",
+    "dep": "2026-08-01T19:34:00",
+    "arr": "2026-08-01T23:16:00",
+    "from": "Düsseldorf Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
-    "price": 89.99,
-    "durH": 4.1,
+    "price": 71.99,
+    "durH": 3.7,
     "stops": [
-     [
-      "Düsseldorf Hbf",
-      "19:32"
-     ],
      [
       "Duisburg Hbf",
       "19:45"
@@ -22381,85 +17760,8 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    139.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Frankfurt",
-   "variant": "Gunubirlik",
-   "total": 127.98,
-   "out": {
-    "dep": "2026-08-01T06:44:00",
-    "arr": "2026-08-01T10:02:00",
-    "from": "München Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 72.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:56"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "09:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-01T17:57:00",
-    "arr": "2026-08-01T21:16:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 725",
-    "price": 54.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Aschaffenburg Hbf",
-      "18:24"
-     ],
-     [
-      "Würzburg Hbf",
-      "19:03"
-     ],
-     [
-      "Nürnberg Hbf",
-      "19:58"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    29.98,
-    127.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -22507,11 +17809,6 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
     ]
    },
    "ret": {
@@ -22551,68 +17848,88 @@ window.BAHN_DATA = {
       "Buchloe",
       "20:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    101.98,
-    135.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Berlin",
+   "city": "Stuttgart",
    "variant": "Cuma",
    "total": 129.98,
    "out": {
-    "dep": "2026-07-31T20:34:00",
-    "arr": "2026-07-31T22:22:00",
+    "dep": "2026-08-07T19:29:00",
+    "arr": "2026-08-08T00:50:00",
     "from": "Hamburg Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 609",
-    "price": 49.99,
-    "durH": 1.8,
-    "stops": [],
-    "low": false,
-    "rng": [
-     6.99,
-     121.2
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 777",
+    "price": 59.99,
+    "durH": 5.4,
+    "stops": [
+     [
+      "Celle",
+      "20:27"
+     ],
+     [
+      "Hannover Hbf",
+      "20:48"
+     ],
+     [
+      "Göttingen",
+      "21:25"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "21:46"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "23:14"
+     ],
+     [
+      "Mannheim Hbf",
+      "23:57"
+     ]
     ]
    },
    "ret": {
-    "dep": "2026-08-02T16:34:00",
-    "arr": "2026-08-02T18:41:00",
-    "from": "Berlin Hbf",
+    "dep": "2026-08-09T19:23:00",
+    "arr": "2026-08-10T00:30:00",
+    "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 2590",
-    "price": 79.99,
-    "durH": 2.1,
+    "trains": "ICE 572",
+    "price": 69.99,
+    "durH": 5.1,
     "stops": [
      [
-      "Wittenberge",
-      "17:21"
+      "Mannheim Hbf",
+      "20:00"
      ],
      [
-      "Ludwigslust",
-      "17:39"
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     117.2
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    159.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -22652,11 +17969,6 @@ window.BAHN_DATA = {
       "Wien Meidling",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -22696,121 +18008,8 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    135.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Köln",
-   "variant": "Cuma",
-   "total": 129.98,
-   "out": {
-    "dep": "2026-08-14T18:44:00",
-    "arr": "2026-08-14T23:39:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 524",
-    "price": 49.99,
-    "durH": 4.9,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "19:57"
-     ],
-     [
-      "Würzburg Hbf",
-      "20:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "21:32"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "22:02"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "22:19"
-     ],
-     [
-      "Limburg Süd",
-      "22:40"
-     ],
-     [
-      "Montabaur",
-      "22:52"
-     ],
-     [
-      "Siegburg/Bonn",
-      "23:13"
-     ],
-     [
-      "Köln/Bonn Flughafen",
-      "23:25"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T17:54:00",
-    "arr": "2026-08-16T22:29:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 613",
-    "price": 79.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "18:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "19:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "20:11"
-     ],
-     [
-      "Ulm Hbf",
-      "21:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:56"
-     ],
-     [
-      "München-Pasing",
-      "22:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -22850,11 +18049,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -22890,66 +18084,51 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Wien",
    "variant": "Cuma",
-   "total": 135.98,
+   "total": 133.98,
    "out": {
-    "dep": "2026-07-31T18:21:00",
-    "arr": "2026-07-31T22:47:00",
+    "dep": "2026-07-31T18:27:00",
+    "arr": "2026-07-31T23:13:00",
     "from": "München Hbf",
     "to": "Wien Hbf",
-    "trains": "EC 1219",
-    "price": 75.99,
-    "durH": 4.4,
+    "trains": "IC 406",
+    "price": 73.99,
+    "durH": 4.8,
     "stops": [
      [
       "München Ost",
-      "18:29"
+      "18:35"
      ],
      [
-      "Mühldorf(Oberbay)",
-      "19:23"
+      "Rosenheim",
+      "19:13"
      ],
      [
-      "Simbach(Inn)",
-      "19:48"
+      "Salzburg Hbf",
+      "20:26"
      ],
      [
-      "Wels Hbf",
-      "20:57"
+      "Attnang-Puchheim",
+      "21:15"
      ],
      [
       "Linz/Donau Hbf",
-      "21:26"
+      "21:44"
      ],
      [
       "St.Pölten Hbf",
-      "22:14"
+      "22:36"
      ],
      [
       "Wien Meidling",
-      "22:40"
+      "23:06"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     115.99
     ]
    },
    "ret": {
@@ -22989,97 +18168,88 @@ window.BAHN_DATA = {
       "München Ost",
       "21:48"
      ]
-    ],
-    "low": false,
-    "rng": [
-     19.99,
-     107.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    175.98
-   ]
+   }
   },
   {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Gunubirlik",
-   "total": 136.98,
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 134.98,
    "out": {
-    "dep": "2026-08-15T06:19:00",
-    "arr": "2026-08-15T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 73.99,
-    "durH": 4.1,
+    "dep": "2026-08-08T07:29:00",
+    "arr": "2026-08-08T12:38:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 575",
+    "price": 64.99,
+    "durH": 5.2,
     "stops": [
      [
-      "Nürnberg Hbf",
-      "07:33"
+      "Celle",
+      "08:27"
      ],
      [
-      "Erfurt Hbf",
-      "08:44"
+      "Hannover Hbf",
+      "08:48"
      ],
      [
-      "Halle(Saale)Hbf",
-      "09:13"
+      "Göttingen",
+      "09:25"
      ],
      [
-      "Berlin Südkreuz",
-      "10:15"
+      "Kassel-Wilhelmshöhe",
+      "09:46"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "11:14"
+     ],
+     [
+      "Mannheim Hbf",
+      "11:57"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
-    "dep": "2026-08-15T19:37:00",
-    "arr": "2026-08-16T00:12:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 62.99,
-    "durH": 4.6,
+    "dep": "2026-08-09T19:23:00",
+    "arr": "2026-08-10T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 69.99,
+    "durH": 5.1,
     "stops": [
      [
-      "Berlin Südkreuz",
-      "19:41"
+      "Mannheim Hbf",
+      "20:00"
      ],
      [
-      "Halle(Saale)Hbf",
-      "20:43"
+      "Frankfurt(Main)Hbf",
+      "20:40"
      ],
      [
-      "Erfurt Hbf",
-      "21:12"
+      "Kassel-Wilhelmshöhe",
+      "22:11"
      ],
      [
-      "Nürnberg Hbf",
-      "22:22"
+      "Göttingen",
+      "22:31"
      ],
      [
-      "Augsburg Hbf",
-      "23:40"
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    63.98,
-    140.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -23119,11 +18289,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -23159,101 +18324,68 @@ window.BAHN_DATA = {
       "München-Pasing",
       "20:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
+   }
   },
   {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cumartesi",
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Gunubirlik",
    "total": 138.98,
    "out": {
-    "dep": "2026-08-01T06:19:00",
-    "arr": "2026-08-01T10:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1604",
-    "price": 76.99,
-    "durH": 4.1,
+    "dep": "2026-08-01T06:34:00",
+    "arr": "2026-08-01T09:46:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 505",
+    "price": 65.99,
+    "durH": 3.2,
     "stops": [
      [
-      "Nürnberg Hbf",
-      "07:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "08:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "09:13"
+      "Berlin Hbf",
+      "08:22"
      ],
      [
       "Berlin Südkreuz",
-      "10:15"
+      "08:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "09:10"
+     ],
+     [
+      "Bitterfeld",
+      "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
-    "dep": "2026-08-02T17:36:00",
-    "arr": "2026-08-03T00:00:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1603",
-    "price": 61.99,
-    "durH": 6.4,
+    "dep": "2026-08-01T18:12:00",
+    "arr": "2026-08-01T21:24:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 504",
+    "price": 72.99,
+    "durH": 3.2,
     "stops": [
      [
+      "Bitterfeld",
+      "18:29"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "18:46"
+     ],
+     [
       "Berlin Südkreuz",
-      "17:40"
+      "19:22"
      ],
      [
-      "Halle(Saale)Hbf",
-      "18:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "19:12"
-     ],
-     [
-      "Würzburg Hbf",
-      "21:16"
-     ],
-     [
-      "Nürnberg Hbf",
-      "22:14"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:32"
+      "Berlin Hbf",
+      "19:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -23285,11 +18417,6 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "22:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
     ]
    },
    "ret": {
@@ -23321,110 +18448,13 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Berlin",
-   "variant": "Cumartesi",
-   "total": 139.98,
-   "out": {
-    "dep": "2026-08-08T06:39:00",
-    "arr": "2026-08-08T12:23:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1602",
-    "price": 57.99,
-    "durH": 5.7,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:43"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:45"
-     ],
-     [
-      "Erfurt Hbf",
-      "10:38"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "11:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "12:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T15:37:00",
-    "arr": "2026-08-09T21:58:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1601",
-    "price": 81.99,
-    "durH": 6.4,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "15:41"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "16:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "17:12"
-     ],
-     [
-      "Würzburg Hbf",
-      "19:16"
-     ],
-     [
-      "Nürnberg Hbf",
-      "20:14"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cumartesi",
+   "variant": "Gunubirlik",
    "total": 140.98,
    "out": {
     "dep": "2026-08-15T06:19:00",
@@ -23432,7 +18462,7 @@ window.BAHN_DATA = {
     "from": "München Hbf",
     "to": "Berlin Hbf",
     "trains": "ICE 1604",
-    "price": 73.99,
+    "price": 75.99,
     "durH": 4.1,
     "stops": [
      [
@@ -23451,11 +18481,118 @@ window.BAHN_DATA = {
       "Berlin Südkreuz",
       "10:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-15T19:37:00",
+    "arr": "2026-08-16T00:12:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 64.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Nürnberg Hbf",
+      "22:22"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:40"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 141.98,
+   "out": {
+    "dep": "2026-07-31T21:51:00",
+    "arr": "2026-07-31T23:51:00",
+    "from": "Hamburg Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 809",
+    "price": 61.99,
+    "durH": 2,
+    "stops": [
+     [
+      "Büchen",
+      "22:14"
+     ],
+     [
+      "Ludwigslust",
+      "22:41"
+     ],
+     [
+      "Wittenberge",
+      "22:58"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T16:34:00",
+    "arr": "2026-08-02T18:41:00",
+    "from": "Berlin Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 2590",
+    "price": 79.99,
+    "durH": 2.1,
+    "stops": [
+     [
+      "Wittenberge",
+      "17:21"
+     ],
+     [
+      "Ludwigslust",
+      "17:39"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 142.98,
+   "out": {
+    "dep": "2026-08-15T06:19:00",
+    "arr": "2026-08-15T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 75.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "08:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "09:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "10:15"
+     ]
     ]
    },
    "ret": {
@@ -23487,31 +18624,157 @@ window.BAHN_DATA = {
       "Augsburg Hbf",
       "23:40"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 143.98,
+   "out": {
+    "dep": "2026-08-14T18:21:00",
+    "arr": "2026-08-14T22:22:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1502",
+    "price": 76.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "19:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "20:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "21:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "22:15"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    144.98
-   ]
+   "ret": {
+    "dep": "2026-08-16T19:37:00",
+    "arr": "2026-08-17T00:12:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 66.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Nürnberg Hbf",
+      "22:22"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:40"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 144.98,
+   "out": {
+    "dep": "2026-08-08T06:39:00",
+    "arr": "2026-08-08T12:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1602",
+    "price": 58.99,
+    "durH": 5.7,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:43"
+     ],
+     [
+      "Würzburg Hbf",
+      "08:45"
+     ],
+     [
+      "Erfurt Hbf",
+      "10:38"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "11:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "12:15"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-09T15:37:00",
+    "arr": "2026-08-09T21:58:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1601",
+    "price": 85.99,
+    "durH": 6.4,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "15:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "16:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "17:12"
+     ],
+     [
+      "Würzburg Hbf",
+      "19:16"
+     ],
+     [
+      "Nürnberg Hbf",
+      "20:14"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:32"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Köln",
    "variant": "Cumartesi",
-   "total": 144.98,
+   "total": 145.98,
    "out": {
     "dep": "2026-08-01T06:45:00",
     "arr": "2026-08-01T10:48:00",
     "from": "Hamburg Hbf",
     "to": "Köln Hbf",
     "trains": "ICE 105",
-    "price": 54.99,
+    "price": 65.99,
     "durH": 4.1,
     "stops": [
      [
@@ -23550,11 +18813,6 @@ window.BAHN_DATA = {
       "Düsseldorf Hbf",
       "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     115.99
     ]
    },
    "ret": {
@@ -23563,7 +18821,7 @@ window.BAHN_DATA = {
     "from": "Köln Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 104",
-    "price": 89.99,
+    "price": 79.99,
     "durH": 4.1,
     "stops": [
      [
@@ -23606,184 +18864,80 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "23:04"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    169.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 145.98,
-   "out": {
-    "dep": "2026-08-14T18:21:00",
-    "arr": "2026-08-14T22:22:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1502",
-    "price": 78.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "19:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "20:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "21:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "22:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T19:37:00",
-    "arr": "2026-08-17T00:12:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1605",
-    "price": 66.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "19:41"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "20:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "21:12"
-     ],
-     [
-      "Nürnberg Hbf",
-      "22:22"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:40"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 148.98,
+   "variant": "Gunubirlik",
+   "total": 147.98,
    "out": {
-    "dep": "2026-08-01T06:44:00",
-    "arr": "2026-08-01T10:02:00",
+    "dep": "2026-08-01T07:47:00",
+    "arr": "2026-08-01T11:44:00",
     "from": "München Hbf",
     "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 728",
-    "price": 72.99,
-    "durH": 3.3,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "07:56"
-     ],
-     [
-      "Würzburg Hbf",
-      "08:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "09:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     133.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T16:10:00",
-    "arr": "2026-08-02T20:10:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1291",
-    "price": 75.99,
+    "trains": "ICE 2090",
+    "price": 81.99,
     "durH": 4,
     "stops": [
      [
-      "Darmstadt Hbf",
-      "16:28"
-     ],
-     [
-      "Bensheim",
-      "16:43"
-     ],
-     [
-      "Weinheim(Bergstr)Hbf",
-      "16:55"
-     ],
-     [
-      "Heidelberg Hbf",
-      "17:11"
-     ],
-     [
-      "Esslingen(Neckar)",
-      "17:58"
-     ],
-     [
-      "Ulm Hbf",
-      "18:55"
+      "Augsburg Hbf",
+      "08:14"
      ],
      [
       "Günzburg",
-      "19:09"
+      "08:46"
      ],
      [
-      "Augsburg Hbf",
-      "19:40"
+      "Ulm Hbf",
+      "09:01"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "09:51"
+     ],
+     [
+      "Heidelberg Hbf",
+      "10:44"
+     ],
+     [
+      "Weinheim(Bergstr)Hbf",
+      "11:00"
+     ],
+     [
+      "Bensheim",
+      "11:11"
+     ],
+     [
+      "Darmstadt Hbf",
+      "11:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     129.99
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    52.98,
-    148.98
-   ]
+   "ret": {
+    "dep": "2026-08-01T17:57:00",
+    "arr": "2026-08-01T21:16:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 725",
+    "price": 65.99,
+    "durH": 3.3,
+    "stops": [
+     [
+      "Aschaffenburg Hbf",
+      "18:24"
+     ],
+     [
+      "Würzburg Hbf",
+      "19:03"
+     ],
+     [
+      "Nürnberg Hbf",
+      "19:58"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -23831,11 +18985,6 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
     ]
    },
    "ret": {
@@ -23879,18 +19028,8 @@ window.BAHN_DATA = {
       "Buchloe",
       "18:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    117.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -23938,11 +19077,6 @@ window.BAHN_DATA = {
       "Zürich Flughafen",
       "10:17"
      ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
     ]
    },
    "ret": {
@@ -23986,18 +19120,8 @@ window.BAHN_DATA = {
       "Buchloe",
       "22:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    117.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -24037,11 +19161,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -24077,98 +19196,573 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Frankfurt",
+   "city": "Köln",
    "variant": "Gunubirlik",
    "total": 151.98,
    "out": {
-    "dep": "2026-08-01T06:23:00",
-    "arr": "2026-08-01T09:56:00",
+    "dep": "2026-08-01T06:45:00",
+    "arr": "2026-08-01T10:48:00",
     "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 1071",
-    "price": 75.99,
-    "durH": 3.6,
+    "to": "Köln Hbf",
+    "trains": "ICE 105",
+    "price": 65.99,
+    "durH": 4.1,
     "stops": [
      [
-      "Hannover Hbf",
-      "07:38"
+      "Hamburg-Harburg",
+      "06:55"
+     ],
+     [
+      "Bremen Hbf",
+      "07:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "08:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "09:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "09:32"
+     ],
+     [
+      "Bochum Hbf",
+      "09:47"
+     ],
+     [
+      "Essen Hbf",
+      "09:58"
+     ],
+     [
+      "Duisburg Hbf",
+      "10:11"
+     ],
+     [
+      "Düsseldorf Hbf",
+      "10:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-01T20:46:00",
-    "arr": "2026-08-02T00:30:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-01T17:11:00",
+    "arr": "2026-08-01T21:15:00",
+    "from": "Köln Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 75.99,
-    "durH": 3.7,
+    "trains": "ICE 106",
+    "price": 85.99,
+    "durH": 4.1,
     "stops": [
      [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
+      "Düsseldorf Hbf",
+      "17:32"
+     ],
+     [
+      "Duisburg Hbf",
+      "17:45"
+     ],
+     [
+      "Essen Hbf",
+      "17:58"
+     ],
+     [
+      "Bochum Hbf",
+      "18:09"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "19:21"
+     ],
+     [
+      "Bremen Hbf",
+      "20:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "21:02"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Cuma",
+   "total": 155.98,
+   "out": {
+    "dep": "2026-08-21T22:01:00",
+    "arr": "2026-08-22T06:42:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1080",
+    "price": 49.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "22:44"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:07"
+     ],
+     [
+      "Würzburg Hbf",
+      "01:14"
      ],
      [
       "Göttingen",
-      "22:31"
+      "04:03"
      ],
      [
       "Hannover Hbf",
-      "23:05"
+      "05:03"
      ],
      [
       "Celle",
-      "23:27"
+      "05:30"
+     ],
+     [
+      "Uelzen",
+      "05:53"
      ],
      [
       "Lüneburg",
-      "00:03"
+      "06:11"
+     ],
+     [
+      "Hamburg-Harburg",
+      "06:30"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
+   "ret": {
+    "dep": "2026-08-23T15:45:00",
+    "arr": "2026-08-24T00:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 105.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "15:55"
+     ],
+     [
+      "Bremen Hbf",
+      "16:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "17:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:32"
+     ],
+     [
+      "Hagen Hbf",
+      "18:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "19:13"
+     ],
+     [
+      "Solingen Hbf",
+      "19:26"
+     ],
+     [
+      "Köln Hbf",
+      "19:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "20:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "21:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "22:11"
+     ],
+     [
+      "Ulm Hbf",
+      "23:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:55"
+     ],
+     [
+      "München-Pasing",
+      "00:19"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 157.98,
+   "out": {
+    "dep": "2026-08-01T07:47:00",
+    "arr": "2026-08-01T11:44:00",
+    "from": "München Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2090",
+    "price": 81.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Augsburg Hbf",
+      "08:14"
+     ],
+     [
+      "Günzburg",
+      "08:46"
+     ],
+     [
+      "Ulm Hbf",
+      "09:01"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "09:51"
+     ],
+     [
+      "Heidelberg Hbf",
+      "10:44"
+     ],
+     [
+      "Weinheim(Bergstr)Hbf",
+      "11:00"
+     ],
+     [
+      "Bensheim",
+      "11:11"
+     ],
+     [
+      "Darmstadt Hbf",
+      "11:25"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T16:10:00",
+    "arr": "2026-08-02T20:10:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1291",
+    "price": 75.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Darmstadt Hbf",
+      "16:28"
+     ],
+     [
+      "Bensheim",
+      "16:43"
+     ],
+     [
+      "Weinheim(Bergstr)Hbf",
+      "16:55"
+     ],
+     [
+      "Heidelberg Hbf",
+      "17:11"
+     ],
+     [
+      "Esslingen(Neckar)",
+      "17:58"
+     ],
+     [
+      "Ulm Hbf",
+      "18:55"
+     ],
+     [
+      "Günzburg",
+      "19:09"
+     ],
+     [
+      "Augsburg Hbf",
+      "19:40"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Zürich",
+   "variant": "Cuma",
+   "total": 159.98,
+   "out": {
+    "dep": "2026-07-31T18:48:00",
+    "arr": "2026-07-31T22:28:00",
+    "from": "München Hbf",
+    "to": "Zürich HB",
+    "trains": "ECE 96",
+    "price": 79.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Buchloe",
+      "19:33"
+     ],
+     [
+      "Memmingen",
+      "19:58"
+     ],
+     [
+      "Lindau-Reutin",
+      "20:50"
+     ],
+     [
+      "Bregenz",
+      "20:58"
+     ],
+     [
+      "St. Margrethen SG",
+      "21:09"
+     ],
+     [
+      "St. Gallen(CH)",
+      "21:28"
+     ],
+     [
+      "Winterthur",
+      "22:01"
+     ],
+     [
+      "Zürich Flughafen",
+      "22:17"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T15:32:00",
+    "arr": "2026-08-02T19:16:00",
+    "from": "Zürich HB",
+    "to": "München Hbf",
+    "trains": "EC 195",
+    "price": 79.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Zürich Flughafen",
+      "15:41"
+     ],
+     [
+      "Winterthur",
+      "15:57"
+     ],
+     [
+      "St. Gallen(CH)",
+      "16:30"
+     ],
+     [
+      "St. Margrethen SG",
+      "16:49"
+     ],
+     [
+      "Bregenz",
+      "17:00"
+     ],
+     [
+      "Lindau-Reutin",
+      "17:08"
+     ],
+     [
+      "Memmingen",
+      "17:58"
+     ],
+     [
+      "Buchloe",
+      "18:23"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Cumartesi",
+   "total": 159.98,
+   "out": {
+    "dep": "2026-08-15T07:28:00",
+    "arr": "2026-08-15T12:05:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 612",
+    "price": 99.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "München-Pasing",
+      "07:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:59"
+     ],
+     [
+      "Ulm Hbf",
+      "08:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "09:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "10:26"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "11:08"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-16T17:54:00",
+    "arr": "2026-08-16T22:29:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 59.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "18:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "19:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "20:11"
+     ],
+     [
+      "Ulm Hbf",
+      "21:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:56"
+     ],
+     [
+      "München-Pasing",
+      "22:20"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 164.98,
+   "out": {
+    "dep": "2026-08-07T18:21:00",
+    "arr": "2026-08-07T22:22:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1502",
+    "price": 78.99,
+    "durH": 4,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "19:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "20:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "21:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "22:15"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-09T15:37:00",
+    "arr": "2026-08-09T21:58:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1601",
+    "price": 85.99,
+    "durH": 6.4,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "15:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "16:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "17:12"
+     ],
+     [
+      "Würzburg Hbf",
+      "19:16"
+     ],
+     [
+      "Nürnberg Hbf",
+      "20:14"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:32"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Leipzig",
-   "variant": "Gunubirlik",
-   "total": 154.98,
+   "variant": "Cumartesi",
+   "total": 165.98,
    "out": {
     "dep": "2026-08-01T06:34:00",
     "arr": "2026-08-01T09:46:00",
     "from": "Hamburg Hbf",
     "to": "Leipzig Hbf",
     "trains": "ICE 505",
-    "price": 72.99,
+    "price": 65.99,
     "durH": 3.2,
     "stops": [
      [
@@ -24187,63 +19781,52 @@ window.BAHN_DATA = {
       "Bitterfeld",
       "09:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
-    "dep": "2026-08-01T18:12:00",
-    "arr": "2026-08-01T21:24:00",
+    "dep": "2026-08-02T16:12:00",
+    "arr": "2026-08-02T20:00:00",
     "from": "Leipzig Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 504",
-    "price": 81.99,
-    "durH": 3.2,
+    "trains": "ICE 506",
+    "price": 99.99,
+    "durH": 3.8,
     "stops": [
      [
       "Bitterfeld",
-      "18:29"
+      "16:29"
      ],
      [
       "Lutherstadt Wittenberg Hbf",
-      "18:46"
+      "16:46"
      ],
      [
       "Berlin Südkreuz",
-      "19:22"
+      "17:22"
      ],
      [
       "Berlin Hbf",
-      "19:29"
+      "17:29"
+     ],
+     [
+      "Berlin-Spandau",
+      "17:45"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    36.98,
-    155.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Hamburg",
    "variant": "Gunubirlik",
-   "total": 155.98,
+   "total": 169.98,
    "out": {
     "dep": "2026-08-08T07:28:00",
     "arr": "2026-08-08T16:15:00",
     "from": "München Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 612",
-    "price": 105.99,
+    "price": 119.99,
     "durH": 8.8,
     "stops": [
      [
@@ -24306,11 +19889,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "16:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -24358,170 +19936,21 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:32"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Hamburg",
-   "variant": "Cuma",
-   "total": 155.98,
-   "out": {
-    "dep": "2026-08-21T22:01:00",
-    "arr": "2026-08-22T06:42:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1080",
-    "price": 49.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "22:44"
-     ],
-     [
-      "Nürnberg Hbf",
-      "00:07"
-     ],
-     [
-      "Würzburg Hbf",
-      "01:14"
-     ],
-     [
-      "Göttingen",
-      "04:03"
-     ],
-     [
-      "Hannover Hbf",
-      "05:03"
-     ],
-     [
-      "Celle",
-      "05:30"
-     ],
-     [
-      "Uelzen",
-      "05:53"
-     ],
-     [
-      "Lüneburg",
-      "06:11"
-     ],
-     [
-      "Hamburg-Harburg",
-      "06:30"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-23T15:45:00",
-    "arr": "2026-08-24T00:29:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 105.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "15:55"
-     ],
-     [
-      "Bremen Hbf",
-      "16:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "17:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:32"
-     ],
-     [
-      "Hagen Hbf",
-      "18:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "19:13"
-     ],
-     [
-      "Solingen Hbf",
-      "19:26"
-     ],
-     [
-      "Köln Hbf",
-      "19:46"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "20:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "21:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "22:11"
-     ],
-     [
-      "Ulm Hbf",
-      "23:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:55"
-     ],
-     [
-      "München-Pasing",
-      "00:19"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    315.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Köln",
    "variant": "Gunubirlik",
-   "total": 156.98,
+   "total": 172.98,
    "out": {
     "dep": "2026-08-08T07:28:00",
     "arr": "2026-08-08T12:05:00",
     "from": "München Hbf",
     "to": "Köln Hbf",
     "trains": "ICE 612",
-    "price": 99.99,
+    "price": 115.99,
     "durH": 4.6,
     "stops": [
      [
@@ -24548,11 +19977,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -24588,683 +20012,100 @@ window.BAHN_DATA = {
       "München-Pasing",
       "22:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Zürich",
-   "variant": "Cuma",
-   "total": 159.98,
-   "out": {
-    "dep": "2026-07-31T18:48:00",
-    "arr": "2026-07-31T22:28:00",
-    "from": "München Hbf",
-    "to": "Zürich HB",
-    "trains": "ECE 96",
-    "price": 79.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Buchloe",
-      "19:33"
-     ],
-     [
-      "Memmingen",
-      "19:58"
-     ],
-     [
-      "Lindau-Reutin",
-      "20:50"
-     ],
-     [
-      "Bregenz",
-      "20:58"
-     ],
-     [
-      "St. Margrethen SG",
-      "21:09"
-     ],
-     [
-      "St. Gallen(CH)",
-      "21:28"
-     ],
-     [
-      "Winterthur",
-      "22:01"
-     ],
-     [
-      "Zürich Flughafen",
-      "22:17"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     29.99,
-     89.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T15:32:00",
-    "arr": "2026-08-02T19:16:00",
-    "from": "Zürich HB",
-    "to": "München Hbf",
-    "trains": "EC 195",
-    "price": 79.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Zürich Flughafen",
-      "15:41"
-     ],
-     [
-      "Winterthur",
-      "15:57"
-     ],
-     [
-      "St. Gallen(CH)",
-      "16:30"
-     ],
-     [
-      "St. Margrethen SG",
-      "16:49"
-     ],
-     [
-      "Bregenz",
-      "17:00"
-     ],
-     [
-      "Lindau-Reutin",
-      "17:08"
-     ],
-     [
-      "Memmingen",
-      "17:58"
-     ],
-     [
-      "Buchloe",
-      "18:23"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     37.99,
-     89.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    97.98,
-    159.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 161.98,
-   "out": {
-    "dep": "2026-08-07T18:21:00",
-    "arr": "2026-08-07T22:22:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1502",
-    "price": 79.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "19:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "20:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "21:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "22:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T15:37:00",
-    "arr": "2026-08-09T21:58:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1601",
-    "price": 81.99,
-    "durH": 6.4,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "15:41"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "16:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "17:12"
-     ],
-     [
-      "Würzburg Hbf",
-      "19:16"
-     ],
-     [
-      "Nürnberg Hbf",
-      "20:14"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Berlin",
-   "variant": "Cuma",
-   "total": 162.98,
-   "out": {
-    "dep": "2026-07-31T18:21:00",
-    "arr": "2026-07-31T22:22:00",
-    "from": "München Hbf",
-    "to": "Berlin Hbf",
-    "trains": "ICE 1502",
-    "price": 100.99,
-    "durH": 4,
-    "stops": [
-     [
-      "Nürnberg Hbf",
-      "19:33"
-     ],
-     [
-      "Erfurt Hbf",
-      "20:44"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "21:13"
-     ],
-     [
-      "Berlin Südkreuz",
-      "22:15"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     223.4
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T17:36:00",
-    "arr": "2026-08-03T00:00:00",
-    "from": "Berlin Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1603",
-    "price": 61.99,
-    "durH": 6.4,
-    "stops": [
-     [
-      "Berlin Südkreuz",
-      "17:40"
-     ],
-     [
-      "Halle(Saale)Hbf",
-      "18:43"
-     ],
-     [
-      "Erfurt Hbf",
-      "19:12"
-     ],
-     [
-      "Würzburg Hbf",
-      "21:16"
-     ],
-     [
-      "Nürnberg Hbf",
-      "22:14"
-     ],
-     [
-      "Augsburg Hbf",
-      "23:32"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     196.4
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    162.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cuma",
-   "total": 163.98,
-   "out": {
-    "dep": "2026-07-31T20:34:00",
-    "arr": "2026-07-31T23:47:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 609",
-    "price": 63.99,
-    "durH": 3.2,
-    "stops": [
-     [
-      "Berlin Hbf",
-      "22:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "22:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "23:10"
-     ],
-     [
-      "Bitterfeld",
-      "23:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T16:12:00",
-    "arr": "2026-08-02T20:00:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 506",
-    "price": 99.99,
-    "durH": 3.8,
-    "stops": [
-     [
-      "Bitterfeld",
-      "16:29"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "16:46"
-     ],
-     [
-      "Berlin Südkreuz",
-      "17:22"
-     ],
-     [
-      "Berlin Hbf",
-      "17:29"
-     ],
-     [
-      "Berlin-Spandau",
-      "17:45"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    201.98
-   ]
+   }
   },
   {
    "origin": "München",
    "city": "Köln",
    "variant": "Cuma",
-   "total": 169.98,
+   "total": 175.98,
    "out": {
-    "dep": "2026-07-31T19:28:00",
-    "arr": "2026-08-01T00:10:00",
+    "dep": "2026-08-07T19:45:00",
+    "arr": "2026-08-08T00:31:00",
     "from": "München Hbf",
     "to": "Köln Hbf",
-    "trains": "ICE 510",
-    "price": 79.99,
-    "durH": 4.7,
+    "trains": "ICE 522",
+    "price": 69.99,
+    "durH": 4.8,
     "stops": [
      [
-      "München-Pasing",
-      "19:35"
+      "Ingolstadt Hbf",
+      "20:27"
      ],
-     [
-      "Augsburg Hbf",
-      "19:59"
-     ],
-     [
-      "Ulm Hbf",
-      "20:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "21:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "22:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "23:08"
-     ],
-     [
-      "Siegburg/Bonn",
-      "23:54"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T19:54:00",
-    "arr": "2026-08-03T00:37:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 89.99,
-    "durH": 4.7,
-    "stops": [
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "20:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "21:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "22:29"
-     ],
-     [
-      "Ulm Hbf",
-      "23:21"
-     ],
-     [
-      "Augsburg Hbf",
-      "00:03"
-     ],
-     [
-      "München-Pasing",
-      "00:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Hamburg",
-   "variant": "Cumartesi",
-   "total": 171.98,
-   "out": {
-    "dep": "2026-08-22T06:49:00",
-    "arr": "2026-08-22T13:24:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 602",
-    "price": 65.99,
-    "durH": 6.6,
-    "stops": [
      [
       "Nürnberg Hbf",
-      "08:02"
+      "20:57"
      ],
      [
-      "Erlangen",
-      "08:17"
+      "Würzburg Hbf",
+      "21:52"
      ],
      [
-      "Bamberg",
-      "08:40"
+      "Aschaffenburg Hbf",
+      "22:32"
      ],
      [
-      "Erfurt Hbf",
-      "09:23"
+      "Hanau Hbf",
+      "22:46"
      ],
      [
-      "Leipzig Hbf",
-      "10:04"
-     ],
-     [
-      "Bitterfeld",
-      "10:29"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "10:46"
-     ],
-     [
-      "Berlin Südkreuz",
-      "11:22"
-     ],
-     [
-      "Berlin Hbf",
-      "11:29"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-23T15:45:00",
-    "arr": "2026-08-24T00:29:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 105.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "15:55"
-     ],
-     [
-      "Bremen Hbf",
-      "16:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "17:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:32"
-     ],
-     [
-      "Hagen Hbf",
-      "18:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "19:13"
-     ],
-     [
-      "Solingen Hbf",
-      "19:26"
-     ],
-     [
-      "Köln Hbf",
-      "19:46"
+      "Frankfurt(Main)Hbf",
+      "23:05"
      ],
      [
       "Frankfurt(M) Flughafen Fernbf",
-      "20:49"
+      "23:22"
      ],
      [
-      "Mannheim Hbf",
-      "21:25"
+      "Limburg Süd",
+      "23:43"
      ],
      [
-      "Stuttgart Hbf",
-      "22:11"
-     ],
-     [
-      "Ulm Hbf",
-      "23:13"
-     ],
-     [
-      "Augsburg Hbf",
+      "Montabaur",
       "23:55"
      ],
      [
-      "München-Pasing",
-      "00:19"
+      "Siegburg/Bonn",
+      "00:16"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    269.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Leipzig",
-   "variant": "Cumartesi",
-   "total": 172.98,
-   "out": {
-    "dep": "2026-08-01T06:34:00",
-    "arr": "2026-08-01T09:46:00",
-    "from": "Hamburg Hbf",
-    "to": "Leipzig Hbf",
-    "trains": "ICE 505",
-    "price": 72.99,
-    "durH": 3.2,
-    "stops": [
-     [
-      "Berlin Hbf",
-      "08:22"
-     ],
-     [
-      "Berlin Südkreuz",
-      "08:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "09:10"
-     ],
-     [
-      "Bitterfeld",
-      "09:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     22.99,
-     157.7
     ]
    },
    "ret": {
-    "dep": "2026-08-02T16:12:00",
-    "arr": "2026-08-02T20:00:00",
-    "from": "Leipzig Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 506",
-    "price": 99.99,
-    "durH": 3.8,
+    "dep": "2026-08-09T17:54:00",
+    "arr": "2026-08-09T22:29:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 105.99,
+    "durH": 4.6,
     "stops": [
      [
-      "Bitterfeld",
-      "16:29"
+      "Frankfurt(M) Flughafen Fernbf",
+      "18:49"
      ],
      [
-      "Lutherstadt Wittenberg Hbf",
-      "16:46"
+      "Mannheim Hbf",
+      "19:25"
      ],
      [
-      "Berlin Südkreuz",
-      "17:22"
+      "Stuttgart Hbf",
+      "20:11"
      ],
      [
-      "Berlin Hbf",
-      "17:29"
+      "Ulm Hbf",
+      "21:13"
      ],
      [
-      "Berlin-Spandau",
-      "17:45"
+      "Augsburg Hbf",
+      "21:56"
+     ],
+     [
+      "München-Pasing",
+      "22:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     115.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    205.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
@@ -25344,11 +20185,6 @@ window.BAHN_DATA = {
       "Bingen(Rhein) Hbf",
       "06:06"
      ]
-    ],
-    "low": true,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
@@ -25364,267 +20200,8 @@ window.BAHN_DATA = {
       "Hannover Hbf",
       "20:16"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Gunubirlik",
-   "total": 178.69,
-   "out": {
-    "dep": "2026-09-05T06:23:00",
-    "arr": "2026-09-05T09:56:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 1071",
-    "price": 39.99,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "07:38"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-05T18:02:00",
-    "arr": "2026-09-05T21:37:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1070",
-    "price": 138.7,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "20:16"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Köln",
-   "variant": "Cuma",
-   "total": 179.98,
-   "out": {
-    "dep": "2026-08-07T19:45:00",
-    "arr": "2026-08-08T00:31:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 522",
-    "price": 59.99,
-    "durH": 4.8,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "20:27"
-     ],
-     [
-      "Nürnberg Hbf",
-      "20:57"
-     ],
-     [
-      "Würzburg Hbf",
-      "21:52"
-     ],
-     [
-      "Aschaffenburg Hbf",
-      "22:32"
-     ],
-     [
-      "Hanau Hbf",
-      "22:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "23:05"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "23:22"
-     ],
-     [
-      "Limburg Süd",
-      "23:43"
-     ],
-     [
-      "Montabaur",
-      "23:55"
-     ],
-     [
-      "Siegburg/Bonn",
-      "00:16"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T15:54:00",
-    "arr": "2026-08-09T20:32:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 119.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "16:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "17:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "18:11"
-     ],
-     [
-      "Ulm Hbf",
-      "19:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "19:56"
-     ],
-     [
-      "München-Pasing",
-      "20:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    271.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Köln",
-   "variant": "Cumartesi",
-   "total": 179.98,
-   "out": {
-    "dep": "2026-08-15T07:28:00",
-    "arr": "2026-08-15T12:05:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 612",
-    "price": 99.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "München-Pasing",
-      "07:35"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:59"
-     ],
-     [
-      "Ulm Hbf",
-      "08:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "09:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "10:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "11:08"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-16T17:54:00",
-    "arr": "2026-08-16T22:29:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 613",
-    "price": 79.99,
-    "durH": 4.6,
-    "stops": [
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "18:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "19:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "20:11"
-     ],
-     [
-      "Ulm Hbf",
-      "21:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:56"
-     ],
-     [
-      "München-Pasing",
-      "22:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -25676,11 +20253,6 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -25752,32 +20324,538 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Cumartesi",
+   "total": 181.98,
+   "out": {
+    "dep": "2026-08-22T06:49:00",
+    "arr": "2026-08-22T13:24:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 602",
+    "price": 75.99,
+    "durH": 6.6,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "08:02"
+     ],
+     [
+      "Erlangen",
+      "08:17"
+     ],
+     [
+      "Bamberg",
+      "08:40"
+     ],
+     [
+      "Erfurt Hbf",
+      "09:23"
+     ],
+     [
+      "Leipzig Hbf",
+      "10:04"
+     ],
+     [
+      "Bitterfeld",
+      "10:29"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "10:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "11:22"
+     ],
+     [
+      "Berlin Hbf",
+      "11:29"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    269.98
-   ]
+   "ret": {
+    "dep": "2026-08-23T15:45:00",
+    "arr": "2026-08-24T00:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 105.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "15:55"
+     ],
+     [
+      "Bremen Hbf",
+      "16:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "17:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:32"
+     ],
+     [
+      "Hagen Hbf",
+      "18:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "19:13"
+     ],
+     [
+      "Solingen Hbf",
+      "19:26"
+     ],
+     [
+      "Köln Hbf",
+      "19:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "20:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "21:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "22:11"
+     ],
+     [
+      "Ulm Hbf",
+      "23:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:55"
+     ],
+     [
+      "München-Pasing",
+      "00:19"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Leipzig",
+   "variant": "Cuma",
+   "total": 183.98,
+   "out": {
+    "dep": "2026-07-31T20:34:00",
+    "arr": "2026-07-31T23:47:00",
+    "from": "Hamburg Hbf",
+    "to": "Leipzig Hbf",
+    "trains": "ICE 609",
+    "price": 83.99,
+    "durH": 3.2,
+    "stops": [
+     [
+      "Berlin Hbf",
+      "22:22"
+     ],
+     [
+      "Berlin Südkreuz",
+      "22:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "23:10"
+     ],
+     [
+      "Bitterfeld",
+      "23:27"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T16:12:00",
+    "arr": "2026-08-02T20:00:00",
+    "from": "Leipzig Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 506",
+    "price": 99.99,
+    "durH": 3.8,
+    "stops": [
+     [
+      "Bitterfeld",
+      "16:29"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "16:46"
+     ],
+     [
+      "Berlin Südkreuz",
+      "17:22"
+     ],
+     [
+      "Berlin Hbf",
+      "17:29"
+     ],
+     [
+      "Berlin-Spandau",
+      "17:45"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Gunubirlik",
+   "total": 184.98,
+   "out": {
+    "dep": "2026-08-01T06:19:00",
+    "arr": "2026-08-01T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 133.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "08:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "09:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "10:15"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-01T19:37:00",
+    "arr": "2026-08-02T02:06:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 50.99,
+    "durH": 6.5,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Würzburg Hbf",
+      "23:34"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:26"
+     ],
+     [
+      "Augsburg Hbf",
+      "01:39"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Cuma",
+   "total": 185.98,
+   "out": {
+    "dep": "2026-08-14T22:01:00",
+    "arr": "2026-08-15T06:58:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1080",
+    "price": 79.99,
+    "durH": 9,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "22:44"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:07"
+     ],
+     [
+      "Würzburg Hbf",
+      "01:14"
+     ],
+     [
+      "Göttingen",
+      "04:19"
+     ],
+     [
+      "Hannover Hbf",
+      "05:19"
+     ],
+     [
+      "Celle",
+      "05:46"
+     ],
+     [
+      "Uelzen",
+      "06:09"
+     ],
+     [
+      "Lüneburg",
+      "06:27"
+     ],
+     [
+      "Hamburg-Harburg",
+      "06:46"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-16T15:45:00",
+    "arr": "2026-08-17T00:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 105.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "15:55"
+     ],
+     [
+      "Bremen Hbf",
+      "16:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "17:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:32"
+     ],
+     [
+      "Hagen Hbf",
+      "18:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "19:13"
+     ],
+     [
+      "Solingen Hbf",
+      "19:26"
+     ],
+     [
+      "Köln Hbf",
+      "19:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "20:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "21:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "22:11"
+     ],
+     [
+      "Ulm Hbf",
+      "23:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:55"
+     ],
+     [
+      "München-Pasing",
+      "00:19"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cuma",
+   "total": 194.49,
+   "out": {
+    "dep": "2026-08-28T19:45:00",
+    "arr": "2026-08-29T01:06:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 619",
+    "price": 29.99,
+    "durH": 5.4,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "19:55"
+     ],
+     [
+      "Bremen Hbf",
+      "20:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "21:34"
+     ],
+     [
+      "Dortmund Hbf",
+      "22:32"
+     ],
+     [
+      "Wuppertal Hbf",
+      "23:09"
+     ],
+     [
+      "Solingen Hbf",
+      "23:23"
+     ],
+     [
+      "Köln Hbf",
+      "23:48"
+     ],
+     [
+      "Siegburg/Bonn",
+      "00:08"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "00:53"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-30T18:02:00",
+    "arr": "2026-08-30T21:37:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1070",
+    "price": 164.5,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "20:16"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 195.69,
+   "out": {
+    "dep": "2026-08-29T07:13:00",
+    "arr": "2026-08-29T13:44:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2587",
+    "price": 56.99,
+    "durH": 6.5,
+    "stops": [
+     [
+      "Ludwigslust",
+      "08:08"
+     ],
+     [
+      "Wittenberge",
+      "08:31"
+     ],
+     [
+      "Berlin Hbf",
+      "09:23"
+     ],
+     [
+      "Berlin Südkreuz",
+      "09:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "10:09"
+     ],
+     [
+      "Leipzig Hbf",
+      "10:42"
+     ],
+     [
+      "Erfurt Hbf",
+      "11:28"
+     ],
+     [
+      "Eisenach Hbf",
+      "11:54"
+     ],
+     [
+      "Fulda",
+      "12:47"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-29T18:02:00",
+    "arr": "2026-08-29T21:37:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1070",
+    "price": 138.7,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "20:16"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "München",
    "variant": "Cuma",
-   "total": 185.98,
+   "total": 195.98,
    "out": {
-    "dep": "2026-08-07T22:28:00",
-    "arr": "2026-08-08T06:17:00",
+    "dep": "2026-07-31T22:28:00",
+    "arr": "2026-08-01T06:40:00",
     "from": "Hamburg Hbf",
     "to": "München Hbf",
     "trains": "ICE 1081",
-    "price": 79.99,
-    "durH": 7.8,
+    "price": 59.99,
+    "durH": 8.2,
     "stops": [
      [
       "Hamburg-Harburg",
@@ -25805,30 +20883,25 @@ window.BAHN_DATA = {
      ],
      [
       "Würzburg Hbf",
-      "04:00"
+      "03:32"
      ],
      [
       "Nürnberg Hbf",
-      "04:56"
+      "04:48"
      ],
      [
-      "Ingolstadt Hbf",
-      "05:31"
+      "Augsburg Hbf",
+      "06:10"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
-    "dep": "2026-08-09T15:28:00",
-    "arr": "2026-08-10T00:15:00",
+    "dep": "2026-08-02T15:28:00",
+    "arr": "2026-08-03T00:15:00",
     "from": "München Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 514",
-    "price": 105.99,
+    "price": 135.99,
     "durH": 8.8,
     "stops": [
      [
@@ -25891,121 +20964,62 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "München",
-   "city": "Hamburg",
+   "city": "Köln",
    "variant": "Cuma",
-   "total": 185.98,
+   "total": 195.98,
    "out": {
-    "dep": "2026-08-14T22:01:00",
-    "arr": "2026-08-15T06:58:00",
+    "dep": "2026-07-31T19:28:00",
+    "arr": "2026-08-01T00:10:00",
     "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1080",
-    "price": 79.99,
-    "durH": 9,
+    "to": "Köln Hbf",
+    "trains": "ICE 510",
+    "price": 105.99,
+    "durH": 4.7,
     "stops": [
      [
-      "Ingolstadt Hbf",
-      "22:44"
+      "München-Pasing",
+      "19:35"
      ],
      [
-      "Nürnberg Hbf",
-      "00:07"
+      "Augsburg Hbf",
+      "19:59"
      ],
      [
-      "Würzburg Hbf",
-      "01:14"
+      "Ulm Hbf",
+      "20:45"
      ],
      [
-      "Göttingen",
-      "04:19"
+      "Stuttgart Hbf",
+      "21:43"
      ],
      [
-      "Hannover Hbf",
-      "05:19"
+      "Mannheim Hbf",
+      "22:26"
      ],
      [
-      "Celle",
-      "05:46"
+      "Frankfurt(M) Flughafen Fernbf",
+      "23:08"
      ],
      [
-      "Uelzen",
-      "06:09"
-     ],
-     [
-      "Lüneburg",
-      "06:27"
-     ],
-     [
-      "Hamburg-Harburg",
-      "06:46"
+      "Siegburg/Bonn",
+      "23:54"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
-    "dep": "2026-08-16T15:45:00",
-    "arr": "2026-08-17T00:29:00",
-    "from": "Hamburg Hbf",
+    "dep": "2026-08-02T19:54:00",
+    "arr": "2026-08-03T00:37:00",
+    "from": "Köln Hbf",
     "to": "München Hbf",
     "trains": "ICE 615",
-    "price": 105.99,
-    "durH": 8.7,
+    "price": 89.99,
+    "durH": 4.7,
     "stops": [
-     [
-      "Hamburg-Harburg",
-      "15:55"
-     ],
-     [
-      "Bremen Hbf",
-      "16:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "17:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:32"
-     ],
-     [
-      "Hagen Hbf",
-      "18:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "19:13"
-     ],
-     [
-      "Solingen Hbf",
-      "19:26"
-     ],
-     [
-      "Köln Hbf",
-      "19:46"
-     ],
      [
       "Frankfurt(M) Flughafen Fernbf",
       "20:49"
@@ -26016,128 +21030,335 @@ window.BAHN_DATA = {
      ],
      [
       "Stuttgart Hbf",
-      "22:11"
+      "22:29"
      ],
      [
       "Ulm Hbf",
-      "23:13"
+      "23:21"
      ],
      [
       "Augsburg Hbf",
-      "23:55"
+      "00:03"
      ],
      [
       "München-Pasing",
-      "00:19"
+      "00:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cumartesi",
+   "total": 196.98,
+   "out": {
+    "dep": "2026-08-01T06:19:00",
+    "arr": "2026-08-01T10:23:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1604",
+    "price": 133.99,
+    "durH": 4.1,
+    "stops": [
+     [
+      "Nürnberg Hbf",
+      "07:33"
+     ],
+     [
+      "Erfurt Hbf",
+      "08:44"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "09:13"
+     ],
+     [
+      "Berlin Südkreuz",
+      "10:15"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    315.98
-   ]
+   "ret": {
+    "dep": "2026-08-02T19:37:00",
+    "arr": "2026-08-03T02:36:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 62.99,
+    "durH": 7,
+    "stops": [
+     [
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Würzburg Hbf",
+      "23:32"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:25"
+     ],
+     [
+      "Augsburg Hbf",
+      "02:09"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "Frankfurt",
-   "variant": "Gunubirlik",
-   "total": 188.69,
+   "variant": "Cuma",
+   "total": 199.98,
    "out": {
-    "dep": "2026-08-29T07:13:00",
-    "arr": "2026-08-29T13:44:00",
+    "dep": "2026-07-31T19:45:00",
+    "arr": "2026-08-01T01:13:00",
     "from": "Hamburg Hbf",
     "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 2587",
-    "price": 49.99,
-    "durH": 6.5,
+    "trains": "ICE 619",
+    "price": 65.99,
+    "durH": 5.5,
     "stops": [
      [
-      "Ludwigslust",
-      "08:08"
+      "Hamburg-Harburg",
+      "19:55"
      ],
      [
-      "Wittenberge",
-      "08:31"
+      "Bremen Hbf",
+      "20:41"
      ],
      [
-      "Berlin Hbf",
-      "09:23"
+      "Osnabrück Hbf",
+      "21:34"
      ],
      [
-      "Berlin Südkreuz",
-      "09:33"
+      "Dortmund Hbf",
+      "22:32"
      ],
      [
-      "Lutherstadt Wittenberg Hbf",
-      "10:09"
+      "Essen Hbf",
+      "23:02"
      ],
      [
-      "Leipzig Hbf",
-      "10:42"
+      "Duisburg Hbf",
+      "23:15"
      ],
      [
-      "Erfurt Hbf",
-      "11:28"
+      "Düsseldorf Hbf",
+      "23:28"
      ],
      [
-      "Eisenach Hbf",
-      "11:54"
+      "Köln Hbf",
+      "23:56"
      ],
      [
-      "Fulda",
-      "12:47"
+      "Siegburg/Bonn",
+      "00:14"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "01:00"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-29T18:02:00",
-    "arr": "2026-08-29T21:37:00",
+    "dep": "2026-08-02T15:46:00",
+    "arr": "2026-08-02T19:29:00",
     "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 1070",
-    "price": 138.7,
-    "durH": 3.6,
+    "trains": "ICE 72",
+    "price": 133.99,
+    "durH": 3.7,
     "stops": [
      [
+      "Kassel-Wilhelmshöhe",
+      "17:11"
+     ],
+     [
+      "Göttingen",
+      "17:31"
+     ],
+     [
       "Hannover Hbf",
-      "20:16"
+      "18:05"
+     ],
+     [
+      "Uelzen",
+      "18:46"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "München",
+   "variant": "Cumartesi",
+   "total": 199.98,
+   "out": {
+    "dep": "2026-08-08T07:45:00",
+    "arr": "2026-08-08T16:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 517",
+    "price": 79.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "07:55"
+     ],
+     [
+      "Bremen Hbf",
+      "08:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "09:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "10:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
+     ],
+     [
+      "Köln Hbf",
+      "11:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "12:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "13:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "14:11"
+     ],
+     [
+      "Ulm Hbf",
+      "15:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "15:56"
+     ],
+     [
+      "München-Pasing",
+      "16:20"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    188.69
-   ]
+   "ret": {
+    "dep": "2026-08-09T15:28:00",
+    "arr": "2026-08-10T00:15:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 514",
+    "price": 119.99,
+    "durH": 8.8,
+    "stops": [
+     [
+      "München-Pasing",
+      "15:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "15:59"
+     ],
+     [
+      "Ulm Hbf",
+      "16:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "17:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "18:26"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "19:08"
+     ],
+     [
+      "Köln Hbf",
+      "20:05"
+     ],
+     [
+      "Solingen Hbf",
+      "20:29"
+     ],
+     [
+      "Wuppertal Hbf",
+      "20:42"
+     ],
+     [
+      "Hagen Hbf",
+      "20:59"
+     ],
+     [
+      "Dortmund Hbf",
+      "21:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "21:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:21"
+     ],
+     [
+      "Bremen Hbf",
+      "23:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "00:02"
+     ]
+    ]
+   }
   },
   {
    "origin": "Hamburg",
    "city": "München",
    "variant": "Cuma",
-   "total": 189.98,
+   "total": 199.98,
    "out": {
     "dep": "2026-08-14T22:19:00",
     "arr": "2026-08-15T06:28:00",
     "from": "Hamburg Hbf",
     "to": "München Hbf",
     "trains": "ICE 1081",
-    "price": 69.99,
+    "price": 79.99,
     "durH": 8.2,
     "stops": [
      [
@@ -26176,11 +21397,6 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:42"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
@@ -26252,32 +21468,22 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Frankfurt",
+   "city": "Stuttgart",
    "variant": "Cuma",
-   "total": 190.98,
+   "total": 209.98,
    "out": {
     "dep": "2026-07-31T19:45:00",
-    "arr": "2026-08-01T01:13:00",
+    "arr": "2026-08-01T03:40:00",
     "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
+    "to": "Stuttgart Hbf",
     "trains": "ICE 619",
-    "price": 56.99,
-    "durH": 5.5,
+    "price": 89.99,
+    "durH": 7.9,
     "stops": [
      [
       "Hamburg-Harburg",
@@ -26318,713 +21524,60 @@ window.BAHN_DATA = {
      [
       "Frankfurt(M) Flughafen Fernbf",
       "01:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "01:13"
+     ],
+     [
+      "Mannheim Hbf",
+      "02:08"
+     ],
+     [
+      "Heidelberg Hbf",
+      "02:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-02T15:46:00",
-    "arr": "2026-08-02T19:29:00",
-    "from": "Frankfurt (Main) Hbf",
+    "dep": "2026-08-02T19:23:00",
+    "arr": "2026-08-03T00:30:00",
+    "from": "Stuttgart Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 72",
-    "price": 133.99,
-    "durH": 3.7,
+    "trains": "ICE 572",
+    "price": 119.99,
+    "durH": 5.1,
     "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
      [
       "Kassel-Wilhelmshöhe",
-      "17:11"
-     ],
-     [
-      "Göttingen",
-      "17:31"
-     ],
-     [
-      "Hannover Hbf",
-      "18:05"
-     ],
-     [
-      "Uelzen",
-      "18:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cuma",
-   "total": 194.49,
-   "out": {
-    "dep": "2026-08-28T19:45:00",
-    "arr": "2026-08-29T01:06:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 619",
-    "price": 29.99,
-    "durH": 5.4,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "19:55"
-     ],
-     [
-      "Bremen Hbf",
-      "20:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "21:34"
-     ],
-     [
-      "Dortmund Hbf",
-      "22:32"
-     ],
-     [
-      "Wuppertal Hbf",
-      "23:09"
-     ],
-     [
-      "Solingen Hbf",
-      "23:23"
-     ],
-     [
-      "Köln Hbf",
-      "23:48"
-     ],
-     [
-      "Siegburg/Bonn",
-      "00:08"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "00:53"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-30T18:02:00",
-    "arr": "2026-08-30T21:37:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1070",
-    "price": 164.5,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "20:16"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    215.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "München",
-   "variant": "Cumartesi",
-   "total": 195.98,
-   "out": {
-    "dep": "2026-08-08T07:45:00",
-    "arr": "2026-08-08T16:29:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 517",
-    "price": 89.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "07:55"
-     ],
-     [
-      "Bremen Hbf",
-      "08:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "09:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "10:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "10:32"
-     ],
-     [
-      "Hagen Hbf",
-      "10:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "11:13"
-     ],
-     [
-      "Solingen Hbf",
-      "11:26"
-     ],
-     [
-      "Köln Hbf",
-      "11:46"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "12:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "13:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "14:11"
-     ],
-     [
-      "Ulm Hbf",
-      "15:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "15:56"
-     ],
-     [
-      "München-Pasing",
-      "16:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T15:28:00",
-    "arr": "2026-08-10T00:15:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 514",
-    "price": 105.99,
-    "durH": 8.8,
-    "stops": [
-     [
-      "München-Pasing",
-      "15:35"
-     ],
-     [
-      "Augsburg Hbf",
-      "15:59"
-     ],
-     [
-      "Ulm Hbf",
-      "16:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "17:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "18:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "19:08"
-     ],
-     [
-      "Köln Hbf",
-      "20:05"
-     ],
-     [
-      "Solingen Hbf",
-      "20:29"
-     ],
-     [
-      "Wuppertal Hbf",
-      "20:42"
-     ],
-     [
-      "Hagen Hbf",
-      "20:59"
-     ],
-     [
-      "Dortmund Hbf",
-      "21:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "21:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "22:21"
-     ],
-     [
-      "Bremen Hbf",
-      "23:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "00:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    211.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 200.49,
-   "out": {
-    "dep": "2026-09-05T06:23:00",
-    "arr": "2026-09-05T09:56:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 1071",
-    "price": 39.99,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "07:38"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
-    ]
-   },
-   "ret": {
-    "dep": "2026-09-06T18:02:00",
-    "arr": "2026-09-06T21:37:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1070",
-    "price": 160.5,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "20:16"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "München",
-   "variant": "Gunubirlik",
-   "total": 205.98,
-   "out": {
-    "dep": "2026-08-08T07:45:00",
-    "arr": "2026-08-08T16:29:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 517",
-    "price": 89.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "07:55"
-     ],
-     [
-      "Bremen Hbf",
-      "08:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "09:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "10:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "10:32"
-     ],
-     [
-      "Hagen Hbf",
-      "10:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "11:13"
-     ],
-     [
-      "Solingen Hbf",
-      "11:26"
-     ],
-     [
-      "Köln Hbf",
-      "11:46"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "12:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "13:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "14:11"
-     ],
-     [
-      "Ulm Hbf",
-      "15:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "15:56"
-     ],
-     [
-      "München-Pasing",
-      "16:20"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-08T22:01:00",
-    "arr": "2026-08-09T06:57:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1080",
-    "price": 115.99,
-    "durH": 8.9,
-    "stops": [
-     [
-      "Ingolstadt Hbf",
-      "22:44"
-     ],
-     [
-      "Nürnberg Hbf",
-      "00:07"
-     ],
-     [
-      "Würzburg Hbf",
-      "01:14"
-     ],
-     [
-      "Göttingen",
-      "04:18"
-     ],
-     [
-      "Hannover Hbf",
-      "05:18"
-     ],
-     [
-      "Celle",
-      "05:45"
-     ],
-     [
-      "Uelzen",
-      "06:08"
-     ],
-     [
-      "Lüneburg",
-      "06:26"
-     ],
-     [
-      "Hamburg-Harburg",
-      "06:45"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    57.98,
-    221.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 209.98,
-   "out": {
-    "dep": "2026-08-01T06:23:00",
-    "arr": "2026-08-01T09:56:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 1071",
-    "price": 75.99,
-    "durH": 3.6,
-    "stops": [
-     [
-      "Hannover Hbf",
-      "07:38"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T15:46:00",
-    "arr": "2026-08-02T19:29:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 72",
-    "price": 133.99,
-    "durH": 3.7,
-    "stops": [
-     [
-      "Kassel-Wilhelmshöhe",
-      "17:11"
-     ],
-     [
-      "Göttingen",
-      "17:31"
-     ],
-     [
-      "Hannover Hbf",
-      "18:05"
-     ],
-     [
-      "Uelzen",
-      "18:46"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
-  },
-  {
-   "origin": "München",
-   "city": "Hamburg",
-   "variant": "Cumartesi",
-   "total": 211.98,
-   "out": {
-    "dep": "2026-08-08T07:28:00",
-    "arr": "2026-08-08T16:15:00",
-    "from": "München Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 612",
-    "price": 105.99,
-    "durH": 8.8,
-    "stops": [
-     [
-      "München-Pasing",
-      "07:35"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:59"
-     ],
-     [
-      "Ulm Hbf",
-      "08:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "09:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "10:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "11:08"
-     ],
-     [
-      "Köln Hbf",
-      "12:05"
-     ],
-     [
-      "Solingen Hbf",
-      "12:29"
-     ],
-     [
-      "Wuppertal Hbf",
-      "12:41"
-     ],
-     [
-      "Hagen Hbf",
-      "12:58"
-     ],
-     [
-      "Dortmund Hbf",
-      "13:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "13:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "14:21"
-     ],
-     [
-      "Bremen Hbf",
-      "15:14"
-     ],
-     [
-      "Hamburg-Harburg",
-      "16:02"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-09T15:45:00",
-    "arr": "2026-08-10T00:29:00",
-    "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 615",
-    "price": 105.99,
-    "durH": 8.7,
-    "stops": [
-     [
-      "Hamburg-Harburg",
-      "15:55"
-     ],
-     [
-      "Bremen Hbf",
-      "16:41"
-     ],
-     [
-      "Osnabrück Hbf",
-      "17:34"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "18:00"
-     ],
-     [
-      "Dortmund Hbf",
-      "18:32"
-     ],
-     [
-      "Hagen Hbf",
-      "18:56"
-     ],
-     [
-      "Wuppertal Hbf",
-      "19:13"
-     ],
-     [
-      "Solingen Hbf",
-      "19:26"
-     ],
-     [
-      "Köln Hbf",
-      "19:46"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "20:49"
-     ],
-     [
-      "Mannheim Hbf",
-      "21:25"
-     ],
-     [
-      "Stuttgart Hbf",
       "22:11"
      ],
      [
-      "Ulm Hbf",
-      "23:13"
+      "Göttingen",
+      "22:31"
      ],
      [
-      "Augsburg Hbf",
-      "23:55"
+      "Hannover Hbf",
+      "23:05"
      ],
      [
-      "München-Pasing",
-      "00:19"
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -27104,11 +21657,6 @@ window.BAHN_DATA = {
       "Venezia Mestre",
       "14:13"
      ]
-    ],
-    "low": true,
-    "rng": [
-     115.99,
-     115.99
     ]
    },
    "ret": {
@@ -27184,18 +21732,8 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     73.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    189.98,
-    215.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -27275,11 +21813,6 @@ window.BAHN_DATA = {
       "Venezia Mestre",
       "14:13"
      ]
-    ],
-    "low": true,
-    "rng": [
-     115.99,
-     115.99
     ]
    },
    "ret": {
@@ -27355,101 +21888,200 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     73.99,
-     99.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    189.98,
-    215.98
-   ]
+   }
   },
   {
-   "origin": "Hamburg",
-   "city": "Frankfurt",
-   "variant": "Cumartesi",
-   "total": 214.49,
+   "origin": "München",
+   "city": "Berlin",
+   "variant": "Cuma",
+   "total": 212.98,
    "out": {
-    "dep": "2026-08-29T07:13:00",
-    "arr": "2026-08-29T13:44:00",
-    "from": "Hamburg Hbf",
-    "to": "Frankfurt (Main) Hbf",
-    "trains": "ICE 2587",
-    "price": 49.99,
-    "durH": 6.5,
+    "dep": "2026-07-31T18:21:00",
+    "arr": "2026-07-31T22:22:00",
+    "from": "München Hbf",
+    "to": "Berlin Hbf",
+    "trains": "ICE 1502",
+    "price": 149.99,
+    "durH": 4,
     "stops": [
      [
-      "Ludwigslust",
-      "08:08"
-     ],
-     [
-      "Wittenberge",
-      "08:31"
-     ],
-     [
-      "Berlin Hbf",
-      "09:23"
-     ],
-     [
-      "Berlin Südkreuz",
-      "09:33"
-     ],
-     [
-      "Lutherstadt Wittenberg Hbf",
-      "10:09"
-     ],
-     [
-      "Leipzig Hbf",
-      "10:42"
+      "Nürnberg Hbf",
+      "19:33"
      ],
      [
       "Erfurt Hbf",
-      "11:28"
+      "20:44"
      ],
      [
-      "Eisenach Hbf",
-      "11:54"
+      "Halle(Saale)Hbf",
+      "21:13"
      ],
      [
-      "Fulda",
-      "12:47"
+      "Berlin Südkreuz",
+      "22:15"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     160.5
     ]
    },
    "ret": {
-    "dep": "2026-08-30T18:02:00",
-    "arr": "2026-08-30T21:37:00",
-    "from": "Frankfurt (Main) Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 1070",
-    "price": 164.5,
-    "durH": 3.6,
+    "dep": "2026-08-02T19:37:00",
+    "arr": "2026-08-03T02:36:00",
+    "from": "Berlin Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 1605",
+    "price": 62.99,
+    "durH": 7,
     "stops": [
      [
-      "Hannover Hbf",
-      "20:16"
+      "Berlin Südkreuz",
+      "19:41"
+     ],
+     [
+      "Halle(Saale)Hbf",
+      "20:43"
+     ],
+     [
+      "Erfurt Hbf",
+      "21:12"
+     ],
+     [
+      "Würzburg Hbf",
+      "23:32"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:25"
+     ],
+     [
+      "Augsburg Hbf",
+      "02:09"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     180.9
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "München",
+   "variant": "Gunubirlik",
+   "total": 213.98,
+   "out": {
+    "dep": "2026-08-08T07:45:00",
+    "arr": "2026-08-08T16:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 517",
+    "price": 79.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "07:55"
+     ],
+     [
+      "Bremen Hbf",
+      "08:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "09:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "10:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
+     ],
+     [
+      "Köln Hbf",
+      "11:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "12:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "13:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "14:11"
+     ],
+     [
+      "Ulm Hbf",
+      "15:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "15:56"
+     ],
+     [
+      "München-Pasing",
+      "16:20"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    69.98,
-    221.98
-   ]
+   "ret": {
+    "dep": "2026-08-08T22:01:00",
+    "arr": "2026-08-09T06:57:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1080",
+    "price": 133.99,
+    "durH": 8.9,
+    "stops": [
+     [
+      "Ingolstadt Hbf",
+      "22:44"
+     ],
+     [
+      "Nürnberg Hbf",
+      "00:07"
+     ],
+     [
+      "Würzburg Hbf",
+      "01:14"
+     ],
+     [
+      "Göttingen",
+      "04:18"
+     ],
+     [
+      "Hannover Hbf",
+      "05:18"
+     ],
+     [
+      "Celle",
+      "05:45"
+     ],
+     [
+      "Uelzen",
+      "06:08"
+     ],
+     [
+      "Lüneburg",
+      "06:26"
+     ],
+     [
+      "Hamburg-Harburg",
+      "06:45"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -27529,11 +22161,6 @@ window.BAHN_DATA = {
       "Venezia Mestre",
       "14:13"
      ]
-    ],
-    "low": true,
-    "rng": [
-     115.99,
-     115.99
     ]
    },
    "ret": {
@@ -27609,31 +22236,89 @@ window.BAHN_DATA = {
       "München Ost",
       "22:24"
      ]
-    ],
-    "low": false,
-    "rng": [
-     73.99,
-     99.99
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 221.49,
+   "out": {
+    "dep": "2026-08-29T07:13:00",
+    "arr": "2026-08-29T13:44:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 2587",
+    "price": 56.99,
+    "durH": 6.5,
+    "stops": [
+     [
+      "Ludwigslust",
+      "08:08"
+     ],
+     [
+      "Wittenberge",
+      "08:31"
+     ],
+     [
+      "Berlin Hbf",
+      "09:23"
+     ],
+     [
+      "Berlin Südkreuz",
+      "09:33"
+     ],
+     [
+      "Lutherstadt Wittenberg Hbf",
+      "10:09"
+     ],
+     [
+      "Leipzig Hbf",
+      "10:42"
+     ],
+     [
+      "Erfurt Hbf",
+      "11:28"
+     ],
+     [
+      "Eisenach Hbf",
+      "11:54"
+     ],
+     [
+      "Fulda",
+      "12:47"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    189.98,
-    215.98
-   ]
+   "ret": {
+    "dep": "2026-08-30T18:02:00",
+    "arr": "2026-08-30T21:37:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1070",
+    "price": 164.5,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "20:16"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
    "city": "Köln",
    "variant": "Cumartesi",
-   "total": 219.98,
+   "total": 221.98,
    "out": {
     "dep": "2026-08-08T07:28:00",
     "arr": "2026-08-08T12:05:00",
     "from": "München Hbf",
     "to": "Köln Hbf",
     "trains": "ICE 612",
-    "price": 99.99,
+    "price": 115.99,
     "durH": 4.6,
     "stops": [
      [
@@ -27660,248 +22345,167 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
-    "dep": "2026-08-09T15:54:00",
-    "arr": "2026-08-09T20:32:00",
+    "dep": "2026-08-09T17:54:00",
+    "arr": "2026-08-09T22:29:00",
     "from": "Köln Hbf",
     "to": "München Hbf",
-    "trains": "ICE 611",
-    "price": 119.99,
+    "trains": "ICE 613",
+    "price": 105.99,
     "durH": 4.6,
     "stops": [
      [
       "Frankfurt(M) Flughafen Fernbf",
-      "16:49"
+      "18:49"
      ],
      [
       "Mannheim Hbf",
-      "17:25"
+      "19:25"
      ],
      [
       "Stuttgart Hbf",
-      "18:11"
+      "20:11"
      ],
      [
       "Ulm Hbf",
-      "19:13"
+      "21:13"
      ],
      [
       "Augsburg Hbf",
-      "19:56"
+      "21:56"
      ],
      [
       "München-Pasing",
-      "20:20"
+      "22:20"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Gunubirlik",
-   "total": 223.98,
-   "out": {
-    "dep": "2026-08-01T07:29:00",
-    "arr": "2026-08-01T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 133.99,
-    "durH": 5.2,
-    "stops": [
-     [
-      "Celle",
-      "08:27"
-     ],
-     [
-      "Hannover Hbf",
-      "08:48"
-     ],
-     [
-      "Göttingen",
-      "09:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "11:14"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-01T19:23:00",
-    "arr": "2026-08-02T00:30:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 572",
-    "price": 89.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "20:00"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "20:40"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "22:11"
-     ],
-     [
-      "Göttingen",
-      "22:31"
-     ],
-     [
-      "Hannover Hbf",
-      "23:05"
-     ],
-     [
-      "Celle",
-      "23:27"
-     ],
-     [
-      "Lüneburg",
-      "00:03"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    47.98,
-    231.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
+   "city": "München",
    "variant": "Cuma",
    "total": 225.98,
    "out": {
-    "dep": "2026-07-31T19:29:00",
-    "arr": "2026-08-01T01:08:00",
+    "dep": "2026-08-07T22:28:00",
+    "arr": "2026-08-08T06:17:00",
     "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 777",
-    "price": 89.99,
-    "durH": 5.7,
+    "to": "München Hbf",
+    "trains": "ICE 1081",
+    "price": 105.99,
+    "durH": 7.8,
     "stops": [
      [
+      "Hamburg-Harburg",
+      "22:38"
+     ],
+     [
+      "Lüneburg",
+      "22:57"
+     ],
+     [
+      "Uelzen",
+      "23:14"
+     ],
+     [
       "Celle",
-      "20:27"
+      "23:39"
      ],
      [
       "Hannover Hbf",
-      "20:48"
+      "00:00"
      ],
      [
       "Göttingen",
-      "21:25"
+      "01:08"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "21:46"
+      "Würzburg Hbf",
+      "04:00"
      ],
      [
-      "Frankfurt(Main)West",
-      "23:28"
+      "Nürnberg Hbf",
+      "04:56"
      ],
      [
-      "Mannheim Hbf",
-      "00:13"
-     ],
-     [
-      "Heidelberg Hbf",
-      "00:25"
+      "Ingolstadt Hbf",
+      "05:31"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T15:22:00",
-    "arr": "2026-08-02T20:29:00",
-    "from": "Stuttgart Hbf",
+    "dep": "2026-08-09T15:28:00",
+    "arr": "2026-08-10T00:15:00",
+    "from": "München Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 576",
-    "price": 135.99,
-    "durH": 5.1,
+    "trains": "ICE 514",
+    "price": 119.99,
+    "durH": 8.8,
     "stops": [
      [
+      "München-Pasing",
+      "15:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "15:59"
+     ],
+     [
+      "Ulm Hbf",
+      "16:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "17:43"
+     ],
+     [
       "Mannheim Hbf",
-      "16:00"
+      "18:26"
      ],
      [
-      "Frankfurt(Main)Hbf",
-      "16:40"
+      "Frankfurt(M) Flughafen Fernbf",
+      "19:08"
      ],
      [
-      "Kassel-Wilhelmshöhe",
-      "18:11"
+      "Köln Hbf",
+      "20:05"
      ],
      [
-      "Göttingen",
-      "18:31"
+      "Solingen Hbf",
+      "20:29"
      ],
      [
-      "Hannover Hbf",
-      "19:05"
+      "Wuppertal Hbf",
+      "20:42"
      ],
      [
-      "Celle",
-      "19:27"
+      "Hagen Hbf",
+      "20:59"
+     ],
+     [
+      "Dortmund Hbf",
+      "21:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "21:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "22:21"
+     ],
+     [
+      "Bremen Hbf",
+      "23:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "00:02"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    225.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -27953,11 +22557,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:30"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -28029,18 +22628,156 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:19"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Hamburg",
+   "variant": "Cumartesi",
+   "total": 225.98,
+   "out": {
+    "dep": "2026-08-08T07:28:00",
+    "arr": "2026-08-08T16:15:00",
+    "from": "München Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 612",
+    "price": 119.99,
+    "durH": 8.8,
+    "stops": [
+     [
+      "München-Pasing",
+      "07:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:59"
+     ],
+     [
+      "Ulm Hbf",
+      "08:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "09:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "10:26"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "11:08"
+     ],
+     [
+      "Köln Hbf",
+      "12:05"
+     ],
+     [
+      "Solingen Hbf",
+      "12:29"
+     ],
+     [
+      "Wuppertal Hbf",
+      "12:41"
+     ],
+     [
+      "Hagen Hbf",
+      "12:58"
+     ],
+     [
+      "Dortmund Hbf",
+      "13:21"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "13:54"
+     ],
+     [
+      "Osnabrück Hbf",
+      "14:21"
+     ],
+     [
+      "Bremen Hbf",
+      "15:14"
+     ],
+     [
+      "Hamburg-Harburg",
+      "16:02"
+     ]
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    315.98
-   ]
+   "ret": {
+    "dep": "2026-08-09T15:45:00",
+    "arr": "2026-08-10T00:29:00",
+    "from": "Hamburg Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 615",
+    "price": 105.99,
+    "durH": 8.7,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "15:55"
+     ],
+     [
+      "Bremen Hbf",
+      "16:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "17:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "18:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "18:32"
+     ],
+     [
+      "Hagen Hbf",
+      "18:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "19:13"
+     ],
+     [
+      "Solingen Hbf",
+      "19:26"
+     ],
+     [
+      "Köln Hbf",
+      "19:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "20:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "21:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "22:11"
+     ],
+     [
+      "Ulm Hbf",
+      "23:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "23:55"
+     ],
+     [
+      "München-Pasing",
+      "00:19"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -28092,11 +22829,6 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -28144,109 +22876,204 @@ window.BAHN_DATA = {
       "Ingolstadt Hbf",
       "05:23"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    73.98,
-    271.98
-   ]
+   }
   },
   {
-   "origin": "München",
-   "city": "Köln",
+   "origin": "Hamburg",
+   "city": "Frankfurt",
    "variant": "Gunubirlik",
-   "total": 254.99,
+   "total": 245.98,
    "out": {
-    "dep": "2026-08-01T07:28:00",
-    "arr": "2026-08-01T12:05:00",
-    "from": "München Hbf",
-    "to": "Köln Hbf",
-    "trains": "ICE 612",
-    "price": 179,
-    "durH": 4.6,
+    "dep": "2026-08-01T06:23:00",
+    "arr": "2026-08-01T09:56:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 115.99,
+    "durH": 3.6,
     "stops": [
      [
-      "München-Pasing",
-      "07:35"
-     ],
-     [
-      "Augsburg Hbf",
-      "07:59"
-     ],
-     [
-      "Ulm Hbf",
-      "08:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "09:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "10:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "11:08"
+      "Hannover Hbf",
+      "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
-    "dep": "2026-08-01T17:54:00",
-    "arr": "2026-08-01T22:29:00",
-    "from": "Köln Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 613",
-    "price": 75.99,
-    "durH": 4.6,
+    "dep": "2026-08-01T17:46:00",
+    "arr": "2026-08-01T21:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ECE 4",
+    "price": 129.99,
+    "durH": 3.7,
     "stops": [
      [
+      "Kassel-Wilhelmshöhe",
+      "19:11"
+     ],
+     [
+      "Göttingen",
+      "19:31"
+     ],
+     [
+      "Hannover Hbf",
+      "20:05"
+     ],
+     [
+      "Uelzen",
+      "20:46"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 249.98,
+   "out": {
+    "dep": "2026-08-01T06:23:00",
+    "arr": "2026-08-01T09:56:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 115.99,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "07:38"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-02T15:46:00",
+    "arr": "2026-08-02T19:29:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 72",
+    "price": 133.99,
+    "durH": 3.7,
+    "stops": [
+     [
+      "Kassel-Wilhelmshöhe",
+      "17:11"
+     ],
+     [
+      "Göttingen",
+      "17:31"
+     ],
+     [
+      "Hannover Hbf",
+      "18:05"
+     ],
+     [
+      "Uelzen",
+      "18:46"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Cumartesi",
+   "total": 253.98,
+   "out": {
+    "dep": "2026-08-01T07:45:00",
+    "arr": "2026-08-01T14:11:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 517",
+    "price": 133.99,
+    "durH": 6.4,
+    "stops": [
+     [
+      "Hamburg-Harburg",
+      "07:55"
+     ],
+     [
+      "Bremen Hbf",
+      "08:41"
+     ],
+     [
+      "Osnabrück Hbf",
+      "09:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "10:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
+     ],
+     [
+      "Köln Hbf",
+      "11:46"
+     ],
+     [
       "Frankfurt(M) Flughafen Fernbf",
-      "18:49"
+      "12:49"
      ],
      [
       "Mannheim Hbf",
-      "19:25"
-     ],
-     [
-      "Stuttgart Hbf",
-      "20:11"
-     ],
-     [
-      "Ulm Hbf",
-      "21:13"
-     ],
-     [
-      "Augsburg Hbf",
-      "21:56"
-     ],
-     [
-      "München-Pasing",
-      "22:20"
+      "13:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    56.98,
-    254.99
-   ]
+   "ret": {
+    "dep": "2026-08-02T19:23:00",
+    "arr": "2026-08-03T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 119.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
@@ -28286,11 +23113,6 @@ window.BAHN_DATA = {
       "Frankfurt(M) Flughafen Fernbf",
       "11:08"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     219.2
     ]
    },
    "ret": {
@@ -28326,109 +23148,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     6.99,
-     149.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    269.98
-   ]
-  },
-  {
-   "origin": "Hamburg",
-   "city": "Stuttgart",
-   "variant": "Cumartesi",
-   "total": 269.98,
-   "out": {
-    "dep": "2026-08-01T07:29:00",
-    "arr": "2026-08-01T12:38:00",
-    "from": "Hamburg Hbf",
-    "to": "Stuttgart Hbf",
-    "trains": "ICE 575",
-    "price": 133.99,
-    "durH": 5.2,
-    "stops": [
-     [
-      "Celle",
-      "08:27"
-     ],
-     [
-      "Hannover Hbf",
-      "08:48"
-     ],
-     [
-      "Göttingen",
-      "09:25"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "09:46"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "11:14"
-     ],
-     [
-      "Mannheim Hbf",
-      "11:57"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     149.99
-    ]
-   },
-   "ret": {
-    "dep": "2026-08-02T15:22:00",
-    "arr": "2026-08-02T20:29:00",
-    "from": "Stuttgart Hbf",
-    "to": "Hamburg Hbf",
-    "trains": "ICE 576",
-    "price": 135.99,
-    "durH": 5.1,
-    "stops": [
-     [
-      "Mannheim Hbf",
-      "16:00"
-     ],
-     [
-      "Frankfurt(Main)Hbf",
-      "16:40"
-     ],
-     [
-      "Kassel-Wilhelmshöhe",
-      "18:11"
-     ],
-     [
-      "Göttingen",
-      "18:31"
-     ],
-     [
-      "Hannover Hbf",
-      "19:05"
-     ],
-     [
-      "Celle",
-      "19:27"
-     ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
-    ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    59.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "München",
@@ -28480,11 +23201,6 @@ window.BAHN_DATA = {
       "Berlin Hbf",
       "11:29"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -28556,170 +23272,269 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    89.98,
-    269.98
-   ]
+   }
   },
   {
    "origin": "Hamburg",
-   "city": "München",
-   "variant": "Cuma",
-   "total": 271.98,
+   "city": "Frankfurt",
+   "variant": "Gunubirlik",
+   "total": 277.4,
    "out": {
-    "dep": "2026-07-31T22:28:00",
-    "arr": "2026-08-01T06:40:00",
+    "dep": "2026-09-05T06:23:00",
+    "arr": "2026-09-05T09:56:00",
     "from": "Hamburg Hbf",
-    "to": "München Hbf",
-    "trains": "ICE 1081",
-    "price": 135.99,
-    "durH": 8.2,
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 138.7,
+    "durH": 3.6,
     "stops": [
      [
-      "Hamburg-Harburg",
-      "22:38"
-     ],
-     [
-      "Lüneburg",
-      "22:57"
-     ],
-     [
-      "Uelzen",
-      "23:14"
-     ],
-     [
-      "Celle",
-      "23:39"
-     ],
-     [
       "Hannover Hbf",
-      "00:00"
-     ],
-     [
-      "Göttingen",
-      "01:08"
-     ],
-     [
-      "Würzburg Hbf",
-      "03:32"
-     ],
-     [
-      "Nürnberg Hbf",
-      "04:48"
-     ],
-     [
-      "Augsburg Hbf",
-      "06:10"
+      "07:38"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     135.99
     ]
    },
    "ret": {
-    "dep": "2026-08-02T15:28:00",
-    "arr": "2026-08-03T00:15:00",
-    "from": "München Hbf",
+    "dep": "2026-09-05T18:02:00",
+    "arr": "2026-09-05T21:37:00",
+    "from": "Frankfurt (Main) Hbf",
     "to": "Hamburg Hbf",
-    "trains": "ICE 514",
-    "price": 135.99,
-    "durH": 8.8,
+    "trains": "ICE 1070",
+    "price": 138.7,
+    "durH": 3.6,
     "stops": [
      [
-      "München-Pasing",
-      "15:35"
-     ],
+      "Hannover Hbf",
+      "20:16"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Stuttgart",
+   "variant": "Gunubirlik",
+   "total": 283.98,
+   "out": {
+    "dep": "2026-08-01T07:45:00",
+    "arr": "2026-08-01T14:11:00",
+    "from": "Hamburg Hbf",
+    "to": "Stuttgart Hbf",
+    "trains": "ICE 517",
+    "price": 133.99,
+    "durH": 6.4,
+    "stops": [
      [
-      "Augsburg Hbf",
-      "15:59"
-     ],
-     [
-      "Ulm Hbf",
-      "16:45"
-     ],
-     [
-      "Stuttgart Hbf",
-      "17:43"
-     ],
-     [
-      "Mannheim Hbf",
-      "18:26"
-     ],
-     [
-      "Frankfurt(M) Flughafen Fernbf",
-      "19:08"
-     ],
-     [
-      "Köln Hbf",
-      "20:05"
-     ],
-     [
-      "Solingen Hbf",
-      "20:29"
-     ],
-     [
-      "Wuppertal Hbf",
-      "20:42"
-     ],
-     [
-      "Hagen Hbf",
-      "20:59"
-     ],
-     [
-      "Dortmund Hbf",
-      "21:21"
-     ],
-     [
-      "Münster(Westf)Hbf",
-      "21:54"
-     ],
-     [
-      "Osnabrück Hbf",
-      "22:21"
+      "Hamburg-Harburg",
+      "07:55"
      ],
      [
       "Bremen Hbf",
-      "23:14"
+      "08:41"
      ],
      [
-      "Hamburg-Harburg",
-      "00:02"
+      "Osnabrück Hbf",
+      "09:34"
+     ],
+     [
+      "Münster(Westf)Hbf",
+      "10:00"
+     ],
+     [
+      "Dortmund Hbf",
+      "10:32"
+     ],
+     [
+      "Hagen Hbf",
+      "10:56"
+     ],
+     [
+      "Wuppertal Hbf",
+      "11:13"
+     ],
+     [
+      "Solingen Hbf",
+      "11:26"
+     ],
+     [
+      "Köln Hbf",
+      "11:46"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "12:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "13:25"
      ]
-    ],
-    "low": false,
-    "rng": [
-     17.99,
-     195.0
     ]
    },
-   "lowRt": false,
-   "rngRt": [
-    53.98,
-    271.98
-   ]
+   "ret": {
+    "dep": "2026-08-01T19:23:00",
+    "arr": "2026-08-02T00:30:00",
+    "from": "Stuttgart Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 572",
+    "price": 149.99,
+    "durH": 5.1,
+    "stops": [
+     [
+      "Mannheim Hbf",
+      "20:00"
+     ],
+     [
+      "Frankfurt(Main)Hbf",
+      "20:40"
+     ],
+     [
+      "Kassel-Wilhelmshöhe",
+      "22:11"
+     ],
+     [
+      "Göttingen",
+      "22:31"
+     ],
+     [
+      "Hannover Hbf",
+      "23:05"
+     ],
+     [
+      "Celle",
+      "23:27"
+     ],
+     [
+      "Lüneburg",
+      "00:03"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "München",
+   "city": "Köln",
+   "variant": "Gunubirlik",
+   "total": 294.99,
+   "out": {
+    "dep": "2026-08-01T07:28:00",
+    "arr": "2026-08-01T12:05:00",
+    "from": "München Hbf",
+    "to": "Köln Hbf",
+    "trains": "ICE 612",
+    "price": 179,
+    "durH": 4.6,
+    "stops": [
+     [
+      "München-Pasing",
+      "07:35"
+     ],
+     [
+      "Augsburg Hbf",
+      "07:59"
+     ],
+     [
+      "Ulm Hbf",
+      "08:45"
+     ],
+     [
+      "Stuttgart Hbf",
+      "09:43"
+     ],
+     [
+      "Mannheim Hbf",
+      "10:26"
+     ],
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "11:08"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-08-01T17:54:00",
+    "arr": "2026-08-01T22:29:00",
+    "from": "Köln Hbf",
+    "to": "München Hbf",
+    "trains": "ICE 613",
+    "price": 115.99,
+    "durH": 4.6,
+    "stops": [
+     [
+      "Frankfurt(M) Flughafen Fernbf",
+      "18:49"
+     ],
+     [
+      "Mannheim Hbf",
+      "19:25"
+     ],
+     [
+      "Stuttgart Hbf",
+      "20:11"
+     ],
+     [
+      "Ulm Hbf",
+      "21:13"
+     ],
+     [
+      "Augsburg Hbf",
+      "21:56"
+     ],
+     [
+      "München-Pasing",
+      "22:20"
+     ]
+    ]
+   }
+  },
+  {
+   "origin": "Hamburg",
+   "city": "Frankfurt",
+   "variant": "Cumartesi",
+   "total": 299.2,
+   "out": {
+    "dep": "2026-09-05T06:23:00",
+    "arr": "2026-09-05T09:56:00",
+    "from": "Hamburg Hbf",
+    "to": "Frankfurt (Main) Hbf",
+    "trains": "ICE 1071",
+    "price": 138.7,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "07:38"
+     ]
+    ]
+   },
+   "ret": {
+    "dep": "2026-09-06T18:02:00",
+    "arr": "2026-09-06T21:37:00",
+    "from": "Frankfurt (Main) Hbf",
+    "to": "Hamburg Hbf",
+    "trains": "ICE 1070",
+    "price": 160.5,
+    "durH": 3.6,
+    "stops": [
+     [
+      "Hannover Hbf",
+      "20:16"
+     ]
+    ]
+   }
   },
   {
    "origin": "München",
    "city": "Hamburg",
    "variant": "Cuma",
-   "total": 315.98,
+   "total": 323.98,
    "out": {
     "dep": "2026-07-31T22:17:00",
     "arr": "2026-08-01T06:42:00",
     "from": "München Hbf",
     "to": "Hamburg Hbf",
     "trains": "ICE 1080",
-    "price": 179.99,
+    "price": 187.99,
     "durH": 8.4,
     "stops": [
      [
@@ -28758,11 +23573,6 @@ window.BAHN_DATA = {
       "Hamburg-Harburg",
       "06:30"
      ]
-    ],
-    "low": false,
-    "rng": [
-     39.99,
-     179.99
     ]
    },
    "ret": {
@@ -28834,18 +23644,8 @@ window.BAHN_DATA = {
       "München-Pasing",
       "00:27"
      ]
-    ],
-    "low": false,
-    "rng": [
-     23.99,
-     135.99
     ]
-   },
-   "lowRt": false,
-   "rngRt": [
-    79.98,
-    315.98
-   ]
+   }
   }
  ],
  "legs": [
@@ -28859,14 +23659,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 607",
-   "price": 79.99,
+   "price": 99.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -28878,7 +23673,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 873",
-   "price": 55.99,
+   "price": 79.99,
    "durH": 2,
    "stops": [
     [
@@ -28893,11 +23688,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -28910,14 +23700,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 609",
-   "price": 49.99,
+   "price": 67.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -28929,7 +23714,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 809",
-   "price": 49.99,
+   "price": 61.99,
    "durH": 2,
    "stops": [
     [
@@ -28944,11 +23729,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -28961,14 +23741,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 505",
-   "price": 31.99,
+   "price": 37.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -28995,11 +23770,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29014,12 +23784,7 @@ window.BAHN_DATA = {
    "trains": "ICE 507",
    "price": 66.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29031,7 +23796,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 2589",
-   "price": 66.99,
+   "price": 76.99,
    "durH": 2.2,
    "stops": [
     [
@@ -29046,11 +23811,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "10:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29065,12 +23825,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 66.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29082,14 +23837,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 504",
-   "price": 66.99,
+   "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29116,11 +23866,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29135,12 +23880,7 @@ window.BAHN_DATA = {
    "trains": "ICE 508",
    "price": 89.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29163,11 +23903,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29187,11 +23922,6 @@ window.BAHN_DATA = {
      "Berlin-Spandau",
      "17:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29215,11 +23945,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29234,12 +23959,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 79.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29251,14 +23971,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 607",
-   "price": 49.99,
+   "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29270,7 +23985,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 873",
-   "price": 29.99,
+   "price": 43.99,
    "durH": 2.1,
    "stops": [
     [
@@ -29281,11 +23996,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29300,12 +24010,7 @@ window.BAHN_DATA = {
    "trains": "ICE 609",
    "price": 39.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29317,7 +24022,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 809",
-   "price": 34.99,
+   "price": 49.99,
    "durH": 2,
    "stops": [
     [
@@ -29332,11 +24037,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29351,12 +24051,7 @@ window.BAHN_DATA = {
    "trains": "ICE 505",
    "price": 27.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29368,7 +24063,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 2587",
-   "price": 33.99,
+   "price": 35.99,
    "durH": 1.9,
    "stops": [
     [
@@ -29383,11 +24078,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29402,12 +24092,7 @@ window.BAHN_DATA = {
    "trains": "ICE 507",
    "price": 39.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29434,11 +24119,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "10:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29453,12 +24133,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 39.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29485,11 +24160,6 @@ window.BAHN_DATA = {
      "Büchen",
      "20:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29504,12 +24174,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 35.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29536,11 +24201,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29568,11 +24228,6 @@ window.BAHN_DATA = {
      "Büchen",
      "00:42"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29587,12 +24242,7 @@ window.BAHN_DATA = {
    "trains": "ICE 508",
    "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29604,7 +24254,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2590",
-   "price": 59.99,
+   "price": 54.99,
    "durH": 2.2,
    "stops": [
     [
@@ -29615,11 +24265,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:42"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29632,14 +24277,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 506",
-   "price": 54.99,
+   "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29662,11 +24302,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29681,12 +24316,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 54.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29698,14 +24328,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 607",
-   "price": 49.99,
+   "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29719,12 +24344,7 @@ window.BAHN_DATA = {
    "trains": "ICE 873",
    "price": 39.99,
    "durH": 2.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29738,12 +24358,7 @@ window.BAHN_DATA = {
    "trains": "ICE 609",
    "price": 39.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29770,11 +24385,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29789,12 +24399,7 @@ window.BAHN_DATA = {
    "trains": "ICE 505",
    "price": 27.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29817,11 +24422,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29836,12 +24436,7 @@ window.BAHN_DATA = {
    "trains": "ICE 507",
    "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29853,7 +24448,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 2589",
-   "price": 33.99,
+   "price": 35.99,
    "durH": 2.2,
    "stops": [
     [
@@ -29864,11 +24459,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "10:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -29883,12 +24473,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 35.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29911,11 +24496,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29930,12 +24510,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 33.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -29962,11 +24537,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -29979,14 +24549,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 508",
-   "price": 75.99,
+   "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30009,11 +24574,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30028,12 +24588,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30056,11 +24611,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30073,14 +24623,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 504",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30092,14 +24637,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 607",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30126,11 +24666,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "20:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30145,12 +24680,7 @@ window.BAHN_DATA = {
    "trains": "ICE 609",
    "price": 34.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30162,7 +24692,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 809",
-   "price": 49.99,
+   "price": 43.99,
    "durH": 2,
    "stops": [
     [
@@ -30177,11 +24707,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30194,14 +24719,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 505",
-   "price": 21.99,
+   "price": 27.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30224,11 +24744,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30241,14 +24756,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 507",
-   "price": 39.99,
+   "price": 45.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30271,11 +24781,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "10:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30290,12 +24795,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 33.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30318,11 +24818,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30337,12 +24832,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 27.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30369,11 +24859,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30388,12 +24873,7 @@ window.BAHN_DATA = {
    "trains": "ICE 508",
    "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30416,11 +24896,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30435,12 +24910,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30463,11 +24933,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30482,12 +24947,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30501,12 +24961,7 @@ window.BAHN_DATA = {
    "trains": "ICE 607",
    "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30518,7 +24973,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 873",
-   "price": 43.99,
+   "price": 39.99,
    "durH": 2.2,
    "stops": [
     [
@@ -30533,11 +24988,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "20:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30552,12 +25002,7 @@ window.BAHN_DATA = {
    "trains": "ICE 609",
    "price": 34.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30584,11 +25029,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30603,12 +25043,7 @@ window.BAHN_DATA = {
    "trains": "ICE 505",
    "price": 31.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30631,11 +25066,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30650,12 +25080,7 @@ window.BAHN_DATA = {
    "trains": "ICE 507",
    "price": 35.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30667,7 +25092,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 2589",
-   "price": 27.99,
+   "price": 33.99,
    "durH": 2.2,
    "stops": [
     [
@@ -30678,11 +25103,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "10:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30697,12 +25117,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 33.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30714,7 +25129,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2588",
-   "price": 21.99,
+   "price": 27.99,
    "durH": 2.2,
    "stops": [
     [
@@ -30725,11 +25140,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30744,12 +25154,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 31.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30776,11 +25181,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30795,12 +25195,7 @@ window.BAHN_DATA = {
    "trains": "ICE 508",
    "price": 59.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30823,11 +25218,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30842,12 +25232,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 54.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30870,11 +25255,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -30889,12 +25269,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30908,12 +25283,7 @@ window.BAHN_DATA = {
    "trains": "ICE 607",
    "price": 34.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30927,12 +25297,7 @@ window.BAHN_DATA = {
    "trains": "ICE 873",
    "price": 34.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -30959,11 +25324,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -30978,12 +25338,7 @@ window.BAHN_DATA = {
    "trains": "ICE 609",
    "price": 29.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31010,11 +25365,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "22:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -31029,12 +25379,7 @@ window.BAHN_DATA = {
    "trains": "ICE 505",
    "price": 21.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31048,12 +25393,7 @@ window.BAHN_DATA = {
    "trains": "RJ 173",
    "price": 31.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31076,11 +25416,6 @@ window.BAHN_DATA = {
      "Wittenberge",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
    ]
   },
   {
@@ -31095,12 +25430,7 @@ window.BAHN_DATA = {
    "trains": "ICE 507",
    "price": 33.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    121.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31114,12 +25444,7 @@ window.BAHN_DATA = {
    "trains": "ICE 506",
    "price": 27.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31146,11 +25471,6 @@ window.BAHN_DATA = {
      "Büchen",
      "19:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -31165,12 +25485,7 @@ window.BAHN_DATA = {
    "trains": "RJ 174",
    "price": 31.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31184,12 +25499,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 31.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31216,11 +25526,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -31235,12 +25540,7 @@ window.BAHN_DATA = {
    "trains": "RJ 172",
    "price": 21.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31267,11 +25567,6 @@ window.BAHN_DATA = {
      "Büchen",
      "23:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -31284,14 +25579,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 508",
-   "price": 49.99,
+   "price": 54.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31318,11 +25608,6 @@ window.BAHN_DATA = {
      "Büchen",
      "17:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -31337,12 +25622,7 @@ window.BAHN_DATA = {
    "trains": "RJ 176",
    "price": 49.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31354,14 +25634,9 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 506",
-   "price": 39.99,
+   "price": 43.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31388,11 +25663,6 @@ window.BAHN_DATA = {
      "Büchen",
      "19:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
    ]
   },
   {
@@ -31407,12 +25677,7 @@ window.BAHN_DATA = {
    "trains": "RJ 174",
    "price": 39.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31426,12 +25691,7 @@ window.BAHN_DATA = {
    "trains": "ICE 504",
    "price": 34.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    17.99,
-    117.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -31462,11 +25722,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31479,18 +25734,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Bremen Hbf",
    "trains": "ICE 207",
-   "price": 23.99,
+   "price": 27.99,
    "durH": 0.9,
    "stops": [
     [
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31522,11 +25772,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31546,11 +25791,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31582,11 +25822,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "21:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31599,18 +25834,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Bremen Hbf",
    "trains": "ICE 209",
-   "price": 17.99,
+   "price": 18.99,
    "durH": 0.9,
    "stops": [
     [
      "Hamburg-Harburg",
      "20:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31642,11 +25872,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "22:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31714,11 +25939,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31738,11 +25958,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31762,11 +25977,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31798,11 +26008,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31822,11 +26027,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31858,11 +26058,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -31875,18 +26070,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 610",
-   "price": 18.99,
+   "price": 22.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -31918,11 +26108,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -31935,18 +26120,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 108",
-   "price": 17.99,
+   "price": 19.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -31978,11 +26158,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32050,11 +26225,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32067,18 +26237,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 17.99,
+   "price": 18.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32110,11 +26275,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32182,11 +26342,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32206,11 +26361,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32230,11 +26380,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32266,11 +26411,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32290,11 +26430,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32326,11 +26461,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32362,11 +26492,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32379,18 +26504,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 108",
-   "price": 29.99,
+   "price": 21.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32422,11 +26542,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32446,11 +26561,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32482,11 +26592,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32499,18 +26604,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Bremen Hbf",
    "trains": "ICE 207",
-   "price": 18.99,
+   "price": 19.99,
    "durH": 0.9,
    "stops": [
     [
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32542,11 +26642,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32566,11 +26661,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32590,11 +26680,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32662,11 +26747,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "21:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32698,11 +26778,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "22:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32770,11 +26845,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32794,11 +26864,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32818,11 +26883,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32854,11 +26914,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32878,11 +26933,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32914,11 +26964,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -32938,11 +26983,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32974,11 +27014,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -32998,11 +27033,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33034,11 +27064,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33058,11 +27083,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33082,11 +27102,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33118,11 +27133,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33142,11 +27152,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33166,11 +27171,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33190,11 +27190,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33226,11 +27221,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33243,18 +27233,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2510",
-   "price": 21.99,
+   "price": 23.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33286,11 +27271,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33322,11 +27302,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33346,11 +27321,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33382,11 +27352,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33406,11 +27371,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33442,11 +27402,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33459,18 +27414,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Bremen Hbf",
    "trains": "ICE 207",
-   "price": 6.99,
+   "price": 18.99,
    "durH": 0.9,
    "stops": [
     [
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33502,11 +27452,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33526,11 +27471,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33550,11 +27490,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33586,11 +27521,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "21:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33658,11 +27588,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33682,11 +27607,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33706,11 +27626,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33742,11 +27657,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33766,11 +27676,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33802,11 +27707,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -33826,11 +27726,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33862,11 +27757,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33879,18 +27769,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2508",
-   "price": 6.99,
+   "price": 17.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33922,11 +27807,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33946,11 +27826,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -33982,11 +27857,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34006,11 +27876,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34030,11 +27895,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34054,11 +27914,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34090,11 +27945,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34114,11 +27964,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34150,11 +27995,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34186,11 +28026,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34210,11 +28045,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34246,11 +28076,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34270,11 +28095,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34306,11 +28126,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34342,11 +28157,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34366,11 +28176,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34402,11 +28207,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34426,11 +28226,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34462,11 +28257,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "21:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34486,11 +28276,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34522,11 +28307,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "22:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34594,11 +28374,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34618,11 +28393,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:21"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34642,11 +28412,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34678,11 +28443,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "07:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34702,11 +28462,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34738,11 +28493,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34762,11 +28512,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34798,11 +28543,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -34822,11 +28562,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34858,11 +28593,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34882,11 +28612,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34918,11 +28643,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34942,11 +28662,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -34978,11 +28693,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35002,11 +28712,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35038,11 +28743,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35062,11 +28762,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35079,18 +28774,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 612",
-   "price": 17.99,
+   "price": 18.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35122,11 +28812,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35139,18 +28824,13 @@ window.BAHN_DATA = {
    "from": "Bremen Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 200",
-   "price": 18.99,
+   "price": 17.99,
    "durH": 1,
    "stops": [
     [
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35182,11 +28862,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35218,11 +28893,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35242,11 +28912,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35278,11 +28943,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35302,11 +28962,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35338,11 +28993,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35374,11 +29024,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35398,11 +29043,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35434,11 +29074,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35458,11 +29093,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35494,11 +29124,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "21:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35518,11 +29143,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35554,11 +29174,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "22:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35626,11 +29241,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35650,11 +29260,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:21"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35674,11 +29279,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35710,11 +29310,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "07:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35734,11 +29329,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35770,11 +29360,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35794,11 +29379,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35830,11 +29410,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -35854,11 +29429,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35890,11 +29460,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35914,11 +29479,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35950,11 +29510,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -35974,11 +29529,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36010,11 +29560,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36034,11 +29579,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36070,11 +29610,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36094,11 +29629,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36118,11 +29648,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36154,11 +29679,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36178,11 +29698,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36214,11 +29729,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36250,11 +29760,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36274,11 +29779,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36310,11 +29810,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36334,11 +29829,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36370,11 +29860,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36406,11 +29891,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36430,11 +29910,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36466,11 +29941,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "20:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36490,11 +29960,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36526,11 +29991,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "21:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36543,18 +30003,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Bremen Hbf",
    "trains": "ICE 209",
-   "price": 6.99,
+   "price": 9.99,
    "durH": 0.9,
    "stops": [
     [
      "Hamburg-Harburg",
      "20:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36586,11 +30041,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "22:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36658,11 +30108,6 @@ window.BAHN_DATA = {
      "Bremen-Oberneuland",
      "22:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36682,11 +30127,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:21"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36706,11 +30146,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:32"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36742,11 +30177,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "07:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36766,11 +30196,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36802,11 +30227,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "08:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36826,11 +30246,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36862,11 +30277,6 @@ window.BAHN_DATA = {
      "Rotenburg(Wümme)",
      "09:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    39.99
    ]
   },
   {
@@ -36886,11 +30296,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36922,11 +30327,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36946,11 +30346,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -36982,11 +30377,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37006,11 +30396,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37042,11 +30427,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37066,11 +30446,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37102,11 +30477,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37126,11 +30496,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37150,11 +30515,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37186,11 +30546,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37210,11 +30565,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37234,11 +30584,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37270,11 +30615,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37306,11 +30646,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37330,11 +30665,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37366,11 +30696,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37390,11 +30715,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37426,11 +30746,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    33.99
    ]
   },
   {
@@ -37443,7 +30758,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 207",
-   "price": 59.99,
+   "price": 72.99,
    "durH": 3.7,
    "stops": [
     [
@@ -37478,11 +30793,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37522,11 +30832,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37539,7 +30844,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 209",
-   "price": 35.99,
+   "price": 43.99,
    "durH": 3.8,
    "stops": [
     [
@@ -37574,11 +30879,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "00:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37591,7 +30891,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 921",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 4.2,
    "stops": [
     [
@@ -37630,11 +30930,6 @@ window.BAHN_DATA = {
      "Düsseldorf Flughafen",
      "02:51"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37647,7 +30942,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 105",
-   "price": 45.99,
+   "price": 55.99,
    "durH": 3.7,
    "stops": [
     [
@@ -37682,11 +30977,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "10:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37734,11 +31024,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "12:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -37751,7 +31036,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 61.99,
+   "price": 81.99,
    "durH": 3.7,
    "stops": [
     [
@@ -37786,11 +31071,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -37803,7 +31083,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 61.99,
+   "price": 71.99,
    "durH": 3.7,
    "stops": [
     [
@@ -37842,11 +31122,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -37894,11 +31169,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -37946,11 +31216,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -37963,7 +31228,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 59.99,
+   "price": 64.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38002,11 +31267,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38019,7 +31279,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 207",
-   "price": 40.99,
+   "price": 45.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38054,11 +31314,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38106,11 +31361,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "23:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38154,11 +31404,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "00:10"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38171,7 +31416,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 921",
-   "price": 22.99,
+   "price": 29.99,
    "durH": 4.1,
    "stops": [
     [
@@ -38206,11 +31451,6 @@ window.BAHN_DATA = {
      "Düsseldorf Flughafen",
      "02:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38258,11 +31498,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "10:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38275,7 +31510,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 2507",
-   "price": 40.99,
+   "price": 44.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38310,11 +31545,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "12:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38362,11 +31592,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38418,11 +31643,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38435,7 +31655,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2508",
-   "price": 63.99,
+   "price": 79.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38470,11 +31690,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38487,7 +31702,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2506",
-   "price": 59.99,
+   "price": 63.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38522,11 +31737,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38578,11 +31788,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -38595,7 +31800,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 207",
-   "price": 35.99,
+   "price": 40.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38630,11 +31835,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38682,11 +31882,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "23:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38738,11 +31933,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "00:10"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38798,11 +31988,6 @@ window.BAHN_DATA = {
      "Düsseldorf Flughafen",
      "02:41"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38815,7 +32000,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 2505",
-   "price": 32.99,
+   "price": 36.99,
    "durH": 3.7,
    "stops": [
     [
@@ -38850,11 +32035,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "10:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38902,11 +32082,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "12:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -38954,11 +32129,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39010,11 +32180,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39027,7 +32192,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2508",
-   "price": 63.99,
+   "price": 59.99,
    "durH": 3.7,
    "stops": [
     [
@@ -39062,11 +32227,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39079,7 +32239,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2506",
-   "price": 53.99,
+   "price": 49.99,
    "durH": 3.7,
    "stops": [
     [
@@ -39114,11 +32274,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39170,11 +32325,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39222,11 +32372,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "23:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39278,11 +32423,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "00:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39338,11 +32478,6 @@ window.BAHN_DATA = {
      "Düsseldorf Flughafen",
      "02:31"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39386,11 +32521,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "22:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39426,11 +32556,6 @@ window.BAHN_DATA = {
      "Oberhausen Hbf",
      "23:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39478,11 +32603,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "00:08"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39534,11 +32654,6 @@ window.BAHN_DATA = {
      "Düsseldorf Flughafen",
      "02:41"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39582,11 +32697,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "10:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39610,11 +32720,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "11:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39627,7 +32732,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Düsseldorf Hbf",
    "trains": "ICE 107",
-   "price": 33.99,
+   "price": 37.99,
    "durH": 3.7,
    "stops": [
     [
@@ -39658,11 +32763,6 @@ window.BAHN_DATA = {
      "Duisburg Hbf",
      "12:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    107.99
    ]
   },
   {
@@ -39675,7 +32775,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 29.99,
+   "price": 22.99,
    "durH": 3.7,
    "stops": [
     [
@@ -39702,11 +32802,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39750,11 +32845,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39794,11 +32884,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39822,11 +32907,6 @@ window.BAHN_DATA = {
      "Gelsenkirchen Hbf",
      "17:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39839,7 +32919,7 @@ window.BAHN_DATA = {
    "from": "Düsseldorf Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 40.99,
+   "price": 45.99,
    "durH": 3.7,
    "stops": [
     [
@@ -39866,11 +32946,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39914,11 +32989,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    93.99
    ]
   },
   {
@@ -39931,18 +33001,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 1077",
-   "price": 115.99,
+   "price": 99.99,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -39955,7 +33020,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 619",
-   "price": 56.99,
+   "price": 65.99,
    "durH": 5.5,
    "stops": [
     [
@@ -39998,11 +33063,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "01:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40015,18 +33075,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 1071",
-   "price": 75.99,
+   "price": 115.99,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40039,7 +33094,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 71",
-   "price": 115.99,
+   "price": 129.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40062,11 +33117,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "08:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40079,7 +33129,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 575",
-   "price": 115.99,
+   "price": 129.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40098,11 +33148,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "09:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40115,7 +33160,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ECE 5",
-   "price": 115.99,
+   "price": 129.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40134,11 +33179,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "10:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40151,7 +33191,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 577",
-   "price": 115.99,
+   "price": 129.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40170,11 +33210,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "11:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40187,7 +33222,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 4",
-   "price": 115.99,
+   "price": 129.99,
    "durH": 3.7,
    "stops": [
     [
@@ -40206,11 +33241,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40223,18 +33253,13 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1070",
-   "price": 99.99,
+   "price": 129.99,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40247,7 +33272,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 70",
-   "price": 83.99,
+   "price": 129.99,
    "durH": 3.7,
    "stops": [
     [
@@ -40266,11 +33291,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40283,7 +33303,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 75.99,
+   "price": 129.99,
    "durH": 3.7,
    "stops": [
     [
@@ -40306,11 +33326,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40342,11 +33357,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40378,11 +33388,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40414,11 +33419,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40438,11 +33438,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40474,11 +33469,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40510,11 +33500,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40534,11 +33519,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40551,7 +33531,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 77",
-   "price": 49.99,
+   "price": 56.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40570,11 +33550,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40587,7 +33562,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 777",
-   "price": 39.99,
+   "price": 56.99,
    "durH": 3.8,
    "stops": [
     [
@@ -40606,11 +33581,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "21:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40623,7 +33593,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 79",
-   "price": 23.99,
+   "price": 39.99,
    "durH": 4.5,
    "stops": [
     [
@@ -40646,11 +33616,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "22:47"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40670,11 +33635,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40710,11 +33670,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "08:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40746,11 +33701,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "09:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40782,11 +33732,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "10:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -40818,11 +33763,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40842,11 +33782,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40878,11 +33813,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40914,11 +33844,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40954,11 +33879,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -40971,7 +33891,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 72",
-   "price": 89.99,
+   "price": 115.99,
    "durH": 3.7,
    "stops": [
     [
@@ -40990,11 +33910,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41026,11 +33941,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41043,7 +33953,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 4",
-   "price": 99.99,
+   "price": 115.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41062,11 +33972,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41079,18 +33984,13 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1070",
-   "price": 89.99,
+   "price": 75.99,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41103,7 +34003,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 574",
-   "price": 75.99,
+   "price": 89.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41122,11 +34022,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41139,7 +34034,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 70",
-   "price": 49.99,
+   "price": 65.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41158,11 +34053,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41182,11 +34072,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41199,7 +34084,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 79",
-   "price": 29.99,
+   "price": 17.99,
    "durH": 4.6,
    "stops": [
     [
@@ -41222,11 +34107,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "22:47"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41246,11 +34126,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41286,11 +34161,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "08:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41322,11 +34192,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "09:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41358,11 +34223,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "10:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41375,7 +34235,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 577",
-   "price": 47.99,
+   "price": 53.99,
    "durH": 3.8,
    "stops": [
     [
@@ -41394,11 +34254,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "11:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41430,11 +34285,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41454,11 +34304,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41486,11 +34331,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "21:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41518,11 +34358,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "22:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41550,11 +34385,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "23:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41567,7 +34397,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 72",
-   "price": 115.99,
+   "price": 99.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41586,11 +34416,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41603,7 +34428,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 576",
-   "price": 89.99,
+   "price": 65.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41622,11 +34447,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41639,7 +34459,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 4",
-   "price": 65.99,
+   "price": 49.99,
    "durH": 3.7,
    "stops": [
     [
@@ -41658,11 +34478,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41675,18 +34490,13 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1070",
-   "price": 56.99,
+   "price": 65.99,
    "durH": 3.7,
    "stops": [
     [
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41699,7 +34509,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 574",
-   "price": 65.99,
+   "price": 56.99,
    "durH": 3.8,
    "stops": [
     [
@@ -41714,11 +34524,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "21:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41746,11 +34551,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "22:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -41770,11 +34570,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41806,11 +34601,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41842,11 +34632,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "21:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41859,7 +34644,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 79",
-   "price": 17.99,
+   "price": 29.99,
    "durH": 5.2,
    "stops": [
     [
@@ -41882,11 +34667,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "22:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41906,11 +34686,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41946,11 +34721,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "08:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41982,11 +34752,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "09:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -41999,7 +34764,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ECE 5",
-   "price": 61.99,
+   "price": 67.99,
    "durH": 3.8,
    "stops": [
     [
@@ -42018,11 +34783,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "10:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42035,7 +34795,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 577",
-   "price": 53.99,
+   "price": 61.99,
    "durH": 3.8,
    "stops": [
     [
@@ -42054,11 +34814,6 @@ window.BAHN_DATA = {
      "Kassel-Wilhelmshöhe",
      "11:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42090,11 +34845,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42114,11 +34864,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42150,11 +34895,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42186,11 +34926,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42226,11 +34961,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42243,7 +34973,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 72",
-   "price": 75.99,
+   "price": 89.99,
    "durH": 3.7,
    "stops": [
     [
@@ -42262,11 +34992,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42298,11 +35023,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42315,7 +35035,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 4",
-   "price": 65.99,
+   "price": 75.99,
    "durH": 3.7,
    "stops": [
     [
@@ -42334,11 +35054,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42358,11 +35073,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42375,7 +35085,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 574",
-   "price": 56.99,
+   "price": 65.99,
    "durH": 3.7,
    "stops": [
     [
@@ -42394,11 +35104,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42430,11 +35135,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42447,18 +35147,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 1077",
-   "price": 160.5,
+   "price": 162.2,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42510,11 +35205,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "00:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42534,11 +35224,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42551,7 +35236,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 2587",
-   "price": 49.99,
+   "price": 56.99,
    "durH": 6.5,
    "stops": [
     [
@@ -42590,11 +35275,6 @@ window.BAHN_DATA = {
      "Fulda",
      "12:47"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42614,11 +35294,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42638,11 +35313,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42662,11 +35332,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42718,11 +35383,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "01:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42802,11 +35462,6 @@ window.BAHN_DATA = {
      "Bingen(Rhein) Hbf",
      "06:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42819,18 +35474,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 1071",
-   "price": 39.99,
+   "price": 138.7,
    "durH": 3.6,
    "stops": [
     [
      "Hannover Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    160.5
    ]
   },
   {
@@ -42850,11 +35500,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42874,11 +35519,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "20:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    180.9
    ]
   },
   {
@@ -42891,14 +35531,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1077",
-   "price": 45.99,
+   "price": 39.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -42917,11 +35552,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -42934,18 +35564,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 777",
-   "price": 37.99,
+   "price": 39.99,
    "durH": 1.3,
    "stops": [
     [
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -42958,7 +35583,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 79",
-   "price": 26.99,
+   "price": 39.99,
    "durH": 1.4,
    "stops": [
     [
@@ -42969,11 +35594,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "21:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -42986,7 +35606,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1687",
-   "price": 14.99,
+   "price": 28.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43001,11 +35621,6 @@ window.BAHN_DATA = {
      "Celle",
      "22:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43037,11 +35652,6 @@ window.BAHN_DATA = {
      "Celle",
      "23:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43133,11 +35743,6 @@ window.BAHN_DATA = {
      "Langenhagen Mitte",
      "00:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43150,14 +35755,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1071",
-   "price": 21.99,
+   "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43169,7 +35769,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 71",
-   "price": 23.99,
+   "price": 25.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43180,11 +35780,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43204,11 +35799,6 @@ window.BAHN_DATA = {
      "Celle",
      "08:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43221,7 +35811,7 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 578",
-   "price": 28.99,
+   "price": 43.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43232,11 +35822,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43249,18 +35834,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 72",
-   "price": 39.99,
+   "price": 49.99,
    "durH": 1.4,
    "stops": [
     [
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43273,18 +35853,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 4",
-   "price": 29.99,
+   "price": 49.99,
    "durH": 1.4,
    "stops": [
     [
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43297,14 +35872,9 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1070",
-   "price": 28.99,
+   "price": 39.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43323,11 +35893,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43347,11 +35912,6 @@ window.BAHN_DATA = {
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43371,11 +35931,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43390,12 +35945,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1072",
    "price": 53.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43418,11 +35968,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43442,11 +35987,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43466,11 +36006,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43485,12 +36020,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1077",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43502,18 +36032,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 77",
-   "price": 25.99,
+   "price": 29.99,
    "durH": 1.3,
    "stops": [
     [
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43526,18 +36051,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 777",
-   "price": 25.99,
+   "price": 27.99,
    "durH": 1.3,
    "stops": [
     [
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43550,7 +36070,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 79",
-   "price": 19.99,
+   "price": 25.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43561,11 +36081,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "21:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43578,7 +36093,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1687",
-   "price": 19.99,
+   "price": 22.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43593,11 +36108,6 @@ window.BAHN_DATA = {
      "Celle",
      "22:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43629,11 +36139,6 @@ window.BAHN_DATA = {
      "Celle",
      "23:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43648,12 +36153,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1071",
    "price": 19.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43676,11 +36176,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43700,11 +36195,6 @@ window.BAHN_DATA = {
      "Celle",
      "08:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -43728,11 +36218,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43752,11 +36237,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43776,11 +36256,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43800,11 +36275,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43819,12 +36289,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1070",
    "price": 20.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43843,11 +36308,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43860,18 +36320,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 770",
-   "price": 43.99,
+   "price": 53.99,
    "durH": 1.4,
    "stops": [
     [
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43891,11 +36346,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43908,14 +36358,9 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1072",
-   "price": 33.99,
+   "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -43927,7 +36372,7 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 578",
-   "price": 29.99,
+   "price": 27.99,
    "durH": 1.4,
    "stops": [
     [
@@ -43938,11 +36383,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43955,18 +36395,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 72",
-   "price": 35.99,
+   "price": 27.99,
    "durH": 1.4,
    "stops": [
     [
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -43986,11 +36421,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44005,12 +36435,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1077",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44022,18 +36447,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 77",
-   "price": 27.99,
+   "price": 25.99,
    "durH": 1.3,
    "stops": [
     [
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44053,11 +36473,6 @@ window.BAHN_DATA = {
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44070,7 +36485,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 79",
-   "price": 22.99,
+   "price": 17.99,
    "durH": 1.4,
    "stops": [
     [
@@ -44081,11 +36496,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "21:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44113,11 +36523,6 @@ window.BAHN_DATA = {
      "Celle",
      "22:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44149,11 +36554,6 @@ window.BAHN_DATA = {
      "Celle",
      "23:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44245,11 +36645,6 @@ window.BAHN_DATA = {
      "Langenhagen Mitte",
      "00:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44264,12 +36659,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1071",
    "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44292,11 +36682,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44309,18 +36694,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 575",
-   "price": 14.99,
+   "price": 17.99,
    "durH": 1.3,
    "stops": [
     [
      "Celle",
      "08:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44344,11 +36724,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44368,11 +36743,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44392,11 +36762,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44416,11 +36781,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44435,12 +36795,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1070",
    "price": 14.99,
    "durH": 1.5,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44454,12 +36809,7 @@ window.BAHN_DATA = {
    "trains": "ICE 574",
    "price": 14.99,
    "durH": 1.5,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44478,11 +36828,6 @@ window.BAHN_DATA = {
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44502,11 +36847,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44521,12 +36861,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1072",
    "price": 33.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44538,7 +36873,7 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 578",
-   "price": 31.99,
+   "price": 39.99,
    "durH": 1.4,
    "stops": [
     [
@@ -44549,11 +36884,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44573,11 +36903,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44590,18 +36915,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 576",
-   "price": 31.99,
+   "price": 27.99,
    "durH": 1.4,
    "stops": [
     [
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44616,12 +36936,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1077",
    "price": 25.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44640,11 +36955,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44664,11 +36974,6 @@ window.BAHN_DATA = {
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44692,11 +36997,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44711,12 +37011,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1687",
    "price": 17.99,
    "durH": 1.6,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44735,11 +37030,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44831,11 +37121,6 @@ window.BAHN_DATA = {
      "Langenhagen Mitte",
      "00:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44850,12 +37135,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1071",
    "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -44878,11 +37158,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44902,11 +37177,6 @@ window.BAHN_DATA = {
      "Celle",
      "08:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -44930,11 +37200,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44954,11 +37219,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -44978,11 +37238,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45002,11 +37257,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45021,12 +37271,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1070",
    "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45045,11 +37290,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45069,11 +37309,6 @@ window.BAHN_DATA = {
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45093,11 +37328,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45112,12 +37342,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1072",
    "price": 31.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45140,11 +37365,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45164,11 +37384,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45188,11 +37403,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45205,14 +37415,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1077",
-   "price": 61.4,
+   "price": 62,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45231,11 +37436,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45255,11 +37455,6 @@ window.BAHN_DATA = {
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45283,11 +37478,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "21:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45315,11 +37505,6 @@ window.BAHN_DATA = {
      "Celle",
      "22:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45351,11 +37536,6 @@ window.BAHN_DATA = {
      "Celle",
      "23:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45447,11 +37627,6 @@ window.BAHN_DATA = {
      "Langenhagen Mitte",
      "00:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45466,12 +37641,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1071",
    "price": 53,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45494,11 +37664,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45511,18 +37676,13 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 575",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 1.3,
    "stops": [
     [
      "Celle",
      "08:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45535,7 +37695,7 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 578",
-   "price": 22.99,
+   "price": 23.99,
    "durH": 1.4,
    "stops": [
     [
@@ -45546,11 +37706,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45563,18 +37718,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 72",
-   "price": 14.99,
+   "price": 22.99,
    "durH": 1.4,
    "stops": [
     [
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45587,18 +37737,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 576",
-   "price": 6.99,
+   "price": 14.99,
    "durH": 1.4,
    "stops": [
     [
      "Celle",
      "19:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45611,18 +37756,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ECE 4",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 1.4,
    "stops": [
     [
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45637,12 +37777,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1070",
    "price": 53,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45661,11 +37796,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45678,18 +37808,13 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 770",
-   "price": 31.99,
+   "price": 33.99,
    "durH": 1.4,
    "stops": [
     [
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45709,11 +37834,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45737,11 +37857,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45761,11 +37876,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45785,11 +37895,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -45813,11 +37918,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "18:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45832,12 +37932,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1077",
    "price": 25.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -45856,11 +37951,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "19:08"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45873,7 +37963,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 685",
-   "price": 14.99,
+   "price": 25.99,
    "durH": 1.4,
    "stops": [
     [
@@ -45884,11 +37974,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "19:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45908,11 +37993,6 @@ window.BAHN_DATA = {
      "Celle",
      "20:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45936,11 +38016,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "21:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45968,11 +38043,6 @@ window.BAHN_DATA = {
      "Celle",
      "22:32"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -45996,11 +38066,6 @@ window.BAHN_DATA = {
      "Bremen Hbf",
      "23:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46032,11 +38097,6 @@ window.BAHN_DATA = {
      "Celle",
      "23:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46128,11 +38188,6 @@ window.BAHN_DATA = {
      "Langenhagen Mitte",
      "00:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46156,11 +38211,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "06:28"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46173,14 +38223,9 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Hannover Hbf",
    "trains": "ICE 1071",
-   "price": 14.99,
+   "price": 53,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    61.4
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -46203,11 +38248,6 @@ window.BAHN_DATA = {
      "Celle",
      "07:31"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46231,11 +38271,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "07:28"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46255,11 +38290,6 @@ window.BAHN_DATA = {
      "Celle",
      "08:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    61.4
    ]
   },
   {
@@ -46283,11 +38313,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46311,11 +38336,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46335,11 +38355,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46363,11 +38378,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:44"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46387,11 +38397,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46411,11 +38416,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "20:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46430,12 +38430,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1070",
    "price": 53,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -46458,11 +38453,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:44"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46482,11 +38472,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46510,11 +38495,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:44"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46534,11 +38514,6 @@ window.BAHN_DATA = {
      "Celle",
      "15:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46562,11 +38537,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46586,11 +38556,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "16:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46614,11 +38579,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "17:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46642,11 +38602,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "17:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46659,7 +38614,7 @@ window.BAHN_DATA = {
    "from": "Hannover Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 588",
-   "price": 25.99,
+   "price": 27.99,
    "durH": 1.4,
    "stops": [
     [
@@ -46670,11 +38625,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46694,11 +38644,6 @@ window.BAHN_DATA = {
      "Uelzen",
      "18:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46722,11 +38667,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46746,11 +38686,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
    ]
   },
   {
@@ -46765,12 +38700,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1284",
    "price": 27.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.2
-   ]
+   "stops": []
   },
   {
    "o": "Hamburg",
@@ -46789,11 +38719,6 @@ window.BAHN_DATA = {
      "Neumünster",
      "21:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    6.99
    ]
   },
   {
@@ -46813,11 +38738,6 @@ window.BAHN_DATA = {
      "Neumünster",
      "16:32"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    29.99
    ]
   },
   {
@@ -46837,11 +38757,6 @@ window.BAHN_DATA = {
      "Neumünster",
      "18:32"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    29.99
    ]
   },
   {
@@ -46854,7 +38769,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 207",
-   "price": 62.99,
+   "price": 79.99,
    "durH": 4.1,
    "stops": [
     [
@@ -46893,11 +38808,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "22:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -46941,11 +38851,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "23:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -46958,7 +38863,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 209",
-   "price": 36.99,
+   "price": 43.99,
    "durH": 4.3,
    "stops": [
     [
@@ -46997,11 +38902,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "00:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47014,7 +38914,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 921",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 4.7,
    "stops": [
     [
@@ -47057,11 +38957,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "02:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47074,7 +38969,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 105",
-   "price": 54.99,
+   "price": 65.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47113,11 +39008,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47130,7 +39020,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 517",
-   "price": 65.99,
+   "price": 75.99,
    "durH": 4,
    "stops": [
     [
@@ -47165,11 +39055,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47182,7 +39067,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 75.99,
+   "price": 85.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47221,11 +39106,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47238,7 +39118,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 65.99,
+   "price": 85.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47281,11 +39161,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47337,11 +39212,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47389,11 +39259,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47445,11 +39310,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47462,7 +39322,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 516",
-   "price": 99.99,
+   "price": 89.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47497,11 +39357,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47514,7 +39369,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 89.99,
+   "price": 79.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47557,11 +39412,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -47574,7 +39424,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 207",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 4.9,
    "stops": [
     [
@@ -47613,11 +39463,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "22:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47665,11 +39510,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "00:29"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47682,7 +39522,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 921",
-   "price": 22.99,
+   "price": 29.99,
    "durH": 4.7,
    "stops": [
     [
@@ -47721,11 +39561,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "02:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47777,11 +39612,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47829,11 +39659,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47846,7 +39671,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 2507",
-   "price": 43.99,
+   "price": 47.99,
    "durH": 4.1,
    "stops": [
     [
@@ -47885,11 +39710,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "12:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47937,11 +39757,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "13:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -47993,11 +39808,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48045,11 +39855,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48105,11 +39910,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48122,7 +39922,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 34.99,
+   "price": 39.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48157,11 +39957,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48174,7 +39969,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2508",
-   "price": 69.99,
+   "price": 85.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48213,11 +40008,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48230,7 +40020,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 77.99,
+   "price": 85.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48265,11 +40055,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48282,7 +40067,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2506",
-   "price": 62.99,
+   "price": 69.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48321,11 +40106,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48338,7 +40118,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 516",
-   "price": 62.99,
+   "price": 49.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48373,11 +40153,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48390,7 +40165,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2504",
-   "price": 62.99,
+   "price": 56.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48433,11 +40208,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48489,11 +40259,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "23:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48549,11 +40314,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "00:30"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48613,11 +40373,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "02:49"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48630,7 +40385,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 2505",
-   "price": 34.99,
+   "price": 39.99,
    "durH": 4.1,
    "stops": [
     [
@@ -48669,11 +40424,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48721,11 +40471,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48777,11 +40522,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "12:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -48833,11 +40573,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48885,11 +40620,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48945,11 +40675,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -48997,11 +40722,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49014,7 +40734,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2508",
-   "price": 69.99,
+   "price": 62.99,
    "durH": 4.1,
    "stops": [
     [
@@ -49053,11 +40773,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49070,7 +40785,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 56.99,
+   "price": 43.99,
    "durH": 4.1,
    "stops": [
     [
@@ -49105,11 +40820,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49161,11 +40871,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49178,7 +40883,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 516",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 4.1,
    "stops": [
     [
@@ -49213,11 +40918,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49273,11 +40973,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49329,11 +41024,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "23:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -49389,11 +41079,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "00:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -49433,11 +41118,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "10:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -49485,11 +41165,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -49529,11 +41204,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49581,11 +41251,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49629,11 +41294,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49681,11 +41341,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49725,11 +41380,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49777,11 +41427,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49829,11 +41474,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49877,11 +41517,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -49921,11 +41556,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -49965,11 +41595,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "23:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50013,11 +41638,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "02:29"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50057,11 +41677,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "10:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50109,11 +41724,6 @@ window.BAHN_DATA = {
      "Solingen Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50126,7 +41736,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 43.99,
+   "price": 34.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50153,11 +41763,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50205,11 +41810,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50222,7 +41822,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 43.99,
+   "price": 34.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50253,11 +41853,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50270,7 +41865,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 65.99,
+   "price": 83.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50305,11 +41900,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50349,11 +41939,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50401,11 +41986,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50453,11 +42033,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50501,11 +42076,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50557,11 +42127,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "00:22"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50617,11 +42182,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "02:49"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50669,11 +42229,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "10:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50701,11 +42256,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "11:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50718,7 +42268,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 107",
-   "price": 34.99,
+   "price": 39.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50753,11 +42303,6 @@ window.BAHN_DATA = {
      "Düsseldorf Hbf",
      "12:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    115.99
    ]
   },
   {
@@ -50770,7 +42315,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 29.99,
+   "price": 22.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50801,11 +42346,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50818,7 +42358,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 516",
-   "price": 22.99,
+   "price": 29.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50853,11 +42393,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50905,11 +42440,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -50922,7 +42452,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 22.99,
+   "price": 29.99,
    "durH": 4.1,
    "stops": [
     [
@@ -50957,11 +42487,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51005,11 +42530,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51037,11 +42557,6 @@ window.BAHN_DATA = {
      "Gelsenkirchen Hbf",
      "17:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51089,11 +42604,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51106,7 +42616,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 516",
-   "price": 35.99,
+   "price": 43.99,
    "durH": 4.1,
    "stops": [
     [
@@ -51141,11 +42651,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51193,11 +42698,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    99.99
    ]
   },
   {
@@ -51210,7 +42710,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "København H",
    "trains": "ECE 392",
-   "price": 89.99,
+   "price": 113.99,
    "durH": 5.3,
    "stops": [
     [
@@ -51233,11 +42733,6 @@ window.BAHN_DATA = {
      "Ringsted st",
      "23:18"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    133.1
    ]
   },
   {
@@ -51250,7 +42745,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "København H",
    "trains": "ECE 392",
-   "price": 71.99,
+   "price": 79.99,
    "durH": 5.3,
    "stops": [
     [
@@ -51273,11 +42768,6 @@ window.BAHN_DATA = {
      "Ringsted st",
      "23:18"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    133.1
    ]
   },
   {
@@ -51313,11 +42803,6 @@ window.BAHN_DATA = {
      "Ringsted st",
      "23:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    133.1
    ]
   },
   {
@@ -51330,7 +42815,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "København H",
    "trains": "ECE 1198",
-   "price": 33.99,
+   "price": 29.99,
    "durH": 4.6,
    "stops": [
     [
@@ -51353,11 +42838,6 @@ window.BAHN_DATA = {
      "Ringsted st",
      "11:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    133.1
    ]
   },
   {
@@ -51393,11 +42873,6 @@ window.BAHN_DATA = {
      "Ringsted st",
      "13:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    133.1
    ]
   },
   {
@@ -51433,11 +42908,6 @@ window.BAHN_DATA = {
      "Schleswig",
      "21:29"
     ]
-   ],
-   "low": true,
-   "rng": [
-    29.99,
-    57.99
    ]
   },
   {
@@ -51473,11 +42943,6 @@ window.BAHN_DATA = {
      "Schleswig",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    57.99
    ]
   },
   {
@@ -51513,11 +42978,6 @@ window.BAHN_DATA = {
      "Schleswig",
      "21:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    57.99
    ]
   },
   {
@@ -51530,7 +42990,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 607",
-   "price": 99.99,
+   "price": 129.99,
    "durH": 3.2,
    "stops": [
     [
@@ -51549,11 +43009,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51566,7 +43021,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 609",
-   "price": 63.99,
+   "price": 83.99,
    "durH": 3.2,
    "stops": [
     [
@@ -51585,11 +43040,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51602,7 +43052,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 505",
-   "price": 72.99,
+   "price": 65.99,
    "durH": 3.2,
    "stops": [
     [
@@ -51621,11 +43071,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51665,11 +43110,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51701,11 +43141,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51718,7 +43153,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 2589",
-   "price": 81.99,
+   "price": 93.99,
    "durH": 3.5,
    "stops": [
     [
@@ -51745,11 +43180,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "12:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -51762,7 +43192,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 504",
-   "price": 81.99,
+   "price": 72.99,
    "durH": 3.2,
    "stops": [
     [
@@ -51781,11 +43211,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51825,11 +43250,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51865,11 +43285,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51905,11 +43320,6 @@ window.BAHN_DATA = {
      "Berlin-Spandau",
      "17:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51945,11 +43355,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51981,11 +43386,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -51998,7 +43398,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 90",
-   "price": 99.99,
+   "price": 129.99,
    "durH": 3.8,
    "stops": [
     [
@@ -52025,11 +43425,6 @@ window.BAHN_DATA = {
      "Büchen",
      "22:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52042,7 +43437,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 607",
-   "price": 61.99,
+   "price": 74.99,
    "durH": 3.2,
    "stops": [
     [
@@ -52061,11 +43456,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52097,11 +43487,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52133,11 +43518,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52150,7 +43530,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 2587",
-   "price": 57.99,
+   "price": 51.99,
    "durH": 3.3,
    "stops": [
     [
@@ -52177,11 +43557,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52213,11 +43588,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52230,7 +43600,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 2589",
-   "price": 57.99,
+   "price": 62.99,
    "durH": 3.5,
    "stops": [
     [
@@ -52257,11 +43627,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "12:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52301,11 +43666,6 @@ window.BAHN_DATA = {
      "Büchen",
      "20:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52337,11 +43697,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52381,11 +43736,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52425,11 +43775,6 @@ window.BAHN_DATA = {
      "Büchen",
      "00:42"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52465,11 +43810,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:42"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52482,7 +43822,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 506",
-   "price": 67.99,
+   "price": 74.99,
    "durH": 3.2,
    "stops": [
     [
@@ -52501,11 +43841,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "17:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52518,7 +43853,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2588",
-   "price": 95.99,
+   "price": 74.99,
    "durH": 3.5,
    "stops": [
     [
@@ -52541,11 +43876,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52577,11 +43907,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52594,7 +43919,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 90",
-   "price": 67.99,
+   "price": 74.99,
    "durH": 3.3,
    "stops": [
     [
@@ -52621,11 +43946,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52638,7 +43958,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 607",
-   "price": 61.99,
+   "price": 53.99,
    "durH": 3.2,
    "stops": [
     [
@@ -52657,11 +43977,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52693,11 +44008,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52710,7 +44020,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 505",
-   "price": 35.99,
+   "price": 41.99,
    "durH": 3.2,
    "stops": [
     [
@@ -52729,11 +44039,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52769,11 +44074,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52805,11 +44105,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52845,11 +44140,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "12:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -52862,7 +44152,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2588",
-   "price": 41.99,
+   "price": 35.99,
    "durH": 3.5,
    "stops": [
     [
@@ -52885,11 +44175,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52921,11 +44206,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -52965,11 +44245,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53009,11 +44284,6 @@ window.BAHN_DATA = {
      "Büchen",
      "00:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53049,11 +44319,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53085,11 +44350,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "17:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53102,7 +44362,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2588",
-   "price": 74.99,
+   "price": 67.99,
    "durH": 3.5,
    "stops": [
     [
@@ -53125,11 +44385,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53142,7 +44397,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 504",
-   "price": 67.99,
+   "price": 61.99,
    "durH": 3.2,
    "stops": [
     [
@@ -53161,11 +44416,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53178,7 +44428,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 90",
-   "price": 61.99,
+   "price": 67.99,
    "durH": 3.3,
    "stops": [
     [
@@ -53205,11 +44455,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53222,7 +44467,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 607",
-   "price": 53.99,
+   "price": 61.99,
    "durH": 3.2,
    "stops": [
     [
@@ -53241,11 +44486,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53277,11 +44517,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:41"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53313,11 +44548,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53353,11 +44583,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53370,7 +44595,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 507",
-   "price": 53.99,
+   "price": 59.99,
    "durH": 3.2,
    "stops": [
     [
@@ -53389,11 +44614,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53406,7 +44626,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 2589",
-   "price": 43.99,
+   "price": 53.99,
    "durH": 3.5,
    "stops": [
     [
@@ -53429,11 +44649,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "12:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53446,7 +44661,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2588",
-   "price": 35.99,
+   "price": 43.99,
    "durH": 3.5,
    "stops": [
     [
@@ -53469,11 +44684,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53505,11 +44715,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53549,11 +44754,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53593,11 +44793,6 @@ window.BAHN_DATA = {
      "Büchen",
      "00:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53610,7 +44805,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2590",
-   "price": 67.99,
+   "price": 74.99,
    "durH": 3.5,
    "stops": [
     [
@@ -53633,11 +44828,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53669,11 +44859,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "17:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53709,11 +44894,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53745,11 +44925,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53789,11 +44964,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -53825,11 +44995,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53861,11 +45026,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53878,7 +45038,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 505",
-   "price": 35.99,
+   "price": 43.99,
    "durH": 3.2,
    "stops": [
     [
@@ -53897,11 +45057,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53937,11 +45092,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53973,11 +45123,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -53990,7 +45135,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Leipzig Hbf",
    "trains": "ICE 2589",
-   "price": 43.99,
+   "price": 49.99,
    "durH": 3.5,
    "stops": [
     [
@@ -54013,11 +45158,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "12:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54053,11 +45193,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54089,11 +45224,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54133,11 +45263,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54150,7 +45275,7 @@ window.BAHN_DATA = {
    "from": "Leipzig Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2584",
-   "price": 22.99,
+   "price": 17.99,
    "durH": 3.5,
    "stops": [
     [
@@ -54177,11 +45302,6 @@ window.BAHN_DATA = {
      "Büchen",
      "00:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54217,11 +45337,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "17:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54253,11 +45368,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "17:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54293,11 +45403,6 @@ window.BAHN_DATA = {
      "Ludwigslust",
      "19:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54329,11 +45434,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54373,11 +45473,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54409,11 +45504,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54445,11 +45535,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "23:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54481,11 +45566,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "09:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54521,11 +45601,6 @@ window.BAHN_DATA = {
      "Lutherstadt Wittenberg Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54557,11 +45632,6 @@ window.BAHN_DATA = {
      "Bitterfeld",
      "11:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    22.99,
-    157.7
    ]
   },
   {
@@ -54593,11 +45663,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54637,11 +45702,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54673,11 +45733,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "17:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54709,11 +45764,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54753,11 +45803,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    115.99
    ]
   },
   {
@@ -54770,7 +45815,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1081",
-   "price": 135.99,
+   "price": 59.99,
    "durH": 8.2,
    "stops": [
     [
@@ -54809,11 +45854,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "06:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -54865,11 +45905,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -54945,11 +45980,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -54962,7 +45992,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1081",
-   "price": 79.99,
+   "price": 105.99,
    "durH": 7.8,
    "stops": [
     [
@@ -55001,11 +46031,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55018,7 +46043,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "München Hbf",
    "trains": "ICE 517",
-   "price": 89.99,
+   "price": 79.99,
    "durH": 8.7,
    "stops": [
     [
@@ -55081,11 +46106,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "16:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55098,7 +46118,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1080",
-   "price": 115.99,
+   "price": 133.99,
    "durH": 8.9,
    "stops": [
     [
@@ -55137,11 +46157,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55154,7 +46169,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 105.99,
+   "price": 119.99,
    "durH": 8.8,
    "stops": [
     [
@@ -55217,11 +46232,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55234,7 +46244,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1081",
-   "price": 69.99,
+   "price": 79.99,
    "durH": 8.2,
    "stops": [
     [
@@ -55273,11 +46283,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:42"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55329,11 +46334,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55409,11 +46409,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55453,11 +46448,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55509,11 +46499,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55589,11 +46574,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55645,11 +46625,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55701,11 +46676,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55781,11 +46751,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -55837,11 +46802,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "23:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55893,11 +46853,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "00:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -55949,11 +46904,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -56005,11 +46955,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "11:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -56057,11 +47002,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -56113,11 +47053,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "13:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -56165,11 +47100,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56221,11 +47151,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56277,11 +47202,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "07:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56329,11 +47249,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56346,7 +47261,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 784",
-   "price": 69.99,
+   "price": 59.99,
    "durH": 5.9,
    "stops": [
     [
@@ -56385,11 +47300,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56437,11 +47347,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56454,7 +47359,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 782",
-   "price": 39.99,
+   "price": 49.99,
    "durH": 5.8,
    "stops": [
     [
@@ -56493,11 +47398,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    195.0
    ]
   },
   {
@@ -56510,7 +47410,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 207",
-   "price": 39.99,
+   "price": 53.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56525,11 +47425,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56542,7 +47437,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 209",
-   "price": 29.99,
+   "price": 31.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56561,11 +47456,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "22:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56578,7 +47468,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 921",
-   "price": 25.99,
+   "price": 33.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56593,11 +47483,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "00:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56625,11 +47510,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56642,7 +47522,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 517",
-   "price": 39.99,
+   "price": 44.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56657,11 +47537,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56674,7 +47549,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 107",
-   "price": 33.99,
+   "price": 51.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56689,11 +47564,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56706,7 +47576,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 519",
-   "price": 39.99,
+   "price": 51.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56721,11 +47591,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -56738,7 +47603,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 35.99,
+   "price": 39.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56753,11 +47618,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56770,7 +47630,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 104",
-   "price": 35.99,
+   "price": 51.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56789,11 +47649,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56821,11 +47676,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56838,7 +47688,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 108",
-   "price": 69.99,
+   "price": 61.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56853,11 +47703,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56870,7 +47715,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 45.99,
+   "price": 69.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56885,11 +47730,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56902,7 +47742,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 61.99,
+   "price": 53.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56917,11 +47757,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56949,11 +47784,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -56966,7 +47796,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 207",
-   "price": 29.99,
+   "price": 32.99,
    "durH": 2.3,
    "stops": [
     [
@@ -56981,11 +47811,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57013,11 +47838,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57045,11 +47865,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57077,11 +47892,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57109,11 +47919,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57126,7 +47931,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 519",
-   "price": 33.99,
+   "price": 35.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57141,11 +47946,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57158,7 +47958,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 26.99,
+   "price": 29.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57173,11 +47973,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57205,11 +48000,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57237,11 +48027,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57273,11 +48058,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57305,11 +48085,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57322,7 +48097,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 610",
-   "price": 61.99,
+   "price": 53.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57337,11 +48112,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57369,11 +48139,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57386,7 +48151,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 39.99,
+   "price": 33.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57401,11 +48166,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57418,7 +48178,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 2506",
-   "price": 36.99,
+   "price": 33.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57433,11 +48193,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57465,11 +48220,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57482,7 +48232,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 207",
-   "price": 27.99,
+   "price": 29.99,
    "durH": 2.3,
    "stops": [
     [
@@ -57497,11 +48247,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57529,11 +48274,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57565,11 +48305,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "22:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57597,11 +48332,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "00:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57629,11 +48359,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57661,11 +48386,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57693,11 +48413,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57725,11 +48440,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -57757,11 +48467,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57789,11 +48494,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57821,11 +48521,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57857,11 +48552,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57889,11 +48579,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57921,11 +48606,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57953,11 +48633,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -57985,11 +48660,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58017,11 +48687,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58049,11 +48714,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58081,11 +48741,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58113,11 +48768,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58149,11 +48799,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "22:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58181,11 +48826,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "00:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58213,11 +48853,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58245,11 +48880,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58277,11 +48907,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58309,11 +48934,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58341,11 +48961,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58373,11 +48988,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58405,11 +49015,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58441,11 +49046,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58473,11 +49073,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58490,7 +49085,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 610",
-   "price": 30.99,
+   "price": 39.99,
    "durH": 2.3,
    "stops": [
     [
@@ -58505,11 +49100,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58537,11 +49127,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58569,11 +49154,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58601,11 +49181,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58633,11 +49208,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58665,11 +49235,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58701,11 +49266,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "22:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58733,11 +49293,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "00:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58765,11 +49320,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58797,11 +49347,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58829,11 +49374,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58846,7 +49386,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 519",
-   "price": 33.99,
+   "price": 35.99,
    "durH": 2.3,
    "stops": [
     [
@@ -58861,11 +49401,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -58878,7 +49413,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 518",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 2.3,
    "stops": [
     [
@@ -58893,11 +49428,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58925,11 +49455,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58957,11 +49482,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -58993,11 +49513,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59010,7 +49525,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 35.99,
+   "price": 49.99,
    "durH": 2.3,
    "stops": [
     [
@@ -59025,11 +49540,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59057,11 +49567,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59089,11 +49594,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59121,11 +49621,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59153,11 +49648,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59185,11 +49675,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59217,11 +49702,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59253,11 +49733,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "22:35"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59285,11 +49760,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59317,11 +49787,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59334,7 +49799,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 107",
-   "price": 24.99,
+   "price": 26.99,
    "durH": 2.3,
    "stops": [
     [
@@ -59349,11 +49814,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "10:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59366,7 +49826,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Münster (Westf) Hbf",
    "trains": "ICE 519",
-   "price": 24.99,
+   "price": 26.99,
    "durH": 2.3,
    "stops": [
     [
@@ -59381,11 +49841,6 @@ window.BAHN_DATA = {
      "Osnabrück Hbf",
      "11:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    79.99
    ]
   },
   {
@@ -59413,11 +49868,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59430,7 +49880,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 106",
-   "price": 24.99,
+   "price": 19.99,
    "durH": 2.3,
    "stops": [
     [
@@ -59445,11 +49895,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59477,11 +49922,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59513,11 +49953,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:04"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59530,7 +49965,7 @@ window.BAHN_DATA = {
    "from": "Münster (Westf) Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 514",
-   "price": 19.99,
+   "price": 24.99,
    "durH": 2.3,
    "stops": [
     [
@@ -59545,11 +49980,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "00:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59577,11 +50007,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "18:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59609,11 +50034,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59641,11 +50061,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59673,11 +50088,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59705,11 +50115,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -59753,11 +50158,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "03:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -59801,11 +50201,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "04:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -59849,11 +50244,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "03:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -59901,11 +50291,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -59918,7 +50303,7 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 90",
-   "price": 69.99,
+   "price": 89.99,
    "durH": 5.7,
    "stops": [
     [
@@ -59957,11 +50342,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -59993,11 +50373,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "03:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60010,7 +50385,7 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 504",
-   "price": 79.99,
+   "price": 89.99,
    "durH": 5.3,
    "stops": [
     [
@@ -60045,11 +50420,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60101,11 +50471,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60149,11 +50514,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "03:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60201,11 +50561,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "19:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60257,11 +50612,6 @@ window.BAHN_DATA = {
      "Büchen",
      "21:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60305,11 +50655,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "21:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60353,11 +50698,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "22:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60393,11 +50733,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "01:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60441,11 +50776,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "03:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60489,11 +50819,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "09:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60537,11 +50862,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "10:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60585,11 +50905,6 @@ window.BAHN_DATA = {
      "Würzburg Hbf",
      "11:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    119.99
    ]
   },
   {
@@ -60633,11 +50948,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60681,11 +50991,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60729,11 +51034,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60777,11 +51077,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "19:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60825,11 +51120,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "20:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60842,7 +51132,7 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 784",
-   "price": 65.99,
+   "price": 56.99,
    "durH": 4.5,
    "stops": [
     [
@@ -60873,11 +51163,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "21:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60921,11 +51206,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60969,11 +51249,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:44"
     ]
-   ],
-   "low": true,
-   "rng": [
-    29.99,
-    135.99
    ]
   },
   {
@@ -60986,7 +51261,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 777",
-   "price": 89.99,
+   "price": 99.99,
    "durH": 5.7,
    "stops": [
     [
@@ -61017,11 +51292,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "00:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61089,11 +51359,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "02:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61106,7 +51371,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 575",
-   "price": 133.99,
+   "price": 149.99,
    "durH": 5.2,
    "stops": [
     [
@@ -61133,11 +51398,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61197,11 +51457,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61214,7 +51469,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 89.99,
+   "price": 149.99,
    "durH": 5.1,
    "stops": [
     [
@@ -61245,11 +51500,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61289,11 +51539,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61306,7 +51551,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 135.99,
+   "price": 119.99,
    "durH": 5.1,
    "stops": [
     [
@@ -61337,11 +51582,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61354,7 +51594,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 777",
-   "price": 39.99,
+   "price": 59.99,
    "durH": 5.4,
    "stops": [
     [
@@ -61381,11 +51621,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61457,11 +51692,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "02:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61501,11 +51731,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61518,7 +51743,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 517",
-   "price": 89.99,
+   "price": 75.99,
    "durH": 6.4,
    "stops": [
     [
@@ -61565,11 +51790,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61609,11 +51829,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61657,11 +51872,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61701,11 +51911,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61718,7 +51923,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 49.99,
+   "price": 69.99,
    "durH": 5.1,
    "stops": [
     [
@@ -61749,11 +51954,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -61797,11 +51997,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "00:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61814,7 +52009,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 619",
-   "price": 29.99,
+   "price": 39.99,
    "durH": 7.8,
    "stops": [
     [
@@ -61877,11 +52072,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "02:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61921,11 +52111,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -61938,7 +52123,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 517",
-   "price": 89.99,
+   "price": 75.99,
    "durH": 6.4,
    "stops": [
     [
@@ -61985,11 +52170,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62025,11 +52205,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "21:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62065,11 +52240,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "23:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62082,7 +52252,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 576",
-   "price": 89.99,
+   "price": 69.99,
    "durH": 5.1,
    "stops": [
     [
@@ -62109,11 +52279,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62126,7 +52291,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 49.99,
+   "price": 39.99,
    "durH": 5.3,
    "stops": [
     [
@@ -62149,11 +52314,6 @@ window.BAHN_DATA = {
      "Hannover Hbf",
      "23:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62193,11 +52353,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "00:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62210,7 +52365,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 619",
-   "price": 29.99,
+   "price": 39.99,
    "durH": 8.1,
    "stops": [
     [
@@ -62273,11 +52428,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "02:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62317,11 +52467,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62381,11 +52526,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62425,11 +52565,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62473,11 +52608,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62517,11 +52647,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62565,11 +52690,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62613,11 +52733,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "00:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62681,11 +52796,6 @@ window.BAHN_DATA = {
      "Heidelberg Hbf",
      "02:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62698,7 +52808,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 575",
-   "price": 39.99,
+   "price": 56.99,
    "durH": 5.2,
    "stops": [
     [
@@ -62725,11 +52835,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62789,11 +52894,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -62806,7 +52906,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 574",
-   "price": 29.99,
+   "price": 39.99,
    "durH": 5.1,
    "stops": [
     [
@@ -62833,11 +52933,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62850,7 +52945,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 572",
-   "price": 39.99,
+   "price": 56.99,
    "durH": 5.1,
    "stops": [
     [
@@ -62881,11 +52976,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62925,11 +53015,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -62973,11 +53058,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63017,11 +53097,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -63081,11 +53156,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "02:23"
     ]
-   ],
-   "low": true,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -63098,7 +53168,7 @@ window.BAHN_DATA = {
    "from": "Hamburg Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 575",
-   "price": 29.99,
+   "price": 39.99,
    "durH": 5.2,
    "stops": [
     [
@@ -63125,11 +53195,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -63189,11 +53254,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "13:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    149.99
    ]
   },
   {
@@ -63233,11 +53293,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63277,11 +53332,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63321,11 +53371,6 @@ window.BAHN_DATA = {
      "Celle",
      "19:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63365,11 +53410,6 @@ window.BAHN_DATA = {
      "Celle",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63409,11 +53449,6 @@ window.BAHN_DATA = {
      "Lüneburg",
      "00:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    135.99
    ]
   },
   {
@@ -63426,7 +53461,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1502",
-   "price": 100.99,
+   "price": 149.99,
    "durH": 4,
    "stops": [
     [
@@ -63445,11 +53480,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63462,7 +53492,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1000",
-   "price": 100.99,
+   "price": 149.99,
    "durH": 4.1,
    "stops": [
     [
@@ -63485,11 +53515,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63502,7 +53527,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1604",
-   "price": 76.99,
+   "price": 133.99,
    "durH": 4.1,
    "stops": [
     [
@@ -63521,11 +53546,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "10:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63538,7 +53558,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1102",
-   "price": 94.99,
+   "price": 133.99,
    "durH": 4.1,
    "stops": [
     [
@@ -63561,11 +53581,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "11:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63578,7 +53593,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1602",
-   "price": 101.99,
+   "price": 182.4,
    "durH": 4,
    "stops": [
     [
@@ -63597,11 +53612,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63614,7 +53624,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1100",
-   "price": 159.99,
+   "price": 175.99,
    "durH": 4.1,
    "stops": [
     [
@@ -63637,11 +53647,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63654,7 +53659,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 52.99,
+   "price": 55.99,
    "durH": 6.4,
    "stops": [
     [
@@ -63681,11 +53686,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63698,7 +53698,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1605",
-   "price": 45.99,
+   "price": 50.99,
    "durH": 6.5,
    "stops": [
     [
@@ -63725,11 +53725,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "01:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63781,11 +53776,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "07:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63798,7 +53788,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 103.99,
+   "price": 104.99,
    "durH": 6.4,
    "stops": [
     [
@@ -63825,11 +53815,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63842,7 +53827,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 61.99,
+   "price": 79.99,
    "durH": 6.4,
    "stops": [
     [
@@ -63869,11 +53854,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63913,11 +53893,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "02:09"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -63930,7 +53905,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1502",
-   "price": 79.99,
+   "price": 78.99,
    "durH": 4,
    "stops": [
     [
@@ -63949,11 +53924,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -63966,7 +53936,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1000",
-   "price": 84.99,
+   "price": 80.99,
    "durH": 4.1,
    "stops": [
     [
@@ -63989,11 +53959,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64006,7 +53971,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1602",
-   "price": 57.99,
+   "price": 58.99,
    "durH": 5.7,
    "stops": [
     [
@@ -64029,11 +53994,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64046,7 +54006,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1100",
-   "price": 62.99,
+   "price": 63.99,
    "durH": 5.8,
    "stops": [
     [
@@ -64073,11 +54033,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64090,7 +54045,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1600",
-   "price": 69.99,
+   "price": 76.99,
    "durH": 5.8,
    "stops": [
     [
@@ -64113,11 +54068,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "14:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64130,7 +54080,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1008",
-   "price": 68.99,
+   "price": 78.99,
    "durH": 5.8,
    "stops": [
     [
@@ -64157,11 +54107,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "15:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64174,7 +54119,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 50.99,
+   "price": 52.99,
    "durH": 6.4,
    "stops": [
     [
@@ -64201,11 +54146,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64218,7 +54158,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1605",
-   "price": 47.99,
+   "price": 48.99,
    "durH": 6.8,
    "stops": [
     [
@@ -64245,11 +54185,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "01:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64262,7 +54197,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 81.99,
+   "price": 85.99,
    "durH": 6.4,
    "stops": [
     [
@@ -64289,11 +54224,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64306,7 +54236,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1502",
-   "price": 78.99,
+   "price": 76.99,
    "durH": 4,
    "stops": [
     [
@@ -64325,11 +54255,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64365,11 +54290,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64382,7 +54302,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1604",
-   "price": 73.99,
+   "price": 75.99,
    "durH": 4.1,
    "stops": [
     [
@@ -64401,11 +54321,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "10:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64418,7 +54333,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1102",
-   "price": 79.99,
+   "price": 81.99,
    "durH": 4.1,
    "stops": [
     [
@@ -64441,11 +54356,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "11:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64458,7 +54368,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1602",
-   "price": 78.99,
+   "price": 79.99,
    "durH": 4,
    "stops": [
     [
@@ -64477,11 +54387,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64517,11 +54422,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64557,11 +54457,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64597,11 +54492,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64614,7 +54504,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1605",
-   "price": 62.99,
+   "price": 64.99,
    "durH": 4.6,
    "stops": [
     [
@@ -64637,11 +54527,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64654,7 +54539,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 98.99,
+   "price": 101.99,
    "durH": 4.1,
    "stops": [
     [
@@ -64673,11 +54558,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64690,7 +54570,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1103",
-   "price": 94.99,
+   "price": 95.99,
    "durH": 4.2,
    "stops": [
     [
@@ -64713,11 +54593,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64730,7 +54605,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 90.99,
+   "price": 94.99,
    "durH": 4.5,
    "stops": [
     [
@@ -64753,11 +54628,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64770,7 +54640,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1105",
-   "price": 77.99,
+   "price": 79.99,
    "durH": 5,
    "stops": [
     [
@@ -64793,11 +54663,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64833,11 +54698,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -64869,11 +54729,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64909,11 +54764,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64945,11 +54795,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "10:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -64962,7 +54807,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1102",
-   "price": 83.99,
+   "price": 84.99,
    "durH": 4.1,
    "stops": [
     [
@@ -64985,11 +54830,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "11:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65002,7 +54842,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1602",
-   "price": 79.99,
+   "price": 81.99,
    "durH": 4,
    "stops": [
     [
@@ -65021,11 +54861,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65061,11 +54896,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65078,7 +54908,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 71.99,
+   "price": 72.99,
    "durH": 4.5,
    "stops": [
     [
@@ -65101,11 +54931,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65118,7 +54943,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1105",
-   "price": 77.99,
+   "price": 78.99,
    "durH": 5,
    "stops": [
     [
@@ -65141,11 +54966,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65158,7 +54978,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1605",
-   "price": 61.99,
+   "price": 62.99,
    "durH": 4.6,
    "stops": [
     [
@@ -65181,11 +55001,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65198,7 +55013,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 99.99,
+   "price": 101.99,
    "durH": 4.1,
    "stops": [
     [
@@ -65217,11 +55032,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65257,11 +55067,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65274,7 +55079,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 78.99,
+   "price": 81.99,
    "durH": 4.5,
    "stops": [
     [
@@ -65297,11 +55102,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65337,11 +55137,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65377,11 +55172,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65413,11 +55203,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65453,11 +55238,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65470,7 +55250,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1604",
-   "price": 49.99,
+   "price": 51.99,
    "durH": 4.1,
    "stops": [
     [
@@ -65489,11 +55269,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "10:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65506,7 +55281,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1102",
-   "price": 81.99,
+   "price": 85.99,
    "durH": 4.1,
    "stops": [
     [
@@ -65529,11 +55304,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "11:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65546,7 +55316,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1602",
-   "price": 78.99,
+   "price": 82.99,
    "durH": 4,
    "stops": [
     [
@@ -65565,11 +55335,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65582,7 +55347,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Berlin Hbf",
    "trains": "ICE 1100",
-   "price": 64.99,
+   "price": 66.99,
    "durH": 4.1,
    "stops": [
     [
@@ -65605,11 +55370,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65622,7 +55382,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1603",
-   "price": 65.99,
+   "price": 66.99,
    "durH": 4.5,
    "stops": [
     [
@@ -65645,11 +55405,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65685,11 +55440,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65702,7 +55452,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1605",
-   "price": 55.99,
+   "price": 57.99,
    "durH": 4.6,
    "stops": [
     [
@@ -65725,11 +55475,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65742,7 +55487,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 92.99,
+   "price": 97.99,
    "durH": 4.1,
    "stops": [
     [
@@ -65761,11 +55506,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65801,11 +55541,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65841,11 +55576,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65858,7 +55588,7 @@ window.BAHN_DATA = {
    "from": "Berlin Hbf",
    "to": "München Hbf",
    "trains": "ICE 1105",
-   "price": 78.99,
+   "price": 79.99,
    "durH": 5,
    "stops": [
     [
@@ -65881,11 +55611,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65921,11 +55646,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "23:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -65957,11 +55677,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "22:15"
     ]
-   ],
-   "low": true,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -65997,11 +55712,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "23:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66033,11 +55743,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "00:15"
     ]
-   ],
-   "low": true,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66069,11 +55774,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "10:15"
     ]
-   ],
-   "low": true,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66109,11 +55809,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "11:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66145,11 +55840,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "12:15"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66185,11 +55875,6 @@ window.BAHN_DATA = {
      "Berlin Südkreuz",
      "13:15"
     ]
-   ],
-   "low": true,
-   "rng": [
-    39.99,
-    223.4
    ]
   },
   {
@@ -66221,11 +55906,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "20:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66261,11 +55941,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66301,11 +55976,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "23:56"
     ]
-   ],
-   "low": true,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66337,11 +56007,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66377,11 +56042,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66413,11 +56073,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "20:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66453,11 +56108,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66489,11 +56139,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "22:22"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    196.4
    ]
   },
   {
@@ -66506,7 +56151,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 524",
-   "price": 99.99,
+   "price": 115.99,
    "durH": 3.3,
    "stops": [
     [
@@ -66521,11 +56166,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -66561,11 +56201,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -66578,7 +56213,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 728",
-   "price": 72.99,
+   "price": 93.99,
    "durH": 3.3,
    "stops": [
     [
@@ -66593,11 +56228,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "09:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -66610,7 +56240,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 726",
-   "price": 81.99,
+   "price": 93.99,
    "durH": 3.3,
    "stops": [
     [
@@ -66625,11 +56255,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "10:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -66642,7 +56267,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 2090",
-   "price": 72.99,
+   "price": 81.99,
    "durH": 4,
    "stops": [
     [
@@ -66677,11 +56302,6 @@ window.BAHN_DATA = {
      "Darmstadt Hbf",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -66694,7 +56314,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2591",
-   "price": 65.99,
+   "price": 72.99,
    "durH": 3.4,
    "stops": [
     [
@@ -66717,11 +56337,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66734,7 +56349,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 725",
-   "price": 54.99,
+   "price": 65.99,
    "durH": 3.3,
    "stops": [
     [
@@ -66749,11 +56364,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66766,7 +56376,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 729",
-   "price": 59.99,
+   "price": 72.99,
    "durH": 3.9,
    "stops": [
     [
@@ -66781,11 +56391,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66798,7 +56403,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2589",
-   "price": 129.99,
+   "price": 115.99,
    "durH": 3.4,
    "stops": [
     [
@@ -66821,11 +56426,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66853,11 +56453,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66905,11 +56500,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "19:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66922,7 +56512,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 723",
-   "price": 115.99,
+   "price": 99.99,
    "durH": 3.3,
    "stops": [
     [
@@ -66937,11 +56527,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -66977,11 +56562,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67009,11 +56589,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67065,11 +56640,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67082,7 +56652,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 524",
-   "price": 53.99,
+   "price": 61.99,
    "durH": 3.3,
    "stops": [
     [
@@ -67097,11 +56667,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67114,7 +56679,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 590",
-   "price": 61.99,
+   "price": 67.99,
    "durH": 3.4,
    "stops": [
     [
@@ -67137,11 +56702,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "21:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67154,7 +56714,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 522",
-   "price": 53.99,
+   "price": 61.99,
    "durH": 3.3,
    "stops": [
     [
@@ -67177,11 +56737,6 @@ window.BAHN_DATA = {
      "Hanau Hbf",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67194,7 +56749,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 520",
-   "price": 39.99,
+   "price": 47.99,
    "durH": 3.9,
    "stops": [
     [
@@ -67209,11 +56764,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "23:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67249,11 +56799,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67289,11 +56834,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "09:07"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67306,7 +56846,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 728",
-   "price": 47.99,
+   "price": 51.99,
    "durH": 3.3,
    "stops": [
     [
@@ -67321,11 +56861,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "09:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67353,11 +56888,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "10:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67393,11 +56923,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "10:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67433,11 +56958,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67465,11 +56985,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67497,11 +57012,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67514,7 +57024,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2589",
-   "price": 115.99,
+   "price": 95.99,
    "durH": 3.4,
    "stops": [
     [
@@ -67537,11 +57047,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67554,7 +57059,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 721",
-   "price": 83.99,
+   "price": 74.99,
    "durH": 3.3,
    "stops": [
     [
@@ -67569,11 +57074,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67586,7 +57086,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 1291",
-   "price": 61.99,
+   "price": 53.99,
    "durH": 4,
    "stops": [
     [
@@ -67621,11 +57121,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "19:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67653,11 +57148,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67670,7 +57160,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2591",
-   "price": 95.99,
+   "price": 74.99,
    "durH": 3.4,
    "stops": [
     [
@@ -67693,11 +57183,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67725,11 +57210,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67781,11 +57261,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -67813,11 +57288,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67830,7 +57300,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 522",
-   "price": 47.99,
+   "price": 53.99,
    "durH": 3.3,
    "stops": [
     [
@@ -67853,11 +57323,6 @@ window.BAHN_DATA = {
      "Hanau Hbf",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67885,11 +57350,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "23:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67925,11 +57385,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:26"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -67973,11 +57428,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "02:56"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68005,11 +57455,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "09:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68037,11 +57482,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "10:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68089,11 +57529,6 @@ window.BAHN_DATA = {
      "Darmstadt Hbf",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68106,7 +57541,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2591",
-   "price": 35.99,
+   "price": 41.99,
    "durH": 3.4,
    "stops": [
     [
@@ -68129,11 +57564,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68161,11 +57591,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68193,11 +57618,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68233,11 +57653,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68250,7 +57665,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 721",
-   "price": 61.99,
+   "price": 67.99,
    "durH": 3.3,
    "stops": [
     [
@@ -68265,11 +57680,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68282,7 +57692,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 1291",
-   "price": 47.99,
+   "price": 53.99,
    "durH": 4,
    "stops": [
     [
@@ -68317,11 +57727,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "19:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68334,7 +57739,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 2591",
-   "price": 67.99,
+   "price": 61.99,
    "durH": 3.4,
    "stops": [
     [
@@ -68357,11 +57762,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68389,11 +57789,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68445,11 +57840,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68477,11 +57867,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68517,11 +57902,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "21:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68557,11 +57937,6 @@ window.BAHN_DATA = {
      "Hanau Hbf",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68589,11 +57964,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "23:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68629,11 +57999,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:26"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68677,11 +58042,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "02:57"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68709,11 +58069,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "09:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68741,11 +58096,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "10:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68793,11 +58143,6 @@ window.BAHN_DATA = {
      "Darmstadt Hbf",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -68833,11 +58178,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68865,11 +58205,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68897,11 +58232,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68929,11 +58259,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -68946,7 +58271,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 1291",
-   "price": 39.99,
+   "price": 47.99,
    "durH": 4,
    "stops": [
     [
@@ -68981,11 +58306,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "19:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69013,11 +58333,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69053,11 +58368,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69085,11 +58395,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69141,11 +58446,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69181,11 +58481,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "23:26"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -69198,7 +58493,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 1291",
-   "price": 39.99,
+   "price": 47.99,
    "durH": 4,
    "stops": [
     [
@@ -69233,11 +58528,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "19:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69289,11 +58579,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69321,11 +58606,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -69338,7 +58618,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Frankfurt (Main) Hbf",
    "trains": "ICE 522",
-   "price": 23.99,
+   "price": 29.99,
    "durH": 3.3,
    "stops": [
     [
@@ -69361,11 +58641,6 @@ window.BAHN_DATA = {
      "Hanau Hbf",
      "22:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -69397,11 +58672,6 @@ window.BAHN_DATA = {
      "Aschaffenburg Hbf",
      "23:34"
     ]
-   ],
-   "low": true,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -69437,11 +58707,6 @@ window.BAHN_DATA = {
      "Mannheim Hbf",
      "11:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    17.99,
-    133.99
    ]
   },
   {
@@ -69477,11 +58742,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69494,7 +58754,7 @@ window.BAHN_DATA = {
    "from": "Frankfurt (Main) Hbf",
    "to": "München Hbf",
    "trains": "ICE 691",
-   "price": 61.99,
+   "price": 67.99,
    "durH": 3.4,
    "stops": [
     [
@@ -69517,11 +58777,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    129.99
    ]
   },
   {
@@ -69534,7 +58789,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 1080",
-   "price": 179.99,
+   "price": 187.99,
    "durH": 8.4,
    "stops": [
     [
@@ -69573,11 +58828,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -69629,11 +58879,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "11:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -69685,11 +58930,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -69765,11 +59005,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -69821,11 +59056,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -69838,7 +59068,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 612",
-   "price": 105.99,
+   "price": 119.99,
    "durH": 8.8,
    "stops": [
     [
@@ -69901,11 +59131,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "16:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -69957,11 +59182,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70037,11 +59257,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70093,11 +59308,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70149,11 +59359,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "11:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70205,11 +59410,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70285,11 +59485,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70341,11 +59536,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70358,7 +59548,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Hamburg Hbf",
    "trains": "ICE 602",
-   "price": 65.99,
+   "price": 75.99,
    "durH": 6.6,
    "stops": [
     [
@@ -70397,11 +59587,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "11:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70441,11 +59626,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:31"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70521,11 +59701,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70577,11 +59752,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:46"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70633,11 +59803,6 @@ window.BAHN_DATA = {
      "Berlin Hbf",
      "11:29"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70689,11 +59854,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -70745,11 +59905,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "23:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70801,11 +59956,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "06:45"
     ]
-   ],
-   "low": true,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70857,11 +60007,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "11:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70909,11 +60054,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "12:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -70965,11 +60105,6 @@ window.BAHN_DATA = {
      "Hamburg-Harburg",
      "13:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    39.99,
-    179.99
    ]
   },
   {
@@ -71021,11 +60156,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "23:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71073,11 +60203,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71129,11 +60254,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "05:38"
     ]
-   ],
-   "low": true,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71181,11 +60301,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71237,11 +60352,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71289,11 +60399,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71345,11 +60450,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "23:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71397,11 +60497,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    135.99
    ]
   },
   {
@@ -71414,7 +60509,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "ICE 1205",
-   "price": 35.99,
+   "price": 41.99,
    "durH": 2.1,
    "stops": [
     [
@@ -71437,11 +60532,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71454,7 +60544,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "RJ 289",
-   "price": 19.99,
+   "price": 38.99,
    "durH": 2.2,
    "stops": [
     [
@@ -71477,11 +60567,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71517,11 +60602,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71557,11 +60637,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -71669,11 +60744,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -71709,11 +60779,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -71749,11 +60814,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -71766,7 +60826,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "ICE 1205",
-   "price": 26.99,
+   "price": 27.99,
    "durH": 2.1,
    "stops": [
     [
@@ -71789,11 +60849,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71829,11 +60884,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71846,7 +60896,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "RJ 1281",
-   "price": 43.99,
+   "price": 52.9,
    "durH": 1.9,
    "stops": [
     [
@@ -71869,11 +60919,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71909,11 +60954,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -71949,11 +60989,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -71989,11 +61024,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72029,11 +61059,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72069,11 +61094,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72086,7 +61106,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "ICE 1205",
-   "price": 19.99,
+   "price": 22.99,
    "durH": 2.1,
    "stops": [
     [
@@ -72109,11 +61129,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72149,11 +61164,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72189,11 +61199,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72229,11 +61234,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72269,11 +61269,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72309,11 +61304,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72349,11 +61339,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72389,11 +61374,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72429,11 +61409,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72469,11 +61444,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72486,7 +61456,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Innsbruck Hbf",
    "trains": "NJ 295",
-   "price": 44.9,
+   "price": 49.9,
    "durH": 3.7,
    "stops": [
     [
@@ -72497,11 +61467,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72537,11 +61502,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72577,11 +61537,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72617,11 +61572,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72657,11 +61607,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72697,11 +61642,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72737,11 +61677,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -72777,11 +61712,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72817,11 +61747,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72845,11 +61770,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72885,11 +61805,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72925,11 +61840,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -72965,11 +61875,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73001,11 +61906,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "21:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73041,11 +61941,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73081,11 +61976,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73121,11 +62011,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "20:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -73161,11 +62046,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "21:53"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -73189,11 +62069,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -73229,11 +62104,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "08:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -73269,11 +62139,6 @@ window.BAHN_DATA = {
      "Jenbach",
      "10:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    57.99
    ]
   },
   {
@@ -73309,11 +62174,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73349,11 +62209,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73389,11 +62244,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:26"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73429,11 +62279,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    62.2
    ]
   },
   {
@@ -73446,7 +62291,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 910",
-   "price": 105.99,
+   "price": 135.99,
    "durH": 4.2,
    "stops": [
     [
@@ -73473,11 +62318,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73490,7 +62330,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 524",
-   "price": 119.99,
+   "price": 135.99,
    "durH": 4.9,
    "stops": [
     [
@@ -73529,11 +62369,6 @@ window.BAHN_DATA = {
      "Köln/Bonn Flughafen",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73546,7 +62381,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 510",
-   "price": 79.99,
+   "price": 105.99,
    "durH": 4.7,
    "stops": [
     [
@@ -73577,11 +62412,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "23:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73621,11 +62451,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73638,7 +62463,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "München Hbf",
    "trains": "ICE 613",
-   "price": 75.99,
+   "price": 115.99,
    "durH": 4.6,
    "stops": [
     [
@@ -73665,11 +62490,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -73682,7 +62502,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "München Hbf",
    "trains": "ICE 611",
-   "price": 149.99,
+   "price": 135.99,
    "durH": 4.6,
    "stops": [
     [
@@ -73709,11 +62529,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -73753,11 +62568,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -73797,11 +62607,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -73814,7 +62619,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 522",
-   "price": 59.99,
+   "price": 69.99,
    "durH": 4.8,
    "stops": [
     [
@@ -73857,11 +62662,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "00:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73874,7 +62674,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 612",
-   "price": 99.99,
+   "price": 115.99,
    "durH": 4.6,
    "stops": [
     [
@@ -73901,11 +62701,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -73945,11 +62740,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -73989,11 +62779,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74006,7 +62791,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "München Hbf",
    "trains": "ICE 613",
-   "price": 119.99,
+   "price": 105.99,
    "durH": 4.6,
    "stops": [
     [
@@ -74033,11 +62818,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74050,7 +62830,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 910",
-   "price": 59.99,
+   "price": 69.99,
    "durH": 4.2,
    "stops": [
     [
@@ -74077,11 +62857,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74094,7 +62869,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 524",
-   "price": 49.99,
+   "price": 69.99,
    "durH": 4.9,
    "stops": [
     [
@@ -74133,11 +62908,6 @@ window.BAHN_DATA = {
      "Köln/Bonn Flughafen",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74181,11 +62951,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "23:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74225,11 +62990,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74269,11 +63029,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74313,11 +63068,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74330,7 +63080,7 @@ window.BAHN_DATA = {
    "from": "Köln Hbf",
    "to": "München Hbf",
    "trains": "ICE 613",
-   "price": 79.99,
+   "price": 59.99,
    "durH": 4.6,
    "stops": [
     [
@@ -74357,11 +63107,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74401,11 +63146,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74457,11 +63197,6 @@ window.BAHN_DATA = {
      "Köln/Bonn Flughafen",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74505,11 +63240,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "23:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74545,11 +63275,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "10:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74589,11 +63314,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -74633,11 +63353,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74677,11 +63392,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74717,11 +63427,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74761,11 +63466,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74805,11 +63505,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74845,11 +63540,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74889,11 +63579,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74933,11 +63618,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -74973,11 +63653,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75017,11 +63692,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75073,11 +63743,6 @@ window.BAHN_DATA = {
      "Köln/Bonn Flughafen",
      "23:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75121,11 +63786,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "23:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75177,11 +63837,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "00:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75217,11 +63872,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "10:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75234,7 +63884,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Köln Hbf",
    "trains": "ICE 612",
-   "price": 75.99,
+   "price": 89.99,
    "durH": 4.6,
    "stops": [
     [
@@ -75261,11 +63911,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75305,11 +63950,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75349,11 +63989,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75389,11 +64024,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75433,11 +64063,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "18:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75477,11 +64102,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75517,11 +64137,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "20:02"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75561,11 +64176,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75605,11 +64215,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75645,11 +64250,6 @@ window.BAHN_DATA = {
      "Nürnberg Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75705,11 +64305,6 @@ window.BAHN_DATA = {
      "Siegburg/Bonn",
      "00:16"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75749,11 +64344,6 @@ window.BAHN_DATA = {
      "Frankfurt(M) Flughafen Fernbf",
      "11:08"
     ]
-   ],
-   "low": false,
-   "rng": [
-    23.99,
-    219.2
    ]
   },
   {
@@ -75793,11 +64383,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75837,11 +64422,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75881,11 +64461,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    149.99
    ]
   },
   {
@@ -75898,18 +64473,13 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 782",
-   "price": 35.99,
+   "price": 68.99,
    "durH": 1.2,
    "stops": [
     [
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -75922,14 +64492,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1502",
-   "price": 35.99,
+   "price": 61.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -75941,14 +64506,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 524",
-   "price": 35.99,
+   "price": 61.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -75960,14 +64520,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 500",
-   "price": 35.99,
+   "price": 46.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -75979,54 +64534,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 582",
-   "price": 33.99,
+   "price": 61.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
-  },
-  {
-   "o": "München",
-   "c": "Nürnberg",
-   "dir": "out",
-   "win": "FRI",
-   "dep": "2026-07-31T21:04:00",
-   "arr": "2026-07-31T23:10:00",
-   "from": "München Hbf",
-   "to": "Nürnberg Hbf",
-   "trains": "4044",
-   "price": 31,
-   "durH": 2.1,
-   "stops": [
-    [
-     "Petershausen(Obb)",
-     "21:22"
-    ],
-    [
-     "Pfaffenhofen(Ilm)",
-     "21:31"
-    ],
-    [
-     "Rohrbach(Ilm)",
-     "21:38"
-    ],
-    [
-     "Ingolstadt Hbf",
-     "21:50"
-    ],
-    [
-     "Ingolstadt Nord",
-     "21:57"
-    ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76038,18 +64548,13 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1080",
-   "price": 50.99,
+   "price": 39.99,
    "durH": 1.9,
    "stops": [
     [
      "Ingolstadt Hbf",
      "22:51"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76062,18 +64567,13 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 886",
-   "price": 35.99,
+   "price": 14.99,
    "durH": 1.3,
    "stops": [
     [
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76086,14 +64586,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1604",
-   "price": 36.99,
+   "price": 28.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76105,14 +64600,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 728",
-   "price": 38.99,
+   "price": 14.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76124,14 +64614,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 602",
-   "price": 39.99,
+   "price": 14.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76143,14 +64628,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 684",
-   "price": 40.99,
+   "price": 28.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76162,14 +64642,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 629",
-   "price": 30.99,
+   "price": 38.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76181,18 +64656,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1009",
-   "price": 41.99,
+   "price": 46.99,
    "durH": 1.1,
    "stops": [
     [
      "Ingolstadt Hbf",
      "17:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76205,14 +64675,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 589",
-   "price": 30.99,
+   "price": 37.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76224,7 +64689,7 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1205",
-   "price": 32.99,
+   "price": 37.99,
    "durH": 1.7,
    "stops": [
     [
@@ -76235,11 +64700,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "18:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76252,14 +64712,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 721",
-   "price": 19.99,
+   "price": 36.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76271,14 +64726,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 725",
-   "price": 29.99,
+   "price": 37.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76321,11 +64771,6 @@ window.BAHN_DATA = {
      "Petershausen(Obb)",
      "21:37"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76338,18 +64783,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1601",
-   "price": 27.99,
+   "price": 35.99,
    "durH": 1.6,
    "stops": [
     [
      "Augsburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76362,18 +64802,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1103",
-   "price": 28.99,
+   "price": 36.99,
    "durH": 1.6,
    "stops": [
     [
      "Augsburg Hbf",
      "22:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76386,14 +64821,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 729",
-   "price": 34.99,
+   "price": 38.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76407,12 +64837,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 17.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76424,18 +64849,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1007",
-   "price": 46.99,
+   "price": 48.99,
    "durH": 1.1,
    "stops": [
     [
      "Ingolstadt Hbf",
      "15:43"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76450,12 +64870,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 28.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76467,14 +64882,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 627",
-   "price": 26.99,
+   "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76486,14 +64896,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1507",
-   "price": 37.99,
+   "price": 39.99,
    "durH": 1.1,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76507,12 +64912,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 28.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76535,11 +64935,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "18:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76554,12 +64949,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76571,14 +64961,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1509",
-   "price": 18.99,
+   "price": 38.99,
    "durH": 1.1,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76597,11 +64982,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76614,18 +64994,13 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 782",
-   "price": 29.99,
+   "price": 30.99,
    "durH": 1.2,
    "stops": [
     [
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76640,12 +65015,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1502",
    "price": 31.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76659,12 +65029,7 @@ window.BAHN_DATA = {
    "trains": "ICE 500",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76676,14 +65041,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 524",
-   "price": 20.99,
+   "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76697,12 +65057,7 @@ window.BAHN_DATA = {
    "trains": "ICE 582",
    "price": 17.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76737,11 +65092,6 @@ window.BAHN_DATA = {
      "Ingolstadt Nord",
      "21:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76754,18 +65104,13 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1080",
-   "price": 44.99,
+   "price": 46.99,
    "durH": 2.1,
    "stops": [
     [
      "Ingolstadt Hbf",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76785,11 +65130,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76802,14 +65142,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1602",
-   "price": 21.99,
+   "price": 22.99,
    "durH": 1.1,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76823,12 +65158,7 @@ window.BAHN_DATA = {
    "trains": "ICE 728",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76840,14 +65170,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 684",
-   "price": 14.99,
+   "price": 27.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76866,11 +65191,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "08:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -76885,12 +65205,7 @@ window.BAHN_DATA = {
    "trains": "ICE 629",
    "price": 25.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76909,11 +65224,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "17:43"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76928,12 +65238,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 26.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76956,11 +65261,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "18:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -76973,14 +65273,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 721",
-   "price": 24.99,
+   "price": 20.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -76994,12 +65289,7 @@ window.BAHN_DATA = {
    "trains": "ICE 725",
    "price": 22.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77042,11 +65332,6 @@ window.BAHN_DATA = {
      "Petershausen(Obb)",
      "21:37"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77066,11 +65351,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:32"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77090,11 +65370,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "22:30"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77107,14 +65382,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 729",
-   "price": 21.99,
+   "price": 23.99,
    "durH": 1.8,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77128,12 +65398,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 22.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77152,11 +65417,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "15:43"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77171,12 +65431,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 28.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77190,12 +65445,7 @@ window.BAHN_DATA = {
    "trains": "ICE 627",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77209,12 +65459,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1507",
    "price": 37.99,
    "durH": 1.1,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77228,12 +65473,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 26.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77256,11 +65496,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "18:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77275,12 +65510,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 23.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77294,12 +65524,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1509",
    "price": 18.99,
    "durH": 1.1,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77318,11 +65543,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77342,11 +65562,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -77361,12 +65576,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1502",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77380,12 +65590,7 @@ window.BAHN_DATA = {
    "trains": "ICE 524",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77399,12 +65604,7 @@ window.BAHN_DATA = {
    "trains": "ICE 500",
    "price": 27.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77418,12 +65618,7 @@ window.BAHN_DATA = {
    "trains": "ICE 582",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77458,11 +65653,6 @@ window.BAHN_DATA = {
      "Ingolstadt Nord",
      "21:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -77482,11 +65672,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -77506,11 +65691,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -77523,14 +65703,9 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Nürnberg Hbf",
    "trains": "ICE 1604",
-   "price": 18.99,
+   "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77544,12 +65719,7 @@ window.BAHN_DATA = {
    "trains": "ICE 728",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77563,12 +65733,7 @@ window.BAHN_DATA = {
    "trains": "ICE 602",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77582,12 +65747,7 @@ window.BAHN_DATA = {
    "trains": "ICE 684",
    "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77601,12 +65761,7 @@ window.BAHN_DATA = {
    "trains": "ICE 629",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77625,11 +65780,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77644,12 +65794,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 25.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77663,12 +65808,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77682,12 +65822,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77701,12 +65836,7 @@ window.BAHN_DATA = {
    "trains": "ICE 725",
    "price": 17.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77749,11 +65879,6 @@ window.BAHN_DATA = {
      "Petershausen(Obb)",
      "21:37"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77773,11 +65898,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77797,11 +65917,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:14"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77821,11 +65936,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77840,12 +65950,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77864,11 +65969,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "15:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -77883,12 +65983,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 32.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77902,12 +65997,7 @@ window.BAHN_DATA = {
    "trains": "ICE 509",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77921,12 +66011,7 @@ window.BAHN_DATA = {
    "trains": "ICE 627",
    "price": 25.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77940,12 +66025,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77959,12 +66039,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 22.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77978,12 +66053,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -77997,12 +66067,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1601",
    "price": 32.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78021,11 +66086,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78045,11 +66105,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78064,12 +66119,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1502",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78083,12 +66133,7 @@ window.BAHN_DATA = {
    "trains": "ICE 524",
    "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78102,12 +66147,7 @@ window.BAHN_DATA = {
    "trains": "ICE 500",
    "price": 24.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78121,12 +66161,7 @@ window.BAHN_DATA = {
    "trains": "ICE 582",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78145,11 +66180,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:44"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78169,11 +66199,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78188,12 +66213,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1604",
    "price": 17.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78207,12 +66227,7 @@ window.BAHN_DATA = {
    "trains": "ICE 728",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78226,12 +66241,7 @@ window.BAHN_DATA = {
    "trains": "ICE 602",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78245,12 +66255,7 @@ window.BAHN_DATA = {
    "trains": "ICE 684",
    "price": 14.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78264,12 +66269,7 @@ window.BAHN_DATA = {
    "trains": "ICE 629",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78288,11 +66288,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78307,12 +66302,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 23.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78326,12 +66316,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 23.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78343,14 +66328,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 721",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78364,12 +66344,7 @@ window.BAHN_DATA = {
    "trains": "ICE 725",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78412,11 +66387,6 @@ window.BAHN_DATA = {
      "Petershausen(Obb)",
      "21:37"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78436,11 +66406,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78460,11 +66425,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:14"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78484,11 +66444,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78503,12 +66458,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78527,11 +66477,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "15:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78546,12 +66491,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 32.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78565,12 +66505,7 @@ window.BAHN_DATA = {
    "trains": "ICE 509",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78584,12 +66519,7 @@ window.BAHN_DATA = {
    "trains": "ICE 627",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78603,12 +66533,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 32.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78622,12 +66547,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78641,12 +66561,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78660,12 +66575,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1601",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78684,11 +66594,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -78708,11 +66613,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78727,12 +66627,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1502",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78746,12 +66641,7 @@ window.BAHN_DATA = {
    "trains": "ICE 524",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78765,12 +66655,7 @@ window.BAHN_DATA = {
    "trains": "ICE 500",
    "price": 24.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78784,12 +66669,7 @@ window.BAHN_DATA = {
    "trains": "ICE 582",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78824,11 +66704,6 @@ window.BAHN_DATA = {
      "Ingolstadt Nord",
      "21:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78848,11 +66723,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:44"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78872,11 +66742,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -78891,12 +66756,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1604",
    "price": 17.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78910,12 +66770,7 @@ window.BAHN_DATA = {
    "trains": "ICE 728",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78929,12 +66784,7 @@ window.BAHN_DATA = {
    "trains": "ICE 602",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78948,12 +66798,7 @@ window.BAHN_DATA = {
    "trains": "ICE 684",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78965,14 +66810,9 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 629",
-   "price": 17.99,
+   "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -78991,11 +66831,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79010,12 +66845,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 23.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79029,12 +66859,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 18.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79048,12 +66873,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79067,12 +66887,7 @@ window.BAHN_DATA = {
    "trains": "ICE 725",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79115,11 +66930,6 @@ window.BAHN_DATA = {
      "Petershausen(Obb)",
      "21:37"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79139,11 +66949,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "21:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79163,11 +66968,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:14"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79187,11 +66987,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "22:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79206,12 +67001,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 32.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79223,18 +67013,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1009",
-   "price": 32.99,
+   "price": 33.99,
    "durH": 1.3,
    "stops": [
     [
      "Ingolstadt Hbf",
      "15:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79249,12 +67034,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79268,12 +67048,7 @@ window.BAHN_DATA = {
    "trains": "ICE 509",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79287,12 +67062,7 @@ window.BAHN_DATA = {
    "trains": "ICE 627",
    "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79306,12 +67076,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 32.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79325,12 +67090,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 32.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79344,12 +67104,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79363,12 +67118,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1601",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79387,11 +67137,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79411,11 +67156,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "18:54"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -79430,12 +67170,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1502",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79449,12 +67184,7 @@ window.BAHN_DATA = {
    "trains": "ICE 524",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79468,12 +67198,7 @@ window.BAHN_DATA = {
    "trains": "ICE 500",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79487,12 +67212,7 @@ window.BAHN_DATA = {
    "trains": "ICE 582",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79511,11 +67231,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:27"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -79530,12 +67245,7 @@ window.BAHN_DATA = {
    "trains": "ICE 908",
    "price": 17.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79578,11 +67288,6 @@ window.BAHN_DATA = {
      "Allersberg(Rothsee)",
      "22:28"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -79602,11 +67307,6 @@ window.BAHN_DATA = {
      "Augsburg Hbf",
      "22:46"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -79626,11 +67326,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
    ]
   },
   {
@@ -79645,12 +67340,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1604",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79664,12 +67354,7 @@ window.BAHN_DATA = {
    "trains": "ICE 728",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79683,12 +67368,7 @@ window.BAHN_DATA = {
    "trains": "ICE 602",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79702,12 +67382,7 @@ window.BAHN_DATA = {
    "trains": "ICE 684",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    69.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79721,12 +67396,7 @@ window.BAHN_DATA = {
    "trains": "ICE 629",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79738,18 +67408,13 @@ window.BAHN_DATA = {
    "from": "Nürnberg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1101",
-   "price": 23.99,
+   "price": 25.99,
    "durH": 1.3,
    "stops": [
     [
      "Ingolstadt Hbf",
      "17:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79764,12 +67429,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 23.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79783,12 +67443,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 6.99,
    "durH": 1.2,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79802,12 +67457,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 19.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79821,12 +67471,7 @@ window.BAHN_DATA = {
    "trains": "ICE 725",
    "price": 17.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79840,12 +67485,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1603",
    "price": 6.99,
    "durH": 1.3,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79864,11 +67504,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:03"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79888,11 +67523,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:28"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79912,11 +67542,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "21:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79931,12 +67556,7 @@ window.BAHN_DATA = {
    "trains": "ICE 625",
    "price": 24.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79955,11 +67575,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "15:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -79974,12 +67589,7 @@ window.BAHN_DATA = {
    "trains": "ICE 587",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -79993,12 +67603,7 @@ window.BAHN_DATA = {
    "trains": "ICE 509",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80012,12 +67617,7 @@ window.BAHN_DATA = {
    "trains": "ICE 627",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80031,12 +67631,7 @@ window.BAHN_DATA = {
    "trains": "ICE 589",
    "price": 29.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80050,12 +67645,7 @@ window.BAHN_DATA = {
    "trains": "ICE 601",
    "price": 27.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80069,12 +67659,7 @@ window.BAHN_DATA = {
    "trains": "ICE 721",
    "price": 29.99,
    "durH": 1.2,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80088,12 +67673,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1601",
    "price": 27.99,
    "durH": 1.3,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -80112,11 +67692,6 @@ window.BAHN_DATA = {
      "Ingolstadt Hbf",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.99
    ]
   },
   {
@@ -80176,11 +67751,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80236,11 +67806,6 @@ window.BAHN_DATA = {
      "Freising",
      "20:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80300,11 +67865,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80360,11 +67920,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "10:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80420,11 +67975,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "12:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80484,11 +68034,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80544,11 +68089,6 @@ window.BAHN_DATA = {
      "Freising",
      "20:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80608,11 +68148,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80668,11 +68203,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "10:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80728,11 +68258,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "12:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80792,11 +68317,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80852,11 +68372,6 @@ window.BAHN_DATA = {
      "Freising",
      "20:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80916,11 +68431,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -80976,11 +68486,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "10:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -81036,11 +68541,6 @@ window.BAHN_DATA = {
      "Plzen hl.n.",
      "12:47"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -81100,11 +68600,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -81160,11 +68655,6 @@ window.BAHN_DATA = {
      "Freising",
      "20:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -81224,11 +68714,6 @@ window.BAHN_DATA = {
      "Freising",
      "22:50"
     ]
-   ],
-   "low": true,
-   "rng": [
-    55.0,
-    55.0
    ]
   },
   {
@@ -81241,7 +68726,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "EC 213",
-   "price": 23.99,
+   "price": 33.99,
    "durH": 1.7,
    "stops": [
     [
@@ -81256,11 +68741,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81273,7 +68753,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "IC 406",
-   "price": 39.99,
+   "price": 49.9,
    "durH": 2,
    "stops": [
     [
@@ -81284,11 +68764,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81348,11 +68823,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81365,7 +68835,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJ 1293",
-   "price": 14.99,
+   "price": 32.99,
    "durH": 1.8,
    "stops": [
     [
@@ -81388,11 +68858,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81448,11 +68913,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81512,11 +68972,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81588,11 +69043,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "23:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81664,11 +69114,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81681,7 +69126,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJ 1297",
-   "price": 18.99,
+   "price": 14.99,
    "durH": 2,
    "stops": [
     [
@@ -81704,11 +69149,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:39"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81732,11 +69172,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81796,11 +69231,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81820,11 +69250,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81880,11 +69305,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -81897,14 +69317,9 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJX 64",
-   "price": 33.99,
+   "price": 29.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -81959,11 +69374,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -81995,11 +69405,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82014,12 +69419,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 19.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -82078,11 +69478,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82118,11 +69513,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82194,11 +69584,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82218,11 +69603,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82294,11 +69674,6 @@ window.BAHN_DATA = {
      "München Ost",
      "23:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82311,14 +69686,9 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJX 62",
-   "price": 55,
+   "price": 39.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -82373,11 +69743,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82390,7 +69755,7 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "EC 114",
-   "price": 36.99,
+   "price": 33.99,
    "durH": 1.7,
    "stops": [
     [
@@ -82405,11 +69770,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82469,11 +69829,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82486,7 +69841,7 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJ 112",
-   "price": 26.99,
+   "price": 29.99,
    "durH": 1.8,
    "stops": [
     [
@@ -82505,11 +69860,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82522,14 +69872,9 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "ICE 1212",
-   "price": 26.99,
+   "price": 29.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -82588,11 +69933,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -82620,11 +69960,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82637,7 +69972,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "IC 406",
-   "price": 31.99,
+   "price": 35.99,
    "durH": 2,
    "stops": [
     [
@@ -82648,11 +69983,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82712,11 +70042,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82729,7 +70054,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJ 1293",
-   "price": 18.99,
+   "price": 21.99,
    "durH": 1.8,
    "stops": [
     [
@@ -82752,11 +70077,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82812,11 +70132,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82876,11 +70191,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -82952,11 +70262,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "23:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83028,11 +70333,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83068,11 +70368,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:39"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83085,7 +70380,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJX 265",
-   "price": 6.99,
+   "price": 12.99,
    "durH": 1.9,
    "stops": [
     [
@@ -83096,11 +70391,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83160,11 +70450,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83184,11 +70469,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83244,11 +70524,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -83263,12 +70538,7 @@ window.BAHN_DATA = {
    "trains": "RJX 64",
    "price": 29.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -83323,11 +70593,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83359,11 +70624,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83378,12 +70638,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 18.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -83442,11 +70697,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83482,11 +70732,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83558,11 +70803,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83582,11 +70822,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83658,11 +70893,6 @@ window.BAHN_DATA = {
      "München Ost",
      "23:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83677,12 +70907,7 @@ window.BAHN_DATA = {
    "trains": "RJX 62",
    "price": 52,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -83737,11 +70962,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83754,7 +70974,7 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "EC 114",
-   "price": 36.99,
+   "price": 32.99,
    "durH": 1.7,
    "stops": [
     [
@@ -83769,11 +70989,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83833,11 +71048,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83850,7 +71060,7 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJ 112",
-   "price": 24.99,
+   "price": 26.99,
    "durH": 1.8,
    "stops": [
     [
@@ -83869,11 +71079,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83888,12 +71093,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 26.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -83952,11 +71152,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -83969,7 +71164,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "EC 213",
-   "price": 12.99,
+   "price": 18.99,
    "durH": 1.7,
    "stops": [
     [
@@ -83984,11 +71179,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84001,7 +71191,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "IC 406",
-   "price": 29.99,
+   "price": 31.99,
    "durH": 2,
    "stops": [
     [
@@ -84012,11 +71202,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84076,11 +71261,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84093,7 +71273,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJ 1293",
-   "price": 14.99,
+   "price": 18.99,
    "durH": 1.8,
    "stops": [
     [
@@ -84116,11 +71296,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84176,11 +71351,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84240,11 +71410,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84316,11 +71481,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "23:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84392,11 +71552,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84432,11 +71587,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:39"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84449,7 +71599,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Salzburg Hbf",
    "trains": "RJX 265",
-   "price": 6.99,
+   "price": 12.99,
    "durH": 1.9,
    "stops": [
     [
@@ -84460,11 +71610,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84524,11 +71669,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84548,11 +71688,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84608,11 +71743,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -84627,12 +71757,7 @@ window.BAHN_DATA = {
    "trains": "RJX 64",
    "price": 26.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -84687,11 +71812,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84723,11 +71843,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84742,12 +71857,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 12.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -84782,11 +71892,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84858,11 +71963,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84882,11 +71982,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84899,14 +71994,9 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJX 62",
-   "price": 35.99,
+   "price": 50.5,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -84961,11 +72051,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -84993,11 +72078,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85057,11 +72137,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85074,7 +72149,7 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJ 112",
-   "price": 23.99,
+   "price": 21.99,
    "durH": 1.8,
    "stops": [
     [
@@ -85093,11 +72168,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85112,12 +72182,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 24.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -85176,11 +72241,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85208,11 +72268,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85236,11 +72291,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85300,11 +72350,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85340,11 +72385,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85400,11 +72440,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85464,11 +72499,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85540,11 +72570,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "23:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85616,11 +72641,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85644,11 +72664,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85708,11 +72723,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85732,11 +72742,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85792,11 +72797,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -85811,12 +72811,7 @@ window.BAHN_DATA = {
    "trains": "RJX 64",
    "price": 24.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -85871,11 +72866,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85907,11 +72897,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -85926,12 +72911,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 6.99,
    "durH": 1.9,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -85990,11 +72970,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86030,11 +73005,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86106,11 +73076,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86130,11 +73095,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86206,11 +73166,6 @@ window.BAHN_DATA = {
      "München Ost",
      "23:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86225,12 +73180,7 @@ window.BAHN_DATA = {
    "trains": "RJX 62",
    "price": 35.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -86285,11 +73235,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86317,11 +73262,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86381,11 +73321,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86417,11 +73352,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86436,12 +73366,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 24.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -86500,11 +73425,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -86532,11 +73452,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86560,11 +73475,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86624,11 +73534,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86664,11 +73569,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86724,11 +73624,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86788,11 +73683,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86864,11 +73754,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "23:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86940,11 +73825,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -86980,11 +73860,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:39"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87008,11 +73883,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87072,11 +73942,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87096,11 +73961,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87156,11 +74016,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87173,14 +74028,9 @@ window.BAHN_DATA = {
    "from": "Salzburg Hbf",
    "to": "München Hbf",
    "trains": "RJX 64",
-   "price": 18.99,
+   "price": 19.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -87235,11 +74085,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87271,11 +74116,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87290,12 +74130,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 6.99,
    "durH": 1.9,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -87354,11 +74189,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87390,11 +74220,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "21:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87466,11 +74291,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87490,11 +74310,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87566,11 +74381,6 @@ window.BAHN_DATA = {
      "München Ost",
      "23:10"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87585,12 +74395,7 @@ window.BAHN_DATA = {
    "trains": "RJX 62",
    "price": 32.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -87645,11 +74450,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87677,11 +74477,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87741,11 +74536,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87777,11 +74567,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87796,12 +74581,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 23.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -87860,11 +74640,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -87892,11 +74667,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "19:50"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87920,11 +74690,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:13"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -87984,11 +74749,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88024,11 +74784,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "20:52"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88084,11 +74839,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "21:33"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88148,11 +74898,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "22:36"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88188,11 +74933,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "00:39"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88216,11 +74956,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "06:55"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88280,11 +75015,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "08:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88304,11 +75034,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88364,11 +75089,6 @@ window.BAHN_DATA = {
      "Freilassing",
      "09:34"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    51.1
    ]
   },
   {
@@ -88383,12 +75103,7 @@ window.BAHN_DATA = {
    "trains": "RJX 64",
    "price": 19.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -88443,11 +75158,6 @@ window.BAHN_DATA = {
      "München Ost",
      "19:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88479,11 +75189,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88498,12 +75203,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 6.99,
    "durH": 1.9,
-   "stops": [],
-   "low": true,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -88562,11 +75262,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88602,11 +75297,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88678,11 +75368,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88702,11 +75387,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88721,12 +75401,7 @@ window.BAHN_DATA = {
    "trains": "RJX 62",
    "price": 34.99,
    "durH": 1.7,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -88781,11 +75456,6 @@ window.BAHN_DATA = {
      "München Ost",
      "17:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88813,11 +75483,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "16:59"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88877,11 +75542,6 @@ window.BAHN_DATA = {
      "München Ost",
      "18:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88913,11 +75573,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "19:01"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -88932,12 +75587,7 @@ window.BAHN_DATA = {
    "trains": "ICE 1212",
    "price": 21.99,
    "durH": 1.9,
-   "stops": [],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
-   ]
+   "stops": []
   },
   {
    "o": "München",
@@ -88996,11 +75646,6 @@ window.BAHN_DATA = {
      "München Ost",
      "20:11"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    55.0
    ]
   },
   {
@@ -89013,7 +75658,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 590",
-   "price": 44.99,
+   "price": 51.99,
    "durH": 2,
    "stops": [
     [
@@ -89028,11 +75673,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89045,7 +75685,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 510",
-   "price": 35.99,
+   "price": 51.99,
    "durH": 2.3,
    "stops": [
     [
@@ -89060,11 +75700,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89092,11 +75727,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89109,7 +75739,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 1060",
-   "price": 27.99,
+   "price": 29.99,
    "durH": 1.9,
    "stops": [
     [
@@ -89124,11 +75754,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89156,11 +75781,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89173,7 +75793,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 2592",
-   "price": 26.99,
+   "price": 29.99,
    "durH": 2,
    "stops": [
     [
@@ -89188,11 +75808,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89205,7 +75820,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 612",
-   "price": 31.99,
+   "price": 39.99,
    "durH": 2.3,
    "stops": [
     [
@@ -89220,11 +75835,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89252,11 +75862,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89284,11 +75889,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89301,7 +75901,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 613",
-   "price": 24.99,
+   "price": 31.99,
    "durH": 2.2,
    "stops": [
     [
@@ -89316,11 +75916,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89333,7 +75928,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2593",
-   "price": 29.99,
+   "price": 24.99,
    "durH": 2,
    "stops": [
     [
@@ -89348,11 +75943,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89365,7 +75955,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 615",
-   "price": 19.99,
+   "price": 26.99,
    "durH": 2.2,
    "stops": [
     [
@@ -89380,11 +75970,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89412,11 +75997,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89444,11 +76024,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89476,11 +76051,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89508,11 +76078,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89525,7 +76090,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 510",
-   "price": 27.99,
+   "price": 32.99,
    "durH": 2.3,
    "stops": [
     [
@@ -89540,11 +76105,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89572,11 +76132,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89604,11 +76159,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89636,11 +76186,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89668,11 +76213,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:38"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89700,11 +76240,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -89732,11 +76267,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89764,11 +76294,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89796,11 +76321,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89813,7 +76333,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2593",
-   "price": 17.99,
+   "price": 19.99,
    "durH": 2,
    "stops": [
     [
@@ -89828,11 +76348,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:12"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89860,11 +76375,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89877,7 +76387,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2587",
-   "price": 39.99,
+   "price": 35.99,
    "durH": 2,
    "stops": [
     [
@@ -89892,11 +76402,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89924,11 +76429,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89956,11 +76456,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -89988,11 +76483,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "21:05"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90005,7 +76495,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 590",
-   "price": 29.99,
+   "price": 32.99,
    "durH": 2,
    "stops": [
     [
@@ -90020,11 +76510,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90052,11 +76537,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90084,11 +76564,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90116,11 +76591,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90148,11 +76618,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90180,11 +76645,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90197,7 +76657,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 612",
-   "price": 17.99,
+   "price": 19.99,
    "durH": 2.3,
    "stops": [
     [
@@ -90212,11 +76672,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90229,7 +76684,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2589",
-   "price": 19.99,
+   "price": 6.99,
    "durH": 1.9,
    "stops": [
     [
@@ -90244,11 +76699,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90276,11 +76726,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90308,11 +76753,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90340,11 +76780,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90372,11 +76807,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90389,7 +76819,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2587",
-   "price": 29.99,
+   "price": 24.99,
    "durH": 2,
    "stops": [
     [
@@ -90404,11 +76834,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90436,11 +76861,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90468,11 +76888,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90500,11 +76915,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90532,11 +76942,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90564,11 +76969,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90596,11 +76996,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90628,11 +77023,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90660,11 +77050,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:57"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90692,11 +77077,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -90709,7 +77089,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2589",
-   "price": 19.99,
+   "price": 23.99,
    "durH": 1.9,
    "stops": [
     [
@@ -90724,11 +77104,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90756,11 +77131,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90788,11 +77158,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90820,11 +77185,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90852,11 +77212,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90884,11 +77239,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90916,11 +77266,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90948,11 +77293,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -90980,11 +77320,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91012,11 +77347,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91044,11 +77374,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91076,11 +77401,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91108,11 +77428,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91125,7 +77440,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 2592",
-   "price": 17.99,
+   "price": 6.99,
    "durH": 2,
    "stops": [
     [
@@ -91140,11 +77455,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91157,7 +77467,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 612",
-   "price": 17.99,
+   "price": 6.99,
    "durH": 2.3,
    "stops": [
     [
@@ -91172,11 +77482,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91189,7 +77494,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 2589",
-   "price": 19.99,
+   "price": 23.99,
    "durH": 1.9,
    "stops": [
     [
@@ -91204,11 +77509,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91221,7 +77521,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 611",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 2.3,
    "stops": [
     [
@@ -91236,11 +77536,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91253,7 +77548,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 613",
-   "price": 6.99,
+   "price": 19.99,
    "durH": 2.2,
    "stops": [
     [
@@ -91268,11 +77563,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91300,11 +77590,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:27"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91332,11 +77617,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91364,11 +77644,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91396,11 +77671,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91428,11 +77698,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91460,11 +77725,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "19:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91492,11 +77752,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "20:45"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91524,11 +77779,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "21:58"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91541,7 +77791,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Stuttgart Hbf",
    "trains": "ICE 1060",
-   "price": 6.99,
+   "price": 78.7,
    "durH": 1.9,
    "stops": [
     [
@@ -91556,11 +77806,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:00"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91588,11 +77833,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "23:58"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91620,11 +77860,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "07:57"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91652,11 +77887,6 @@ window.BAHN_DATA = {
      "Ulm Hbf",
      "08:45"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    107.99
    ]
   },
   {
@@ -91684,11 +77914,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "19:03"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91716,11 +77941,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91748,11 +77968,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "22:20"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91780,11 +77995,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "23:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91812,11 +78022,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "00:19"
     ]
-   ],
-   "low": true,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91844,11 +78049,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "17:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91876,11 +78076,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "18:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91893,7 +78088,7 @@ window.BAHN_DATA = {
    "from": "Stuttgart Hbf",
    "to": "München Hbf",
    "trains": "ICE 611",
-   "price": 24.99,
+   "price": 27.99,
    "durH": 2.3,
    "stops": [
     [
@@ -91908,11 +78103,6 @@ window.BAHN_DATA = {
      "München-Pasing",
      "20:20"
     ]
-   ],
-   "low": false,
-   "rng": [
-    6.99,
-    59.99
    ]
   },
   {
@@ -91992,11 +78182,6 @@ window.BAHN_DATA = {
      "Venezia Mestre",
      "14:13"
     ]
-   ],
-   "low": true,
-   "rng": [
-    115.99,
-    115.99
    ]
   },
   {
@@ -92076,11 +78261,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    73.99,
-    99.99
    ]
   },
   {
@@ -92160,11 +78340,6 @@ window.BAHN_DATA = {
      "Venezia Mestre",
      "14:13"
     ]
-   ],
-   "low": true,
-   "rng": [
-    115.99,
-    115.99
    ]
   },
   {
@@ -92244,11 +78419,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    73.99,
-    99.99
    ]
   },
   {
@@ -92328,11 +78498,6 @@ window.BAHN_DATA = {
      "Venezia Mestre",
      "14:13"
     ]
-   ],
-   "low": true,
-   "rng": [
-    115.99,
-    115.99
    ]
   },
   {
@@ -92412,11 +78577,6 @@ window.BAHN_DATA = {
      "München Ost",
      "22:24"
     ]
-   ],
-   "low": false,
-   "rng": [
-    73.99,
-    99.99
    ]
   },
   {
@@ -92429,7 +78589,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Wien Hbf",
    "trains": "EC 1219",
-   "price": 75.99,
+   "price": 107.99,
    "durH": 4.4,
    "stops": [
     [
@@ -92460,11 +78620,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92477,7 +78632,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Wien Hbf",
    "trains": "IC 406",
-   "price": 115.99,
+   "price": 73.99,
    "durH": 4.8,
    "stops": [
     [
@@ -92508,11 +78663,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92552,11 +78702,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92592,11 +78737,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92628,11 +78768,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92676,11 +78811,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92716,11 +78846,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92733,7 +78858,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "ICE 1212",
-   "price": 67.99,
+   "price": 74.99,
    "durH": 4.7,
    "stops": [
     [
@@ -92752,11 +78877,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92769,7 +78889,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "RJX 66",
-   "price": 79.99,
+   "price": 89.99,
    "durH": 4.3,
    "stops": [
     [
@@ -92788,11 +78908,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92836,11 +78951,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92853,7 +78963,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "RJX 68",
-   "price": 67.99,
+   "price": 74.99,
    "durH": 4.4,
    "stops": [
     [
@@ -92876,11 +78986,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -92893,7 +78998,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Wien Hbf",
    "trains": "EC 1219",
-   "price": 54.99,
+   "price": 59.99,
    "durH": 4.4,
    "stops": [
     [
@@ -92924,11 +79029,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -92941,7 +79041,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Wien Hbf",
    "trains": "IC 406",
-   "price": 89.99,
+   "price": 99.99,
    "durH": 4.8,
    "stops": [
     [
@@ -92972,11 +79072,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93016,11 +79111,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93056,11 +79146,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93092,11 +79177,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93140,11 +79220,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93180,11 +79255,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93216,11 +79286,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93252,11 +79317,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93300,11 +79360,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93317,7 +79372,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "RJX 68",
-   "price": 67.99,
+   "price": 73.99,
    "durH": 4.4,
    "stops": [
     [
@@ -93340,11 +79395,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93388,11 +79438,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93405,7 +79450,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Wien Hbf",
    "trains": "IC 406",
-   "price": 79.99,
+   "price": 89.99,
    "durH": 4.8,
    "stops": [
     [
@@ -93436,11 +79481,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93480,11 +79520,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93520,11 +79555,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93556,11 +79586,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93604,11 +79629,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93644,11 +79664,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93680,11 +79695,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93716,11 +79726,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93764,11 +79769,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93804,11 +79804,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -93852,11 +79847,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93900,11 +79890,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93944,11 +79929,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -93984,11 +79964,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94020,11 +79995,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94068,11 +80038,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94108,11 +80073,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94144,11 +80104,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94180,11 +80135,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94228,11 +80178,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94268,11 +80213,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94316,11 +80256,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94364,11 +80299,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94408,11 +80338,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94448,11 +80373,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94484,11 +80404,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94532,11 +80447,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94572,11 +80482,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94608,11 +80513,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94644,11 +80544,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94692,11 +80587,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94709,7 +80599,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "RJX 68",
-   "price": 29.99,
+   "price": 44.99,
    "durH": 4.4,
    "stops": [
     [
@@ -94732,11 +80622,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -94780,11 +80665,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "22:40"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94828,11 +80708,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "23:06"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94872,11 +80747,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "10:25"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94912,11 +80782,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "11:25"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94948,11 +80813,6 @@ window.BAHN_DATA = {
      "Wien Meidling",
      "12:40"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    115.99
    ]
   },
   {
@@ -94996,11 +80856,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95036,11 +80891,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": true,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95072,11 +80922,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:00"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95108,11 +80953,6 @@ window.BAHN_DATA = {
      "Salzburg Hbf",
      "18:53"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95156,11 +80996,6 @@ window.BAHN_DATA = {
      "München Ost",
      "21:48"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95173,7 +81008,7 @@ window.BAHN_DATA = {
    "from": "Wien Hbf",
    "to": "München Hbf",
    "trains": "RJX 68",
-   "price": 29.99,
+   "price": 39.99,
    "durH": 4.4,
    "stops": [
     [
@@ -95196,11 +81031,6 @@ window.BAHN_DATA = {
      "Rosenheim",
      "22:04"
     ]
-   ],
-   "low": false,
-   "rng": [
-    19.99,
-    107.99
    ]
   },
   {
@@ -95248,11 +81078,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "22:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95300,11 +81125,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "10:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95317,7 +81137,7 @@ window.BAHN_DATA = {
    "from": "München Hbf",
    "to": "Zürich HB",
    "trains": "ECE 196",
-   "price": 79.99,
+   "price": 89.99,
    "durH": 3.7,
    "stops": [
     [
@@ -95352,11 +81172,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "12:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95400,11 +81215,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95417,7 +81227,7 @@ window.BAHN_DATA = {
    "from": "Zürich HB",
    "to": "München Hbf",
    "trains": "EC 199",
-   "price": 64.99,
+   "price": 57.99,
    "durH": 3.5,
    "stops": [
     [
@@ -95452,11 +81262,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95504,11 +81309,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "18:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95552,11 +81352,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95604,11 +81399,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95656,11 +81446,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "22:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95708,11 +81493,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "00:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95760,11 +81540,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "10:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95812,11 +81587,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "12:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -95860,11 +81630,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95912,11 +81677,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -95964,11 +81724,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "18:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96012,11 +81767,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96064,11 +81814,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96116,11 +81861,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "22:17"
     ]
-   ],
-   "low": false,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -96168,11 +81908,6 @@ window.BAHN_DATA = {
      "Zürich Flughafen",
      "00:17"
     ]
-   ],
-   "low": true,
-   "rng": [
-    29.99,
-    89.99
    ]
   },
   {
@@ -96216,11 +81951,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96268,11 +81998,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": true,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96320,11 +82045,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "18:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96368,11 +82088,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96420,11 +82135,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96468,11 +82178,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96520,11 +82225,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96572,11 +82272,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "18:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96620,11 +82315,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "20:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   },
   {
@@ -96672,11 +82362,6 @@ window.BAHN_DATA = {
      "Buchloe",
      "22:23"
     ]
-   ],
-   "low": false,
-   "rng": [
-    37.99,
-    89.99
    ]
   }
  ]
