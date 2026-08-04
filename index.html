@@ -1094,10 +1094,13 @@ function setLang(code){
   // Bir sehrin kartinda gosterilecek fiyat araligi: TUM kombolarin/seferlerin
   // gorulen dip-tavanlarini birlestir (en genis kapsam).
   function cityRange(list, ow){
+    // ow=true iken SADECE tek yon bacaklarin araligi; ow=false iken SADECE
+    // gidis-donus kombo toplamlarinin araligi. Ikisi karistirilmaz.
     var lo = Infinity, hi = -Infinity, any = false;
     list.forEach(function(item){
-      var r = ow ? (item.leg && item.leg.rng) : item.rngRt;
-      var price = ow ? (item.leg && item.leg.price) : item.total;
+      var r, price;
+      if (ow){ r = item.leg && item.leg.rng; price = item.leg && item.leg.price; }
+      else   { r = item.rngRt;               price = item.total; }
       if (r && r.length === 2){ lo = Math.min(lo, r[0]); hi = Math.max(hi, r[1]); any = true; }
       if (typeof price === "number"){ lo = Math.min(lo, price); hi = Math.max(hi, price); any = true; }
     });
