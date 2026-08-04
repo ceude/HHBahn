@@ -549,7 +549,7 @@
     <div class="hero-main">
       <div class="eyebrow" id="txtEyebrow">Wochenend-Bahntrips</div>
       <h1 id="txtTitle">Wochenendkurztrip</h1>
-      <p class="hero-sub" id="txtHeroSub">Direktverbindungen ab Hamburg, München & Berlin — automatisch gescannt, nach Preis sortiert.</p>
+      <p class="hero-sub" id="txtHeroSub">Direktverbindungen ab Hamburg & München — automatisch gescannt, nach Preis sortiert.</p>
       <span class="stand-pill">
         <span class="pulse"></span>
         <span id="txtStandLabel">Zuletzt aktualisiert</span>
@@ -639,7 +639,7 @@ var I18N = {
     adTag:"Anzeige",
     eyebrow:"Wochenend-Bahntrips",
     title:"Wochenendkurztrip",
-    heroSub:"Direktverbindungen ab Hamburg, München & Berlin — automatisch gescannt, nach Preis sortiert.",
+    heroSub:"Direktverbindungen ab Hamburg & München — automatisch gescannt, nach Preis sortiert.",
     standLabel:"Zuletzt aktualisiert",
     metaFrom:"Abfahrt:",
     metaDirect:"Direkt, 2. Klasse",
@@ -694,7 +694,7 @@ var I18N = {
     adTag:"Ad",
     eyebrow:"Weekend rail trips",
     title:"Wochenendkurztrip",
-    heroSub:"Direct connections from Hamburg, Munich & Berlin — scanned automatically, sorted by price.",
+    heroSub:"Direct connections from Hamburg & Munich — scanned automatically, sorted by price.",
     standLabel:"Last updated",
     metaFrom:"Departure:",
     metaDirect:"Direct, 2nd class",
@@ -749,7 +749,7 @@ var I18N = {
     adTag:"Reklam",
     eyebrow:"Haftasonu tren kaçamakları",
     title:"Wochenendkurztrip",
-    heroSub:"Hamburg, München ve Berlin çıkışlı direkt seferler — otomatik taranır, fiyata göre sıralanır.",
+    heroSub:"Hamburg ve München çıkışlı direkt seferler — otomatik taranır, fiyata göre sıralanır.",
     standLabel:"Son güncelleme",
     metaFrom:"Kalkış:",
     metaDirect:"Direkt seferler, 2. sınıf",
@@ -945,7 +945,7 @@ function setLang(code){
     "Nürnberg":"Nuremberg","Münster":"Münster","Hannover":"Hanover",
     "Bremen":"Bremen","Kiel":"Kiel",
     "Kopenhagen":"Copenhagen","Wien":"Vienna","Salzburg":"Salzburg","Innsbruck":"Innsbruck",
-    "Zürich":"Zurich","Prag":"Prague","Venedig":"Venice","Amsterdam":"Amsterdam","Paris":"Paris","Wroclaw":"Wrocław"
+    "Zürich":"Zurich","Prag":"Prague","Venedig":"Venice","Amsterdam":"Amsterdam","Wroclaw":"Wrocław"
   };
   var STATION_DATA = {
     "Hamburg":  { name:"Hamburg Hbf",          eva:"8002549", lon:10.006909, lat:53.552733 },
@@ -970,7 +970,6 @@ function setLang(code){
     "Prag":     { name:"Praha hl.n.",          eva:"5400014", lon:14.435458, lat:50.083011 },
     "Venedig":  { name:"Venezia Santa Lucia",  eva:"8300092", lon:12.320688, lat:45.441569 },
     "Amsterdam":{ name:"Amsterdam Centraal",   eva:"8400058", lon:4.900274,  lat:52.378795 },
-    "Paris":    { name:"Paris Est",            eva:"8700014", lon:2.359060,  lat:48.876965 },
     "Wroclaw":  { name:"Wrocław Główny",       eva:"5100069", lon:17.036530, lat:51.098453 }
   };
   var TR_DAYS = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
@@ -978,7 +977,7 @@ function setLang(code){
   var currentCity = null;
   var photoCache = {};
   var oneWay = false;
-  var HUBS = ["Hamburg", "München", "Berlin"]; // gercekten taranan kalkislar
+  var HUBS = ["Hamburg", "München"]; // gercekten taranan kalkislar
   var filterWk = null; // null = tum tarihler; aksi halde "YYYY-MM-DD" (o haftanin Cumasi)
 
   function weekendKey(dep){
@@ -1335,7 +1334,14 @@ function setLang(code){
     cities.forEach(function(city){
       var list = byCity[city];
       var min = minOf(city);
-      var isLow = forceOw ? !!list[0].leg.low : !!list[0].lowRt;
+      var cRange = cityRange(list, forceOw);
+      // "Bestpreis": gosterilen fiyat, sehrin gorulen araliginin dip %15'inde mi?
+      var isLow = false;
+      if (cRange && cRange[1] - cRange[0] >= 1){
+        isLow = (min - cRange[0]) / (cRange[1] - cRange[0]) <= 0.15;
+      } else {
+        isLow = forceOw ? !!list[0].leg.low : !!list[0].lowRt; // aralik yoksa eski mantik
+      }
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
@@ -1350,7 +1356,7 @@ function setLang(code){
             '<span class="count"><span class="dot"></span>' + list.length + ' ' + t.offers + '</span>' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6 L15 12 L9 18"/></svg>' +
           '</div>' +
-          thermoHtml(cityRange(list, forceOw), min) +
+          thermoHtml(cRange, min) +
         '</div>';
       var btn = card.querySelector(".card-btn");
       function go(){ location.hash = "c/" + encodeURIComponent(city); }
