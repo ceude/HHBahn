@@ -1335,13 +1335,9 @@ function setLang(code){
       var list = byCity[city];
       var min = minOf(city);
       var cRange = cityRange(list, forceOw);
-      // "Bestpreis": gosterilen fiyat, sehrin gorulen araliginin dip %15'inde mi?
-      var isLow = false;
-      if (cRange && cRange[1] - cRange[0] >= 1){
-        isLow = (min - cRange[0]) / (cRange[1] - cRange[0]) <= 0.15;
-      } else {
-        isLow = forceOw ? !!list[0].leg.low : !!list[0].lowRt; // aralik yoksa eski mantik
-      }
+      // "Bestpreis": kartin fiyati, sehrin gorulen en dusuguyle (neredeyse) ayni mi?
+      var isLow = cRange ? (min - cRange[0] <= 0.01)
+                         : (forceOw ? !!list[0].leg.low : !!list[0].lowRt);
       var card = document.createElement("article");
       card.className = "card";
       card.innerHTML =
