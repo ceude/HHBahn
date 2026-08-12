@@ -150,11 +150,13 @@ for _o in ow_best:
         _info["rng"] = rng_for(_info["rk"], _info["price"])
         _info["low"] = is_low(_info["rk"], _info["price"])
 
-def deal_score(info):
+# Firsat = tavana MUTLAK uzaklik (kac euro tasarruf). Kucuk indirimler elenir.
+MIN_SAVING = 20.0   # en az 20 € tasarruf yoksa "firsat" sayilmaz
+def deal_saving(info):
     rng = info.get("rng")
-    if not rng or rng[1] - rng[0] < 1:
+    if not rng:
         return -1.0
-    return (rng[1] - info["price"]) / (rng[1] - rng[0])
+    return rng[1] - info["price"]
 
 cheapest_ow = min(
     (i["price"] for c in ow_best.values() for i in c.values()), default=cheapest
@@ -163,12 +165,12 @@ cheapest_ow_str = eur(cheapest_ow)
 
 def top5(o):
     items = [(city, i) for city, i in ow_best.get(o, {}).items()]
-    # Once gercek firsatlar (skor > 0), tavana uzakligi en yuksek 5;
-    # firsat yoksa en ucuza dus (ilk taramalarda aralik olmayabilir).
-    deals_only = [it for it in items if deal_score(it[1]) > 0]
+    # Gercek firsatlar: en az MIN_SAVING € tasarruf; en cok tasarruftan aza sirala.
+    deals_only = [it for it in items if deal_saving(it[1]) >= MIN_SAVING]
     if deals_only:
-        deals_only.sort(key=lambda x: deal_score(x[1]), reverse=True)
+        deals_only.sort(key=lambda x: deal_saving(x[1]), reverse=True)
         return deals_only[:5]
+    # Hic buyuk firsat yoksa en ucuza dus (ilk taramalarda aralik olmayabilir).
     items.sort(key=lambda x: x[1]["price"])
     return items[:5]
 
