@@ -30,6 +30,10 @@ on:
         description: "Abonelere mail gonderilsin mi?"
         type: boolean
         default: true
+      probe_only:
+        description: "Sadece baglanti testi (tarama yok, data.js/mail yok, ~2 dk)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -75,6 +79,8 @@ jobs:
 
       - name: Tara (~40-45 dk)
         run: node scan/run.js
+        env:
+          PROBE_ONLY: ${{ inputs.probe_only == true && 'true' || 'false' }}
 
       - name: CSV / hata ekran goruntusu
         if: always()
@@ -87,10 +93,13 @@ jobs:
           if-no-files-found: ignore
 
       - uses: actions/setup-python@v5
+        if: ${{ !inputs.probe_only }}
         with:
           python-version: "3.12"
       - run: pip install requests
+        if: ${{ !inputs.probe_only }}
       - name: Bildirim + dip fiyat bayraklari
+        if: ${{ !inputs.probe_only }}
         continue-on-error: true
         run: python notify.py
         env:
@@ -103,6 +112,7 @@ jobs:
           SEND_MAIL: ${{ github.event_name == 'workflow_dispatch' && inputs.send_mail == false && 'false' || 'true' }}
 
       - name: data.js commit + push
+        if: ${{ !inputs.probe_only }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
