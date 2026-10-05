@@ -1,0 +1,113 @@
+# .github/workflows/scan.yml
+# bahn.de'yi otomatik tarar (scan/bahn_scanner.js), data.js'i gunceller,
+# notify.py ile abonelere mail atar ve sonucu commit'ler.
+# Bot push'lari notify.yml'i tetiklemedigi icin bildirim adimi burada da var.
+name: Scan bahn.de
+
+on:
+  # GitHub cron'u UTC'dir. Her Berlin saati icin yaz (UTC+2) ve kis (UTC+1) karsiligi var;
+  # "gate" job'u o an gecerli olmayan tetiklemeyi atlar.
+  #   Berlin saati          yaz (CEST)       kis (CET)
+  #   Cts 00:01             Cu 22:01 UTC     Cu 23:01 UTC
+  #   Cts 08:00             Cts 06:00 UTC    Cts 07:00 UTC
+  #   Paz 08:00             Paz 06:00 UTC    Paz 07:00 UTC
+  #   Pzt 05:00             Pzt 03:00 UTC    Pzt 04:00 UTC
+  #   Pzt 17:30             Pzt 15:30 UTC    Pzt 16:30 UTC
+  schedule:
+    - cron: "1 22 * * 5"   # yaz
+    - cron: "0 6 * * 6"    # yaz
+    - cron: "0 6 * * 0"    # yaz
+    - cron: "0 3 * * 1"    # yaz
+    - cron: "30 15 * * 1"  # yaz
+    - cron: "1 23 * * 5"   # kis
+    - cron: "0 7 * * 6"    # kis
+    - cron: "0 7 * * 0"    # kis
+    - cron: "0 4 * * 1"    # kis
+    - cron: "30 16 * * 1"  # kis
+  workflow_dispatch:
+    inputs:
+      send_mail:
+        description: "Abonelere mail gonderilsin mi?"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bahn-scan
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          CRON: ${{ github.event.schedule }}
+        run: |
+          OFFSET=$(TZ=Europe/Berlin date +%z)   # +0200 yaz, +0100 kis
+          case "$CRON" in
+            "")                                                        RUN=true ;;  # elle baslatildi
+            "1 22 * * 5"|"0 6 * * 6"|"0 6 * * 0"|"0 3 * * 1"|"30 15 * * 1")  [ "$OFFSET" = "+0200" ] && RUN=true || RUN=false ;;
+            *)                                                         [ "$OFFSET" = "+0100" ] && RUN=true || RUN=false ;;
+          esac
+          echo "cron='$CRON' berlin=$OFFSET -> run=$RUN"
+          echo "run=$RUN" >> "$GITHUB_OUTPUT"
+
+  scan:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # GitHub limiti 360 dk
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Playwright kur
+        run: |
+          npm install --no-save --no-package-lock playwright@1
+          npx playwright install --with-deps chromium
+
+      - name: Tara (~40-45 dk)
+        run: node scan/run.js
+
+      - name: CSV / hata ekran goruntusu
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-output
+          path: |
+            bahn_results.csv
+            scan-error.png
+          if-no-files-found: ignore
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Bildirim + dip fiyat bayraklari
+        continue-on-error: true
+        run: python notify.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          UNSUB_SECRET: ${{ secrets.UNSUB_SECRET }}
+          SITE_URL: https://ceude.github.io/HHBahn
+          SEND_MAIL: ${{ github.event_name == 'workflow_dispatch' && inputs.send_mail == false && 'false' || 'true' }}
+
+      - name: data.js commit + push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          if git diff --staged --quiet; then echo "Degisiklik yok"; exit 0; fi
+          git commit -m "data: otomatik tarama $(TZ=Europe/Berlin date '+%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push
